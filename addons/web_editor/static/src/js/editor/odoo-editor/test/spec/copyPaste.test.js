@@ -10,10 +10,10 @@ import {
     nextTick,
     pasteText,
     pasteHtml,
-    pasteOdooEditorHtml,
+    pasteManapathiEditorHtml,
     unformat,
 } from "../utils.js";
-import { CLIPBOARD_WHITELISTS, setSelection } from "../../src/OdooEditor.js";
+import { CLIPBOARD_WHITELISTS, setSelection } from "../../src/ManapathiEditor.js";
 
 describe('Copy', () => {
     describe('range collapsed', async () => {
@@ -3134,12 +3134,12 @@ describe('Paste', () => {
             });
         });
     });
-    describe('Odoo editor own html', () => {
+    describe('Manapathi editor own html', () => {
         it('should paste html as is', async () => {
             await testEditor(BasicEditor, {
                 contentBefore: '<p>a[]b</p>',
                 stepFunction: async editor => {
-                    await pasteOdooEditorHtml(editor, '<div class="custom-paste">b</div>');
+                    await pasteManapathiEditorHtml(editor, '<div class="custom-paste">b</div>');
                 },
                 contentAfter: '<p>a</p><div class="custom-paste">b</div><p>[]b</p>',
             });
@@ -3148,7 +3148,7 @@ describe('Paste', () => {
             await testEditor(BasicEditor, {
                 contentBefore: '<p>a[]b</p>',
                 stepFunction: async editor => {
-                    await pasteOdooEditorHtml(editor, `<script>console.log('xss attack')</script>`);
+                    await pasteManapathiEditorHtml(editor, `<script>console.log('xss attack')</script>`);
                 },
                 contentAfter: '<p>a[]b</p>',
             });

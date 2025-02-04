@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 
-from odoo.addons.event.tests.common import EventCase
-from odoo.addons.phone_validation.tools import phone_validation
-from odoo.addons.sms.tests.common import SMSCase
-from odoo.tests import tagged, users
+from manapathi.addons.event.tests.common import EventCase
+from manapathi.addons.phone_validation.tools import phone_validation
+from manapathi.addons.sms.tests.common import SMSCase
+from manapathi.tests import tagged, users
 
 
 @tagged('event_mail', 'post_install', '-at_install')

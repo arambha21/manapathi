@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from odoo import _, api, fields, models, modules, tools
 from odoo.exceptions import UserError, ValidationError
@@ -97,7 +97,7 @@ class ResConfigSettings(models.TransientModel):
 
     def button_migrate_peppol_registration(self):
         """
-        Migrates AWAY from Odoo's SMP.
+        Migrates AWAY from Manapathi's SMP.
         If the user is a receiver, they need to request a migration key, generated on the IAP server.
         The migration key is then displayed in Peppol settings.
         Currently, reopening after migrating away is not supported.

@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* website_sale_comparison
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Tiffany Chang, 2024
 # Thi Huong Nguyen, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2024\n"
-"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://app.transifex.com/manapathi/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -102,7 +102,7 @@ msgid "Category Name"
 msgstr "Tên danh mục"
 
 #. module: website_sale_comparison
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.add_to_compare
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_add_to_compare
@@ -111,7 +111,7 @@ msgid "Compare"
 msgstr "So sánh"
 
 #. module: website_sale_comparison
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_sale_comparison/static/src/js/website_sale_comparison.js:0
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
 msgid "Compare Products"
@@ -199,7 +199,7 @@ msgid "Others"
 msgstr "Khác"
 
 #. module: website_sale_comparison
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 msgid "Product"
 msgstr "Sản phẩm"
@@ -277,7 +277,7 @@ msgid "Uncategorized"
 msgstr "Chưa được phân loại"
 
 #. module: website_sale_comparison
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 msgid "Warning"
 msgstr "Cảnh báo"
@@ -288,7 +288,7 @@ msgid "Weight"
 msgstr "Khối lượng"
 
 #. module: website_sale_comparison
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 msgid "You can compare max 4 products."
 msgstr "Bạn có thể so sánh tối đa 4 sản phẩm"

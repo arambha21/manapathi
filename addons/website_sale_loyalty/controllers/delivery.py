@@ -1,11 +1,11 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from functools import partial
 
-from odoo.http import request
+from manapathi.http import request
 
-from odoo.addons.payment import utils as payment_utils
-from odoo.addons.website_sale.controllers.delivery import Delivery
+from manapathi.addons.payment import utils as payment_utils
+from manapathi.addons.website_sale.controllers.delivery import Delivery
 
 
 class WebsiteSaleLoyaltyDelivery(Delivery):

@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Bangladesh - Accounting',
     'website': 'https://www.odoo.com/documentation/18.0/applications/finance/fiscal_localizations.html',

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from odoo import api, models
-from odoo.tools.pdf import OdooPdfFileReader, PdfReadError
+from odoo.tools.pdf import ManapathiPdfFileReader, PdfReadError
 from odoo.tools.mimetypes import guess_mimetype
 
 from lxml import etree
@@ -55,7 +55,7 @@ class IrAttachment(models.Model):
         """
         try:
             buffer = io.BytesIO(content)
-            pdf_reader = OdooPdfFileReader(buffer, strict=False)
+            pdf_reader = ManapathiPdfFileReader(buffer, strict=False)
         except Exception as e:
             # Malformed pdf
             _logger.info('Error when reading the pdf file "%s": %s', filename, e)

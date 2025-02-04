@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 import io
 import re
 import xlwt
 import xlsxwriter
 
-from odoo.tools.misc import format_date
+from manapathi.tools.misc import format_date
 
 
 COLUMN_HEADER_MAP = {

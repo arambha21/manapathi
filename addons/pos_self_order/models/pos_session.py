@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, api, _, fields
+from manapathi import models, api, _, fields
 
 
 class PosSession(models.Model):

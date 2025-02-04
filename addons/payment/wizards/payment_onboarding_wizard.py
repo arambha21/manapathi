@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import _, api, fields, models
-from odoo.exceptions import UserError
+from manapathi import _, api, fields, models
+from manapathi.exceptions import UserError
 
 
 class PaymentWizard(models.TransientModel):

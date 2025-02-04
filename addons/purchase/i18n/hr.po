@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -13,12 +13,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: 0ba0ac30481a756f36528ba6f9a4317e_6443a87 <52eefe24349934c364624ef40611b7a3_1010754>, 2024\n"
-"Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
+"Language-Team: Croatian (https://app.transifex.com/manapathi/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,19 +49,19 @@ msgid "# of Lines"
 msgstr "# linija"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(product)s from %(original_receipt_date)s to %(new_receipt_date)s"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(vendor)s confirmed the receipt will take place on %(date)s."
 msgstr "%(vendor)s je potvrdio da će prijem biti %(date)s"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%s modified receipt dates for the following products:"
 msgstr ""
@@ -472,7 +472,7 @@ msgid ""
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "A sample email has been sent to %s."
 msgstr "Uzorak e-pošte poslan je %s."
@@ -492,7 +492,7 @@ msgstr ""
 "je višekratnik broja jedinica po paketu."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Accept"
@@ -580,7 +580,7 @@ msgid "Add several variants to the purchase order from a grid"
 msgstr "Dodajte nekoliko varijanti za narudžbu iz tablice"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Add some products or services to your quotation."
 msgstr "Dodajte neke proizvode ili usluge u svoju ponudu."
@@ -592,7 +592,7 @@ msgid "Add to PO"
 msgstr "Dodaj u narudžbu"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Add to Purchase Order"
 msgstr "Dodaj u nalog za nabavu"
@@ -603,31 +603,31 @@ msgid "Administrator"
 msgstr "Administrator"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "All"
 msgstr "Sve"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Draft RFQs"
 msgstr "Svi ZZP nacrti"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Late RFQs"
 msgstr "Svi  zakašnjeli ZZP-ovi"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All RFQs"
 msgstr "Svi ZZP-ovi"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Waiting RFQs"
 msgstr "Svi ZZP-ovi na čekanju"
@@ -767,7 +767,7 @@ msgid "Average Cost"
 msgstr "Prosječni trošak"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Avg Order Value"
 msgstr "Pros. Vrijednost naloga"
@@ -788,7 +788,7 @@ msgid "Bill Lines"
 msgstr "Stavke računa"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Bill Matching"
 msgstr "Usklađivanje računa"
@@ -870,7 +870,7 @@ msgid "Cancel"
 msgstr "Otkaži"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__cancel
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__cancel
@@ -883,7 +883,7 @@ msgid "Cancelled Purchase Order #"
 msgstr "Otkazanih naloga za narudžbu"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Cannot delete a purchase order line which is in state “%s”."
 msgstr "Ne možete obrisati nalog za nabavu koji je u stanju '%s'."
@@ -940,7 +940,7 @@ msgid "Company Total"
 msgstr "Tvrtka ukupno"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Compose Email"
 msgstr "Sastavi email"
@@ -976,7 +976,7 @@ msgid "Confirm purchase orders in one step"
 msgstr "Potvrdi nabavni nalog u jednom koraku"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Confirm your purchase."
 msgstr "Potvrdi svoju nabavu."
@@ -1106,7 +1106,7 @@ msgid "Date Calendar Start"
 msgstr "Datum početka kalendara"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Date Updated"
 msgstr "Datum ažuriranja"
@@ -1117,7 +1117,7 @@ msgid "Date:"
 msgstr "Datum:"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Days"
 msgstr "Dana"
@@ -1251,13 +1251,13 @@ msgid "Double validation amount"
 msgstr "Dvostruka ovjera količine"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid "Down Payment (ref: %(ref)s)"
 msgstr "Predujam (ref: %(ref)s)"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Down Payments"
 msgstr "Predujmovi"
@@ -1276,7 +1276,7 @@ msgstr "Nacrti ZZP"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
-"quotations in Odoo. Enjoy the automation!"
+"quotations in Manapathi. Enjoy the automation!"
 msgstr ""
 
 #. module: purchase
@@ -1296,7 +1296,7 @@ msgid "Extended Filters"
 msgstr "Prošireni filteri"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Extra line with %s "
 msgstr "Dodatne stavke s %s "
@@ -1338,13 +1338,13 @@ msgid "Forbidden values on non-accountable purchase order line"
 msgstr "Zabranjene vrijednosti na stavkama bez narudžbenog naloga"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From %s"
 msgstr "Od %s"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From Electronic Document"
 msgstr ""
@@ -1457,19 +1457,19 @@ msgid "If true, the packaging can be used for purchase orders"
 msgstr "Ako je označeno, pakiranja se mogu koristiti na nalozima za nabavu"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Import Template for Products"
 msgstr "Predložak za uvoz Proizvoda"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "In order to delete a purchase order, you must cancel it first."
 msgstr "Kako biste mogli izbrisati nalog za nabavu, morate ga prvo otkazati."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "In selected purchase order to merge these details must be same\n"
@@ -1487,7 +1487,7 @@ msgid "Incoterm"
 msgstr "Inkoterm"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Indicate the product quantity you want to order."
 msgstr "Označuje količinu proizvoda koju želite naručiti."
@@ -1558,7 +1558,7 @@ msgid "Last Updated on"
 msgstr "Promijenjeno"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Late"
 msgstr "Kasni"
@@ -1575,19 +1575,19 @@ msgid "Late RFQs"
 msgstr "Zakašnjeli ZZP"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Lead Time to Purchase"
 msgstr "Vodeće vrijeme do nabave"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Let's create your first request for quotation."
 msgstr "Stvorimo Vaš prvi zahtjev za ponudu"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Let's try the Purchase app to manage the flow from purchase to reception and"
@@ -1632,7 +1632,7 @@ msgid "Lock Confirmed Orders"
 msgstr "Zaključaj potvrđene naloge"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__done
 msgid "Locked"
@@ -1744,13 +1744,13 @@ msgid "My Activity Deadline"
 msgstr "Rok za moju aktivnost"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Draft RFQs"
 msgstr "Moji ZZP nacrti"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Late RFQs"
 msgstr "Svi  zakašnjeli ZZP-ovi"
@@ -1766,19 +1766,19 @@ msgid "My Purchases"
 msgstr "Moje nabave"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My RFQs"
 msgstr "Moji ZZP-ovi"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Waiting RFQs"
 msgstr "Moji ZZP-ovi na čekanju"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Name"
 msgstr "Naziv"
@@ -1789,7 +1789,7 @@ msgid "Name, TIN, Email, or Reference"
 msgstr "Ime, OIB, e-pošta ili referenca"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Newest"
 msgstr "Najnoviji"
@@ -1857,8 +1857,8 @@ msgstr "Nije primljeno na znanje "
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Not using Odoo?"
-msgstr "Ne koristite Odoo?"
+msgid "Not using Manapathi?"
+msgstr "Ne koristite Manapathi?"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_note
@@ -1906,8 +1906,8 @@ msgstr "Broj poruka sa greškama pri isporuci"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -1930,7 +1930,7 @@ msgid "On received quantities"
 msgstr "Na primljene količine"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Once you get the price from the vendor, you can complete the purchase order "
@@ -1949,7 +1949,7 @@ msgstr ""
 "Vaš upit za ponudom koji će se potom pretvoriti u nalog za nabavu."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Operation not supported"
 msgstr "Operacija nije podržana"
@@ -2011,7 +2011,7 @@ msgid "Orders"
 msgstr "Nalozi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Order due %(date)s"
 msgstr ""
@@ -2059,7 +2059,7 @@ msgid "Payment terms"
 msgstr "Uvjeti plaćanja"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Please select at least two purchase orders with state RFQ and RFQ sent to "
@@ -2087,7 +2087,7 @@ msgid "Price"
 msgstr "Cijena"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/product_catalog/purchase_order_line/purchase_order_line.xml:0
 msgid "Price:"
 msgstr "Cijena:"
@@ -2240,7 +2240,7 @@ msgid "Purchase History"
 msgstr "Povijest nabave"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Purchase History for %s"
@@ -2258,13 +2258,13 @@ msgid "Purchase Line and Vendor Bill line matching view"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "Purchase Matching"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.action_report_purchase_order
@@ -2361,7 +2361,7 @@ msgid "Purchase Order Warning"
 msgstr "Upozorenje o nabavi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/analytic_account.py:0
 #: model:ir.actions.act_window,name:purchase.purchase_form_action
 #: model:ir.ui.menu,name:purchase.menu_purchase_form_action
@@ -2432,7 +2432,7 @@ msgid "Purchased"
 msgstr "Kupljeno"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Purchased Last 7 Days"
 msgstr "Kupljeno zadnjih 7 dana"
@@ -2538,13 +2538,13 @@ msgid "RFQ Sent"
 msgstr "ZZP poslan"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
 msgstr "ZZP spojen za %(oldest_rfq_name)s i %(cancelled_rfq)s"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %s"
 msgstr "ZZP spojen za %s"
@@ -2555,7 +2555,7 @@ msgid "RFQs"
 msgstr "ZZP-ovi"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "RFQs Sent Last 7 Days"
 msgstr "ZZP-ovi poslani u zadnjih 7 dana"
@@ -2694,7 +2694,7 @@ msgid "Reporting"
 msgstr "Izvještavanje"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.report_purchase_quotation
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -2764,7 +2764,7 @@ msgid "Search Reference Document"
 msgstr "Pretraži referentni dokument"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Search a vendor name, or create one on the fly."
 msgstr "Traži naziv dobavljača, ili ga kreiraje nabrzinu."
@@ -2790,13 +2790,13 @@ msgid "Security Token"
 msgstr "Sigurnosni token"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Select Vendor Bill lines to add to a Purchase Order"
 msgstr ""
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Select a product, or create a new one on the fly."
 msgstr "Odaberite proizvod ili stvorite novi u letu."
@@ -2846,7 +2846,7 @@ msgid "Send by Email"
 msgstr "Pošalji e-mailom"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Send the request for quotation to your vendor."
 msgstr "Pošaljite upit za ponudu Vašem dobavljaču."
@@ -2912,7 +2912,7 @@ msgstr "Sa zvjezdicom"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Start on Odoo"
+msgid "Start on Manapathi"
 msgstr ""
 
 #. module: purchase
@@ -3055,25 +3055,25 @@ msgstr ""
 "Možete koristiti za brzo pretraživanje."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been acknowledged by %s."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been declined by %s."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been acknowledged by %s."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been declined by %s."
 msgstr ""
@@ -3090,7 +3090,7 @@ msgstr ""
 "proizvoda i ulazni račun. "
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
@@ -3108,14 +3108,14 @@ msgid "There are currently no requests for quotation for your account."
 msgstr "Trenutno nemate zahtjeva za ponudama."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid ""
 "There are no products to add to the Purchase Order. Are these Down Payments?"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "There is no invoiceable line. If a product has a control policy based on "
@@ -3157,7 +3157,7 @@ msgid "This note is added to purchase orders."
 msgstr "Ova bilješka je dodana nalozima za nabavu."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should "
@@ -3165,13 +3165,13 @@ msgid ""
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been created from: "
 msgstr "Ovaj ulazni račun kreiran je iz:"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been modified from: "
 msgstr "Ovaj ulazni račun promijenio je: %s"
@@ -3207,7 +3207,7 @@ msgid "To Invoice Quantity"
 msgstr "Količina za izdavanje računa"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "To Send"
 msgstr "Za poslati"
@@ -3219,7 +3219,7 @@ msgid "Today Activities"
 msgstr "Današnje aktivnosti"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_total
@@ -3300,7 +3300,7 @@ msgid "Type of the exception activity on record."
 msgstr "Vrsta aktivnosti iznimke na zapisu."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Unable to cancel purchase order(s): %s. You must first cancel their related "
@@ -3382,7 +3382,7 @@ msgid "UoM"
 msgstr "JM"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Update Dates"
 msgstr ""
@@ -3431,7 +3431,7 @@ msgid "Vendor Bill"
 msgstr "Ulazni račun"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Vendor Bill lines can only be added to one Purchase Order."
 msgstr ""
@@ -3470,15 +3470,15 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Manapathi."
 msgstr ""
 "Ulazni računi mogu biti unaprijed generirani prema narudžbi\n"
 "ili računima. Ovo Vam omogućava kontrolu računa\n"
 "koje primite od svog prodavača prema nacrtu\n"
-"dokumenta u Odoo. "
+"dokumenta u Manapathi. "
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View"
 msgstr "Pogledaj"
@@ -3489,13 +3489,13 @@ msgid "View Details"
 msgstr "Pregled detalja"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Order"
 msgstr "Vidi ponudu"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Quotation"
 msgstr "Pogledajte ponudu"
@@ -3506,7 +3506,7 @@ msgid "Volume"
 msgstr "Volumen"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Waiting"
 msgstr "Na čekanju"
@@ -3524,11 +3524,11 @@ msgstr "ZZP-ovi na čekanju"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Want to import this document in Odoo?"
+msgid "Want to import this document in Manapathi?"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__warning
 #: model:ir.model.fields.selection,name:purchase.selection__res_partner__purchase_warn__warning
@@ -3536,7 +3536,7 @@ msgid "Warning"
 msgstr "Upozorenje"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Warning for %s"
@@ -3575,14 +3575,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, Manapathi will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Pri stvaranju naloga za nabavu, pregledajte dobavljača <i>Dostave na "
 "vrijeme</i>: postotak proizvoda koji su dostavljeni na vrijeme. Ako je ovaj "
 "postotak pre nizak, aktivirajte <i>automatske podsjetnike</i>. Nekoliko dana"
-" prije nego što pošiljka treba biti zaprimljena, Odoo će dobavljaču poslati "
+" prije nego što pošiljka treba biti zaprimljena, Manapathi će dobavljaču poslati "
 "e-mail za potvrdu datuma slanja pošiljke i informirati Vas u slučaju bilo "
 "kakvih kašnjenja. Kako bi ste pregledali statistiku dobavljačevih "
 "preformansi, kliknite na DNV (OTD) stopu."
@@ -3590,12 +3590,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Manapathi asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Kada se nalog za nabavu šaje e-mailom, Odoo od dobavljača traži da potvrdi "
+"Kada se nalog za nabavu šaje e-mailom, Manapathi od dobavljača traži da potvrdi "
 "primanje narudžbe. Kada dobavljač potvrdi narudžbu pritiskom na tipku koja "
 "se nalazi u e-mailu, infomacija je dodana u nalogu za nabavu. Koristite "
 "filtere za praćenje narudžbi koje nisu potvrđene."
@@ -3608,13 +3608,13 @@ msgstr ""
 "Dobavljača možete pronaći po imenu, OIB-u, e-pošti ili internoj referenci."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "You can't select lines from multiple Vendor Bill to do the matching."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "You cannot change the type of a purchase order line. Instead you should "
@@ -3647,14 +3647,14 @@ msgstr ""
 "                bez obzira na to radi li se o uskladištivom proizvodu, potrošnom materijalu ili usluzi."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid ""
 "You must select at least one Purchase Order line to match or create bill."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
@@ -3679,7 +3679,7 @@ msgid "or create new"
 msgstr "ili kreiraj novi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "purchase orders merged"
 msgstr "nalozi za nabavu spojeni"

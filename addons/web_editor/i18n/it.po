@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
 # Translators:
 # Martin Trigaux, 2024
 # Luca Carlo, 2024
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Marianna Ciofani, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -120,7 +120,7 @@ msgstr "2x"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "3 Stars"
 msgstr "3 Stelle"
 
@@ -152,7 +152,7 @@ msgstr "4x"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "5 Stars"
 msgstr "5 Stelle"
 
@@ -394,7 +394,7 @@ msgstr "Animazione"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Anonymous"
 msgstr "Anonimo"
 
@@ -523,7 +523,7 @@ msgstr "Sotto"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Big section heading"
 msgstr "Intestazione sezione grande"
 
@@ -605,7 +605,7 @@ msgstr "Spazzolato"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Bulleted list"
 msgstr "Elenco puntato"
 
@@ -662,7 +662,7 @@ msgstr "ChatGPT"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Checklist"
 msgstr "Lista di controllo"
 
@@ -818,19 +818,19 @@ msgstr "Crea"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Create a list with numbering"
 msgstr "Crea un elenco con numerazione"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Create a simple bulleted list"
 msgstr "Crea un semplice elenco puntato"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Create an URL."
 msgstr "Crea un URL."
 
@@ -918,7 +918,7 @@ msgstr "Imposta una sfumatura personalizzata"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Delete"
 msgstr "Eliminare"
 
@@ -1068,25 +1068,25 @@ msgstr "Modifica descrizione di media"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Embed Image"
 msgstr "Incorpora immagine"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Embed Youtube Video"
 msgstr "Incorpora video Youtube"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Embed the image in the document."
 msgstr "Incorpora l'immagine nel documento."
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Embed the youtube video in the document."
 msgstr "Incorpora il video di Youtube nel documento."
 
@@ -1098,7 +1098,7 @@ msgstr "Emoji"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Empty quote"
 msgstr "Citazione vuota"
 
@@ -1227,7 +1227,7 @@ msgstr "Per ragioni tecniche, qui non è possibile rilasciare il blocco"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Format"
 msgstr "Formatta"
@@ -1362,42 +1362,42 @@ msgstr "Titolo 6"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 1"
 msgstr "Intestazione 1"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 2"
 msgstr "Intestazione 2"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 3"
 msgstr "Intestazione 3"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 4"
 msgstr "Intestazione 4"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 5"
 msgstr "Intestazione 5"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 6"
 msgstr "Intestazione 6"
@@ -1594,7 +1594,7 @@ msgstr "Inserisci campo"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Insert a horizontal rule separator"
 msgstr "Inserisci una riga orizzontale di separazione"
 
@@ -1606,13 +1606,13 @@ msgstr "Inserisci un'immagine"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Insert a rating over 3 stars"
 msgstr "Inserisci una valutazione sopra 3 stelle"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Insert a rating over 5 stars"
 msgstr "Inserisci una valutazione sopra 5 stelle"
 
@@ -1624,7 +1624,7 @@ msgstr "Inserisci banner successo"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Insert a table"
 msgstr "Inserisci una tabella"
 
@@ -1642,7 +1642,7 @@ msgstr "Inserisci banner di avviso"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Insert above"
 msgstr "Inserisci sopra"
 
@@ -1654,13 +1654,13 @@ msgstr "Inserisci banner informazioni"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Insert below"
 msgstr "Inserisci sotto"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Insert left"
 msgstr "Inserisci a sinistra"
 
@@ -1678,7 +1678,7 @@ msgstr "Inserisci o modifica il link"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Insert right"
 msgstr "Inserisci a destra"
 
@@ -1811,7 +1811,7 @@ msgstr "Collega a un documento caricato"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "List"
 msgstr "elenco"
@@ -1876,7 +1876,7 @@ msgstr "Medio"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Medium section heading"
 msgstr "Intestazione sezione media"
 
@@ -1894,25 +1894,25 @@ msgstr "Maggiori informazioni su questa applicazione."
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Move down"
 msgstr "Sposta in giù"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Move left"
 msgstr "Sposta a sinistra"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Move right"
 msgstr "Sposta a destra"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Move up"
 msgstr "Sposta in su"
 
@@ -1996,14 +1996,14 @@ msgstr "Normale"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Numbered list"
 msgstr "Elenco numerato"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
-msgid "Odoo Editor Tests"
-msgstr "Prove Editor Odoo"
+msgid "Manapathi Editor Tests"
+msgstr "Prove Editor Manapathi"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2065,13 +2065,13 @@ msgstr "Pannelli"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Paragraph block"
 msgstr "Blocco paragrafo"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Paste as URL"
 msgstr "Incolla come URL"
 
@@ -2322,7 +2322,7 @@ msgstr "Ripristina immagine"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Reset Size"
 msgstr "Resetta dimensione"
@@ -2505,7 +2505,7 @@ msgstr "Invia un messaggio"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "Separator"
 msgstr "Separatore"
@@ -2616,7 +2616,7 @@ msgstr "Piccolo"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Small section heading"
 msgstr "Intestazione sezione media"
 
@@ -2691,7 +2691,7 @@ msgstr "Espandi"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Structure"
 msgstr "Struttura"
@@ -2711,19 +2711,19 @@ msgstr "Proposte"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Switch direction"
 msgstr "Inverti direzione"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Switch the text's direction"
 msgstr "Inverti direzione testo"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Table"
 msgstr "Tabella"
 
@@ -2735,7 +2735,7 @@ msgstr "Opzioni Tabella"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Text"
 msgstr "Testo"
@@ -2886,10 +2886,10 @@ msgstr "Immagine di tipo esterno"
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Manapathi."
 msgstr ""
 "Ritaglio non supportato per questo tipo di immagine.<br/>Per effettuare il "
-"ritaglio, scaricare prima l'immagine originale e caricarla in Odoo."
+"ritaglio, scaricare prima l'immagine originale e caricarla in Manapathi."
 
 #. module: web_editor
 #. odoo-javascript
@@ -2980,7 +2980,7 @@ msgstr "Suggerimento"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Track tasks with a checklist"
 msgstr "Traccia le attività con una lista di controllo"
 
@@ -3040,7 +3040,7 @@ msgstr "Tipologia"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 msgid "Type \"/\" for commands"
 msgstr "Digita \"/\" per i comandi"
 
@@ -3157,7 +3157,7 @@ msgstr "Prova del convertitore editor web"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Widgets"
 msgstr "Widget"

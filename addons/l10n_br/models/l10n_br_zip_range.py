@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 import re
 
-from odoo import models, fields, api, _
-from odoo.exceptions import ValidationError
+from manapathi import models, fields, api, _
+from manapathi.exceptions import ValidationError
 
 
 class L10nBrZipRange(models.Model):

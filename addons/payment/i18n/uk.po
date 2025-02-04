@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Martin Trigaux, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024\n"
-"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://app.transifex.com/manapathi/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -37,7 +37,7 @@ msgid "7Eleven"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
@@ -50,12 +50,12 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
 "                                match the behavior of providers and that of their integration with\n"
-"                                Odoo regarding this payment method. Any change may result in errors\n"
+"                                Manapathi regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/> Ці властивості налаштовано відповідно до\n"
 " поведінки постачальників і їхньої інтеграції з\n"
-" Odoo щодо цього способу оплати. Будь-яка зміна може призвести до помилок\n"
+" Manapathi щодо цього способу оплати. Будь-яка зміна може призвести до помилок\n"
 " і повинна спочатку перевірятися на тестовій базі даних."
 
 #. module: payment
@@ -216,7 +216,7 @@ msgid "<strong>Warning</strong> You must be logged in to pay."
 msgstr "<strong>Попередження</strong> Ви повинні увійти, щоб оплатити."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "A refund request of %(amount)s has been sent. The payment will be created "
@@ -226,14 +226,14 @@ msgstr ""
 "Референс повернення транзакції: %(ref)s (%(provider_name)s)."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "A transaction with reference %(ref)s has been initiated (%(provider_name)s)."
 msgstr "Транзакцію з референсом %(ref)s було ініційовано (%(provider_name)s)."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "A transaction with reference %(ref)s has been initiated to save a new "
@@ -243,7 +243,7 @@ msgstr ""
 "способу оплати (%(provider_name)s)"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "A transaction with reference %(ref)s has been initiated using the payment "
@@ -263,7 +263,7 @@ msgid "ACTIVATE STRIPE"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid "Account"
 msgstr "Рахунок"
@@ -416,7 +416,7 @@ msgid "Archived"
 msgstr "Заархівовано"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/xml/payment_form_templates.xml:0
 msgid "Are you sure you want to delete this payment method?"
 msgstr "Ви впевнені, що хочете видалити цей спосіб оплати?"
@@ -546,7 +546,7 @@ msgid "Bangkok Bank"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid "Bank"
 msgstr "Банк"
@@ -683,19 +683,19 @@ msgid "Cancelled Message"
 msgstr ""
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Cannot delete payment method"
 msgstr "Неможливо видалити спосіб оплати"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Cannot save payment method"
 msgstr "Неможливо зберегти спосіб оплати"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid "Capture"
@@ -714,11 +714,11 @@ msgstr "Транзакція отримання"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__capture_manually
 msgid ""
-"Capture the amount from Odoo, when the delivery is completed.\n"
+"Capture the amount from Manapathi, when the delivery is completed.\n"
 "Use this if you want to charge your customers cards only when\n"
 "you are sure you can ship the goods to them."
 msgstr ""
-"Отримайте суму від Odoo, коли доставка буде завершена.\n"
+"Отримайте суму від Manapathi, коли доставка буде завершена.\n"
 "Використовуйте це, якщо ви хочете стягувати плату з карток своїх клієнтів, лише \n"
 "коли ви впевнені, що можете відправити їм товари."
 
@@ -839,7 +839,7 @@ msgid "Configuration"
 msgstr "Налаштування"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Confirm Deletion"
 msgstr "Підтвердити видалення"
@@ -915,7 +915,7 @@ msgid "Created on"
 msgstr "Створено"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Creating a transaction from an archived token is forbidden."
 msgstr "Створення транзакції з заархівованого токена заборонено."
@@ -1077,7 +1077,7 @@ msgid "Error"
 msgstr "Помилка"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Error: %s"
 msgstr "Помилка: %s"
@@ -1319,7 +1319,7 @@ msgid "Is Stripe Supported Country"
 msgstr "Підтримувана країна Stripe"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/xml/payment_form_templates.xml:0
 msgid "It is currently linked to the following documents:"
 msgstr "Наразі він пов’язаний з такими документами:"
@@ -1477,7 +1477,7 @@ msgid "Magna"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Making a request to the provider is not possible because the provider is "
@@ -1635,7 +1635,7 @@ msgid "No Provider Set"
 msgstr "Не встановлено провайдера"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "No manual payment method could be found for this company. Please create one "
@@ -1655,7 +1655,7 @@ msgid "No payment providers are configured."
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_token.py:0
 msgid "No token can be assigned to the public partner."
 msgstr "Жоден токен не може бути призначений публічному партнеру."
@@ -1682,8 +1682,8 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
-msgid "Odoo Enterprise Module"
-msgstr "Модуль Odoo Enterprise"
+msgid "Manapathi Enterprise Module"
+msgstr "Модуль Manapathi Enterprise"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__offline
@@ -1746,19 +1746,19 @@ msgid "Online payment with redirection"
 msgstr "Онлайн платіж з перенаправленням"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid "Only administrators can access this data."
 msgstr "Доступ до цих даних можуть отримати лише адміністратори."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Only authorized transactions can be voided."
 msgstr "Лише санкціоновані транзакції можуть бути анульовані."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Only confirmed transactions can be refunded."
 msgstr "Лише підтверджені транзакції можуть бути повернені."
@@ -1774,7 +1774,7 @@ msgid "Operation"
 msgstr "Операція"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 msgid "Operation not supported."
 msgstr "Операція не підтримується"
@@ -1947,7 +1947,7 @@ msgid "Payment Method Code"
 msgstr "Код способу оплати"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model:ir.actions.act_window,name:payment.action_payment_method
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
@@ -2006,7 +2006,7 @@ msgid "Payment Transactions Linked To Token"
 msgstr "Транзакції платежу пов'язані з токеном"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_token.py:0
 msgid "Payment details saved on %(date)s"
 msgstr "Деталі платежу збережно на %(date)s"
@@ -2023,7 +2023,7 @@ msgid "Payment methods"
 msgstr "Способи оплати"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "Обробка платежу не вдалася"
@@ -2089,19 +2089,19 @@ msgid "Pix"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 msgid "Please make sure that %(payment_method)s is supported by %(provider)s."
 msgstr "Переконайтеся, що %(payment_method)s підтримується %(provider)s."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set a positive amount."
 msgstr "Вкажіть суму більше нуля."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set an amount lower than %s."
 msgstr "Вкажіть суму меншу ніж %s."
@@ -2205,7 +2205,7 @@ msgid "Reason:"
 msgstr "Причина:"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Reason: %s"
 msgstr "Причина: %s"
@@ -2229,7 +2229,7 @@ msgid "Reference must be unique!"
 msgstr "Посилання має бути унікальним!"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_refund
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_refund
@@ -2242,10 +2242,10 @@ msgstr "Відшкодування"
 #: model:ir.model.fields,help:payment.field_payment_provider__support_refund
 msgid ""
 "Refund is a feature allowing to refund customers directly from the payment "
-"in Odoo."
+"in Manapathi."
 msgstr ""
 "Відшкодування — це функція, яка дозволяє повертати клієнтам кошти "
-"безпосередньо з платежу в Odoo."
+"безпосередньо з платежу в Manapathi."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
@@ -2360,7 +2360,7 @@ msgid "Sofort"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
 "Some of the transactions you intend to capture can only be captured in full."
@@ -2466,13 +2466,13 @@ msgid "Thank you!"
 msgstr "Дякую!"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "The access token is invalid."
 msgstr "Токен доступу недійсний."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid "The amount to capture must be positive and cannot be superior to %s."
 msgstr "Сума для отримання має бути позитивною та не може перевищувати %s."
@@ -2531,13 +2531,13 @@ msgstr ""
 "не обмежувати."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "The following fields must be filled: %s"
 msgstr "Наступні поля повинні бути заповнені: %s"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "The following kwargs are not whitelisted: %s"
 msgstr "Наступні кварги не внесені до білого списку: %s"
@@ -2622,7 +2622,7 @@ msgid "The message displayed to explain and help the payment process"
 msgstr "Відображається повідомлення, щоб пояснити та допомогти процесу оплати"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/controllers/portal.py:0
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
@@ -2715,7 +2715,7 @@ msgstr ""
 "токеном."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
@@ -2725,7 +2725,7 @@ msgstr ""
 "(%(provider_name)s)."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
@@ -2735,7 +2735,7 @@ msgstr ""
 "(%(provider_name)s)."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
@@ -2755,7 +2755,7 @@ msgid "There is no token created yet."
 msgstr "Ще немає створеного токену."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "There is nothing to be paid."
 msgstr "Ще немає нічого для оплати."
@@ -2766,7 +2766,7 @@ msgid "There is nothing to pay."
 msgstr "Немає нічого для оплати."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "This action will also archive %s tokens that are registered with this "
@@ -2774,7 +2774,7 @@ msgid ""
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "This action will also archive %s tokens that are registered with this "
@@ -2813,7 +2813,7 @@ msgstr ""
 "                     Рекомендується встановити електронну адресу для цього партнера."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "This payment method needs a partner in crime; you should enable a payment "
@@ -2823,7 +2823,7 @@ msgstr ""
 " постачальника платежів, який підтримує цей метод."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "This transaction has been confirmed following the processing of its partial "
@@ -2879,7 +2879,7 @@ msgid "Transaction"
 msgstr "Операція"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Transaction authorization is not supported by the following payment "
@@ -2995,7 +2995,7 @@ msgid "Walley"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 #: code:addons/payment/models/payment_provider.py:0
 msgid "Warning"
@@ -3007,7 +3007,7 @@ msgid "Warning Message"
 msgstr "Повідомлення попередження"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Warning!"
 msgstr "Увага!"
@@ -3060,7 +3060,7 @@ msgid "Xendit"
 msgstr "Xendit"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_token.py:0
 msgid ""
 "You can't unarchive tokens linked to inactive payment methods or disabled "
@@ -3068,7 +3068,7 @@ msgid ""
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot change the company of a payment provider with existing "
@@ -3077,7 +3077,7 @@ msgstr ""
 "Ви не можете змінити компанію платіжного провайдера з наявними транзакціями."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot delete the payment provider %s; disable it or uninstall it "
@@ -3087,13 +3087,13 @@ msgstr ""
 " видаліть."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "You cannot publish a disabled provider."
 msgstr "Ви не можете опублікувати вимкненого провайдера."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "You do not have access to this payment token."
 msgstr "У вас немає доступу до цього платіжного токена"
@@ -3106,7 +3106,7 @@ msgid ""
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_aps
@@ -3128,7 +3128,7 @@ msgid "Your payment has been authorized."
 msgstr "Вашу оплату було авторизовано."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_aps
@@ -3150,7 +3150,7 @@ msgid "Your payment has been cancelled."
 msgstr "Ваш платіж скасовано."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_aps
@@ -3172,7 +3172,7 @@ msgid ""
 msgstr "Ваш платіж успішно оброблено, але очікує на затвердження."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,done_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,done_msg:payment.payment_provider_aps
@@ -3240,7 +3240,7 @@ msgid "eNETS"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "express checkout not supported"
 msgstr ""
@@ -3256,37 +3256,37 @@ msgid "in3"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "incompatible country"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "incompatible currency"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "incompatible website"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "manual capture not supported"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "maximum amount exceeded"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "no supported provider available"
 msgstr ""
@@ -3312,13 +3312,13 @@ msgstr ""
 "                    цей платіж."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "tokenization not supported"
 msgstr ""
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "tokenization without payment no supported"
 msgstr ""

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo.tests import Form, TransactionCase, tagged
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo import fields
-from odoo.fields import Command
+from manapathi.tests import Form, TransactionCase, tagged
+from manapathi.addons.account.tests.common import AccountTestInvoicingCommon
+from manapathi import fields
+from manapathi.fields import Command
 
 
 @tagged('post_install', '-at_install')

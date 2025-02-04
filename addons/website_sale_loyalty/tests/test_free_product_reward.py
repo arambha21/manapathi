@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import http
-from odoo.tests.common import HttpCase
-from odoo.tests import tagged
-from odoo.addons.website.tools import MockRequest
-from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
+from manapathi import http
+from manapathi.tests.common import HttpCase
+from manapathi.tests import tagged
+from manapathi.addons.website.tools import MockRequest
+from manapathi.addons.website_sale_loyalty.controllers.main import WebsiteSale
 
 @tagged('post_install', '-at_install')
 class TestFreeProductReward(HttpCase):

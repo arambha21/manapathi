@@ -1,5 +1,5 @@
 # pylint: disable=protected-access
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 import logging
 
 from dateutil.relativedelta import relativedelta

@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models
-import odoo.addons.payment_stripe as stripe  # prevent circular import error with payment_stripe
+from manapathi import api, fields, models
+import manapathi.addons.payment_stripe as stripe  # prevent circular import error with payment_stripe
 
 
 class ResCountry(models.Model):

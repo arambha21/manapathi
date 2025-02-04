@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
 from unittest.mock import patch, PropertyMock
@@ -377,7 +377,7 @@ class TestDiscussFullPerformance(HttpCase, MailCommon):
                     "im_status": "bot",
                     "isInternalUser": True,
                     "is_company": False,
-                    "name": "OdooBot",
+                    "name": "ManapathiBot",
                     "out_of_office_date_end": False,
                     "userId": self.user_root.id,
                     "write_date": fields.Datetime.to_string(self.user_root.partner_id.write_date),

@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* l10n_ne
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e\n"
+"Project-Id-Version: Manapathi Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-30 10:52+0000\n"
 "PO-Revision-Date: 2023-11-30 10:52+0000\n"
@@ -151,14 +151,14 @@ msgid "Regularisation"
 msgstr "Régularisations"
 
 #. module: l10n_ne
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_ne/models/template_ne_syscebnl.py:0
 #, python-format
 msgid "SYSCEBNL for Associations"
 msgstr "SYSCEBNL pour Associations"
 
 #. module: l10n_ne
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_ne/models/template_ne.py:0
 #, python-format
 msgid "SYSCOHADA for Companies"

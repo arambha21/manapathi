@@ -1,4 +1,4 @@
-from odoo import fields, models, api
+from manapathi import fields, models, api
 
 
 class AccountMove(models.Model):

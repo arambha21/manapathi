@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
+import manapathi.tests
 
-from odoo import Command
-from odoo.addons.mail.tests.common import mail_new_test_user
-from odoo.addons.point_of_sale.tests.common import archive_products
+from manapathi import Command
+from manapathi.addons.mail.tests.common import mail_new_test_user
+from manapathi.addons.point_of_sale.tests.common import archive_products
 
 
-@odoo.tests.tagged("post_install", "-at_install")
-class SelfOrderCommonTest(odoo.tests.HttpCase):
+@manapathi.tests.tagged("post_install", "-at_install")
+class SelfOrderCommonTest(manapathi.tests.HttpCase):
     browser_size = "375x667"
     touch_enabled = True
     allow_inherited_tests_method = True

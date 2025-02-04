@@ -1,21 +1,21 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
 # Translators:
 # 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Sarah Park, 2024
 # Daye Jeong, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Daye Jeong, 2025\n"
-"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://app.transifex.com/manapathi/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -46,19 +46,19 @@ msgid "# of Lines"
 msgstr "라인 수"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(product)s from %(original_receipt_date)s to %(new_receipt_date)s"
 msgstr "%(product)s 시작일 %(original_receipt_date)s 종료일 %(new_receipt_date)s"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(vendor)s confirmed the receipt will take place on %(date)s."
 msgstr "%(vendor)s에서 입고 예정일을 %(date)s로 확인했습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%s modified receipt dates for the following products:"
 msgstr "%s 다음 품목에 대한 입고 변경일:"
@@ -556,7 +556,7 @@ msgid ""
 msgstr "포괄 구매 주문은 구매자와 공급업체가 지정된 기간 동안 미리 정해진 가격으로 상품이나 서비스를 납품하기로 하는 계약입니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "A sample email has been sent to %s."
 msgstr "견본 메일이 %s로 전송됩니다."
@@ -574,7 +574,7 @@ msgid ""
 msgstr "구매 발주 시 패키지 유형을 선택하고 패키지 당 단위 수의 배수로 수량을 지정할 수 있습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Accept"
@@ -662,7 +662,7 @@ msgid "Add several variants to the purchase order from a grid"
 msgstr "그리드에서 구매 발주서에 제품의 세부선택 사항을 추가합니다."
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Add some products or services to your quotation."
 msgstr "견적서에 품목 또는 서비스를 추가합니다."
@@ -674,7 +674,7 @@ msgid "Add to PO"
 msgstr "구매발주서에 추가"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Add to Purchase Order"
 msgstr "구매발주서에 추가"
@@ -685,31 +685,31 @@ msgid "Administrator"
 msgstr "관리자"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "All"
 msgstr "전체"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Draft RFQs"
 msgstr "모든 초안상태의 견적요청서"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Late RFQs"
 msgstr "모든 기한초과상태의 견적요청서"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All RFQs"
 msgstr "모든 견적요청서"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Waiting RFQs"
 msgstr "모든 경고상태의 견적요청서"
@@ -842,7 +842,7 @@ msgid "Average Cost"
 msgstr "평균비용"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Avg Order Value"
 msgstr "평균 주문 금액"
@@ -863,7 +863,7 @@ msgid "Bill Lines"
 msgstr "청구서 내역"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Bill Matching"
 msgstr "청구서 일치"
@@ -945,7 +945,7 @@ msgid "Cancel"
 msgstr "취소"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__cancel
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__cancel
@@ -958,7 +958,7 @@ msgid "Cancelled Purchase Order #"
 msgstr "취소된 발주서 #"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Cannot delete a purchase order line which is in state “%s”."
 msgstr "“%s” 상태인 발주서 내역은 삭제할 수 없습니다."
@@ -1015,7 +1015,7 @@ msgid "Company Total"
 msgstr "기업 합계"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Compose Email"
 msgstr "이메일 작성"
@@ -1051,7 +1051,7 @@ msgid "Confirm purchase orders in one step"
 msgstr "발주서 일괄승인"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Confirm your purchase."
 msgstr "구매를 확정합니다."
@@ -1178,7 +1178,7 @@ msgid "Date Calendar Start"
 msgstr "일자 달력 시작"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Date Updated"
 msgstr "날짜 갱신"
@@ -1189,7 +1189,7 @@ msgid "Date:"
 msgstr "날짜:"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Days"
 msgstr "일"
@@ -1317,13 +1317,13 @@ msgid "Double validation amount"
 msgstr "이중 검증 금액"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid "Down Payment (ref: %(ref)s)"
 msgstr "선결제 금액 (참조: %(ref)s)"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Down Payments"
 msgstr "선결제 금액"
@@ -1342,8 +1342,8 @@ msgstr "미결 견적요청서"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
-"quotations in Odoo. Enjoy the automation!"
-msgstr "견적서 요청 PDF 파일을 Odoo의 견적서 목록으로 끌어다 놓으세요. 자동화를 즐겨보세요!"
+"quotations in Manapathi. Enjoy the automation!"
+msgstr "견적서 요청 PDF 파일을 Manapathi의 견적서 목록으로 끌어다 놓으세요. 자동화를 즐겨보세요!"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
@@ -1362,7 +1362,7 @@ msgid "Extended Filters"
 msgstr "확장 필터"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Extra line with %s "
 msgstr "%s을 포함한 내역 추가"
@@ -1404,13 +1404,13 @@ msgid "Forbidden values on non-accountable purchase order line"
 msgstr "회계 처리할 수 없는 발주서 내역에서 금지된 값"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From %s"
 msgstr "%s에서"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From Electronic Document"
 msgstr "전자 문서에서 "
@@ -1518,19 +1518,19 @@ msgid "If true, the packaging can be used for purchase orders"
 msgstr "해당되는 경우, 구매발주서에 포장 항목을 사용할 수 있습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Import Template for Products"
 msgstr "품목 가져오기"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "In order to delete a purchase order, you must cancel it first."
 msgstr "발주서를 삭제하려면 먼저 취소해야 합니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "In selected purchase order to merge these details must be same\n"
@@ -1550,7 +1550,7 @@ msgid "Incoterm"
 msgstr "인코텀즈"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Indicate the product quantity you want to order."
 msgstr "주문하시려는 품목 수량을 기재하십시오."
@@ -1619,7 +1619,7 @@ msgid "Last Updated on"
 msgstr "최근 갱신 일자"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Late"
 msgstr "지연"
@@ -1636,19 +1636,19 @@ msgid "Late RFQs"
 msgstr "기한 만료된 견적요청서"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Lead Time to Purchase"
 msgstr "구매 리드타임"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Let's create your first request for quotation."
 msgstr "첫 번째 견적요청서를 만들어 보겠습니다."
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Let's try the Purchase app to manage the flow from purchase to reception and"
@@ -1691,7 +1691,7 @@ msgid "Lock Confirmed Orders"
 msgstr "확정 주문 잠금"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__done
 msgid "Locked"
@@ -1798,13 +1798,13 @@ msgid "My Activity Deadline"
 msgstr "내 활동 마감일"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Draft RFQs"
 msgstr "내 미결 견적요청서"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Late RFQs"
 msgstr "기한 초과된 견적요청서"
@@ -1820,19 +1820,19 @@ msgid "My Purchases"
 msgstr "나의 구매"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My RFQs"
 msgstr "내 견적요청서"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Waiting RFQs"
 msgstr "대기 중인 내 견적요청서"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Name"
 msgstr "이름"
@@ -1843,7 +1843,7 @@ msgid "Name, TIN, Email, or Reference"
 msgstr "업체명, 사업자 등록번호, 이메일 또는 참조 사항"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Newest"
 msgstr "최신"
@@ -1911,8 +1911,8 @@ msgstr "확인되지 않음"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Not using Odoo?"
-msgstr "Odoo를 사용하지 않으시나요?"
+msgid "Not using Manapathi?"
+msgstr "Manapathi를 사용하지 않으시나요?"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_note
@@ -1958,8 +1958,8 @@ msgstr "전송 오류가 발생한 메시지 수입니다."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -1982,7 +1982,7 @@ msgid "On received quantities"
 msgstr "입고 수량 기준"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Once you get the price from the vendor, you can complete the purchase order "
@@ -1997,7 +1997,7 @@ msgid ""
 msgstr "공급업체에 품목을 발주하려면, 구매요청서를 승인하는 즉시 바로 발주서로 변환됩니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Operation not supported"
 msgstr "지원되지 않는 작업"
@@ -2059,7 +2059,7 @@ msgid "Orders"
 msgstr "주문"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Order due %(date)s"
 msgstr "주문 기한 %(date)s"
@@ -2107,7 +2107,7 @@ msgid "Payment terms"
 msgstr "지급 조건"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Please select at least two purchase orders with state RFQ and RFQ sent to "
@@ -2135,7 +2135,7 @@ msgid "Price"
 msgstr "가격"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/product_catalog/purchase_order_line/purchase_order_line.xml:0
 msgid "Price:"
 msgstr "가격 :"
@@ -2288,7 +2288,7 @@ msgid "Purchase History"
 msgstr "구매 내역"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Purchase History for %s"
@@ -2306,13 +2306,13 @@ msgid "Purchase Line and Vendor Bill line matching view"
 msgstr "구매 내역과 공급업체 청구서 내역에 대한 매칭 보기"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "Purchase Matching"
 msgstr "구매 일치"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.action_report_purchase_order
@@ -2408,7 +2408,7 @@ msgid "Purchase Order Warning"
 msgstr "구매주문서 주의 사항"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/analytic_account.py:0
 #: model:ir.actions.act_window,name:purchase.purchase_form_action
 #: model:ir.ui.menu,name:purchase.menu_purchase_form_action
@@ -2479,7 +2479,7 @@ msgid "Purchased"
 msgstr "구매함"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Purchased Last 7 Days"
 msgstr "지난 7일 동안의 매입금액"
@@ -2583,13 +2583,13 @@ msgid "RFQ Sent"
 msgstr "견적 요청서 전송"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
 msgstr "견적요청서 %(oldest_rfq_name)s 및 %(cancelled_rfq)s 병합 완료"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %s"
 msgstr "견적요청서와 %s 병합 완료"
@@ -2600,7 +2600,7 @@ msgid "RFQs"
 msgstr "견적 요청서"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "RFQs Sent Last 7 Days"
 msgstr "지난 7일 동안 전송한 견적요청서"
@@ -2736,7 +2736,7 @@ msgid "Reporting"
 msgstr "보고"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.report_purchase_quotation
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -2806,7 +2806,7 @@ msgid "Search Reference Document"
 msgstr "참조 문서 검색"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Search a vendor name, or create one on the fly."
 msgstr "공급업체 이름을 검색하거나 새로 생성합니다."
@@ -2832,13 +2832,13 @@ msgid "Security Token"
 msgstr "보안 토큰"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Select Vendor Bill lines to add to a Purchase Order"
 msgstr "구매발주서에 추가할 공급업체 청구서 내역을 선택하세요"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Select a product, or create a new one on the fly."
 msgstr "품목을 선택하거나 지금 바로 새 품목을 생성해 보세요."
@@ -2887,7 +2887,7 @@ msgid "Send by Email"
 msgstr "이메일로 전송"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Send the request for quotation to your vendor."
 msgstr "업체에 견적요청서를 전송합니다."
@@ -2953,8 +2953,8 @@ msgstr "별표"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Start on Odoo"
-msgstr "Odoo에서 시작하기"
+msgid "Start on Manapathi"
+msgstr "Manapathi에서 시작하기"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__state
@@ -3094,25 +3094,25 @@ msgstr ""
 "이 필드는 빠른 검색을 위해 사용할 수 있습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been acknowledged by %s."
 msgstr "견적요청서를 %s 측에서 확인했습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been declined by %s."
 msgstr "견적요청서를 %s 측에서 거절했습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been acknowledged by %s."
 msgstr "%s에서 주문 접수를 확인했습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been declined by %s."
 msgstr "입고 영수증이 %s 측에서 거절되었습니다."
@@ -3128,7 +3128,7 @@ msgstr ""
 "                   품목 입고와 공급 업체 청구서를 관리할 수 있습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
@@ -3146,14 +3146,14 @@ msgid "There are currently no requests for quotation for your account."
 msgstr "현재 귀하의 계정에 대한 견적 요청이 없습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid ""
 "There are no products to add to the Purchase Order. Are these Down Payments?"
 msgstr "구매발주서에 추가할 품목이 없습니다. 선결제 금액인가요?"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "There is no invoiceable line. If a product has a control policy based on "
@@ -3191,7 +3191,7 @@ msgid "This note is added to purchase orders."
 msgstr "이 내용은 발주서에 추가됩니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should "
@@ -3201,13 +3201,13 @@ msgstr ""
 "구매해야 합니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been created from: "
 msgstr "이 공급업체 청구서의 출처입니다:"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been modified from: "
 msgstr "이 공급업체 청구서가 수정된 곳입니다:"
@@ -3242,7 +3242,7 @@ msgid "To Invoice Quantity"
 msgstr "청구서 발행할 수량"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "To Send"
 msgstr "전송 예정"
@@ -3254,7 +3254,7 @@ msgid "Today Activities"
 msgstr "오늘 활동"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_total
@@ -3335,7 +3335,7 @@ msgid "Type of the exception activity on record."
 msgstr "레코드에 있는 예외 활동의 유형입니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Unable to cancel purchase order(s): %s. You must first cancel their related "
@@ -3417,7 +3417,7 @@ msgid "UoM"
 msgstr "단위"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Update Dates"
 msgstr "업데이트 날짜"
@@ -3466,7 +3466,7 @@ msgid "Vendor Bill"
 msgstr "공급업체 청구서"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Vendor Bill lines can only be added to one Purchase Order."
 msgstr "공급업체 청구서 내역은 하나의 구매주문서에만 추가할 수 있습니다."
@@ -3505,13 +3505,13 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Manapathi."
 msgstr ""
-"공급업체 청구서는 구매주문건 또는 영수증을 기준으로 미리 생성될 수 있습니다. 이를 통해 Odoo의 초안 문서에 따라 공급업체로부터 받은"
+"공급업체 청구서는 구매주문건 또는 영수증을 기준으로 미리 생성될 수 있습니다. 이를 통해 Manapathi의 초안 문서에 따라 공급업체로부터 받은"
 " 청구서를 관리할 수 있습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View"
 msgstr "화면"
@@ -3522,13 +3522,13 @@ msgid "View Details"
 msgstr "세부 사항 보기"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Order"
 msgstr "주문 보기"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Quotation"
 msgstr "견적서 보기"
@@ -3539,7 +3539,7 @@ msgid "Volume"
 msgstr "부피"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Waiting"
 msgstr "대기 중"
@@ -3557,11 +3557,11 @@ msgstr "견적요청서 대기 중"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Want to import this document in Odoo?"
-msgstr "이 문서를 Odoo로 가져오시겠습니까?"
+msgid "Want to import this document in Manapathi?"
+msgstr "이 문서를 Manapathi로 가져오시겠습니까?"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__warning
 #: model:ir.model.fields.selection,name:purchase.selection__res_partner__purchase_warn__warning
@@ -3569,7 +3569,7 @@ msgid "Warning"
 msgstr "경고"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Warning for %s"
@@ -3608,23 +3608,23 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, Manapathi will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "발주서를 생성할 때, 공급업체가 정시에 물품을 배송한 비율을 나타내는<i>정시 납기율</i>을 확인해 보세요. 이 비율이 너무 낮다면, "
-"<i>자동 알림</i>을 활성화할 수 있습니다. 입고 예정일 전에 Odoo가 공급업체에 이메일을 보내어 배송 날짜를 확정하고 혹시 지연될"
+"<i>자동 알림</i>을 활성화할 수 있습니다. 입고 예정일 전에 Manapathi가 공급업체에 이메일을 보내어 배송 날짜를 확정하고 혹시 지연될"
 " 경우 바로 알려 드립니다. 공급업체 관련 수치를 확인하려면 OTD 비율 항목을 클릭하세요."
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Manapathi asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"발주서를 이메일로 보낼때 Odoo는 공급업체에 주문 수신여부를 요청합니다. 공급업체가 이메일의 버튼을 클릭하여 주문을 승인하면 발주서에 "
+"발주서를 이메일로 보낼때 Manapathi는 공급업체에 주문 수신여부를 요청합니다. 공급업체가 이메일의 버튼을 클릭하여 주문을 승인하면 발주서에 "
 "관련 정보가 추가됩니다. 필터 기능을 사용하면 공급업체가 승인하지 않은 주문을 손쉽게 추적할 수 있습니다."
 
 #. module: purchase
@@ -3634,13 +3634,13 @@ msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
 msgstr "업체명, 사업자 등록번호, 이메일 또는 내부 참조 사항으로 공급업체를 검색할 수 있습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "You can't select lines from multiple Vendor Bill to do the matching."
 msgstr "여러 개의 공급업체 청구서에서 내역을 선택하여 매칭할 수 없습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "You cannot change the type of a purchase order line. Instead you should "
@@ -3671,14 +3671,14 @@ msgstr ""
 "              저장 가능 품목이나 소모품, 서비스 등이 있습니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid ""
 "You must select at least one Purchase Order line to match or create bill."
 msgstr "매칭하거나 업체 청구서를 생성하려면 최소 하나 이상의 구매발주서 내역을 선택해야 합니다."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
@@ -3703,7 +3703,7 @@ msgid "or create new"
 msgstr "또는 새로 만듭니다"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "purchase orders merged"
 msgstr "구매주문서 병합 완료"

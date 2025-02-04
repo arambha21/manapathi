@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 from collections import defaultdict
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
@@ -8,11 +8,11 @@ from pytz import timezone
 from markupsafe import escape, Markup
 from werkzeug.urls import url_encode
 
-from odoo import api, Command, fields, models, _
-from odoo.osv import expression
-from odoo.tools import format_amount, format_date, format_list, formatLang, groupby
-from odoo.tools.float_utils import float_is_zero
-from odoo.exceptions import UserError, ValidationError
+from manapathi import api, Command, fields, models, _
+from manapathi.osv import expression
+from manapathi.tools import format_amount, format_date, format_list, formatLang, groupby
+from manapathi.tools.float_utils import float_is_zero
+from manapathi.exceptions import UserError, ValidationError
 
 
 class PurchaseOrder(models.Model):

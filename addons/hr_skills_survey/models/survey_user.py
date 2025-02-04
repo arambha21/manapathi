@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields, models
-from odoo.osv import expression
-from odoo.tools import html2plaintext
+from manapathi import fields, models
+from manapathi.osv import expression
+from manapathi.tools import html2plaintext
 
 
 class SurveyUserInput(models.Model):

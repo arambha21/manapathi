@@ -1,6 +1,6 @@
-from odoo import Command
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.tests.common import tagged
+from manapathi import Command
+from manapathi.addons.account.tests.common import AccountTestInvoicingCommon
+from manapathi.tests.common import tagged
 
 @tagged('post_install_l10n', 'post_install', '-at_install')
 class TestFECExport(AccountTestInvoicingCommon):

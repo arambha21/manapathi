@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 from freezegun import freeze_time
@@ -743,7 +743,7 @@ class TestEventRegistrationPhone(EventCase):
         cls.test_event_address = cls.env['res.partner'].create({
             'city': 'Gandhinagar',
             'country_id': cls.env.ref("base.in").id,
-            'name': 'Odoo In',
+            'name': 'Manapathi In',
             'zip': '382007',
         })
         cls.test_event = cls.env['event.event'].create({

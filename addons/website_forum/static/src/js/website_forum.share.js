@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 import publicWidget from "@web/legacy/js/public/public_widget";
 import "@website/js/content/snippets.animation";

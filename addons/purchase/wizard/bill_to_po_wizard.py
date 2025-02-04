@@ -1,6 +1,6 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import fields, models, Command, _
-from odoo.exceptions import UserError
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
+from manapathi import fields, models, Command, _
+from manapathi.exceptions import UserError
 
 
 class BillToPO(models.TransientModel):

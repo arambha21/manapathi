@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* delivery
 # 
@@ -15,12 +15,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maria Boyadjieva <marabo2000@gmail.com>, 2024\n"
-"Language-Team: Bulgarian (https://app.transifex.com/odoo/teams/41243/bg/)\n"
+"Language-Team: Bulgarian (https://app.transifex.com/manapathi/teams/41243/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -28,13 +28,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/wizard/choose_delivery_carrier.py:0
 msgid "%(carrier)s Error"
 msgstr ""
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
 "%s\n"
@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "%s (copy)"
 msgstr "%s (копие)"
@@ -53,15 +53,15 @@ msgid "<i class=\"oi oi-arrow-right me-1\"/>Get rate"
 msgstr ""
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Buy Odoo Enterprise now to get more providers.\n"
+"                    Buy Manapathi Enterprise now to get more providers.\n"
 "                </p>"
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Купи Odoo Enterprise и получи повече доставчици.\n"
+"                    Купи Manapathi Enterprise и получи повече доставчици.\n"
 "                </p>"
 
 #. module: delivery
@@ -117,7 +117,7 @@ msgid "Add"
 msgstr "Добави"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 #: code:addons/delivery/wizard/choose_delivery_carrier.py:0
 msgid "Add a shipping method"
@@ -182,7 +182,7 @@ msgid "Carrier"
 msgstr "Превозвач"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded "
@@ -195,20 +195,20 @@ msgid "Carrier Description"
 msgstr "Описание на превозвача"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Choose a pick-up point"
 msgstr ""
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Choose this location"
 msgstr ""
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_schedule/location_schedule.js:0
 msgid "Closed"
 msgstr "Приключено"
@@ -404,13 +404,13 @@ msgid "Environment"
 msgstr "Среда"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available for this address."
 msgstr "Грешка: този начин на доставка не е възможен за този адрес."
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available."
 msgstr "Грешка: този метод на доставка не е наличен."
@@ -560,13 +560,13 @@ msgid "Last Updated on"
 msgstr "Последно актуализирано на"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "List view"
 msgstr ""
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Loading..."
 msgstr "Зареждане..."
@@ -587,7 +587,7 @@ msgid "Manage delivery zip prefixes"
 msgstr ""
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Map view"
 msgstr ""
@@ -633,31 +633,31 @@ msgid "Name"
 msgstr "Име"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "New Providers"
 msgstr "Нови доставчици"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid "No pick-up points are available for this delivery address."
 msgstr ""
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "No result"
 msgstr "Без резултат"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Not available for current order"
 msgstr ""
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location/location.js:0
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Opening hours"
@@ -773,7 +773,7 @@ msgid "Sales Order Line"
 msgstr "Ред на поръчка за продажби"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.xml:0
 msgid "Search"
 msgstr "Tyrsene"
@@ -880,13 +880,13 @@ msgid "The shipping insurance must be a percentage between 0 and 100."
 msgstr ""
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "The shipping is free since the order amount exceeds %.2f."
 msgstr "Безплатна доставка, ако сумата на поръчката надхвърля %.2f."
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "There was an error loading the map"
 msgstr ""
@@ -932,7 +932,7 @@ msgid "Update"
 msgstr "Актуализирайте"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 #: model_terms:ir.ui.view,arch_db:delivery.view_order_form_with_carrier
 msgid "Update shipping cost"
@@ -982,7 +982,7 @@ msgid "Weight unit of measure label"
 msgstr ""
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
 "You can not update the shipping costs on an order where it was already invoiced!\n"
@@ -992,7 +992,7 @@ msgid ""
 msgstr ""
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/product_category.py:0
 msgid ""
 "You cannot delete the deliveries product category as it is used on the "
@@ -1000,7 +1000,7 @@ msgid ""
 msgstr ""
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Your postal code"
 msgstr ""

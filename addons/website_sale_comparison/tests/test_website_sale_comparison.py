@@ -1,12 +1,12 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import logging
 from collections import OrderedDict
 
 from lxml import etree
 
-from odoo.fields import Command
-from odoo.tests import HttpCase, TransactionCase, loaded_demo_data, tagged
+from manapathi.fields import Command
+from manapathi.tests import HttpCase, TransactionCase, loaded_demo_data, tagged
 
 _logger = logging.getLogger(__name__)
 

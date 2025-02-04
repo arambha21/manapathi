@@ -1,5 +1,5 @@
-from odoo.addons.account.tests.common import TestTaxCommon
-from odoo.tests import tagged
+from manapathi.addons.account.tests.common import TestTaxCommon
+from manapathi.tests import tagged
 
 
 @tagged('post_install', '-at_install', 'post_install_l10n')

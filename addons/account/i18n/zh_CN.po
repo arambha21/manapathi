@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -7,18 +7,18 @@
 # 宇洛 李, 2024
 # ChunYi Fu, 2024
 # Zhongbo Zhao, 2024
-# Odoo哥 <vnsoft.he@gmail.com>, 2024
+# Manapathi哥 <vnsoft.he@gmail.com>, 2024
 # Jeffery CHEN <jeffery9@gmail.com>, 2024
 # Chill Liao <chill421@qq.com>, 2024
 # Dean Yue, 2024
 # Chloe Wang, 2025
 # Raymond Yu <cl_yu@hotmail.com>, 2025
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # keecome <7017511@qq.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -331,7 +331,7 @@ msgstr "。请确保您想要执行此操作。"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
-". The journal entries need to be computed by Odoo before being posted in "
+". The journal entries need to be computed by Manapathi before being posted in "
 "your company's currency."
 msgstr "。日记账分录需由系统计算，然后才能以公司的币别过账。"
 
@@ -2484,10 +2484,10 @@ msgstr "之后"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
-"After importing three bills for a vendor without making changes, Odoo will "
+"After importing three bills for a vendor without making changes, Manapathi will "
 "suggest automatically validating future bills. You can toggle this feature "
 "at any time in the vendor's profile."
-msgstr "为供应商导入三张账单而未作更改后，Odoo 将建议自动验证未来的账单。您可以随时在供应商资料中切换该功能。"
+msgstr "为供应商导入三张账单而未作更改后，Manapathi 将建议自动验证未来的账单。您可以随时在供应商资料中切换该功能。"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__engine__aggregation
@@ -3516,7 +3516,7 @@ msgstr "银行和现金"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "Bank of odoo"
-msgstr "Odoo 银行"
+msgstr "Manapathi 银行"
 
 #. module: account
 #: model:ir.model,name:account.model_account_setup_bank_manual_config
@@ -3638,9 +3638,9 @@ msgstr "属于同一公司%s。"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Manapathi S.A. "
 "responsibility."
-msgstr "以下文本仅作为建议，Odoo公司不承担责任。"
+msgstr "以下文本仅作为建议，Manapathi公司不承担责任。"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__bank_bic
@@ -5584,7 +5584,7 @@ msgstr "日期示例"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Manapathi. It is the date of the "
 "opening entry."
 msgstr "在系统中管理会计数据的日期，即是期初分录的日期。"
 
@@ -9807,12 +9807,12 @@ msgstr "手工分录"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
-"Manual: Get paid by any method outside of Odoo.\n"
+"Manual: Get paid by any method outside of Manapathi.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"手动：使用Odoo以外的任何方式获得付款。\n"
+"手动：使用Manapathi以外的任何方式获得付款。\n"
 "支付服务提供商：各支付服务提供商均有其各自自己的付款方式。通过合作伙伴在线上购买或订阅时保存的付款令牌请求在卡上/向卡进行交易。\n"
 "批量存款：一次收集多张客户支票，生成并向银行提交批量存款。需要模块 account_batch_payment。\n"
 "单一欧元支付区（SEPA）直接借项：合作伙伴基于授权在单一欧元支付区完成付款。需要模块account_sepa。\n"
@@ -9820,28 +9820,28 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_line_ids
 msgid ""
-"Manual: Pay by any method outside of Odoo.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Manual: Pay by any method outside of Manapathi.\n"
+"Check: Pay bills by check and print it from Manapathi.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
-"手动：使用Odoo以外的任何方式进行付款。\n"
-"支票：用支票支付账单，并从Odoo打印。\n"
+"手动：使用Manapathi以外的任何方式进行付款。\n"
+"支票：用支票支付账单，并从Manapathi打印。\n"
 "单一欧元支付区（SEPA）贷方转账：向银行提交单一欧元支付区贷方转账单据，以在单一欧元支付区完成付款。需要模块account_sepa。\n"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_line_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Manapathi.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Manapathi.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"手动：使用Odoo以外的任何方式进行付款或获得付款。\n"
+"手动：使用Manapathi以外的任何方式进行付款或获得付款。\n"
 "支付服务提供商：各支付服务提供商均有其各自自己的付款方式。通过合作伙伴在线上购买或订阅时保存的付款令牌请求在卡上/向卡进行交易。\n"
-"支票：用支票支付账单，并从Odoo打印。\n"
+"支票：用支票支付账单，并从Manapathi打印。\n"
 "批量存款：一次收集多张客户支票，生成并向银行提交批量存款。需要模块 account_batch_payment。\n"
 "单一欧元支付区（SEPA）贷项转账：向银行提交单一欧元支付区贷项转账单据，以在单一欧元支付区完成付款。需要模块account_sepa。\n"
 "单一欧元支付区（SEPA）直接借项：合作伙伴基于授权在单一欧元支付区完成付款。需要模块account_sepa。\n"
@@ -10752,33 +10752,33 @@ msgstr "十月"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__engine__domain
-msgid "Odoo Domain"
-msgstr "Odoo域"
+msgid "Manapathi Domain"
+msgstr "Manapathi域"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 #: model_terms:ir.actions.act_window,help:account.action_credit_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Manapathi allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Odoo 允许您直接将账单明细与\n"
+"Manapathi 允许您直接将账单明细与\n"
 "                 相关的销售或采购采购应收付结算单对账."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
-msgstr "Odoo助您轻松追踪与客户相关的所有活动。"
+msgid "Manapathi helps you easily track all activities related to a customer."
+msgstr "Manapathi助您轻松追踪与客户相关的所有活动。"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr "Odoo助您轻松追踪与供应商相关的所有活动。"
+msgid "Manapathi helps you easily track all activities related to a supplier."
+msgstr "Manapathi助您轻松追踪与供应商相关的所有活动。"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__off
@@ -13343,13 +13343,13 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by Manapathi"
 msgstr ""
 "每个发票单独发送电子邮件。\n"
 "\n"
 "接受任何单据扩展名。\n"
 "\n"
-"Odoo仅解析PDF和XML格式的单据"
+"Manapathi仅解析PDF和XML格式的单据"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -16694,10 +16694,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
 msgid ""
 "Use this field to encode the total amount of the invoice.\n"
-"Odoo will automatically create one invoice line with default values to match it."
+"Manapathi will automatically create one invoice line with default values to match it."
 msgstr ""
 "使用该字段对发票总金额进行编码。\n"
-"Odoo将自动创建具有默认值的发票行，以与之匹配。"
+"Manapathi将自动创建具有默认值的发票行，以与之匹配。"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__used
@@ -17207,8 +17207,8 @@ msgstr "您正在对账一些已经被对账的分录."
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
-msgstr "可以为各参考事情类型选择不同的模型。默认为Odoo参考号。"
+"is the Manapathi reference."
+msgstr "可以为各参考事情类型选择不同的模型。默认为Manapathi参考号。"
 
 #. module: account
 #. odoo-python

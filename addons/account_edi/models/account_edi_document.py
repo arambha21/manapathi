@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 import base64
 import logging
 
 import psycopg2.errors
 
-from odoo import models, fields, api, _
-from odoo.exceptions import UserError
+from manapathi import models, fields, api, _
+from manapathi.exceptions import UserError
 
 
 _logger = logging.getLogger(__name__)

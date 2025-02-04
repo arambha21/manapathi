@@ -1,5 +1,5 @@
-from odoo import tests
-from odoo.addons.website_livechat.tests.common import TestLivechatCommon
+from manapathi import tests
+from manapathi.addons.website_livechat.tests.common import TestLivechatCommon
 
 
 @tests.tagged("-at_install", "post_install")

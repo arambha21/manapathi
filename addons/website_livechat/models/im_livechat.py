@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models, fields
-from odoo.tools.translate import html_translate
+from manapathi import api, models, fields
+from manapathi.tools.translate import html_translate
 
 
 class ImLivechatChannel(models.Model):

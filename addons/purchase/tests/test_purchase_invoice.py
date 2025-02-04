@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 from datetime import timedelta
 
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.exceptions import UserError
-from odoo.tests import Form, tagged
-from odoo import Command, fields
+from manapathi.addons.account.tests.common import AccountTestInvoicingCommon
+from manapathi.exceptions import UserError
+from manapathi.tests import Form, tagged
+from manapathi import Command, fields
 
 
 class TestPurchaseToInvoiceCommon(AccountTestInvoicingCommon):
@@ -1168,7 +1168,7 @@ class TestInvoicePurchaseMatch(TestPurchaseToInvoiceCommon):
         purchase_user = self.env['res.users'].with_context(no_reset_password=True).create({
             'name': 'Purchase user',
             'login': 'purchaseUser',
-            'email': 'pu@odoo.com',
+            'email': 'pu@manapathi.com',
             'groups_id': [Command.set([group_purchase_user.id, group_employee.id, group_partner_manager.id])],
         })
         po1 = self.env['purchase.order'].with_context(tracking_disable=True).create({

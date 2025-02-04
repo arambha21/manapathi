@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* l10n_uy
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.1+e\n"
+"Project-Id-Version: Manapathi Server saas~17.1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-21 13:32+0000\n"
 "PO-Revision-Date: 2024-08-21 13:32+0000\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: l10n_uy
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_uy/models/res_partner.py:0
 msgid "3:402.010-2 or 93:402.010-1 (CI or NIE)"
 msgstr ""
@@ -72,7 +72,7 @@ msgid "CI"
 msgstr ""
 
 #. module: l10n_uy
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_uy/models/res_partner.py:0
 msgid "CI/NIE"
 msgstr ""
@@ -208,7 +208,7 @@ msgid "Credit Note e-Boleta"
 msgstr ""
 
 #. module: l10n_uy
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_uy/models/template_uy.py:0
 msgid "Customer Invoices"
 msgstr ""
@@ -344,7 +344,7 @@ msgid "Passport (all countries)"
 msgstr ""
 
 #. module: l10n_uy
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_uy/models/l10n_latam_document_type.py:0
 msgid ""
 "Please introduce a valid Document number: 2 letters and 7 digits (XX0000001)"
@@ -408,7 +408,7 @@ msgid "Taxable income"
 msgstr ""
 
 #. module: l10n_uy
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_uy/models/res_partner.py:0
 msgid ""
 "The %(vat_label)s number [%(wrong_vat)s] does not seem to be valid.\n"
@@ -416,7 +416,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_uy
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_uy/models/res_partner.py:0
 msgid ""
 "The %(vat_label)s number [%(wrong_vat)s] for %(partner_label)s does not seem to be valid.\n"
@@ -435,7 +435,7 @@ msgid "Unique Tax Registry / Unique Taxpayer Registry"
 msgstr ""
 
 #. module: l10n_uy
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_uy/models/template_uy.py:0
 msgid "Uruguayan Generic Chart of Accounts"
 msgstr ""
@@ -473,7 +473,7 @@ msgid "VAT balance"
 msgstr ""
 
 #. module: l10n_uy
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_uy/models/template_uy.py:0
 msgid "Vendor Bills"
 msgstr ""
@@ -554,7 +554,7 @@ msgid "e-Ticket Sale By Third Party Debit Note"
 msgstr ""
 
 #. module: l10n_uy
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_uy/models/res_partner.py:0
 msgid "partner [%s]"
 msgstr ""

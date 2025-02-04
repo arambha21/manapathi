@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* crm_iap_mine
 # 
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -53,7 +53,7 @@ msgid ""
 "    <p>There are no more credits on your IAP Lead Generation account.<br/>\n"
 "    You can charge your IAP Lead Generation account in the settings of the CRM app.<br/></p>\n"
 "    <p>Best regards,</p>\n"
-"    <p>Odoo S.A.</p>\n"
+"    <p>Manapathi S.A.</p>\n"
 "</div>"
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
@@ -61,7 +61,7 @@ msgstr ""
 "    <p>IAP Müşteri Adayı Oluşturma hesabınızda artık kredi yoktur.<br/>\n"
 "    IAP Müşteri Adayı Oluşturma hesabınızı CRM uygulamasının ayarlarından ücretlendirebilirsiniz.<br/></p>\n"
 "    <p>Saygılarımızla,</p>\n"
-"    <p>Odoo Sa</p>\n"
+"    <p>Manapathi Sa</p>\n"
 "</div>"
 
 #. module: crm_iap_mine
@@ -568,8 +568,8 @@ msgstr "Fırsatlar"
 #. module: crm_iap_mine
 #. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
-msgid "Opportunity created by Odoo Lead Generation"
-msgstr "Odoo Aday Oluşturma ile oluşturulan fırsat"
+msgid "Opportunity created by Manapathi Lead Generation"
+msgstr "Manapathi Aday Oluşturma ile oluşturulan fırsat"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__role_ids

@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import logging
 
@@ -274,7 +274,7 @@ class AccountEdiProxyClientUser(models.Model):
 
     @handle_demo
     def _peppol_migrate_registration(self):
-        """Migrates AWAY from Odoo's SMP."""
+        """Migrates AWAY from Manapathi's SMP."""
         self.ensure_one()
         response = self._call_peppol_proxy(endpoint='/api/peppol/1/migrate_peppol_registration')
         if migration_key := response.get('migration_key'):
@@ -338,7 +338,7 @@ class AccountEdiProxyClientUser(models.Model):
             },
         )
         # once we sent the migration key over, we don't need it
-        # but we need the field for future in case the user decided to migrate away from Odoo
+        # but we need the field for future in case the user decided to migrate away from Manapathi
         company.account_peppol_migration_key = False
         company.account_peppol_proxy_state = 'smp_registration'
 

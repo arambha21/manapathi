@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from collections import OrderedDict
 
-from odoo import models
+from manapathi import models
 
 
 class ProductProduct(models.Model):

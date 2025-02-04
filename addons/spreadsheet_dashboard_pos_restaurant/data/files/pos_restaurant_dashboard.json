@@ -2006,7 +2006,7 @@
   },
   "pivotNextId": 11,
   "customTableStyles": {},
-  "odooVersion": 12,
+  "manapathiVersion": 12,
   "globalFilters": [
     {
       "id": "4b44fd69-5c22-4402-be22-636d52226a76",
@@ -2045,5 +2045,5 @@
   ],
   "lists": {},
   "listNextId": 1,
-  "chartOdooMenusReferences": {}
+  "chartManapathiMenusReferences": {}
 }

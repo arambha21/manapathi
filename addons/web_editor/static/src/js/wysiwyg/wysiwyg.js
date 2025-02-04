@@ -8,7 +8,7 @@ import { browser } from "@web/core/browser/browser";
 import { useService } from "@web/core/utils/hooks";
 import customColors from "@web_editor/js/editor/custom_colors";
 import { localization } from "@web/core/l10n/localization";
-import * as OdooEditorLib from "@web_editor/js/editor/odoo-editor/src/OdooEditor";
+import * as ManapathiEditorLib from "@web_editor/js/editor/odoo-editor/src/ManapathiEditor";
 import { Toolbar } from "@web_editor/js/editor/toolbar";
 import { LinkPopoverWidget } from '@web_editor/js/wysiwyg/widgets/link_popover_widget';
 import { AltDialog } from '@web_editor/js/wysiwyg/widgets/alt_dialog';
@@ -51,25 +51,25 @@ import { isCSSColor } from '@web/core/utils/colors';
 import { EmojiPicker } from '@web/core/emoji_picker/emoji_picker';
 import { Tooltip } from "@web/core/tooltip/tooltip";
 
-const OdooEditor = OdooEditorLib.OdooEditor;
-const getDeepRange = OdooEditorLib.getDeepRange;
-const getInSelection = OdooEditorLib.getInSelection;
-const isProtected = OdooEditorLib.isProtected;
-const rgbToHex = OdooEditorLib.rgbToHex;
-const preserveCursor = OdooEditorLib.preserveCursor;
-const closestElement = OdooEditorLib.closestElement;
-const setSelection = OdooEditorLib.setSelection;
-const endPos = OdooEditorLib.endPos;
-const hasValidSelection = OdooEditorLib.hasValidSelection;
-const parseHTML = OdooEditorLib.parseHTML;
-const closestBlock = OdooEditorLib.closestBlock;
-const getRangePosition = OdooEditorLib.getRangePosition;
-const childNodeIndex = OdooEditorLib.childNodeIndex;
-const fillEmpty = OdooEditorLib.fillEmpty;
-const isVisible = OdooEditorLib.isVisible;
-const getSelectedNodes = OdooEditorLib.getSelectedNodes;
-const getDeepestPosition = OdooEditorLib.getDeepestPosition;
-const paragraphRelatedElements = OdooEditorLib.paragraphRelatedElements;
+const ManapathiEditor = ManapathiEditorLib.ManapathiEditor;
+const getDeepRange = ManapathiEditorLib.getDeepRange;
+const getInSelection = ManapathiEditorLib.getInSelection;
+const isProtected = ManapathiEditorLib.isProtected;
+const rgbToHex = ManapathiEditorLib.rgbToHex;
+const preserveCursor = ManapathiEditorLib.preserveCursor;
+const closestElement = ManapathiEditorLib.closestElement;
+const setSelection = ManapathiEditorLib.setSelection;
+const endPos = ManapathiEditorLib.endPos;
+const hasValidSelection = ManapathiEditorLib.hasValidSelection;
+const parseHTML = ManapathiEditorLib.parseHTML;
+const closestBlock = ManapathiEditorLib.closestBlock;
+const getRangePosition = ManapathiEditorLib.getRangePosition;
+const childNodeIndex = ManapathiEditorLib.childNodeIndex;
+const fillEmpty = ManapathiEditorLib.fillEmpty;
+const isVisible = ManapathiEditorLib.isVisible;
+const getSelectedNodes = ManapathiEditorLib.getSelectedNodes;
+const getDeepestPosition = ManapathiEditorLib.getDeepestPosition;
+const paragraphRelatedElements = ManapathiEditorLib.paragraphRelatedElements;
 
 function getJqueryFromDocument(doc) {
     if (doc.defaultView && doc.defaultView.$) {
@@ -416,7 +416,7 @@ export class Wysiwyg extends Component {
         weUtils.setEditableDocument(this.options.document);
 
         const _getContentEditableAreas = this.options.getContentEditableAreas;
-        this.odooEditor = new OdooEditor(this.$editable[0], Object.assign({
+        this.odooEditor = new ManapathiEditor(this.$editable[0], Object.assign({
             _t: _t,
             toolbar: this.toolbarEl,
             document: this.options.document,
@@ -556,7 +556,7 @@ export class Wysiwyg extends Component {
             }
         }
 
-        this._observeOdooFieldChanges();
+        this._observeManapathiFieldChanges();
         this.$editable.on(
             'mousedown touchstart',
             '[data-oe-field]',
@@ -1238,11 +1238,11 @@ export class Wysiwyg extends Component {
         return this.odooEditor.isSelectionInEditable();
     }
     /**
-     * Start or resume the Odoo field changes muation observers.
+     * Start or resume the Manapathi field changes muation observers.
      *
      * Necessary to keep all copies of a given field at the same value throughout the page.
      */
-    _observeOdooFieldChanges() {
+    _observeManapathiFieldChanges() {
         const observerOptions = {
             childList: true,
             subtree: true,
@@ -1321,7 +1321,7 @@ export class Wysiwyg extends Component {
                     }
 
                     // TODO adapt in master: remove this and only use the
-                    //  `_pauseOdooFieldObservers(field)` call.
+                    //  `_pauseManapathiFieldObservers(field)` call.
                     this.__odooFieldObserversToPause = this.odooFieldObservers.filter(
                         // Exclude inner translation fields observers. They
                         // still handle translation synchronization inside the
@@ -1329,7 +1329,7 @@ export class Wysiwyg extends Component {
                         observerData => !observerData.field.dataset.oeTranslationSourceSha ||
                             !field.contains(observerData.field)
                     );
-                    this._pauseOdooFieldObservers();
+                    this._pauseManapathiFieldObservers();
                     // Tag the date fields to only replace the value
                     // with the original date value once (see mouseDown event)
                     if ($node.hasClass('o_editable_date_field_format_changed')) {
@@ -1359,7 +1359,7 @@ export class Wysiwyg extends Component {
                             }
                         }
                     });
-                    this._observeOdooFieldChanges();
+                    this._observeManapathiFieldChanges();
                 });
                 observer.observe(field, observerOptions);
                 this.odooFieldObservers.push({field: field, observer: observer});
@@ -1369,7 +1369,7 @@ export class Wysiwyg extends Component {
     /**
      * Stop the field changes mutation observers.
      */
-    _pauseOdooFieldObservers() {
+    _pauseManapathiFieldObservers() {
         // TODO adapt in master: remove this and directly exclude observers with
         // targets inside the current field (we use `this.odooFieldObservers`
         // as fallback for compatibility here).
@@ -1718,7 +1718,7 @@ export class Wysiwyg extends Component {
         // selection when the modal is closed.
         const restoreSelection = preserveCursor(this.odooEditor.document);
 
-        const editable = OdooEditorLib.closestElement(params.node || range.startContainer, '.o_editable') || this.odooEditor.editable;
+        const editable = ManapathiEditorLib.closestElement(params.node || range.startContainer, '.o_editable') || this.odooEditor.editable;
         const { resModel, resId, field, type } = this._getRecordInfo(editable);
 
         this.env.services.dialog.add(params.MediaDialog || MediaDialog, {
@@ -2392,7 +2392,7 @@ export class Wysiwyg extends Component {
             return;
         }
         const $paragraphDropdownButton = $(this.toolbarEl).find('#paragraphDropdownButton, #mediaParagraphDropdownButton');
-        // Change the ID to prevent OdooEditor from controlling it as this is
+        // Change the ID to prevent ManapathiEditor from controlling it as this is
         // custom behavior for media.
         $paragraphDropdownButton.attr('id', 'mediaParagraphDropdownButton');
         let resetAlignment = true;
@@ -2889,7 +2889,7 @@ export class Wysiwyg extends Component {
         }
 
         // remove ZeroWidthSpace from odoo field value
-        // ZeroWidthSpace may be present from OdooEditor edition process
+        // ZeroWidthSpace may be present from ManapathiEditor edition process
         let escapedHtml = this._getEscapedElement($el).prop('outerHTML');
 
         const result = this.orm.call('ir.ui.view', 'save', [
@@ -3679,7 +3679,7 @@ export class Wysiwyg extends Component {
         // command is being applied. Note that this needs to be done *before*
         // the command and not after because some commands (e.g. font-size)
         // rely on some elements not to have the class to fully work.
-        for (const node of OdooEditorLib.getTraversedNodes(this.$editable[0])) {
+        for (const node of ManapathiEditorLib.getTraversedNodes(this.$editable[0])) {
             const el = node.nodeType === Node.TEXT_NODE ? node.parentElement : node;
             const defaultTextEl = el.closest('.o_default_snippet_text');
             if (defaultTextEl) {

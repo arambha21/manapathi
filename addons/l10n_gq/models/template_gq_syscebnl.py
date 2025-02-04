@@ -1,5 +1,5 @@
-from odoo import models, _
-from odoo.addons.account.models.chart_template import template
+from manapathi import models, _
+from manapathi.addons.account.models.chart_template import template
 
 
 class AccountChartTemplate(models.AbstractModel):

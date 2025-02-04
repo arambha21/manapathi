@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* project_stock
 # 
@@ -9,12 +9,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 "Last-Translator: דודי מלכה <Dudimalka6@gmail.com>, 2024\n"
-"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
+"Language-Team: Hebrew (https://app.transifex.com/manapathi/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
 
 #. module: project_stock
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_stock/models/project_project.py:0
 #: model:ir.embedded.actions,name:project_stock.project_embedded_action_from_wh
 msgid "From WH"
@@ -35,14 +35,14 @@ msgid "Project"
 msgstr "פרויקט"
 
 #. module: project_stock
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_stock/models/project_project.py:0
 #: model:ir.embedded.actions,name:project_stock.project_embedded_action_all_pickings
 msgid "Stock Moves"
 msgstr "תנועות מלאי"
 
 #. module: project_stock
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_stock/models/project_project.py:0
 #: model:ir.embedded.actions,name:project_stock.project_embedded_action_to_wh
 msgid "To WH"

@@ -1,4 +1,4 @@
-import { Component } from "@odoo/owl";
+import { Component } from "@manapathi/owl";
 
 export class OutOfPaperPopup extends Component {
     static template = "pos_self_order.OutOfPaperPopup";

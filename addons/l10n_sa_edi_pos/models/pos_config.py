@@ -1,5 +1,5 @@
-from odoo import models, _
-from odoo.exceptions import RedirectWarning
+from manapathi import models, _
+from manapathi.exceptions import RedirectWarning
 
 
 class PosConfig(models.Model):

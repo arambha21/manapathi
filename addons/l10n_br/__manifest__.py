@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Brazilian - Accounting',
     'version': '1.0',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/brazil.html',
+    'website': 'https://www.manapathi.com/documentation/master/applications/finance/fiscal_localizations/brazil.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['br'],
     'category': 'Accounting/Localizations/Account Charts',
@@ -38,7 +38,7 @@ Brazilian market.
 Avatax Brazil (l10n_br_avatax)
 ------------------------------
 Add Brazilian tax calculation via Avatax and all necessary fields needed to
-configure Odoo in order to properly use Avatax and send the needed fiscal
+configure Manapathi in order to properly use Avatax and send the needed fiscal
 information to retrieve the correct taxes.
 
 Avatax for SOs in Brazil (l10n_br_avatax_sale)
@@ -49,7 +49,7 @@ Electronic invoicing through Avatax (l10n_br_edi)
 -------------------------------------------------
 Create electronic sales invoices with Avatax.
 """,
-    'author': 'Akretion, Odoo Brasil',
+    'author': 'Akretion, Manapathi Brasil',
     'depends': [
         'account',
         'account_qr_code_emv',

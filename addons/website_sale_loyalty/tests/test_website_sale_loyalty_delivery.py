@@ -1,12 +1,12 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import Command
-from odoo.tests import HttpCase, tagged
+from manapathi import Command
+from manapathi.tests import HttpCase, tagged
 
-from odoo.addons.base.tests.common import DISABLED_MAIL_CONTEXT
-from odoo.addons.website.tools import MockRequest
-from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
-from odoo.addons.website_sale_loyalty.controllers.delivery import WebsiteSaleLoyaltyDelivery
+from manapathi.addons.base.tests.common import DISABLED_MAIL_CONTEXT
+from manapathi.addons.website.tools import MockRequest
+from manapathi.addons.website_sale.tests.common import WebsiteSaleCommon
+from manapathi.addons.website_sale_loyalty.controllers.delivery import WebsiteSaleLoyaltyDelivery
 
 
 @tagged('post_install', '-at_install')

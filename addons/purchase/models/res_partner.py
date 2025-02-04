@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.addons.base.models.res_partner import WARNING_MESSAGE, WARNING_HELP
+from manapathi import api, fields, models, _
+from manapathi.addons.base.models.res_partner import WARNING_MESSAGE, WARNING_HELP
 
 
 class res_partner(models.Model):

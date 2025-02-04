@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields, models, api, _
-from odoo.exceptions import UserError
+from manapathi import fields, models, api, _
+from manapathi.exceptions import UserError
 
 class HrLeave(models.Model):
     _inherit = 'hr.leave'

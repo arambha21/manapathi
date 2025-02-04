@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.website.tests.test_website_visitor import WebsiteVisitorTestsCommon
-from odoo.tests import tagged
+from manapathi.addons.website.tests.test_website_visitor import WebsiteVisitorTestsCommon
+from manapathi.tests import tagged
 
 
 @tagged('website_visitor')

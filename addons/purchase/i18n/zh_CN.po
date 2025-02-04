@@ -1,22 +1,22 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
 # Translators:
 # Martin Trigaux, 2024
-# Wil Odoo, 2024
-# Odoo哥 <vnsoft.he@gmail.com>, 2024
+# Wil Manapathi, 2024
+# Manapathi哥 <vnsoft.he@gmail.com>, 2024
 # Chill Liao <chill421@qq.com>, 2024
 # Chloe Wang, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Chloe Wang, 2025\n"
-"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/manapathi/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -47,19 +47,19 @@ msgid "# of Lines"
 msgstr "明细行数"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(product)s from %(original_receipt_date)s to %(new_receipt_date)s"
 msgstr " %(product)s从%(original_receipt_date)s到%(new_receipt_date)s。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(vendor)s confirmed the receipt will take place on %(date)s."
 msgstr "%(vendor)s确认将于%(date)s收货。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%s modified receipt dates for the following products:"
 msgstr "%s修改以下产品的收货日期："
@@ -557,7 +557,7 @@ msgid ""
 msgstr "一揽子采购订单是买方与供应商之间的采购协议，供应商在一段时间内以预设价格向买方交付货物或服务。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "A sample email has been sent to %s."
 msgstr "一封电子邮件已发送到%s."
@@ -575,7 +575,7 @@ msgid ""
 msgstr "能够在采购订单中选择包裹类型，并强制要求数量为每包单位数的倍数。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Accept"
@@ -663,7 +663,7 @@ msgid "Add several variants to the purchase order from a grid"
 msgstr "在采购订单中用网格方式添加几个变体"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Add some products or services to your quotation."
 msgstr "在您的报价中添加一些产品或服务。"
@@ -675,7 +675,7 @@ msgid "Add to PO"
 msgstr "添加到采购订单"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Add to Purchase Order"
 msgstr "添加到采购订单"
@@ -686,31 +686,31 @@ msgid "Administrator"
 msgstr "管理员"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "All"
 msgstr "全部"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Draft RFQs"
 msgstr "所有草稿询价"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Late RFQs"
 msgstr "所有迟到询价"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All RFQs"
 msgstr "所有询价"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Waiting RFQs"
 msgstr "所有等待的询价"
@@ -843,7 +843,7 @@ msgid "Average Cost"
 msgstr "平均成本"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Avg Order Value"
 msgstr "平均订单价值"
@@ -864,7 +864,7 @@ msgid "Bill Lines"
 msgstr "账单明细行"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Bill Matching"
 msgstr "账单匹配"
@@ -946,7 +946,7 @@ msgid "Cancel"
 msgstr "取消"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__cancel
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__cancel
@@ -959,7 +959,7 @@ msgid "Cancelled Purchase Order #"
 msgstr "取消采购订单#"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Cannot delete a purchase order line which is in state “%s”."
 msgstr "无法删除处于“%s”状态的采购订单明细。"
@@ -1016,7 +1016,7 @@ msgid "Company Total"
 msgstr "公司总计"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Compose Email"
 msgstr "撰写邮件"
@@ -1052,7 +1052,7 @@ msgid "Confirm purchase orders in one step"
 msgstr "一步确认采购订单"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Confirm your purchase."
 msgstr "确认您的采购。"
@@ -1179,7 +1179,7 @@ msgid "Date Calendar Start"
 msgstr "日期日历开始"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Date Updated"
 msgstr "日期已更新"
@@ -1190,7 +1190,7 @@ msgid "Date:"
 msgstr "日期："
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Days"
 msgstr "天"
@@ -1318,13 +1318,13 @@ msgid "Double validation amount"
 msgstr "再次验证金额"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid "Down Payment (ref: %(ref)s)"
 msgstr "首付（参考：%(ref)s）"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Down Payments"
 msgstr "预付款"
@@ -1343,8 +1343,8 @@ msgstr "草稿询价"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
-"quotations in Odoo. Enjoy the automation!"
-msgstr "将报价请求 PDF 文件拖放到 Odoo 中的报价列表中。享受自动化！"
+"quotations in Manapathi. Enjoy the automation!"
+msgstr "将报价请求 PDF 文件拖放到 Manapathi 中的报价列表中。享受自动化！"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
@@ -1363,7 +1363,7 @@ msgid "Extended Filters"
 msgstr "扩展筛选"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Extra line with %s "
 msgstr "更多明细 %s"
@@ -1405,13 +1405,13 @@ msgid "Forbidden values on non-accountable purchase order line"
 msgstr "禁止在不可计算的采购订单明细项上有值"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From %s"
 msgstr "从%s"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From Electronic Document"
 msgstr "来自电子文档"
@@ -1520,19 +1520,19 @@ msgid "If true, the packaging can be used for purchase orders"
 msgstr "如果为真，包装可用于采购订单"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Import Template for Products"
 msgstr "导入模板-产品"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "In order to delete a purchase order, you must cancel it first."
 msgstr "要删除采购订单，你必须先取消它。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "In selected purchase order to merge these details must be same\n"
@@ -1552,7 +1552,7 @@ msgid "Incoterm"
 msgstr "国际贸易术语"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Indicate the product quantity you want to order."
 msgstr "指明您要订购的产品数量。"
@@ -1621,7 +1621,7 @@ msgid "Last Updated on"
 msgstr "上次更新日期"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Late"
 msgstr "迟到"
@@ -1638,19 +1638,19 @@ msgid "Late RFQs"
 msgstr "迟到的询价"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Lead Time to Purchase"
 msgstr "采购预计时间"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Let's create your first request for quotation."
 msgstr "让我们为您创建第一份报价单。"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Let's try the Purchase app to manage the flow from purchase to reception and"
@@ -1693,7 +1693,7 @@ msgid "Lock Confirmed Orders"
 msgstr "锁定已确认的订单"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__done
 msgid "Locked"
@@ -1796,13 +1796,13 @@ msgid "My Activity Deadline"
 msgstr "我的活动截止时间"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Draft RFQs"
 msgstr "我的草稿询价"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Late RFQs"
 msgstr "我迟到的询价"
@@ -1818,19 +1818,19 @@ msgid "My Purchases"
 msgstr "我的采购单"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My RFQs"
 msgstr "我的询价"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Waiting RFQs"
 msgstr "我等待中的询价"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Name"
 msgstr "名称"
@@ -1841,7 +1841,7 @@ msgid "Name, TIN, Email, or Reference"
 msgstr "名称, 税号, 邮箱, 或 参考"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Newest"
 msgstr "最新"
@@ -1909,8 +1909,8 @@ msgstr "未通知"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Not using Odoo?"
-msgstr "没有使用 Odoo？"
+msgid "Not using Manapathi?"
+msgstr "没有使用 Manapathi？"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_note
@@ -1956,8 +1956,8 @@ msgstr "发送错误的消息的数量"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -1980,7 +1980,7 @@ msgid "On received quantities"
 msgstr "收到数量"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Once you get the price from the vendor, you can complete the purchase order "
@@ -1995,7 +1995,7 @@ msgid ""
 msgstr "一旦您向供应商订购了产品，请确认您的报价请求，它将变成采购订单。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Operation not supported"
 msgstr "操作不支持"
@@ -2057,7 +2057,7 @@ msgid "Orders"
 msgstr "订单"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Order due %(date)s"
 msgstr "订单 到期日 %(date)s"
@@ -2105,7 +2105,7 @@ msgid "Payment terms"
 msgstr "付款条款"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Please select at least two purchase orders with state RFQ and RFQ sent to "
@@ -2133,7 +2133,7 @@ msgid "Price"
 msgstr "价格"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/product_catalog/purchase_order_line/purchase_order_line.xml:0
 msgid "Price:"
 msgstr "价格："
@@ -2286,7 +2286,7 @@ msgid "Purchase History"
 msgstr "采购历史"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Purchase History for %s"
@@ -2304,13 +2304,13 @@ msgid "Purchase Line and Vendor Bill line matching view"
 msgstr "采购行和供应商账单行匹配视图"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "Purchase Matching"
 msgstr "采购配对"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.action_report_purchase_order
@@ -2406,7 +2406,7 @@ msgid "Purchase Order Warning"
 msgstr "采购订单预警"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/analytic_account.py:0
 #: model:ir.actions.act_window,name:purchase.purchase_form_action
 #: model:ir.ui.menu,name:purchase.menu_purchase_form_action
@@ -2477,7 +2477,7 @@ msgid "Purchased"
 msgstr "已采购"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Purchased Last 7 Days"
 msgstr "最近7天的采购"
@@ -2581,13 +2581,13 @@ msgid "RFQ Sent"
 msgstr "发送询价"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
 msgstr "RFQ 与%(oldest_rfq_name)s和%(cancelled_rfq)s合并"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %s"
 msgstr "RfQ 已与%s合并"
@@ -2598,7 +2598,7 @@ msgid "RFQs"
 msgstr "询价"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "RFQs Sent Last 7 Days"
 msgstr "过去7日发送的询价"
@@ -2732,7 +2732,7 @@ msgid "Reporting"
 msgstr "报表"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.report_purchase_quotation
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -2800,7 +2800,7 @@ msgid "Search Reference Document"
 msgstr "搜索文档引用"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Search a vendor name, or create one on the fly."
 msgstr "搜索供应商名称，或动态创建一个供应商名称。"
@@ -2826,13 +2826,13 @@ msgid "Security Token"
 msgstr "安全令牌"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Select Vendor Bill lines to add to a Purchase Order"
 msgstr "选择要添加到采购订单的供应商账单行"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Select a product, or create a new one on the fly."
 msgstr "选择一个产品，或者直接创建。"
@@ -2879,7 +2879,7 @@ msgid "Send by Email"
 msgstr "通过EMail发送"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Send the request for quotation to your vendor."
 msgstr "向供应商发送报价请求。"
@@ -2945,8 +2945,8 @@ msgstr "星标消息"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Start on Odoo"
-msgstr "开始使用 Odoo"
+msgid "Start on Manapathi"
+msgstr "开始使用 Manapathi"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__state
@@ -3086,25 +3086,25 @@ msgstr ""
 "可以使用该字段进行快速搜索。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been acknowledged by %s."
 msgstr "%s已确认询价。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been declined by %s."
 msgstr "%s已拒绝询价。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been acknowledged by %s."
 msgstr "订单收据已由%s确认。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been declined by %s."
 msgstr "订单收据已被%s拒绝。"
@@ -3118,7 +3118,7 @@ msgid ""
 msgstr "询价单是采购流程的第一步。一旦转换为采购订单，你就能操作相关的收货单和供应商发票。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
@@ -3136,14 +3136,14 @@ msgid "There are currently no requests for quotation for your account."
 msgstr "您的账户目前没有报价要求。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid ""
 "There are no products to add to the Purchase Order. Are these Down Payments?"
 msgstr "没有可添加到采购订单中的产品。这些是首付款吗？"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "There is no invoiceable line. If a product has a control policy based on "
@@ -3181,7 +3181,7 @@ msgid "This note is added to purchase orders."
 msgstr "此备注将添加到采购订单中."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should "
@@ -3189,13 +3189,13 @@ msgid ""
 msgstr "这个产品是由%(pack_size).2f%(pack_name)s包裹的。您应该采购%(quantity).2f。%(unit)s."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been created from: "
 msgstr "该供应商账单创建于："
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been modified from: "
 msgstr "该供应商账单修改于："
@@ -3230,7 +3230,7 @@ msgid "To Invoice Quantity"
 msgstr "结算单数量"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "To Send"
 msgstr "发送"
@@ -3242,7 +3242,7 @@ msgid "Today Activities"
 msgstr "今日活动"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_total
@@ -3323,7 +3323,7 @@ msgid "Type of the exception activity on record."
 msgstr "记录中异常活动的类型。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Unable to cancel purchase order(s): %s. You must first cancel their related "
@@ -3405,7 +3405,7 @@ msgid "UoM"
 msgstr "计量单位"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Update Dates"
 msgstr "更新日期"
@@ -3454,7 +3454,7 @@ msgid "Vendor Bill"
 msgstr "供应商账单"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Vendor Bill lines can only be added to one Purchase Order."
 msgstr "供应商账单行只能添加到一张采购订单中。"
@@ -3493,13 +3493,13 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Manapathi."
 msgstr ""
 "供应商发票能根据销售订单或者收货单预先生成\n"
 "这能帮助你用系统生成的草稿发票和你从供应商那边得到的发票进行比对。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View"
 msgstr "视图"
@@ -3510,13 +3510,13 @@ msgid "View Details"
 msgstr "查看详情"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Order"
 msgstr "查看订单"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Quotation"
 msgstr "查看报价单"
@@ -3527,7 +3527,7 @@ msgid "Volume"
 msgstr "体积"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Waiting"
 msgstr "正在等待"
@@ -3545,11 +3545,11 @@ msgstr "等待中的询价"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Want to import this document in Odoo?"
-msgstr "想在 Odoo 中导入此文档？"
+msgid "Want to import this document in Manapathi?"
+msgstr "想在 Manapathi 中导入此文档？"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__warning
 #: model:ir.model.fields.selection,name:purchase.selection__res_partner__purchase_warn__warning
@@ -3557,7 +3557,7 @@ msgid "Warning"
 msgstr "警告"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Warning for %s"
@@ -3596,22 +3596,22 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, Manapathi will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
-"创建采购订单时，请查看供应商的<i>准时交货</i>率：准时发货产品的百分比。如果太低，请激活<i>自动提醒</i>功能。在到期发货前几天，Odoo "
+"创建采购订单时，请查看供应商的<i>准时交货</i>率：准时发货产品的百分比。如果太低，请激活<i>自动提醒</i>功能。在到期发货前几天，Manapathi "
 "会向供应商发送电子邮件，要求确认发货日期，并在出现任何延误时通知您。要获取供应商的业绩统计数据，请点击 \"OTD 率\"。"
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Manapathi asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"通过电子邮件发送采购订单时，Odoo "
+"通过电子邮件发送采购订单时，Manapathi "
 "会要求供应商确认收到订单。当供应商点击电子邮件中的按钮确认订单时，相关信息就会添加到采购订单中。使用筛选器跟踪尚未确认的订单。"
 
 #. module: purchase
@@ -3621,13 +3621,13 @@ msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
 msgstr "你可以通过它的名字，TIN，电子邮件或内部参考找到一个客户。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "You can't select lines from multiple Vendor Bill to do the matching."
 msgstr "您无法从多个供应商账单中选择行来进行匹配。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "You cannot change the type of a purchase order line. Instead you should "
@@ -3658,14 +3658,14 @@ msgstr ""
 "不论它是可库存的产品，可消耗的产品或者服务产品。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid ""
 "You must select at least one Purchase Order line to match or create bill."
 msgstr "您必须至少选择一个采购订单明细来匹配或创建账单。"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
@@ -3690,7 +3690,7 @@ msgid "or create new"
 msgstr "或创建新的"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "purchase orders merged"
 msgstr "合并采购订单"

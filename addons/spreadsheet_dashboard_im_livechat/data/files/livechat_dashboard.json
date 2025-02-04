@@ -624,7 +624,7 @@
   ],
   "lists": {},
   "listNextId": 1,
-  "chartOdooMenusReferences": {
+  "chartManapathiMenusReferences": {
     "57b7bb2f-2b24-435a-83de-d56a0452ac10": "im_livechat.menu_livechat_root",
     "876d7cf5-21ea-441e-b4fd-08556365cb8a": "im_livechat.menu_livechat_root",
     "082454d7-d797-48a6-8db5-9182050a8c55": "im_livechat.menu_reporting_livechat_channel",

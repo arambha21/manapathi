@@ -1,7 +1,7 @@
 import io
 
-from odoo import models
-from odoo.tools.pdf import OdooPdfFileReader, OdooPdfFileWriter
+from manapathi import models
+from manapathi.tools.pdf import ManapathiPdfFileReader, ManapathiPdfFileWriter
 
 
 class IrActionsReport(models.Model):
@@ -25,8 +25,8 @@ class IrActionsReport(models.Model):
             pdf_stream = collected_streams[purchase_order.id]['stream']
             pdf_content = pdf_stream.getvalue()
             reader_buffer = io.BytesIO(pdf_content)
-            reader = OdooPdfFileReader(reader_buffer, strict=False)
-            writer = OdooPdfFileWriter()
+            reader = ManapathiPdfFileReader(reader_buffer, strict=False)
+            writer = ManapathiPdfFileWriter()
             writer.cloneReaderDocumentRoot(reader)
             for builder in builders:
                 xml_content = builder._export_order(purchase_order)

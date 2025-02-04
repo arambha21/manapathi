@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Tony Ng, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Tony Ng, 2024\n"
-"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/manapathi/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,13 +21,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid " Flag"
 msgstr "標幟"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid " Flagged"
 msgstr "已標幟"
@@ -55,128 +55,128 @@ msgid "# Views"
 msgstr "瀏覽次數"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to accept or refuse an answer."
 msgstr "需要有%d 活躍點才可接受或拒絕答案。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to answer a question."
 msgstr "回答問題需要 %d 活躍點數"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to close or reopen a post."
 msgstr "關閉或重新打開貼文需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to comment."
 msgstr "需要有%d 活躍點才可發表評論。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to convert a comment to an answer."
 msgstr "將評論轉換為答案需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to convert an answer to a comment."
 msgstr "將答案轉換為評論需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to convert your comment to an answer."
 msgstr "將您的評論轉換為答案需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_tag.py:0
 msgid "%d karma required to create a new Tag."
 msgstr "建立新標籤需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to create a new question."
 msgstr "建立新問題需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to delete a comment."
 msgstr "刪除評論需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to delete or reactivate a post."
 msgstr "刪除或重新啟動貼文需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "%d karma required to downvote."
 msgstr "需要有%d 活躍點才可給予負評。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to edit a post."
 msgstr "編輯貼文需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to flag a post."
 msgstr "舉報貼文需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to mark a post as offensive."
 msgstr "需要有%d 活躍點數才可標記貼文為冒犯內容。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to post an image or link."
 msgstr "發佈圖片或連結需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to refuse a post."
 msgstr "需要有%d 活躍點才可拒絕貼文。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to retag."
 msgstr "重新標記需要 %d 活躍點數"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to unlink a post."
 msgstr "取消連結貼文需要 %d 活躍點數。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "%d karma required to upvote."
 msgstr "需要 %d 活躍點數才能投票。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to validate a post."
 msgstr "驗證貼文所需的 %d 活躍點數。"
@@ -187,13 +187,13 @@ msgid "&amp;nbsp;"
 msgstr "&amp;nbsp;"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "'Please enter 2 or more characters'"
 msgstr "'請輸入 2 個或更多字元'"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "'Tags'"
 msgstr "'Tags'"
@@ -215,13 +215,13 @@ msgid "/ (days + 2) **"
 msgstr "/(天數 +2) **"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "45% of questions shared"
 msgstr "45% of 問題被分享"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "65% more chance to get an\n"
@@ -767,7 +767,7 @@ msgid "Accepted Answer"
 msgstr "接受的答案"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Accepted answer removed"
 msgstr "獲接納答案已刪除"
@@ -778,7 +778,7 @@ msgid "Accepting an answer"
 msgstr "接受一個答案"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Access Denied"
 msgstr "存取被拒絕"
@@ -822,7 +822,7 @@ msgid ""
 msgstr "發帖後，使用者將提議分享其問題或社交網路上的回答，使論壇內容以社會化網路傳播。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_model_nav
 msgid "All"
@@ -849,13 +849,13 @@ msgid "Animation of a pen checking a checkbox"
 msgstr "用筆勾選方格的動畫"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "Answer %s"
 msgstr "答案 %s"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 #: model:mail.message.subtype,description:website_forum.mt_answer_edit
 #: model:mail.message.subtype,name:website_forum.mt_answer_edit
@@ -965,7 +965,7 @@ msgid "Archived"
 msgstr "已封存"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Are you sure you want to delete this comment?"
 msgstr "確定要刪除此留言？"
@@ -976,13 +976,13 @@ msgid "As a moderator, you can either validate or reject this answer."
 msgstr "作為版主，你可批准或拒絕此答案。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Ask a new question"
 msgstr "提問新問題"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Ask a question"
 msgstr "提問"
@@ -1082,19 +1082,19 @@ msgid "Back to Question"
 msgstr "回到問題"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Bad \"filters\" value \"%(filters)s\"."
 msgstr "filters 篩選值「%(filters)s」不當。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Bad \"tag_char\" value \"%(tag_char)s\""
 msgstr "tag_char 的值「%(tag_char)s」不當。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Bad Request"
 msgstr "無效請求"
@@ -1120,7 +1120,7 @@ msgid "Best Answer"
 msgstr "最佳答案"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "By sharing you answer, you will get additional"
 msgstr "共享您的回答後，如果該回答被選為正確回答，將得到額外的貢獻度點數"
@@ -1212,25 +1212,25 @@ msgid "Chief Commentator"
 msgstr "首席評論員"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click here to accept this answer."
 msgstr "點選這裡以接受回答。"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to post your answer."
 msgstr "點選貼出您的答案。"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to post your question."
 msgstr "點選以貼出您的問題。"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to reply."
 msgstr "按下以回覆。"
@@ -1399,7 +1399,7 @@ msgid "Create a new forum post"
 msgstr "建立新的論壇貼文"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Create a new post in this forum by clicking on the button."
 msgstr "點選按鈕在此論壇中建立新貼文。"
@@ -1422,7 +1422,7 @@ msgid "Create new tags"
 msgstr "建立新標籤"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "Create option \""
 msgstr "建立選項 \""
@@ -1493,7 +1493,7 @@ msgid "Define the visibility of the challenge through menus"
 msgstr "通過選單定義的可見性挑戰"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 #: model_terms:ir.ui.view,arch_db:website_forum.moderation_queue
 #: model_terms:ir.ui.view,arch_db:website_forum.post_comment
@@ -1522,7 +1522,7 @@ msgid "Delete own posts"
 msgstr "刪除自己的貼文"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Delete the accepted answer"
 msgstr "刪除已接納答案"
@@ -1577,7 +1577,7 @@ msgid "Discussions (multiple answers)"
 msgstr "討論（多個答案）"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid "Dismiss"
@@ -1609,7 +1609,7 @@ msgid "Downvote"
 msgstr "負評"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Downvote for posting offensive contents"
 msgstr "對冒犯內容給予負評"
@@ -1699,7 +1699,7 @@ msgstr ""
 "                            <i class=\"fa fa-question-circle\"/>"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "Facebook"
@@ -1852,7 +1852,7 @@ msgstr ""
 "2 分。在同一天內，一個問題或答案最多可以累積 200 分。有關各類版主審批權限的最低信譽積分要求，請見文末列表。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/website.py:0
 #: model:ir.actions.act_url,name:website_forum.action_open_forum
 #: model:ir.model,name:website_forum.model_forum_forum
@@ -1939,7 +1939,7 @@ msgid "Get notified when this tag is used"
 msgstr "有人使用此標籤時，接收通知"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Give your post title."
 msgstr "給出你的貼文主題。"
@@ -2157,7 +2157,7 @@ msgid "Inappropriate and unacceptable statements"
 msgstr "不恰當和不可接受的陳述"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Insert tags related to your question."
 msgstr "插入標籤到和您有關的問題。"
@@ -2195,19 +2195,19 @@ msgid "Is the author's biography visible from his post"
 msgstr "作者的簡介在其貼文是否可見"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "It is not allowed to modify someone else's vote."
 msgstr "不允許修改他人的投票。"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "It is not allowed to vote for its own post."
 msgstr "不能給自己的貼子投票。"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Karma Error"
 msgstr "活躍點數錯誤"
@@ -2300,7 +2300,7 @@ msgid "Link to questions with the tag"
 msgstr "前往附有此標籤的其他問題的連結"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "LinkedIn"
@@ -2563,7 +2563,7 @@ msgid "Offensive"
 msgstr "冒犯"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Offensive Post"
 msgstr "冒犯帖文"
@@ -2574,13 +2574,13 @@ msgid "Offensive Posts"
 msgstr "冒犯帖文"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Oh no! Please <a href=\"%s\">sign in</a> to perform this action"
 msgstr "哎唷！請<a href=\"%s\">登入</a>以執行此操作"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "On average,"
 msgstr "平均,"
@@ -2688,13 +2688,13 @@ msgid "Post Your Question"
 msgstr "提交您的問題"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Post is closed and marked as offensive content"
 msgstr "帖文已關閉，並標記為冒犯內容"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Post is closed and marked as spam"
 msgstr "帖文已關閉，並標記為垃圾內容"
@@ -2715,7 +2715,7 @@ msgid "Posted 100 comments"
 msgstr "張貼的100個評論"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Posting answer on a [Deleted] or [Closed] question is not possible."
 msgstr "張貼回答在[刪除]或[關閉]的問題是不可能的。"
@@ -2757,13 +2757,13 @@ msgid "Pundit"
 msgstr "權威人士"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Put your answer here."
 msgstr "在這裡放置您的回答。"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Put your question here."
 msgstr "在這裡放置您的問題。"
@@ -2775,13 +2775,13 @@ msgid "Question"
 msgstr "提問"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "Question %s"
 msgstr "問題 %s"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 #: model:mail.message.subtype,description:website_forum.mt_question_edit
 #: model:mail.message.subtype,name:website_forum.mt_question_edit
@@ -2814,7 +2814,7 @@ msgid "Question set as favorite by 5 users"
 msgstr "問題被5個使用者最愛"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Question should not be empty."
 msgstr "問題不應為空。"
@@ -2881,7 +2881,7 @@ msgid "Ratings"
 msgstr "評分"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Re: %s"
 msgstr "回答: %s"
@@ -2939,7 +2939,7 @@ msgid "Relevance Computation"
 msgstr "相關度計算"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Remove validated answer"
 msgstr "移除已批准答案"
@@ -2952,7 +2952,7 @@ msgid "Reopen"
 msgstr "重新打開"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Reopen a banned question"
 msgstr "重開已封禁問題"
@@ -2970,7 +2970,7 @@ msgid "Reply"
 msgstr "回覆"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Reply should not be empty."
 msgstr "回答不應為空"
@@ -3038,7 +3038,7 @@ msgid "Second Relevance Parameter"
 msgstr "第二關聯參數"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/res_users.py:0
 msgid "See our Forum"
 msgstr "看看我們的討論區"
@@ -3078,7 +3078,7 @@ msgid "Sequence"
 msgstr "序列號"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid ""
@@ -3087,7 +3087,7 @@ msgid ""
 msgstr "分享和討論最好的內容及新的營銷理念，建立你的專業個人檔案，一起成為更好的營銷人員。"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "Share this content to increase your chances to be featured on the front page"
@@ -3110,7 +3110,7 @@ msgid "Showing results for"
 msgstr "顯示結果"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_sign_up_cta
@@ -3160,13 +3160,13 @@ msgid "Sorry, we could not find any results"
 msgstr "對不起，找不到任何結果"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Sorry, you cannot select your own posts as best answer"
 msgstr "對不起，不可選擇自己的貼文為最佳答案"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Sorry, you cannot vote for your own posts"
 msgstr "對不起，您不能給自己的貼文投票"
@@ -3265,13 +3265,13 @@ msgid "Teaser"
 msgstr "預告"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "Thanks for posting!"
 msgstr "謝謝張貼！"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "The accepted answer is deleted"
 msgstr "獲採納答案已被刪除"
@@ -3282,8 +3282,8 @@ msgstr "獲採納答案已被刪除"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
-msgstr "該站點的目標是建立一個相關的知識庫，以回答與 Odoo 相關的問題。"
+"questions related to Manapathi."
+msgstr "該站點的目標是建立一個相關的知識庫，以回答與 Manapathi 相關的問題。"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -3353,13 +3353,13 @@ msgid "This forum has been archived."
 msgstr "這個論壇已經歸檔了。"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "This post can not be flagged"
 msgstr "這個貼文不能被標示"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "This post is already flagged"
 msgstr "這個貼文已經被標示"
@@ -3412,7 +3412,7 @@ msgid "Title must not be empty"
 msgstr "主題不能為空"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Title should not be empty."
 msgstr "主題不可為空。"
@@ -3478,7 +3478,7 @@ msgid "Track Karma Changes"
 msgstr "跟踪活躍度變化"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "Twitter"
@@ -3567,7 +3567,7 @@ msgid "User"
 msgstr "使用者"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "User answer accepted"
 msgstr "用戶答案已獲採納"
@@ -3585,7 +3585,7 @@ msgid "Validate"
 msgstr "批准"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Validate an answer"
 msgstr "批准答案"
@@ -3704,7 +3704,7 @@ msgid "Welcome Message"
 msgstr "歡迎訊息"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid "Welcome!"
@@ -3737,7 +3737,7 @@ msgid "You already have a pending post"
 msgstr "你已經有一個待處理的貼文"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "You can share your question once it has been validated"
 msgstr "當發問得到驗證，您就可以分享您的問題"
@@ -3748,7 +3748,7 @@ msgid "You can't vote for your own post"
 msgstr "不可對自己帖文給予正負評"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "You cannot create recursive forum posts."
 msgstr "不能建立遞歸論壇貼文。"
@@ -3879,7 +3879,7 @@ msgid "downvote"
 msgstr "負評"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "downvoted"
 msgstr "已負評"
@@ -3938,7 +3938,7 @@ msgid "has been posted. Click here to access the question :"
 msgstr "新答案已發佈。點選此處進入問題："
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "here"
 msgstr "這裡"
@@ -3946,8 +3946,8 @@ msgstr "這裡"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
-msgstr "如何為特定的業務需求配置或自訂Odoo,"
+msgid "how to configure or customize Manapathi to specific business needs,"
+msgstr "如何為特定的業務需求配置或自訂Manapathi,"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -3958,11 +3958,11 @@ msgstr "如何為您的需求開發模組,"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "如何在特定環境下安裝Odoo,"
+msgid "how to install Manapathi on a specific infrastructure,"
+msgstr "如何在特定環境下安裝Manapathi,"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "if your\n"
@@ -3998,13 +3998,13 @@ msgid "it is a rant disguised as a question: “______ sucks, am I right?”"
 msgstr "這是偽裝成問題的抱怨：“______ 糟透了，我說得對嗎？”"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "karma is required to perform this action. "
 msgstr "貢獻值才可執行此操作。"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "karma points"
 msgstr "貢獻度點數"
@@ -4015,19 +4015,19 @@ msgid "matching \""
 msgstr "匹配中 #"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "no changes"
 msgstr "沒有變更"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "no more downvoted"
 msgstr "沒有其他負評內容"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "no more upvoted"
 msgstr "沒有其他正評內容"
@@ -4040,7 +4040,7 @@ msgid "on"
 msgstr "於"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "on social networks get an answer within\n"
@@ -4064,8 +4064,8 @@ msgstr "帖文"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
-msgstr "有關Odoo服務等具體問題等。"
+msgid "specific questions about Manapathi service offers, etc."
+msgstr "有關Manapathi服務等具體問題等。"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -4091,7 +4091,7 @@ msgid "upvote, add comments"
 msgstr "支援，添加註釋"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "upvoted"
 msgstr "已正評"
@@ -4112,8 +4112,8 @@ msgstr "我們被問到一個開放式的假設性問題：“如果______發生
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
-msgstr "什麼是為特定業務需求使用Odoo 的最佳方式,"
+msgid "what's the best way to use Manapathi for a specific business need,"
+msgstr "什麼是為特定業務需求使用Manapathi 的最佳方式,"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.author_box

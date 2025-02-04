@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import _, fields, models
-from odoo.exceptions import ValidationError
-from odoo.addons.l10n_in.models.iap_account import IAP_SERVICE_NAME
+from manapathi import _, fields, models
+from manapathi.exceptions import ValidationError
+from manapathi.addons.l10n_in.models.iap_account import IAP_SERVICE_NAME
 
 
 class ResConfigSettings(models.TransientModel):

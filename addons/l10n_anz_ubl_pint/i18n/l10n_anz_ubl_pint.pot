@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* l10n_anz_ubl_pint
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e\n"
+"Project-Id-Version: Manapathi Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-30 08:44+0000\n"
 "PO-Revision-Date: 2024-09-30 08:44+0000\n"
@@ -39,7 +39,7 @@ msgid "PINT Australia & New Zealand"
 msgstr ""
 
 #. module: l10n_anz_ubl_pint
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_anz_ubl_pint/models/account_edi_xml_pint_anz.py:0
 #, python-format
 msgid ""
@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_anz_ubl_pint
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_anz_ubl_pint/models/account_edi_xml_pint_anz.py:0
 #, python-format
 msgid ""
@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_anz_ubl_pint
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_anz_ubl_pint/models/account_edi_xml_pint_anz.py:0
 #, python-format
 msgid ""

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* event
 # 
@@ -6,15 +6,15 @@
 # Tiffany Chang, 2024
 # Sarah Park, 2024
 # Daye Jeong, 2025
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Manapathi, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -194,9 +194,9 @@ msgstr "<b>비지니스실</b> - 구현 방법론, 베스트 영업 관행 등�
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
+"<b>Technical Rooms</b> - One dedicated to advanced Manapathi developers, one for "
 "new developers."
-msgstr "<b>기술실</b> -고급 Odoo 개발자 전용, 새로운 개발자 용."
+msgstr "<b>기술실</b> -고급 Manapathi 개발자 전용, 새로운 개발자 용."
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -1964,11 +1964,11 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"became Manapathi, the most installed open-source business software worldwide."
 msgstr ""
 "13 살 때 John DOE는 이미 고객을 위한 첫 번째 비즈니스 응용 프로그램을 개발하기 시작했습니다. 토목 공학을 습득 한 후 "
 "TinyERP를 설립했습니다. 이것은 OpenERP의 첫 번째 단계였으며 이후에는 전 세계에서 가장 많이 설치된 오픈 소스 비즈니스 "
-"소프트웨어인 Odoo가 되었습니다."
+"소프트웨어인 Manapathi가 되었습니다."
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_attachment_count
@@ -2914,9 +2914,9 @@ msgstr "라이브 음악, 현지 음식 및 음료를 경험하십시오."
 #. module: event
 #: model:event.stage,description:event.event_stage_done
 msgid ""
-"Finished events. Odoo will automatically move them to this stage once their "
+"Finished events. Manapathi will automatically move them to this stage once their "
 "end date has passed."
-msgstr "종료된 이벤트입니다. 종료 날짜가 지나면 Odoo에서 자동으로 이 단계로 이동합니다."
+msgstr "종료된 이벤트입니다. 종료 날짜가 지나면 Manapathi에서 자동으로 이 단계로 이동합니다."
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__fold
@@ -3744,8 +3744,8 @@ msgstr "목표"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
-msgid "Odoo Community Days"
-msgstr "Odoo 커뮤니티 데이"
+msgid "Manapathi Community Days"
+msgstr "Manapathi 커뮤니티 데이"
 
 #. module: event
 #: model_terms:event.event,description:event.event_3

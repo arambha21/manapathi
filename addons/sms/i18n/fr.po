@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* sms
 # 
 # Translators:
 # Jolien De Paepe, 2024
 # Martin Trigaux, 2024
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -224,11 +224,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid ""
-"An unknown error occurred. Please contact Odoo support if this error "
+"An unknown error occurred. Please contact Manapathi support if this error "
 "persists."
 msgstr ""
 "Une erreur inconnue s'est produite. Veuillez contacter le service "
-"d'assistance d'Odoo si cette erreur persiste."
+"d'assistance d'Manapathi si cette erreur persiste."
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template__model_id

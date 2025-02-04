@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* pos_self_order
 # 
 # Translators:
 # Rasareeyar Lappiam, 2024
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
-"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Wil Manapathi, 2024\n"
+"Language-Team: Thai (https://app.transifex.com/manapathi/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -26,7 +26,7 @@ msgid "\"QR codes\""
 msgstr "“QR โค้ด”"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid ""
 "%s is not available anymore, it has thus been removed from your order. "
@@ -36,7 +36,7 @@ msgstr ""
 "โปรดตรวจสอบคำสั่งซื้อของคุณและตรวจสอบความถูกต้องอีกครั้ง"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "/ Tracker number:"
 msgstr "/ หมายเลขติดตาม:"
@@ -86,20 +86,20 @@ msgid "Add images"
 msgstr "เพิ่มรูปภาพ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_info_popup/product_info_popup.xml:0
 msgid "Add to Cart"
 msgstr "เพิ่มในรถเข็น"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "Add to cart"
 msgstr "เพิ่มในรถเข็น"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "All the items will be removed from the cart."
 msgstr "สินค้าทั้งหมดจะถูกลบออกจากรถเข็น"
@@ -115,19 +115,19 @@ msgid "Allow takeout order"
 msgstr "อนุญาติให้สั่งกลับบ้าน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "An error has occurred"
 msgstr "เกิดข้อผิดพลาด"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Any items already sent will not be cancelled"
 msgstr "สินค้าที่ส่งแล้วจะไม่ถูกยกเลิก"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Are you sure you want to cancel this order?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกคำสั่งซื้อนี้"
@@ -143,7 +143,7 @@ msgid "Availability Until"
 msgstr "มีจำหน่ายจนถึง"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_banner/product_info_banner.xml:0
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Available"
@@ -177,7 +177,7 @@ msgid "Available interface languages"
 msgstr "ภาษาอินเทอร์เฟซที่ใช้ได้"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
@@ -187,19 +187,19 @@ msgid "Back"
 msgstr "กลับ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 msgid "Cancel"
 msgstr "ยกเลิก"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Cancel Order"
 msgstr "ยกเลิกคำสั่งซื้อ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.js:0
 msgid "Cancel order"
@@ -224,19 +224,19 @@ msgid "Choose when the customer will pay"
 msgstr "เลือกเวลาที่ลูกค้าจะชำระเงิน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 msgid "Choose your"
 msgstr "เลือก"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 msgid "Choose your eating location"
 msgstr "เลือกสถานที่รับประทานอาหารของคุณ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/out_of_paper_popup/out_of_paper_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Close"
@@ -248,7 +248,7 @@ msgid "Close Session"
 msgstr "ปิดเซสชั่น"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Combo"
 msgstr "คำสั่งผสม"
@@ -264,25 +264,25 @@ msgid "Config Settings"
 msgstr "ตั้งค่าการกำหนดค่า"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Connection lost, please try again later"
 msgstr "การเชื่อมต่อขาดหายไป โปรดลองอีกครั้งในภายหลัง"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/timeout_popup/timeout_popup.xml:0
 msgid "Continue"
 msgstr "ต่อไป"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Continue with table"
 msgstr ""
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Could you please confirm your table number?"
 msgstr "คุณช่วยยืนยันหมายเลขโต๊ะของคุณหน่อยได้ไหม?"
@@ -298,7 +298,7 @@ msgid "Created on"
 msgstr "สร้างเมื่อ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.js:0
 msgid "Current"
 msgstr "ปัจจุบัน"
@@ -361,7 +361,7 @@ msgid "Disable"
 msgstr "ปิดการใช้งาน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/components/language_popup/language_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
@@ -380,13 +380,13 @@ msgid "Download QR Codes"
 msgstr "ดาวน์โหลดรหัส QR โค้ด"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Download your receipt here"
 msgstr "ดาวน์โหลดใบเสร็จของคุณที่นี่"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Each Order"
 msgstr "การสั่งซื้อแต่ละครั้ง"
@@ -401,19 +401,19 @@ msgstr ""
 "                    ทั้งชื่อจุดขายและชื่อตารางได้รับการเข้ารหัสใน URL ที่สร้างขึ้น แสดงในตัวอย่างด้านล่าง:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 msgid "Eat In"
 msgstr "รับประทานที่ร้าน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Edit"
 msgstr "แก้ไข"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/attribute_selection/attribute_selection.xml:0
 msgid "Enter your custom value"
 msgstr "ป้อนค่าที่กำหนดเองของคุณ"
@@ -436,19 +436,19 @@ msgid "Fiscal Position"
 msgstr "ฐานะทางการเงิน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/payment_page/payment_page.xml:0
 msgid "Follow instructions on the terminal"
 msgstr "ปฏิบัติตามคำแนะนำบนเทอร์มินัล"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Generic"
 msgstr "ค่าทั่วไป"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Get a tracker and enter its number here"
 msgstr "รับเครื่องติดตามและป้อนหมายเลขที่นี่"
@@ -464,7 +464,7 @@ msgid "Has paper"
 msgstr ""
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_index.xml:0
 msgid ""
 "Hey, looks like you forgot to create products or add them to pos_config. "
@@ -479,7 +479,7 @@ msgid "Home buttons"
 msgstr "ปุ่มหน้าแรก"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Hope you enjoyed your meal!"
 msgstr "หวังว่าคุณจะเพลิดเพลินกับมื้ออาหารของคุณ!"
@@ -523,7 +523,7 @@ msgid "Image to display on the self order screen"
 msgstr "รูปภาพที่จะแสดงบนหน้าจอการสั่งซื้อด้วยตนเอง"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid ""
 "In Self-Order mode, you must have at least one table to generate QR codes"
@@ -542,7 +542,7 @@ msgid "Info"
 msgstr "ข้อมูล"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/timeout_popup/timeout_popup.xml:0
 msgid ""
 "It seems there hasn't been any activity on this kiosk. Would you like to "
@@ -550,7 +550,7 @@ msgid ""
 msgstr "ดูเหมือนว่าจะไม่มีกิจกรรมบนคีออสก์นี้ คุณต้องการดำเนินการต่อหรือไม่"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 #: model:ir.actions.act_window,name:pos_self_order.action_pos_self_order_search_view
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__self_ordering_mode__kiosk
@@ -595,7 +595,7 @@ msgid "Light"
 msgstr "อ่อน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Loading..."
@@ -620,7 +620,7 @@ msgstr ""
 "                ด้วยรหัส QR โค้ดบนโต๊ะของคุณได้อย่างง่ายดาย"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Meal"
 msgstr "มื้อ"
@@ -636,25 +636,25 @@ msgid "Mobile self-order & Kiosk"
 msgstr "สั่งซื้อด้วยตนเองผ่านมือถือและคีออสก์"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/landing_page/landing_page.xml:0
 msgid "My Order"
 msgstr "คำสั่งซื้อของฉัน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/landing_page/landing_page.xml:0
 msgid "My Orders"
 msgstr "คำสั่งซื้อของฉัน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "NEW"
 msgstr "ใหม่"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "NOTE"
 msgstr "โน้ต"
@@ -666,7 +666,7 @@ msgid "Name of the image to display on the self order screen"
 msgstr "ชื่อของภาพที่จะแสดงบนหน้าจอการสั่งซื้อด้วยตนเอง"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Next"
 msgstr "ถัดไป"
@@ -677,19 +677,19 @@ msgid "No"
 msgstr "ไม่"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "No order found"
 msgstr "ไม่พบคำสั่งซื้อ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.xml:0
 msgid "No products found"
 msgstr "ไม่พบสินค้า"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_banner/product_info_banner.xml:0
 msgid "Not available"
 msgstr "ไม่พร้อมใช้งาน"
@@ -700,13 +700,13 @@ msgid "Not available in Self"
 msgstr "ไม่สามารถใช้ได้ในการสั่งซื้อด้วยตนเอง"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Ok"
 msgstr "ตกลง"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "Only pay after each is available with kiosk mode."
 msgstr "ชำระเงินหลังจากแต่ละรายการพร้อมใช้งานในโหมดคีออสก์เท่านั้น"
@@ -717,38 +717,38 @@ msgid "Open Kiosk"
 msgstr "เปิดคีออสก์"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 msgid "Order"
 msgstr "คำสั่งซื้อ"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Order Now"
 msgstr "สั่งเลย"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Order to pick-up at the counter"
 msgstr "สั่งเพื่อไปรับที่เคาน์เตอร์"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Orders not found on server"
 msgstr "ไม่พบคำสั่งซื้อบนเซิร์ฟเวอร์"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Out of stock"
 msgstr "สินค้าหมด"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Pay"
@@ -766,7 +766,7 @@ msgid "Pay after"
 msgstr "ชำระเงินภายหลัง"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Pay at the cashier"
 msgstr "ชำระเงินที่แคชเชียร์"
@@ -780,7 +780,7 @@ msgstr ""
 "ปรับแต่งหน้าจอสแปลชของคุณโดยเพิ่มรูปภาพหนึ่งหรือหลายรูปเพื่อสร้างสไลด์โชว์"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/receipt_header/receipt_header.xml:0
 msgid "Pickup At Counter"
 msgstr "รับสินค้าที่เคาน์เตอร์"
@@ -791,7 +791,7 @@ msgid "Pickup zone"
 msgstr "โซนรับสินค้า"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_session.py:0
 msgid "PoS Order by Session"
 msgstr "PoS คำสั่งซื้อตามเซสชัน"
@@ -867,7 +867,7 @@ msgid "Product"
 msgstr "สินค้า"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Product Information"
 msgstr "ข้อมูลสินค้า"
@@ -878,7 +878,7 @@ msgid "Product Variant"
 msgstr "ตัวแปรสินค้า"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
@@ -889,13 +889,13 @@ msgid "Product image"
 msgstr "รูปสินค้า"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Product is not available"
 msgstr "สินค้าไม่มีจำหน่าย"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Product not found"
 msgstr "ไม่พบสินค้า"
@@ -906,7 +906,7 @@ msgid "QR Codes"
 msgstr "รหัส QR โค้ด"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "QR codes can only be generated in mobile or consultation mode."
 msgstr ""
@@ -928,7 +928,7 @@ msgid "QR menu + Ordering"
 msgstr "เมนู QR โค้ด + การสั่งซื้อ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_info_popup/product_info_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
@@ -951,7 +951,7 @@ msgid "Restaurant Table"
 msgstr "โต๊ะร้านอาหาร"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/payment_page/payment_page.xml:0
 msgid "Retry"
 msgstr "ลองใหม่"
@@ -967,7 +967,7 @@ msgid "Security Token"
 msgstr "โทเคนความปลอดภัย"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Select a table"
 msgstr ""
@@ -1034,13 +1034,13 @@ msgid "Self Takeaway"
 msgstr "ซื้อกลับบ้านด้วยตนเอง"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Self-Order"
 msgstr ""
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_banner/product_info_banner.xml:0
 msgid "Self-ordering:"
 msgstr ""
@@ -1056,13 +1056,13 @@ msgid "Service at"
 msgstr "บริการที่"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/receipt_header/receipt_header.xml:0
 msgid "Service at Table"
 msgstr "บริการที่โต๊ะ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Service at table"
 msgstr "บริการที่โต๊ะ"
@@ -1103,13 +1103,13 @@ msgid "Table Stand Number"
 msgstr "หมายเลขโต๊ะยืน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/receipt_header/receipt_header.xml:0
 msgid "Table Tracker:"
 msgstr "เครื่องมือติดตามโต๊ะ:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Table detective time!"
 msgstr "ได้เวลาค้นหาโต๊ะแล้ว!"
@@ -1120,49 +1120,49 @@ msgid "Table:"
 msgstr "โต๊ะ:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 msgid "Take Out"
 msgstr "ซื้อกลับบ้าน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Tax:"
 msgstr "ภาษี:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 msgid "Taxes:"
 msgstr "ภาษี :"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Thanks a lot!"
 msgstr "ขอบคุณมากค่ะ!"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability After must be set between 00:00 and 24:00"
 msgstr "ความพร้อมจำหน่ายหลังจากจะต้องตั้งค่าระหว่าง 00:00 น. ถึง 24:00 น"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability Until must be greater than Availability After."
 msgstr "ความพร้อมจำหน่ายจนถึงต้องมากกว่าความพร้อมจำหน่ายหลังจาก"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability Until must be set between 00:00 and 24:00"
 msgstr "ความพร้อมจำหน่ายจนถึงจะต้องตั้งค่าระหว่าง 00:00 น. ถึง 24:00 น"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "The Self-Order default user must be a POS user"
 msgstr "ผู้ใช้เริ่มต้นการสั่งซื้อด้วยตนเองต้องเป็นผู้ใช้ POS"
@@ -1178,19 +1178,19 @@ msgid "The product will be available until this hour."
 msgstr "สินค้าจะพร้อมจำหน่ายหลังจากชั่วโมงนี้"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "The user must be a POS user"
 msgstr "ผู้ใช้จะต้องเป็นผู้ใช้ POS"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "This combination does not exist."
 msgstr "ไม่มีการรวมนี้"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Total:"
@@ -1207,19 +1207,19 @@ msgid "URL:"
 msgstr "URL:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Unavailable"
 msgstr "ไม่พร้อม"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.xml:0
 msgid "Unavailable at this time of the day"
 msgstr "ไม่สามารถใช้ได้ในเวลานี้ของวัน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Uncategorised"
 msgstr "ไม่มีหมวดหมู่"
@@ -1230,19 +1230,19 @@ msgid "Warning"
 msgstr "คำเตือน"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "We're currently closed"
 msgstr "ขณะนี้เราปิดให้บริการแล้ว"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_index.xml:0
 msgid "We're currently closed."
 msgstr "ขณะนี้เราปิดการให้บริการแล้ว"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "We're preparing your order!"
 msgstr "เรากำลังเตรียมออเดอร์ของคุณ!"
@@ -1253,57 +1253,57 @@ msgid "Yes"
 msgstr "ใช่"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "You cannot add cash payment methods in kiosk mode."
 msgstr "คุณไม่สามารถเพิ่มวิธีการชำระเงินด้วยเงินสดในโหมดคีออสก์ได้"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
 msgid "You cannot edit a posted orderline !"
 msgstr "คุณไม่สามารถแก้ไขออนเดอร์ที่ลงรายการแล้วได้!"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "You're not authorized to perform this action"
 msgstr "คุณไม่ได้รับอนุญาตให้ดำเนินการนี้"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 msgid "Your Order"
 msgstr "คำสั่งซื้อของคุณ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Your Selection"
 msgstr "รายการที่คุณเลือก"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order has been cancelled"
 msgstr "คำสั่งซื้อของคุณถูกยกเลิกแล้ว"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order has been paid"
 msgstr "คำสั่งซื้อของคุณได้รับการชำระเงินแล้ว"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Your order number"
 msgstr "หมายเลขคำสั่งซื้อของคุณ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order status has been changed"
 msgstr "สถานะการสั่งซื้อของคุณมีการเปลี่ยนแปลง"
@@ -1319,23 +1319,23 @@ msgid "empty = all points of sale"
 msgstr "ว่าง = ทุกจุดขาย"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "floor"
 msgstr "พื้น"
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
-msgid "https://odoo.com"
-msgstr "https://odoo.com"
+msgid "https://manapathi.com"
+msgstr "https://manapathi.com"
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
-msgid "odoo"
-msgstr "odoo"
+msgid "manapathi"
+msgstr "manapathi"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "options"
 msgstr "ตัวเลือก"

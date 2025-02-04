@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import babel.dates
 import werkzeug
 
-from odoo import http, fields, tools, models
-from odoo.addons.portal.controllers.portal import pager as portal_pager
-from odoo.exceptions import AccessError
-from odoo.http import request, Response
-from odoo.osv import expression
-from odoo.tools import consteq
-from odoo.tools.misc import get_lang
+from manapathi import http, fields, tools, models
+from manapathi.addons.portal.controllers.portal import pager as portal_pager
+from manapathi.exceptions import AccessError
+from manapathi.http import request, Response
+from manapathi.osv import expression
+from manapathi.tools import consteq
+from manapathi.tools.misc import get_lang
 
 
 class PortalMailGroup(http.Controller):

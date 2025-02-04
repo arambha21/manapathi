@@ -1,22 +1,22 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
 # Translators:
 # Martin Trigaux, 2024
 # Tiffany Chang, 2024
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Jolien De Paepe, 2024
 # Manon Rondou, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2024\n"
-"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://app.transifex.com/manapathi/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -39,7 +39,7 @@ msgid "7Eleven"
 msgstr "7Eleven"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
@@ -56,12 +56,12 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
 "                                match the behavior of providers and that of their integration with\n"
-"                                Odoo regarding this payment method. Any change may result in errors\n"
+"                                Manapathi regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/> Ces propriétés sont définies pour\n"
 "                                correspondre au comportement des fournisseurs et de leur intégration avec\n"
-"                                Odoo concernant ce mode de paiement. Toute modification peut entraîner des erreurs\n"
+"                                Manapathi concernant ce mode de paiement. Toute modification peut entraîner des erreurs\n"
 "                                et doit d'abord être testée sur une base de données de test."
 
 #. module: payment
@@ -229,7 +229,7 @@ msgstr ""
 "paiement."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "A refund request of %(amount)s has been sent. The payment will be created "
@@ -239,7 +239,7 @@ msgstr ""
 "effectué sous peu. Référence du remboursement : %(ref)s (%(provider_name)s)."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "A transaction with reference %(ref)s has been initiated (%(provider_name)s)."
@@ -247,7 +247,7 @@ msgstr ""
 "Une transaction avec la référence %(ref)s a été initiée (%(provider_name)s)."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "A transaction with reference %(ref)s has been initiated to save a new "
@@ -257,7 +257,7 @@ msgstr ""
 "nouveau mode de paiement (%(provider_name)s)"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "A transaction with reference %(ref)s has been initiated using the payment "
@@ -277,7 +277,7 @@ msgid "ACTIVATE STRIPE"
 msgstr "ACTIVER STRIPE"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid "Account"
 msgstr "Compte"
@@ -430,7 +430,7 @@ msgid "Archived"
 msgstr "Archivé"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/xml/payment_form_templates.xml:0
 msgid "Are you sure you want to delete this payment method?"
 msgstr "Êtes-vous sûr de vouloir supprimer ce mode de paiement ?"
@@ -560,7 +560,7 @@ msgid "Bangkok Bank"
 msgstr "Bangkok Bank"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid "Bank"
 msgstr "Banque"
@@ -697,19 +697,19 @@ msgid "Cancelled Message"
 msgstr "Message annulé"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Cannot delete payment method"
 msgstr "Impossible de supprimer le mode de paiement"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Cannot save payment method"
 msgstr "Impossible d'enregistrer le mode de paiement"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid "Capture"
@@ -728,11 +728,11 @@ msgstr "Capturer la transaction"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__capture_manually
 msgid ""
-"Capture the amount from Odoo, when the delivery is completed.\n"
+"Capture the amount from Manapathi, when the delivery is completed.\n"
 "Use this if you want to charge your customers cards only when\n"
 "you are sure you can ship the goods to them."
 msgstr ""
-"Capturez le montant depuis Odoo quand la livraison est effectuée.\n"
+"Capturez le montant depuis Manapathi quand la livraison est effectuée.\n"
 "Utilisez-le si vous voulez débiter les cartes de vos clients uniquement quand\n"
 "vous êtes sûr de pouvoir leur livrer la marchandise."
 
@@ -853,7 +853,7 @@ msgid "Configuration"
 msgstr "Configuration"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Confirm Deletion"
 msgstr "Confirmer la suppression"
@@ -929,7 +929,7 @@ msgid "Created on"
 msgstr "Créé le"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Creating a transaction from an archived token is forbidden."
 msgstr ""
@@ -1092,7 +1092,7 @@ msgid "Error"
 msgstr "Erreur"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Error: %s"
 msgstr "Erreur : %s"
@@ -1337,7 +1337,7 @@ msgid "Is Stripe Supported Country"
 msgstr "Est un pays pris en charge par Stripe"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/xml/payment_form_templates.xml:0
 msgid "It is currently linked to the following documents:"
 msgstr "Ceci est actuellement lié aux documents suivants :"
@@ -1495,7 +1495,7 @@ msgid "Magna"
 msgstr "Magna"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Making a request to the provider is not possible because the provider is "
@@ -1655,7 +1655,7 @@ msgid "No Provider Set"
 msgstr "Aucun fournisseur n'est défini"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "No manual payment method could be found for this company. Please create one "
@@ -1675,7 +1675,7 @@ msgid "No payment providers are configured."
 msgstr "Aucun fournisseur de paiement n'est configuré."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_token.py:0
 msgid "No token can be assigned to the public partner."
 msgstr "Aucun jeton ne peut être assigné au partenaire public."
@@ -1702,8 +1702,8 @@ msgstr "Octopus"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
-msgid "Odoo Enterprise Module"
-msgstr "Module Enterprise Odoo"
+msgid "Manapathi Enterprise Module"
+msgstr "Module Enterprise Manapathi"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__offline
@@ -1766,19 +1766,19 @@ msgid "Online payment with redirection"
 msgstr "Paiement en ligne avec redirection"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid "Only administrators can access this data."
 msgstr "Seul les administrateurs peuvent accéder à ces données."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Only authorized transactions can be voided."
 msgstr "Seules les transactions autorisées peuvent être annulées."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Only confirmed transactions can be refunded."
 msgstr "Seules les transactions confirmées peuvent être remboursées."
@@ -1794,7 +1794,7 @@ msgid "Operation"
 msgstr "Opération"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 msgid "Operation not supported."
 msgstr "Opération non prise en charge."
@@ -1967,7 +1967,7 @@ msgid "Payment Method Code"
 msgstr "Code du mode de paiement"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model:ir.actions.act_window,name:payment.action_payment_method
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
@@ -2026,7 +2026,7 @@ msgid "Payment Transactions Linked To Token"
 msgstr "Transactions de paiement liées au jeton"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_token.py:0
 msgid "Payment details saved on %(date)s"
 msgstr "Détails de paiement enregistrés le %(date)s"
@@ -2043,7 +2043,7 @@ msgid "Payment methods"
 msgstr "Modes de paiement"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "Échec du traitement du paiement"
@@ -2109,7 +2109,7 @@ msgid "Pix"
 msgstr "Pix"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 msgid "Please make sure that %(payment_method)s is supported by %(provider)s."
 msgstr ""
@@ -2117,13 +2117,13 @@ msgstr ""
 "%(provider)s."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set a positive amount."
 msgstr "Veuillez définir un montant positif."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set an amount lower than %s."
 msgstr "Veuillez définir un montant inférieur à %s."
@@ -2227,7 +2227,7 @@ msgid "Reason:"
 msgstr "Motif :"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Reason: %s"
 msgstr "Motif : %s"
@@ -2251,7 +2251,7 @@ msgid "Reference must be unique!"
 msgstr "La référence doit être unique !"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_refund
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_refund
@@ -2264,10 +2264,10 @@ msgstr "Remboursement"
 #: model:ir.model.fields,help:payment.field_payment_provider__support_refund
 msgid ""
 "Refund is a feature allowing to refund customers directly from the payment "
-"in Odoo."
+"in Manapathi."
 msgstr ""
 "Le remboursement est une fonctionnalité permettant de rembourser les clients"
-" directement à partir du paiement dans Odoo."
+" directement à partir du paiement dans Manapathi."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
@@ -2385,7 +2385,7 @@ msgid "Sofort"
 msgstr "Sofort"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
 "Some of the transactions you intend to capture can only be captured in full."
@@ -2492,13 +2492,13 @@ msgid "Thank you!"
 msgstr "Merci !"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "The access token is invalid."
 msgstr "Le jeton d'accès n'est pas valide."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid "The amount to capture must be positive and cannot be superior to %s."
 msgstr ""
@@ -2559,13 +2559,13 @@ msgstr ""
 "ne pas en restreindre."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "The following fields must be filled: %s"
 msgstr "Les champs suivants doivent être remplis : %s"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "The following kwargs are not whitelisted: %s"
 msgstr "Les kwargs suivants ne se trouvent pas sur liste blanche : %s"
@@ -2653,7 +2653,7 @@ msgstr ""
 "Le message affiché pour expliquer et aider pendant le processus de paiement"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/controllers/portal.py:0
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
@@ -2744,7 +2744,7 @@ msgstr ""
 "Le modèle d'un formulaire de paiement inline lors d'un paiement par jeton."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
@@ -2754,7 +2754,7 @@ msgstr ""
 "rencontrée une erreur (%(provider_name)s)."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
@@ -2764,7 +2764,7 @@ msgstr ""
 " autorisée (%(provider_name)s)."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
@@ -2784,7 +2784,7 @@ msgid "There is no token created yet."
 msgstr "Aucun jeton n'a encore été créé."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "There is nothing to be paid."
 msgstr "Il n'y a rien à payer."
@@ -2795,7 +2795,7 @@ msgid "There is nothing to pay."
 msgstr "Il n'y a rien à payer."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "This action will also archive %s tokens that are registered with this "
@@ -2805,7 +2805,7 @@ msgstr ""
 " de paiement."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "This action will also archive %s tokens that are registered with this "
@@ -2846,7 +2846,7 @@ msgstr ""
 "Il est recommandé de configurer un e-mail pour ce partenaire."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "This payment method needs a partner in crime; you should enable a payment "
@@ -2856,7 +2856,7 @@ msgstr ""
 "fournisseur de paiement prenant en charge ce mode de paiement."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "This transaction has been confirmed following the processing of its partial "
@@ -2912,7 +2912,7 @@ msgid "Transaction"
 msgstr "Transaction"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Transaction authorization is not supported by the following payment "
@@ -3029,7 +3029,7 @@ msgid "Walley"
 msgstr "Walley"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_method.py:0
 #: code:addons/payment/models/payment_provider.py:0
 msgid "Warning"
@@ -3041,7 +3041,7 @@ msgid "Warning Message"
 msgstr "Message d'avertissement"
 
 #. module: payment
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Warning!"
 msgstr "Avertissement !"
@@ -3098,7 +3098,7 @@ msgid "Xendit"
 msgstr "Xendit"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_token.py:0
 msgid ""
 "You can't unarchive tokens linked to inactive payment methods or disabled "
@@ -3108,7 +3108,7 @@ msgstr ""
 "inactifs ou à des fournisseurs désactivés."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot change the company of a payment provider with existing "
@@ -3118,7 +3118,7 @@ msgstr ""
 " transactions existantes."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot delete the payment provider %s; disable it or uninstall it "
@@ -3128,13 +3128,13 @@ msgstr ""
 "ou désinstallez-le plutôt."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "You cannot publish a disabled provider."
 msgstr "Vous ne pouvez pas publier un fournisseur désactivé."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "You do not have access to this payment token."
 msgstr "Vous n'avez pas accès à ce jeton de paiement."
@@ -3149,7 +3149,7 @@ msgstr ""
 "                                    minutes."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_aps
@@ -3171,7 +3171,7 @@ msgid "Your payment has been authorized."
 msgstr "Votre paiement a été autorisé."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_aps
@@ -3193,7 +3193,7 @@ msgid "Your payment has been cancelled."
 msgstr "Votre paiement a été annulé."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_aps
@@ -3216,7 +3216,7 @@ msgstr ""
 "Votre paiement a été traité avec succès mais est en attente de validation."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,done_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,done_msg:payment.payment_provider_aps
@@ -3284,7 +3284,7 @@ msgid "eNETS"
 msgstr "eNETS"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "express checkout not supported"
 msgstr "Paiement rapide non pris en charge"
@@ -3300,37 +3300,37 @@ msgid "in3"
 msgstr "in3"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "incompatible country"
 msgstr "pays incompatible"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "incompatible currency"
 msgstr "devise incompatible"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "incompatible website"
 msgstr "site web incompatible"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "manual capture not supported"
 msgstr "Capture manuelle non prise en charge"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "maximum amount exceeded"
 msgstr "Montant maximum dépassé"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "no supported provider available"
 msgstr "Aucun fournisseur pris en charge est disponible"
@@ -3356,13 +3356,13 @@ msgstr ""
 "paiement."
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "tokenization not supported"
 msgstr "Tokenisation non prise en charge"
 
 #. module: payment
-#. odoo-python
+#. manapathi-python
 #: code:addons/payment/const.py:0
 msgid "tokenization without payment no supported"
 msgstr "Tokenisation sans paiement non prise en charge"

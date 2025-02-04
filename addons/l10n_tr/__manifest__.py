@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Türkiye - Accounting',
     'icon': '/account/static/description/l10n.png',
@@ -6,7 +6,7 @@
     'version': '1.3',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the base module to manage the accounting chart for Türkiye in Odoo
+This is the base module to manage the accounting chart for Türkiye in Manapathi
 ==========================================================================
 
 Türkiye accounting basic charts and localizations
@@ -17,7 +17,7 @@ Activates:
 - Taxes
 - Tax Report
     """,
-    'author': 'Odoo S.A., Drysharks Consulting and Trading Ltd.',
+    'author': 'Manapathi S.A., Drysharks Consulting and Trading Ltd.',
     'depends': [
         'account',
     ],

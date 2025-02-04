@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details
+# Part of Manapathi. See LICENSE file for full copyright and licensing details
 
-from odoo.fields import Command
-from odoo.tests import TransactionCase, tagged
+from manapathi.fields import Command
+from manapathi.tests import TransactionCase, tagged
 
-from odoo.addons.website.tools import MockRequest
-from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
+from manapathi.addons.website.tools import MockRequest
+from manapathi.addons.website_sale_loyalty.controllers.main import WebsiteSale
 
 
 @tagged('post_install', '-at_install')

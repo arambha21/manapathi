@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* pos_viva_wallet
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Larissa Manderfeld, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -61,10 +61,10 @@ msgstr "Client-Geheimnis"
 #. odoo-javascript
 #: code:addons/pos_viva_wallet/static/src/app/payment_viva_wallet.js:0
 msgid ""
-"Could not connect to the Odoo server, please check your internet connection "
+"Could not connect to the Manapathi server, please check your internet connection "
 "and try again."
 msgstr ""
-"Verbindung zum Odoo-Server konnte nicht hergestellt werden, bitte prüfen Sie"
+"Verbindung zum Manapathi-Server konnte nicht hergestellt werden, bitte prüfen Sie"
 " Ihre Internetverbindung und versuchen Sie es erneut."
 
 #. module: pos_viva_wallet
@@ -233,6 +233,6 @@ msgstr ""
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/controllers/main.py:0
-msgid "received a message for a terminal not registered in Odoo: %s"
+msgid "received a message for a terminal not registered in Manapathi: %s"
 msgstr ""
-"hat eine Nachricht für ein nicht in Odoo registriertes Terminal erhalten: %s"
+"hat eine Nachricht für ein nicht in Manapathi registriertes Terminal erhalten: %s"

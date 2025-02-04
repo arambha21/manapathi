@@ -1,4 +1,4 @@
-import { Component, onMounted, useState } from "@odoo/owl";
+import { Component, onMounted, useState } from "@manapathi/owl";
 
 export class LoadingOverlay extends Component {
     static template = "pos_self_order.LoadingOverlay";

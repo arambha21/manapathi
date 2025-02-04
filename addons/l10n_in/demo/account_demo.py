@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 import logging
 import time
 from datetime import datetime, timedelta
 
-from odoo import api, models, Command
-from odoo.exceptions import UserError, ValidationError
-from odoo.tools.misc import file_open
+from manapathi import api, models, Command
+from manapathi.exceptions import UserError, ValidationError
+from manapathi.tools.misc import file_open
 
 _logger = logging.getLogger(__name__)
 
@@ -118,7 +118,7 @@ class AccountChartTemplate(models.AbstractModel):
             },
             'res_partner_registered_supplier_2': {
                 **default_partner_dict,
-                'name': 'Odoo In Private Limited',
+                'name': 'Manapathi In Private Limited',
                 'category_id': 'res_partner_category_registered',
                 'l10n_in_gst_treatment': 'regular',
                 'street': '201, Second Floor, IT Tower 4',

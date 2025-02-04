@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -9,15 +9,15 @@
 # Larissa Manderfeld, 2024
 # ILMIR <karamov@it-projects.info>, 2024
 # Ilya Rozhkov, 2025
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Manapathi, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -311,10 +311,10 @@ msgstr ". Пожалуйста, убедитесь, что это желаемо
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
-". The journal entries need to be computed by Odoo before being posted in "
+". The journal entries need to be computed by Manapathi before being posted in "
 "your company's currency."
 msgstr ""
-". Журнальные записи должны быть вычислены Odoo перед публикацией в валюте "
+". Журнальные записи должны быть вычислены Manapathi перед публикацией в валюте "
 "вашей компании."
 
 #. module: account
@@ -2384,7 +2384,7 @@ msgstr "После"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
-"After importing three bills for a vendor without making changes, Odoo will "
+"After importing three bills for a vendor without making changes, Manapathi will "
 "suggest automatically validating future bills. You can toggle this feature "
 "at any time in the vendor's profile."
 msgstr ""
@@ -3564,11 +3564,11 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Manapathi S.A. "
 "responsibility."
 msgstr ""
 "Приведенный ниже текст служит предложением и не влечет за собой "
-"ответственности Odoo S.A."
+"ответственности Manapathi S.A."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__bank_bic
@@ -5560,10 +5560,10 @@ msgstr "Пример даты"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Manapathi. It is the date of the "
 "opening entry."
 msgstr ""
-"Дата, с которой управление бухгалтерским учетом осуществляется в Odoo. Это "
+"Дата, с которой управление бухгалтерским учетом осуществляется в Manapathi. Это "
 "дата начальной записи."
 
 #. module: account
@@ -9899,12 +9899,12 @@ msgstr "Ручной ввод"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
-"Manual: Get paid by any method outside of Odoo.\n"
+"Manual: Get paid by any method outside of Manapathi.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Руководство: Получайте оплату любым способом за пределами Odoo.\n"
+"Руководство: Получайте оплату любым способом за пределами Manapathi.\n"
 "Провайдеры платежей: Каждый поставщик платежей имеет свой собственный метод оплаты. Запросите транзакцию на/на карту благодаря платежному токену, сохраненному партнером при покупке или подписке онлайн.\n"
 "Пакетное пополнение счета: Собирайте сразу несколько чеков клиентов, формируя и отправляя пакетный депозит в ваш банк. Необходим модуль account_batch_payment.\n"
 "Прямое дебетование SEPA: Получайте платежи в зоне SEPA благодаря мандату, предоставленному вам вашим партнером. Необходим модуль account_sepa.\n"
@@ -9912,28 +9912,28 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_line_ids
 msgid ""
-"Manual: Pay by any method outside of Odoo.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Manual: Pay by any method outside of Manapathi.\n"
+"Check: Pay bills by check and print it from Manapathi.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
-"Вручную: Оплатите любым способом за пределами Odoo.\n"
-"Чек: Оплачивайте счета чеком и печатайте его из Odoo.\n"
+"Вручную: Оплатите любым способом за пределами Manapathi.\n"
+"Чек: Оплачивайте счета чеком и печатайте его из Manapathi.\n"
 "Кредитный перевод SEPA: Платите в зоне SEPA, отправляя файл SEPA Credit Transfer в ваш банк. Необходим модуль account_sepa.\n"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_line_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Manapathi.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Manapathi.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Руководство: Платите или получайте оплату любым способом за пределами Odoo.\n"
+"Руководство: Платите или получайте оплату любым способом за пределами Manapathi.\n"
 "Провайдеры платежей: Каждый поставщик платежей имеет свой собственный метод оплаты. Запросите транзакцию по карте/на карту благодаря платежному токену, сохраненному партнером при покупке или подписке онлайн.\n"
-"Чек: Оплачивайте счета чеком и распечатывайте его из Odoo.\n"
+"Чек: Оплачивайте счета чеком и распечатывайте его из Manapathi.\n"
 "Пакетное пополнение счета: Собирайте несколько чеков клиентов одновременно, генерируя и отправляя пакетный депозит в ваш банк. Необходим модуль account_batch_payment.\n"
 "Кредитный перевод SEPA: Платите в зоне SEPA, отправляя файл SEPA Credit Transfer в ваш банк. Необходим модуль account_sepa.\n"
 "Прямое дебетование SEPA: Получайте оплату в зоне SEPA благодаря мандату, предоставленному вам вашим партнером. Необходим модуль account_sepa.\n"
@@ -10855,35 +10855,35 @@ msgstr "Октябрь"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__engine__domain
-msgid "Odoo Domain"
-msgstr "Домен Odoo"
+msgid "Manapathi Domain"
+msgstr "Домен Manapathi"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 #: model_terms:ir.actions.act_window,help:account.action_credit_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Manapathi allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Odoo позволяет вам сверять строки выписки непосредственно с\n"
+"Manapathi позволяет вам сверять строки выписки непосредственно с\n"
 "                с соответствующими счетами на продажу или покупку."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "Manapathi helps you easily track all activities related to a customer."
 msgstr ""
-"Odoo поможет вам легко отслеживать все действия, связанные с клиентом."
+"Manapathi поможет вам легко отслеживать все действия, связанные с клиентом."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
+msgid "Manapathi helps you easily track all activities related to a supplier."
 msgstr ""
-"Odoo поможет вам легко отслеживать все действия, связанные с поставщиком."
+"Manapathi поможет вам легко отслеживать все действия, связанные с поставщиком."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__off
@@ -13496,13 +13496,13 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by Manapathi"
 msgstr ""
 "Отправляйте одно отдельное электронное письмо для каждого счета. \n"
 "\n"
 "Допускается любое расширение файла. \n"
 "\n"
-"Odoo будет интерпретировать только файлы PDF и XML"
+"Manapathi будет интерпретировать только файлы PDF и XML"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -17064,10 +17064,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
 msgid ""
 "Use this field to encode the total amount of the invoice.\n"
-"Odoo will automatically create one invoice line with default values to match it."
+"Manapathi will automatically create one invoice line with default values to match it."
 msgstr ""
 "Используйте это поле для кодирования общей суммы счета-фактуры.\n"
-"Odoo автоматически создаст одну строку счета-фактуры со значениями по умолчанию."
+"Manapathi автоматически создаст одну строку счета-фактуры со значениями по умолчанию."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__used
@@ -17604,10 +17604,10 @@ msgstr "Вы пытаетесь соглосовать некоторые зап
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Manapathi reference."
 msgstr ""
 "Вы можете выбрать разные модели для каждого типа ссылок. По умолчанию "
-"используется ссылка Odoo."
+"используется ссылка Manapathi."
 
 #. module: account
 #. odoo-python

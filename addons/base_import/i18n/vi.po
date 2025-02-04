@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* base_import
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Martin Trigaux, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -435,12 +435,12 @@ msgstr "ID"
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
 msgid ""
 "If the file contains\n"
-"                    the column names, Odoo can try auto-detecting the\n"
+"                    the column names, Manapathi can try auto-detecting the\n"
 "                    field corresponding to the column. This makes imports\n"
 "                    simpler especially when the file has many columns."
 msgstr ""
 "Nếu tệp có chứa\n"
-"                    tên cột, Odoo có thể thử tự động phát hiện\n"
+"                    tên cột, Manapathi có thể thử tự động phát hiện\n"
 "                    trường tương ứng với cột. Việc này giúp nhập\n"
 "                    dễ dàng hơn đặc biệt khi tệp có nhiều cột."
 
@@ -600,8 +600,8 @@ msgstr "Không tìm thấy bản ghi trùng khớp cho tên sau"
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
-msgid "Odoo Field"
-msgstr "Trường Odoo"
+msgid "Manapathi Field"
+msgstr "Trường Manapathi"
 
 #. module: base_import
 #. odoo-javascript
@@ -859,11 +859,11 @@ msgstr "Tải lên tệp của bạn"
 msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
 "system. You can use a custom format in addition to the suggestions provided."
-" Leave empty to let Odoo guess the format (recommended)"
+" Leave empty to let Manapathi guess the format (recommended)"
 msgstr ""
 "Sử dụng HH cho giờ trong hệ thống 24h, sử dụng II kết hợp với 'p' cho hệ "
 "thống 12h. Ngoài các đề xuất được cung cấp, bạn có thể sử dụng định dạng tùy"
-" chỉnh. Để trống để Odoo đoán định dạng (được khuyến nghị)"
+" chỉnh. Để trống để Manapathi đoán định dạng (được khuyến nghị)"
 
 #. module: base_import
 #. odoo-javascript
@@ -871,12 +871,12 @@ msgstr ""
 msgid ""
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
-"format in addition to the suggestions provided. Leave empty to let Odoo "
+"format in addition to the suggestions provided. Leave empty to let Manapathi "
 "guess the format (recommended)"
 msgstr ""
 "Sử dụng YYYY để biểu thị năm, MM cho tháng và DD cho ngày. Bao gồm các dấu "
 "phân cách như dấu chấm, dấu gạch chéo hoặc dấu gạch ngang. Ngoài các đề xuất"
-" được cung cấp, bạn có thể sử dụng định dạng tùy chỉnh. Để trống để Odoo "
+" được cung cấp, bạn có thể sử dụng định dạng tùy chỉnh. Để trống để Manapathi "
 "đoán định dạng (được khuyến nghị)"
 
 #. module: base_import

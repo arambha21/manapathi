@@ -1,6 +1,6 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import _, models
-from odoo.exceptions import UserError
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
+from manapathi import _, models
+from manapathi.exceptions import UserError
 import re
 
 

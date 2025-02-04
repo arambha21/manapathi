@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Saudi Arabia - E-invoicing (Simplified)',
@@ -8,7 +8,7 @@
         'l10n_sa_pos',
         'l10n_sa_edi',
     ],
-    'author': 'Odoo',
+    'author': 'Manapathi',
     'summary': """
         ZATCA E-Invoicing, support for PoS
     """,

@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests import tagged
+from manapathi.tests import tagged
 
-from odoo.addons.event_booth_sale.tests.common import TestEventBoothSaleCommon
-from odoo.addons.website_event_sale.tests.common import TestWebsiteEventSaleCommon
-from odoo.addons.website_sale.controllers.main import WebsiteSale
+from manapathi.addons.event_booth_sale.tests.common import TestEventBoothSaleCommon
+from manapathi.addons.website_event_sale.tests.common import TestWebsiteEventSaleCommon
+from manapathi.addons.website_sale.controllers.main import WebsiteSale
 
 
 @tagged('post_install', '-at_install')

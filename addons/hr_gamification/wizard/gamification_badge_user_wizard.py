@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError, AccessError
+from manapathi import api, fields, models, _
+from manapathi.exceptions import UserError, AccessError
 
 
 class GamificationBadgeUserWizard(models.TransientModel):

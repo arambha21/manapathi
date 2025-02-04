@@ -31,7 +31,7 @@ import {
     isGif,
     getDataURLBinarySize,
 } from "@web_editor/js/editor/image_processing";
-import * as OdooEditorLib from "@web_editor/js/editor/odoo-editor/src/OdooEditor";
+import * as ManapathiEditorLib from "@web_editor/js/editor/odoo-editor/src/ManapathiEditor";
 import { pick } from "@web/core/utils/objects";
 import { _t } from "@web/core/l10n/translation";
 import {
@@ -42,9 +42,9 @@ import {
 import { renderToElement } from "@web/core/utils/render";
 import { rpc } from "@web/core/network/rpc";
 
-const preserveCursor = OdooEditorLib.preserveCursor;
+const preserveCursor = ManapathiEditorLib.preserveCursor;
 const { DateTime } = luxon;
-const resetOuids = OdooEditorLib.resetOuids;
+const resetOuids = ManapathiEditorLib.resetOuids;
 let _serviceCache = {
     orm: {},
     rpc: {},
@@ -697,7 +697,7 @@ const UserValueWidget = publicWidget.Widget.extend({
     },
     /**
      * @private
-     * @param {OdooEvent|Event}
+     * @param {ManapathiEvent|Event}
      * @returns {boolean}
      */
     _handleNotifierEvent: function (ev) {
@@ -723,7 +723,7 @@ const UserValueWidget = publicWidget.Widget.extend({
      * change.
      *
      * @private
-     * @param {OdooEvent|Event} [ev]
+     * @param {ManapathiEvent|Event} [ev]
      */
     _onUserValueChange: function (ev) {
         if (this._handleNotifierEvent(ev)) {
@@ -734,7 +734,7 @@ const UserValueWidget = publicWidget.Widget.extend({
      * Allows container widgets to add additional data if needed.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onUserValueNotification: function (ev) {
         ev.data.widget = this;
@@ -754,7 +754,7 @@ const UserValueWidget = publicWidget.Widget.extend({
      * preview.
      *
      * @private
-     * @param {OdooEvent|Event} [ev]
+     * @param {ManapathiEvent|Event} [ev]
      */
     _onUserValuePreview: function (ev) {
         if (this._handleNotifierEvent(ev)) {
@@ -766,7 +766,7 @@ const UserValueWidget = publicWidget.Widget.extend({
      * reset.
      *
      * @private
-     * @param {OdooEvent|Event} [ev]
+     * @param {ManapathiEvent|Event} [ev]
      */
     _onUserValueReset: function (ev) {
         if (this._handleNotifierEvent(ev)) {
@@ -7361,7 +7361,7 @@ registry.ImageTools = ImageHandlerOption.extend({
         // smaller screens. So we suggest the width of the current image unless
         // it is smaller than the size of the container on the md breapoint
         // (which is where our bootstrap columns fallback to full container
-        // width since we only use col-lg-* in Odoo).
+        // width since we only use col-lg-* in Manapathi).
         } else if (img.closest('.container, .o_container_small')) {
             const mdContainerMaxWidth = parseFloat(computedStyles.getPropertyValue('--o-md-container-max-width')) || 720;
             const mdContainerInnerWidth = mdContainerMaxWidth - gutterWidth;
@@ -9795,7 +9795,7 @@ registry.SelectTemplate = SnippetOptionWidget.extend({
 
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onWidgetOpening(ev) {
         if (this._templatesLoading || ev.target.getName() !== this.selectTemplateWidgetName) {

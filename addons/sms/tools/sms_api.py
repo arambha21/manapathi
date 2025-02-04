@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from odoo.addons.iap.tools import iap_tools
 from odoo.tools.translate import _, LazyTranslate
@@ -26,7 +26,7 @@ ERROR_MESSAGES = {
     'too_many_attempts': _lt("You tried too many times. Please retry later."),
 
     # Default error
-    'unknown_error': _lt("An unknown error occurred. Please contact Odoo support if this error persists."),
+    'unknown_error': _lt("An unknown error occurred. Please contact Manapathi support if this error persists."),
 }
 
 

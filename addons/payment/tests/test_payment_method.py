@@ -1,12 +1,12 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.exceptions import UserError
-from odoo.models import Command
-from odoo.tests import tagged
+from manapathi.exceptions import UserError
+from manapathi.models import Command
+from manapathi.tests import tagged
 
-from odoo.addons.payment import utils as payment_utils
-from odoo.addons.payment.const import REPORT_REASONS_MAPPING
-from odoo.addons.payment.tests.common import PaymentCommon
+from manapathi.addons.payment import utils as payment_utils
+from manapathi.addons.payment.const import REPORT_REASONS_MAPPING
+from manapathi.addons.payment.tests.common import PaymentCommon
 
 
 @tagged('-at_install', 'post_install')

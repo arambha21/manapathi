@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import Command
-from odoo.tests import Form
-from odoo.addons.mrp_subcontracting.tests.common import TestMrpSubcontractingCommon
+from manapathi import Command
+from manapathi.tests import Form
+from manapathi.addons.mrp_subcontracting.tests.common import TestMrpSubcontractingCommon
 
 
 class TestSubcontractingDropshippingFlows(TestMrpSubcontractingCommon):

@@ -1,12 +1,12 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 from datetime import timedelta
 
-from odoo import api, fields, models
-from odoo.exceptions import UserError
-from odoo.http import request
-from odoo.osv import expression
+from manapathi import api, fields, models
+from manapathi.exceptions import UserError
+from manapathi.http import request
+from manapathi.osv import expression
 
 
 class SaleOrder(models.Model):

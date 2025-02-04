@@ -1,4 +1,4 @@
-from odoo import _, fields, models
+from manapathi import _, fields, models
 
 
 class AccountMoveSendBatchWizard(models.TransientModel):

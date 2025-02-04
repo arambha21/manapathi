@@ -1,4 +1,4 @@
-from odoo import models, api
+from manapathi import models, api
 
 
 class PosPaymentMethod(models.Model):

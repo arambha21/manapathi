@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -32,12 +32,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Melih Melik Sonmez, 2025\n"
-"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://app.transifex.com/manapathi/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -68,19 +68,19 @@ msgid "# of Lines"
 msgstr "Satır Adedi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(product)s from %(original_receipt_date)s to %(new_receipt_date)s"
 msgstr "%(original_receipt_date)s'den %(new_receipt_date)s'ye %(product)s"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(vendor)s confirmed the receipt will take place on %(date)s."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%s modified receipt dates for the following products:"
 msgstr "Aşağıdaki ürünler için %s değiştirilmiş giriş tarihleri:"
@@ -499,7 +499,7 @@ msgid ""
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "A sample email has been sent to %s."
 msgstr "%s adresine örnek bir e-posta gönderildi."
@@ -519,7 +519,7 @@ msgstr ""
 "sayısının katları olan bir miktarı zorlama yeteneği."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Accept"
@@ -604,7 +604,7 @@ msgid "Add several variants to the purchase order from a grid"
 msgstr "Bir tablodan satınalma siparişine birkaç varyant ekleyin"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Add some products or services to your quotation."
 msgstr "Teklifinize bazı ürünler veya hizmetler ekleyin."
@@ -616,7 +616,7 @@ msgid "Add to PO"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Add to Purchase Order"
 msgstr ""
@@ -627,31 +627,31 @@ msgid "Administrator"
 msgstr "Yönetici"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "All"
 msgstr "Tümü"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Draft RFQs"
 msgstr "Tüm Taslak Teklif Talepleri"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Late RFQs"
 msgstr "Tüm Geciken Teklif Talepleri"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All RFQs"
 msgstr "Tüm Teklif Talepleri"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Waiting RFQs"
 msgstr "Tüm Bekleyen Teklif Talepleri"
@@ -791,7 +791,7 @@ msgid "Average Cost"
 msgstr "Ortalama Maliyet"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Avg Order Value"
 msgstr "Ortalama Sipariş Değeri"
@@ -812,7 +812,7 @@ msgid "Bill Lines"
 msgstr "Fatura Satırları"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Bill Matching"
 msgstr ""
@@ -894,7 +894,7 @@ msgid "Cancel"
 msgstr "İptal"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__cancel
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__cancel
@@ -907,7 +907,7 @@ msgid "Cancelled Purchase Order #"
 msgstr "İptal Edilen Satınalma Siparişi #"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Cannot delete a purchase order line which is in state “%s”."
 msgstr ""
@@ -964,7 +964,7 @@ msgid "Company Total"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Compose Email"
 msgstr "E-posta Oluştur"
@@ -1000,7 +1000,7 @@ msgid "Confirm purchase orders in one step"
 msgstr "Satınalma siparişlerini bir adımda onayla"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Confirm your purchase."
 msgstr "Satınalma işleminizi onaylayın."
@@ -1129,7 +1129,7 @@ msgid "Date Calendar Start"
 msgstr "Takvim Başlama Tarihi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Date Updated"
 msgstr "Güncellenme Tarihi"
@@ -1140,7 +1140,7 @@ msgid "Date:"
 msgstr "Tarih:"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Days"
 msgstr "Gün"
@@ -1274,13 +1274,13 @@ msgid "Double validation amount"
 msgstr "Çift onay tutarı"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid "Down Payment (ref: %(ref)s)"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Down Payments"
 msgstr "Peşinat Ödemeleri"
@@ -1299,7 +1299,7 @@ msgstr "Taslak Teklif Talebi"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
-"quotations in Odoo. Enjoy the automation!"
+"quotations in Manapathi. Enjoy the automation!"
 msgstr ""
 
 #. module: purchase
@@ -1319,7 +1319,7 @@ msgid "Extended Filters"
 msgstr "Genişletilmiş Filtreler"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Extra line with %s "
 msgstr "%s ile fazladan satır"
@@ -1361,13 +1361,13 @@ msgid "Forbidden values on non-accountable purchase order line"
 msgstr "Sorumsuz satın alma siparişi satırında yasak değerler"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From %s"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From Electronic Document"
 msgstr ""
@@ -1479,19 +1479,19 @@ msgid "If true, the packaging can be used for purchase orders"
 msgstr "Doğruysa, ambalaj satın alma siparişleri için kullanılabilir"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Import Template for Products"
 msgstr "Ürünler İçe Aktarma Şablonu"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "In order to delete a purchase order, you must cancel it first."
 msgstr "Bir satınalma siparişi silmek için, önce onu iptal etmeniz gerekir."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "In selected purchase order to merge these details must be same\n"
@@ -1509,7 +1509,7 @@ msgid "Incoterm"
 msgstr "Teslimat Koşulu"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Indicate the product quantity you want to order."
 msgstr "Sipariş vermek istediğiniz ürün miktarını belirtiniz."
@@ -1580,7 +1580,7 @@ msgid "Last Updated on"
 msgstr "Son Güncelleme"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Late"
 msgstr "Geciken"
@@ -1597,19 +1597,19 @@ msgid "Late RFQs"
 msgstr "Geciken Teklif Talebleri"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Lead Time to Purchase"
 msgstr "Satın Alma Süresi"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Let's create your first request for quotation."
 msgstr "İlk teklif talebinizi oluşturalım."
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Let's try the Purchase app to manage the flow from purchase to reception and"
@@ -1654,7 +1654,7 @@ msgid "Lock Confirmed Orders"
 msgstr "Onaylanmış Siparişleri Kilitle"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__done
 msgid "Locked"
@@ -1765,13 +1765,13 @@ msgid "My Activity Deadline"
 msgstr "Aktivite Son Tarihim"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Draft RFQs"
 msgstr "Taslak Teklif Taleblerim"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Late RFQs"
 msgstr "Geciken Teklif Taleblerim"
@@ -1787,19 +1787,19 @@ msgid "My Purchases"
 msgstr "Satınalımlarım"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My RFQs"
 msgstr "Teklif Taleblerim"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Waiting RFQs"
 msgstr "Bekleyen Teklif Taleblerim"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Name"
 msgstr "Adı"
@@ -1810,7 +1810,7 @@ msgid "Name, TIN, Email, or Reference"
 msgstr "Adı, VKN, E-posta veya Referans"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Newest"
 msgstr "En Yeni"
@@ -1878,7 +1878,7 @@ msgstr "Kabul Edilmedi"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Not using Odoo?"
+msgid "Not using Manapathi?"
 msgstr ""
 
 #. module: purchase
@@ -1927,8 +1927,8 @@ msgstr "Teslimat hatası olan mesaj adedi"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -1951,7 +1951,7 @@ msgid "On received quantities"
 msgstr "Teslim alınmış miktardan"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Once you get the price from the vendor, you can complete the purchase order "
@@ -1970,7 +1970,7 @@ msgstr ""
 "onaylayın ve bu bir satın alma siparişine dönüşecektir."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Operation not supported"
 msgstr "Operasyon desteklenmiyor"
@@ -2032,7 +2032,7 @@ msgid "Orders"
 msgstr "Siparişler"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Order due %(date)s"
 msgstr ""
@@ -2080,7 +2080,7 @@ msgid "Payment terms"
 msgstr "Ödeme Koşulları"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Please select at least two purchase orders with state RFQ and RFQ sent to "
@@ -2108,7 +2108,7 @@ msgid "Price"
 msgstr "Fiyat"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/product_catalog/purchase_order_line/purchase_order_line.xml:0
 msgid "Price:"
 msgstr "Fiyat:"
@@ -2261,7 +2261,7 @@ msgid "Purchase History"
 msgstr "Satınalma Geçmişi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Purchase History for %s"
@@ -2279,13 +2279,13 @@ msgid "Purchase Line and Vendor Bill line matching view"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "Purchase Matching"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.action_report_purchase_order
@@ -2383,7 +2383,7 @@ msgid "Purchase Order Warning"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/analytic_account.py:0
 #: model:ir.actions.act_window,name:purchase.purchase_form_action
 #: model:ir.ui.menu,name:purchase.menu_purchase_form_action
@@ -2454,7 +2454,7 @@ msgid "Purchased"
 msgstr "Satınalınan"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Purchased Last 7 Days"
 msgstr "Son 7 Gün Satınalınan"
@@ -2560,13 +2560,13 @@ msgid "RFQ Sent"
 msgstr "Teklif Talebi Gönderildi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %s"
 msgstr ""
@@ -2577,7 +2577,7 @@ msgid "RFQs"
 msgstr "RFQs"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "RFQs Sent Last 7 Days"
 msgstr "Son 7 Günde Gönderilen RFQ"
@@ -2717,7 +2717,7 @@ msgid "Reporting"
 msgstr "Raporlama"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.report_purchase_quotation
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -2788,7 +2788,7 @@ msgid "Search Reference Document"
 msgstr "Referans Belgesini Ara"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Search a vendor name, or create one on the fly."
 msgstr "Bir tedarikçi adı arayın veya anında oluşturun."
@@ -2814,13 +2814,13 @@ msgid "Security Token"
 msgstr "Güvenlik Token"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Select Vendor Bill lines to add to a Purchase Order"
 msgstr ""
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Select a product, or create a new one on the fly."
 msgstr "Bir ürün seçin veya anında yeni bir ürün oluşturun."
@@ -2870,7 +2870,7 @@ msgid "Send by Email"
 msgstr "E-posta ile Gönder"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Send the request for quotation to your vendor."
 msgstr "Fiyat teklifi talebini tedarikçinize gönderin."
@@ -2938,7 +2938,7 @@ msgstr "Yıldızlı"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Start on Odoo"
+msgid "Start on Manapathi"
 msgstr ""
 
 #. module: purchase
@@ -3081,25 +3081,25 @@ msgstr ""
 "Hızlı arama için bu alanı kullanabilirsiniz."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been acknowledged by %s."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been declined by %s."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been acknowledged by %s."
 msgstr "Sipariş makbuzu %s tarafından onaylandı."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been declined by %s."
 msgstr ""
@@ -3116,7 +3116,7 @@ msgstr ""
 "edebileceksiniz."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
@@ -3134,14 +3134,14 @@ msgid "There are currently no requests for quotation for your account."
 msgstr "Şu anda hesabınız için herhangi bir teklif talebi yok."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid ""
 "There are no products to add to the Purchase Order. Are these Down Payments?"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "There is no invoiceable line. If a product has a control policy based on "
@@ -3185,7 +3185,7 @@ msgid "This note is added to purchase orders."
 msgstr "Bu not satınalma siparişlerine eklenir."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should "
@@ -3195,13 +3195,13 @@ msgstr ""
 "%(quantity).2f%(unit)s satınalmalısınız."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been created from: "
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been modified from: "
 msgstr ""
@@ -3236,7 +3236,7 @@ msgid "To Invoice Quantity"
 msgstr "Faturalanacak Miktar"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "To Send"
 msgstr "Giden"
@@ -3248,7 +3248,7 @@ msgid "Today Activities"
 msgstr "Bugünkü Aktiviteler"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_total
@@ -3329,7 +3329,7 @@ msgid "Type of the exception activity on record."
 msgstr "Kayıtlardaki istisna etkinliğinin türü."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Unable to cancel purchase order(s): %s. You must first cancel their related "
@@ -3411,7 +3411,7 @@ msgid "UoM"
 msgstr "Ölçü Birimi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Update Dates"
 msgstr "Update Dates"
@@ -3460,7 +3460,7 @@ msgid "Vendor Bill"
 msgstr "Tedarikçi Faturası"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Vendor Bill lines can only be added to one Purchase Order."
 msgstr ""
@@ -3499,14 +3499,14 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Manapathi."
 msgstr ""
 "Tedarikçi faturaları, satınalma siparişlerine veya alımlara dayanarak "
-"önceden oluşturulabilir. Bu, Odoo'daki taslak dokümana göre satıcınızdan "
+"önceden oluşturulabilir. Bu, Manapathi'daki taslak dokümana göre satıcınızdan "
 "aldığınız faturaları kontrol etmenizi sağlar."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View"
 msgstr "Görüntüle"
@@ -3517,13 +3517,13 @@ msgid "View Details"
 msgstr "Detayları Görüntüle"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Order"
 msgstr "Siparişi Görüntüle"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Quotation"
 msgstr "Teklifi Görüntüle"
@@ -3534,7 +3534,7 @@ msgid "Volume"
 msgstr "Hacim"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Waiting"
 msgstr "Bekleyen"
@@ -3552,11 +3552,11 @@ msgstr "Bekleme Teklif Talepleri"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Want to import this document in Odoo?"
+msgid "Want to import this document in Manapathi?"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__warning
 #: model:ir.model.fields.selection,name:purchase.selection__res_partner__purchase_warn__warning
@@ -3564,7 +3564,7 @@ msgid "Warning"
 msgstr "Uyarı"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Warning for %s"
@@ -3603,14 +3603,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, Manapathi will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Bir satınalma siparişi oluştururken, tedarikçinin <i>Zamanında Teslimat</i> "
 "oranına bir göz atın: zamanında sevk edilen ürünlerin yüzdesi çok düşükse, "
 "<i>otomatik hatırlatıcıları</i> etkinleştirin. Vadesi dolan sevkiyattan "
-"birkaç gün önce, Odoo tedarikçiye gönderi tarihlerinin onayını istemek için "
+"birkaç gün önce, Manapathi tedarikçiye gönderi tarihlerinin onayını istemek için "
 "bir e-posta gönderecek ve herhangi bir gecikme durumunda sizi "
 "bilgilendirecektir. Tedarikçinin performans istatistiklerini almak için OTD "
 "oranına tıklayın."
@@ -3618,12 +3618,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Manapathi asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"E-posta ile bir satın alma siparişi gönderirken, Odoo, tedarikçiden "
+"E-posta ile bir satın alma siparişi gönderirken, Manapathi, tedarikçiden "
 "siparişin alındığını onaylamasını ister. Tedarikçi, e-postadaki bir düğmeye "
 "tıklayarak siparişi kabul ettiğinde, bilgi satın alma siparişine eklenir. "
 "Onaylanmamış siparişleri takip etmek için filtreleri kullanın."
@@ -3636,13 +3636,13 @@ msgstr ""
 "Bir tedarikçiyi Adı, TIN, E-posta veya Dahili Referans ile bulabilirsiniz."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "You can't select lines from multiple Vendor Bill to do the matching."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "You cannot change the type of a purchase order line. Instead you should "
@@ -3675,14 +3675,14 @@ msgstr ""
 "           ister depolanabilir bir ürün, ister sarf malzemesi veya hizmet olsun."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid ""
 "You must select at least one Purchase Order line to match or create bill."
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
@@ -3707,7 +3707,7 @@ msgid "or create new"
 msgstr ""
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "purchase orders merged"
 msgstr ""

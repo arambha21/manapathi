@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import argparse
 import logging
@@ -29,7 +29,7 @@ TSEC = time.strftime("%H%M%S", time.gmtime())
 version = ...
 version_info = ...
 nt_service_name = ...
-exec(open(os.path.join(ROOTDIR, 'odoo', 'release.py'), 'rb').read())
+exec(open(os.path.join(ROOTDIR, 'manapathi', 'release.py'), 'rb').read())
 VERSION = version.split('-')[0].replace('saas~', '')
 GPGPASSPHRASE = os.getenv('GPGPASSPHRASE')
 GPGID = os.getenv('GPGID')
@@ -37,20 +37,20 @@ DOCKERVERSION = VERSION.replace('+', '')
 INSTALL_TIMEOUT = 600
 
 DOCKERUSER = """
-RUN mkdir /var/lib/odoo && \
-    groupadd -g %(group_id)s odoo && \
-    useradd -u %(user_id)s -g odoo odoo -d /var/lib/odoo && \
+RUN mkdir /var/lib/manapathi && \
+    groupadd -g %(group_id)s manapathi && \
+    useradd -u %(user_id)s -g manapathi manapathi -d /var/lib/manapathi && \
     mkdir /data && \
-    chown odoo:odoo /var/lib/odoo /data
-USER odoo
+    chown manapathi:manapathi /var/lib/manapathi /data
+USER manapathi
 """ % {'group_id': os.getgid(), 'user_id': os.getuid()}
 
 
-class OdooTestTimeoutError(Exception):
+class ManapathiTestTimeoutError(Exception):
     pass
 
 
-class OdooTestError(Exception):
+class ManapathiTestError(Exception):
     pass
 
 
@@ -74,12 +74,12 @@ def _rpc_count_modules(addr='http://127.0.0.1', port=8069, dbname='mycompany'):
         )
         if toinstallmodules:
             logging.error("Package test: FAILED. Not able to install dependencies of base.")
-            raise OdooTestError("Installation of package failed")
+            raise ManapathiTestError("Installation of package failed")
         else:
             logging.info("Package test: successfuly installed %s modules" % len(modules))
     else:
         logging.error("Package test: FAILED. Not able to install base.")
-        raise OdooTestError("Package test: FAILED. Not able to install base.")
+        raise ManapathiTestError("Package test: FAILED. Not able to install base.")
 
 
 def publish(args, pub_type, extensions):
@@ -108,7 +108,7 @@ def publish(args, pub_type, extensions):
 
     published = []
     for extension in extensions:
-        release = glob("%s/odoo_*.%s" % (args.build_dir, extension))
+        release = glob("%s/manapathi_*.%s" % (args.build_dir, extension))
         if release:
             published.append(_publish(release[0]))
     return published
@@ -167,13 +167,13 @@ def _prepare_build_dir(args, win32=False, move_addons=True):
     if win32 is False:
         cmd += ['--exclude', 'setup/win32']
 
-    run_cmd(cmd + ['%s/' % args.odoo_dir, args.build_dir])
+    run_cmd(cmd + ['%s/' % args.manapathi_dir, args.build_dir])
     if not move_addons:
         return
     for addon_path in glob(os.path.join(args.build_dir, 'addons/*')):
         if args.blacklist is None or os.path.basename(addon_path) not in args.blacklist:
             try:
-                shutil.move(addon_path, os.path.join(args.build_dir, 'odoo/addons'))
+                shutil.move(addon_path, os.path.join(args.build_dir, 'manapathi/addons'))
             except shutil.Error as e:
                 logging.warning("Warning '%s' while moving addon '%s", e, addon_path)
                 if addon_path.startswith(args.build_dir) and os.path.isdir(addon_path):
@@ -194,7 +194,7 @@ class Docker():
         :param args: argparse parsed arguments
         """
         self.args = args
-        self.tag = 'odoo-%s-%s-nightly-tests' % (DOCKERVERSION, self.arch)
+        self.tag = 'manapathi-%s-%s-nightly-tests' % (DOCKERVERSION, self.arch)
         self.container_name = None
         self.exposed_port = None
         docker_templates = {
@@ -203,7 +203,7 @@ class Docker():
             'rpm': os.path.join(args.build_dir, 'setup/package.dffedora'),
             'win': os.path.join(args.build_dir, 'setup/package.dfwine'),
         }
-        self.docker_template = Path(docker_templates[self.arch]).read_text(encoding='utf-8').replace('USER odoo', DOCKERUSER)
+        self.docker_template = Path(docker_templates[self.arch]).read_text(encoding='utf-8').replace('USER manapathi', DOCKERUSER)
         self.test_log_file = '/data/src/test-%s.log' % self.arch
         self.docker_dir = Path(self.args.build_dir) / 'docker'
         if not self.docker_dir.exists():
@@ -218,7 +218,7 @@ class Docker():
         run_cmd(["docker", "build", "--rm=True", "-t", self.tag, "."], chdir=self.docker_dir, timeout=1200).check_returncode()
         shutil.rmtree(self.docker_dir)
 
-    def run(self, cmd, build_dir, container_name, user='odoo', exposed_port=None, detach=False, timeout=None):
+    def run(self, cmd, build_dir, container_name, user='manapathi', exposed_port=None, detach=False, timeout=None):
         self.container_name = container_name
         docker_cmd = [
             "docker",
@@ -252,12 +252,12 @@ class Docker():
     def stop(self):
         run_cmd(["docker", "stop", self.container_name]).check_returncode()
 
-    def test_odoo(self):
-        logging.info('Starting to test Odoo install test')
+    def test_manapathi(self):
+        logging.info('Starting to test Manapathi install test')
         start_time = time.time()
         while self.is_running() and (time.time() - start_time) < INSTALL_TIMEOUT:
             time.sleep(5)
-            if os.path.exists(os.path.join(args.build_dir, 'odoo.pid')):
+            if os.path.exists(os.path.join(args.build_dir, 'manapathi.pid')):
                 try:
                     _rpc_count_modules(port=self.exposed_port)
                 finally:
@@ -265,8 +265,8 @@ class Docker():
                 return
         if self.is_running():
             self.stop()
-            raise OdooTestTimeoutError('Odoo pid file never appeared after %s sec' % INSTALL_TIMEOUT)
-        raise OdooTestError('Error while installing/starting Odoo after %s sec.\nSee testlogs.txt in build dir' % int(time.time() - start_time))
+            raise ManapathiTestTimeoutError('Manapathi pid file never appeared after %s sec' % INSTALL_TIMEOUT)
+        raise ManapathiTestError('Error while installing/starting Manapathi after %s sec.\nSee testlogs.txt in build dir' % int(time.time() - start_time))
 
     def build(self):
         """To be overriden by specific builder"""
@@ -284,9 +284,9 @@ class DockerTgz(Docker):
 
     def build(self):
         logging.info('Start building python tgz package')
-        self.run('python3 setup.py sdist --quiet --formats=gztar,zip', self.args.build_dir, 'odoo-src-build-%s' % TSTAMP)
-        os.rename(glob('%s/dist/odoo-*.tar.gz' % self.args.build_dir)[0], '%s/odoo_%s.%s.tar.gz' % (self.args.build_dir, VERSION, TSTAMP))
-        os.rename(glob('%s/dist/odoo-*.zip' % self.args.build_dir)[0], '%s/odoo_%s.%s.zip' % (self.args.build_dir, VERSION, TSTAMP))
+        self.run('python3 setup.py sdist --quiet --formats=gztar,zip', self.args.build_dir, 'manapathi-src-build-%s' % TSTAMP)
+        os.rename(glob('%s/dist/manapathi-*.tar.gz' % self.args.build_dir)[0], '%s/manapathi_%s.%s.tar.gz' % (self.args.build_dir, VERSION, TSTAMP))
+        os.rename(glob('%s/dist/manapathi-*.zip' % self.args.build_dir)[0], '%s/manapathi_%s.%s.zip' % (self.args.build_dir, VERSION, TSTAMP))
         logging.info('Finished building python tgz package')
 
     def start_test(self):
@@ -295,17 +295,17 @@ class DockerTgz(Docker):
         logging.info('Start testing python tgz package')
         cmds = [
             'service postgresql start',
-            'su postgres -s /bin/bash -c "createuser -s odoo"',
-            'su odoo -s /bin/bash -c "python3 -m venv /var/lib/odoo/odoovenv"',
-            'su odoo -s /bin/bash -c "/var/lib/odoo/odoovenv/bin/python3 -m pip install --upgrade pip"',
-            'su odoo -s /bin/bash -c "/var/lib/odoo/odoovenv/bin/python3 -m pip install -r /opt/release/requirements.txt"',
-            f'su odoo -s /bin/bash -c "/var/lib/odoo/odoovenv/bin/python3 -m pip install /data/src/odoo_{VERSION}.{TSTAMP}.tar.gz"',
-            'su odoo -s /bin/bash -c "createdb mycompany"',
-            'su odoo -s /bin/bash -c "/var/lib/odoo/odoovenv/bin/odoo -d mycompany -i base --stop-after-init"',
-            'su odoo -s /bin/bash -c "/var/lib/odoo/odoovenv/bin/odoo -d mycompany --pidfile=/data/src/odoo.pid"',
+            'su postgres -s /bin/bash -c "createuser -s manapathi"',
+            'su manapathi -s /bin/bash -c "python3 -m venv /var/lib/manapathi/manapathivenv"',
+            'su manapathi -s /bin/bash -c "/var/lib/manapathi/manapathivenv/bin/python3 -m pip install --upgrade pip"',
+            'su manapathi -s /bin/bash -c "/var/lib/manapathi/manapathivenv/bin/python3 -m pip install -r /opt/release/requirements.txt"',
+            f'su manapathi -s /bin/bash -c "/var/lib/manapathi/manapathivenv/bin/python3 -m pip install /data/src/manapathi_{VERSION}.{TSTAMP}.tar.gz"',
+            'su manapathi -s /bin/bash -c "createdb mycompany"',
+            'su manapathi -s /bin/bash -c "/var/lib/manapathi/manapathivenv/bin/manapathi -d mycompany -i base --stop-after-init"',
+            'su manapathi -s /bin/bash -c "/var/lib/manapathi/manapathivenv/bin/manapathi -d mycompany --pidfile=/data/src/manapathi.pid"',
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, 'odoo-src-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
-        self.test_odoo()
+        self.run(' && '.join(cmds), self.args.build_dir, 'manapathi-src-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
+        self.test_manapathi()
         logging.info('Finished testing tgz package')
 
 
@@ -317,11 +317,11 @@ class DockerDeb(Docker):
     def build(self):
         logging.info('Start building debian package')
         # Append timestamp to version for the .dsc to refer the right .tar.gz
-        cmds = ["sed -i '1s/^.*$/odoo (%s.%s) stable; urgency=low/' debian/changelog" % (VERSION, TSTAMP)]
+        cmds = ["sed -i '1s/^.*$/manapathi (%s.%s) stable; urgency=low/' debian/changelog" % (VERSION, TSTAMP)]
         cmds.append('dpkg-buildpackage -rfakeroot -uc -us -tc')
         # As the packages are built in the parent of the buildir, we move them back to build_dir
-        cmds.append('mv ../odoo_* ./')
-        self.run(' && '.join(cmds), self.args.build_dir, 'odoo-deb-build-%s' % TSTAMP)
+        cmds.append('mv ../manapathi_* ./')
+        self.run(' && '.join(cmds), self.args.build_dir, 'manapathi-deb-build-%s' % TSTAMP)
         logging.info('Finished building debian package')
 
     def start_test(self):
@@ -331,11 +331,11 @@ class DockerDeb(Docker):
         cmds = [
             'service postgresql start',
             '/usr/bin/apt-get update -y',
-            f'/usr/bin/apt-get install -y /data/src/odoo_{VERSION}.{TSTAMP}_all.deb',
-            'su odoo -s /bin/bash -c "odoo -d mycompany -i base --pidfile=/data/src/odoo.pid"',
+            f'/usr/bin/apt-get install -y /data/src/manapathi_{VERSION}.{TSTAMP}_all.deb',
+            'su manapathi -s /bin/bash -c "manapathi -d mycompany -i base --pidfile=/data/src/manapathi.pid"',
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, 'odoo-deb-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
-        self.test_odoo()
+        self.run(' && '.join(cmds), self.args.build_dir, 'manapathi-deb-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
+        self.test_manapathi()
         logging.info('Finished testing debian package')
 
 
@@ -346,18 +346,18 @@ class DockerRpm(Docker):
 
     def build(self):
         logging.info('Start building fedora rpm package')
-        rpmbuild_dir = '/var/lib/odoo/rpmbuild'
+        rpmbuild_dir = '/var/lib/manapathi/rpmbuild'
         cmds = [
             'cd /data/src',
             'mkdir -p dist',
             'rpmdev-setuptree -d',
-            f'cp -a /data/src/setup/rpm/odoo.spec {rpmbuild_dir}/SPECS/',
-            f'tar --transform "s/^\\./odoo-{VERSION}/" -c -z -f {rpmbuild_dir}/SOURCES/odoo-{VERSION}.tar.gz .',
-            f'rpmbuild -bb --define="%version {VERSION}" /data/src/setup/rpm/odoo.spec',
-            f'mv {rpmbuild_dir}/RPMS/noarch/odoo*.rpm /data/src/dist/'
+            f'cp -a /data/src/setup/rpm/manapathi.spec {rpmbuild_dir}/SPECS/',
+            f'tar --transform "s/^\\./manapathi-{VERSION}/" -c -z -f {rpmbuild_dir}/SOURCES/manapathi-{VERSION}.tar.gz .',
+            f'rpmbuild -bb --define="%version {VERSION}" /data/src/setup/rpm/manapathi.spec',
+            f'mv {rpmbuild_dir}/RPMS/noarch/manapathi*.rpm /data/src/dist/'
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, f'odoo-rpm-build-{TSTAMP}')
-        os.rename(glob('%s/dist/odoo-*.noarch.rpm' % self.args.build_dir)[0], '%s/odoo_%s.%s.rpm' % (self.args.build_dir, VERSION, TSTAMP))
+        self.run(' && '.join(cmds), self.args.build_dir, f'manapathi-rpm-build-{TSTAMP}')
+        os.rename(glob('%s/dist/manapathi-*.noarch.rpm' % self.args.build_dir)[0], '%s/manapathi_%s.%s.rpm' % (self.args.build_dir, VERSION, TSTAMP))
         logging.info('Finished building fedora rpm package')
 
     def start_test(self):
@@ -367,14 +367,14 @@ class DockerRpm(Docker):
         cmds = [
             'su postgres -c "/usr/bin/pg_ctl -D /var/lib/postgres/data start"',
             'sleep 5',
-            'su postgres -c "createuser -s odoo"',
-            'su odoo -c "createdb mycompany"',
-            'dnf install -d 0 -e 0 /data/src/odoo_%s.%s.rpm -y' % (VERSION, TSTAMP),
-            'su odoo -s /bin/bash -c "odoo -c /etc/odoo/odoo.conf -d mycompany -i base --stop-after-init"',
-            'su odoo -s /bin/bash -c "odoo -c /etc/odoo/odoo.conf -d mycompany --pidfile=/data/src/odoo.pid"',
+            'su postgres -c "createuser -s manapathi"',
+            'su manapathi -c "createdb mycompany"',
+            'dnf install -d 0 -e 0 /data/src/manapathi_%s.%s.rpm -y' % (VERSION, TSTAMP),
+            'su manapathi -s /bin/bash -c "manapathi -c /etc/manapathi/manapathi.conf -d mycompany -i base --stop-after-init"',
+            'su manapathi -s /bin/bash -c "manapathi -c /etc/manapathi/manapathi.conf -d mycompany --pidfile=/data/src/manapathi.pid"',
         ]
-        self.run(' && '.join(cmds), args.build_dir, 'odoo-rpm-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
-        self.test_odoo()
+        self.run(' && '.join(cmds), args.build_dir, 'manapathi-rpm-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
+        self.test_manapathi()
         logging.info('Finished testing rpm package')
 
     def gen_rpm_repo(self, args, rpm_filepath):
@@ -389,7 +389,7 @@ class DockerRpm(Docker):
         shutil.copy(rpm_filepath, temp_path)
 
         logging.info('Start creating rpm repo')
-        self.run('createrepo /data/src/', temp_path, 'odoo-rpm-createrepo-%s' % TSTAMP)
+        self.run('createrepo /data/src/', temp_path, 'manapathi-rpm-createrepo-%s' % TSTAMP)
         shutil.copytree(os.path.join(temp_path, "repodata"), pub_repodata_path)
 
         # Remove temp directory
@@ -408,15 +408,15 @@ class DockerWine(Docker):
     def build(self):
         logging.info('Start building windows package')
         winver = "%s.%s" % (VERSION.replace('~', '_').replace('+', ''), TSTAMP)
-        container_python = '/var/lib/odoo/.wine/drive_c/odoobuild/WinPy64/python-3.12.3.amd64/python.exe'
+        container_python = '/var/lib/manapathi/.wine/drive_c/manapathibuild/WinPy64/python-3.12.3.amd64/python.exe'
         nsis_args = f'/DVERSION={winver} /DMAJOR_VERSION={version_info[0]} /DMINOR_VERSION={version_info[1]} /DSERVICENAME={nt_service_name} /DPYTHONVERSION=3.12.3'
         cmds = [
             rf'wine {container_python} -m pip install --upgrade pip',
             rf'cat /data/src/requirements*.txt  | while read PACKAGE; do wine {container_python} -m pip install "${{PACKAGE%%#*}}" ; done',
-            rf'wine "c:\nsis-3.10\makensis.exe" {nsis_args} "c:\odoobuild\server\setup\win32\setup.nsi"',
+            rf'wine "c:\nsis-3.10\makensis.exe" {nsis_args} "c:\manapathibuild\server\setup\win32\setup.nsi"',
             rf'wine {container_python} -m pip list'
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, 'odoo-win-build-%s' % TSTAMP)
+        self.run(' && '.join(cmds), self.args.build_dir, 'manapathi-win-build-%s' % TSTAMP)
         logging.info('Finished building Windows package')
 
 def parse_args():
@@ -439,7 +439,7 @@ def parse_args():
 
     parsed_args = ap.parse_args()
     logging.basicConfig(format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %I:%M:%S', level=log_levels[parsed_args.logging])
-    parsed_args.odoo_dir = ROOTDIR
+    parsed_args.manapathi_dir = ROOTDIR
     return parsed_args
 
 

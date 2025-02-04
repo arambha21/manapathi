@@ -1,6 +1,6 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
-import { Component } from '@odoo/owl';
+import { Component } from '@manapathi/owl';
 import { _t } from '@web/core/l10n/translation';
 
 export class LocationSchedule extends Component {

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 from markupsafe import Markup
 
 from odoo.tests.common import TransactionCase, users
@@ -133,6 +133,6 @@ class TestSMSTemplateReset(TransactionCase):
         reset_action = sms_template_reset.reset_template()
         self.assertTrue(reset_action)
 
-        self.assertEqual(sms_template.body.strip(), Markup('<div>Hello Odoo</div>'))
+        self.assertEqual(sms_template.body.strip(), Markup('<div>Hello Manapathi</div>'))
         # Name is not there in the data file template, so it should be set to False
         self.assertFalse(sms_template.name, "Name should be set to False")

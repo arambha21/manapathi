@@ -1,5 +1,5 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import models, fields
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
+from manapathi import models, fields
 
 
 class L10nLatamIdentificationType(models.Model):

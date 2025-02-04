@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* delivery
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Abe Manyo, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Abe Manyo, 2024\n"
-"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://app.transifex.com/manapathi/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,13 +21,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/wizard/choose_delivery_carrier.py:0
 msgid "%(carrier)s Error"
 msgstr "%(carrier)s Error"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
 "%s\n"
@@ -37,7 +37,7 @@ msgstr ""
 "Pengiriman Gratis"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "%s (copy)"
 msgstr "%s (salin)"
@@ -48,15 +48,15 @@ msgid "<i class=\"oi oi-arrow-right me-1\"/>Get rate"
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Dapatkan harga"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Buy Odoo Enterprise now to get more providers.\n"
+"                    Buy Manapathi Enterprise now to get more providers.\n"
 "                </p>"
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Beli Odoo Enterprise sekarang untuk mendapatkan lebih banyak penyedia.\n"
+"                    Beli Manapathi Enterprise sekarang untuk mendapatkan lebih banyak penyedia.\n"
 "                </p>"
 
 #. module: delivery
@@ -119,7 +119,7 @@ msgid "Add"
 msgstr "Tambah"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 #: code:addons/delivery/wizard/choose_delivery_carrier.py:0
 msgid "Add a shipping method"
@@ -184,7 +184,7 @@ msgid "Carrier"
 msgstr "Pembawa"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded "
@@ -199,20 +199,20 @@ msgid "Carrier Description"
 msgstr "Keterangan Carrier"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Choose a pick-up point"
 msgstr "Pilih titik pengambilan"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Choose this location"
 msgstr "Pilih lokasi ini"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_schedule/location_schedule.js:0
 msgid "Closed"
 msgstr "Ditutup"
@@ -413,13 +413,13 @@ msgid "Environment"
 msgstr "Lingkungan"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available for this address."
 msgstr "Kesalahan: metode pengiriman ini tidak tersedia untuk alamat ini."
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available."
 msgstr "Error: metode pengiriman ini tidak tersedia."
@@ -575,13 +575,13 @@ msgid "Last Updated on"
 msgstr "Terakhir Diperbarui pada"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "List view"
 msgstr "Tampilan list"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Loading..."
 msgstr "Memuat..."
@@ -602,7 +602,7 @@ msgid "Manage delivery zip prefixes"
 msgstr "Kelola awalan kode pos pengiriman"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Map view"
 msgstr "Tampilan peta"
@@ -648,32 +648,32 @@ msgid "Name"
 msgstr "Nama"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "New Providers"
 msgstr "Penyedia Baru"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid "No pick-up points are available for this delivery address."
 msgstr ""
 "Tidak ada titik pengambilan yang tersedia untuk alamat pengiriman ini."
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "No result"
 msgstr "Tidak ada hasil"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Not available for current order"
 msgstr "Tidak tersedia untuk order saat ini"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location/location.js:0
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Opening hours"
@@ -794,7 +794,7 @@ msgid "Sales Order Line"
 msgstr "Baris Pesanan Penjualan"
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.xml:0
 msgid "Search"
 msgstr "Cari"
@@ -908,13 +908,13 @@ msgid "The shipping insurance must be a percentage between 0 and 100."
 msgstr "Asuransi pengiriman harus merupakan persentase di antara 0 dan 100."
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "The shipping is free since the order amount exceeds %.2f."
 msgstr "Pengiriman bebas ongkir karena jumlah order melebihi %.2f."
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "There was an error loading the map"
 msgstr "Terdapat error selagi memuat peta"
@@ -966,7 +966,7 @@ msgid "Update"
 msgstr "Perbarui"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 #: model_terms:ir.ui.view,arch_db:delivery.view_order_form_with_carrier
 msgid "Update shipping cost"
@@ -1016,7 +1016,7 @@ msgid "Weight unit of measure label"
 msgstr "Satuan berat dari label ukuran"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
 "You can not update the shipping costs on an order where it was already invoiced!\n"
@@ -1030,7 +1030,7 @@ msgstr ""
 "\n"
 
 #. module: delivery
-#. odoo-python
+#. manapathi-python
 #: code:addons/delivery/models/product_category.py:0
 msgid ""
 "You cannot delete the deliveries product category as it is used on the "
@@ -1040,7 +1040,7 @@ msgstr ""
 "pengiriman produk carrier."
 
 #. module: delivery
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Your postal code"
 msgstr "Kode pos Anda"

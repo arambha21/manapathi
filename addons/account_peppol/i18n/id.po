@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* account_peppol
 # 
 # Translators:
 # Abe Manyo, 2025
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Manapathi, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -164,9 +164,9 @@ msgstr "Metode Pengiriman Peppol yang Tersedia"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
-"By clicking the button below I accept that Odoo may process my e-invoices."
+"By clicking the button below I accept that Manapathi may process my e-invoices."
 msgstr ""
-"Dengan mengeklik tombol di bawah saya setuju bahwa Odoo dapat memproses "
+"Dengan mengeklik tombol di bawah saya setuju bahwa Manapathi dapat memproses "
 "e-faktur saya."
 
 #. module: account_peppol
@@ -410,8 +410,8 @@ msgstr "Ambil dari PEPPOL"
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Free on Odoo"
-msgstr "Gratis di Odoo"
+msgid "Free on Manapathi"
+msgstr "Gratis di Manapathi"
 
 #. module: account_peppol
 #. odoo-javascript
@@ -427,9 +427,9 @@ msgstr ""
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
-msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
+msgid "I want to migrate my existing Peppol connection to Manapathi (optional):"
 msgstr ""
-"Saya ingin memigrasikan hubungan Peppol saya saat ini ke Odoo (opsional):"
+"Saya ingin memigrasikan hubungan Peppol saya saat ini ke Manapathi (opsional):"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__id
@@ -545,14 +545,14 @@ msgstr "Belum diverifikasi"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Odoo keeps you up to date with the new regulation."
-msgstr "Odoo memastikan Anda up-to-date dengan regulasi baru."
+msgid "Manapathi keeps you up to date with the new regulation."
+msgstr "Manapathi memastikan Anda up-to-date dengan regulasi baru."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_edi_proxy_client_user__proxy_type__peppol
@@ -887,10 +887,10 @@ msgstr "Test"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
-"                                    By clicking the button below I accept that Odoo may process my e-invoices."
+"                                    By clicking the button below I accept that Manapathi may process my e-invoices."
 msgstr ""
 "Mode test memungkinkan mengirim e-faktur melalui jaringan test Peppol.\n"
-"                                Dengan mengeklik tombol di bawah saya menerima bahwa Odoo dapat memproses e-faktur saya."
+"                                Dengan mengeklik tombol di bawah saya menerima bahwa Manapathi dapat memproses e-faktur saya."
 
 #. module: account_peppol
 #. odoo-python
@@ -1134,10 +1134,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid ""
-"You will not be able to send or receive Peppol documents in Odoo anymore. "
+"You will not be able to send or receive Peppol documents in Manapathi anymore. "
 "Are you sure you want to proceed?"
 msgstr ""
-"Anda tidak akan dapat mengirimkan atau menerima dokumen Peppol di Odoo lagi."
+"Anda tidak akan dapat mengirimkan atau menerima dokumen Peppol di Manapathi lagi."
 " Apakah Anda yakin ingin melanjutkan?"
 
 #. module: account_peppol

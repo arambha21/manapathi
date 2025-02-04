@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import _, api, fields, models
-from odoo.exceptions import ValidationError
-from odoo.tools import format_amount
+from manapathi import _, api, fields, models
+from manapathi.exceptions import ValidationError
+from manapathi.tools import format_amount
 
 
 class PaymentCaptureWizard(models.TransientModel):

@@ -1,6 +1,6 @@
 /** @odoo-module */
 
-import { URL_REGEX } from '../../src/OdooEditor.js';
+import { URL_REGEX } from '../../src/ManapathiEditor.js';
 
 describe('urlRegex', () => {
     it('should match foo.com', () => {

@@ -1,5 +1,5 @@
-from odoo import _
-from odoo.addons.portal.controllers.portal import CustomerPortal
+from manapathi import _
+from manapathi.addons.portal.controllers.portal import CustomerPortal
 
 
 class PortalAccount(CustomerPortal):

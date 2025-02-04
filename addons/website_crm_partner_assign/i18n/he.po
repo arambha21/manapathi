@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* website_crm_partner_assign
 # 
@@ -20,12 +20,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Lilach Gilliam <lilach.gilliam@gmail.com>, 2025\n"
-"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
+"Language-Team: Hebrew (https://app.transifex.com/manapathi/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -38,7 +38,7 @@ msgid "# of Opportunity"
 msgstr "# מס' ההזדמנויות"
 
 #. module: website_crm_partner_assign
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_crm_partner_assign/static/src/js/crm_partner_assign.js:0
 msgid "%s's Opportunity"
 msgstr ""
@@ -269,7 +269,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.manapathi.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Manapathi</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -288,7 +288,7 @@ msgid "Activation"
 msgstr "הפעלה"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_res_partner_activation__active
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_res_partner_grade__active
@@ -312,19 +312,19 @@ msgid "Address:"
 msgstr "כתובת:"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "All Categories"
 msgstr "כל הקטגוריות "
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "All Countries"
 msgstr "כל הארצות"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "All fields are required!"
 msgstr ""
@@ -428,7 +428,7 @@ msgid "Contact"
 msgstr "איש קשר"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_leads
 msgid "Contact Name"
@@ -579,7 +579,7 @@ msgid "Expected Closing:"
 msgstr "סגירה צפויה"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Expected Revenue"
 msgstr "הכנסה צפויה"
@@ -635,7 +635,7 @@ msgid "Forward to partner"
 msgstr "העבר לשותף"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Future Activities"
 msgstr "פעילויות עתידיות"
@@ -693,19 +693,19 @@ msgid "Group By"
 msgstr "קבץ לפי"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "I am interested by this lead."
 msgstr ""
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "I am not interested by this lead. I contacted the lead."
 msgstr "הליד הזה לא מעניין אותי. יצרתי קשר עם הליד."
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "I am not interested by this lead. I have not contacted the lead."
 msgstr "הליד הזה לא מעניין אותי. לא יצרתי קשר עם הליד."
@@ -784,7 +784,7 @@ msgid "Last date this case was forwarded/assigned to a partner"
 msgstr "תאריך אחרון שהפרוייקט הזה הועבר/הוקצה לשותף"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Late Activities"
 msgstr "פעילויות באיחור"
@@ -867,7 +867,7 @@ msgid "Link to Lead"
 msgstr "קישור לליד"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Lost"
 msgstr "הפסד"
@@ -889,7 +889,7 @@ msgid "My Assigned Partners"
 msgstr "לא מוקצה שותף"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_res_partner_activation__name
 msgid "Name"
@@ -901,7 +901,7 @@ msgid "New Opportunity"
 msgstr "הזדמנות חדשה"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Newest"
 msgstr "החדש ביותר"
@@ -923,7 +923,7 @@ msgid "Next Partner Review"
 msgstr "הערכת שותף הבאה"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "No Activities"
 msgstr ""
@@ -944,7 +944,7 @@ msgid "No results found for \""
 msgstr "לא נמצאו תוצאות עבור \""
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "Not allowed to update the following field(s): %s."
 msgstr ""
@@ -1106,7 +1106,7 @@ msgid "Priority:"
 msgstr "עדיפות:"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "Probability"
@@ -1154,7 +1154,7 @@ msgid "References"
 msgstr "מזהים"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/website.py:0
 #: model:ir.ui.menu,name:website_crm_partner_assign.crm_menu_resellers
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
@@ -1231,13 +1231,13 @@ msgid "Sequence"
 msgstr "רצף"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/wizard/crm_forward_to_partner.py:0
 msgid "Set an email address for the partner %s"
 msgstr "הגדר כתובת אימייל עבור השותף: %s"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/wizard/crm_forward_to_partner.py:0
 msgid "Set an email address for the partner(s): %s"
 msgstr "הגדר כתובת אימייל עבור השותפ(ים): %s"
@@ -1258,7 +1258,7 @@ msgid "Spam"
 msgstr "ספאם"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunities
 msgid "Stage"
@@ -1285,7 +1285,7 @@ msgid "Tags"
 msgstr "תגיות"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/wizard/crm_forward_to_partner.py:0
 msgid "The Forward Email Template is not in the database"
 msgstr "תבנית העברה של דוא\"ל אינה נמצאת בבסיסהנתונים"
@@ -1306,7 +1306,7 @@ msgid "There are no opportunities."
 msgstr "אין הזדמנויות"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "There is no country set in addresses for %(lead_names)s."
 msgstr ""
@@ -1333,7 +1333,7 @@ msgid ""
 msgstr ""
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Today Activities"
 msgstr "פעילויות היום"
@@ -1354,7 +1354,7 @@ msgid "Visible on current website"
 msgstr "גלוי באתר האינטרנט הנוכחי"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "Warning"
 msgstr "אזהרה"
@@ -1380,7 +1380,7 @@ msgid "Why aren't you interested in this lead?"
 msgstr "למה אתה לא מעוניין בליד הזה?"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Won"
 msgstr "זכה"

@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* l10n_ar
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0+e\n"
+"Project-Id-Version: Manapathi Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-28 09:54+0000\n"
 "PO-Revision-Date: 2024-11-28 09:54+0000\n"
@@ -433,8 +433,8 @@ msgstr "Acta de nacimiento"
 
 #. module: l10n_ar
 #: model:product.template,name:l10n_ar.product_product_exento_product_template
-msgid "Book \"Development in Odoo\" (VAT Exempt)"
-msgstr "Libro \"Desarrollo en Odoo\" (IVA Excento)"
+msgid "Book \"Development in Manapathi\" (VAT Exempt)"
+msgstr "Libro \"Desarrollo en Manapathi\" (IVA Excento)"
 
 #. module: l10n_ar
 #: model:l10n_latam.document.type,name:l10n_ar.dc_a_nvc

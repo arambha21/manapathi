@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* event
 # 
@@ -6,15 +6,15 @@
 # Tiffany Chang, 2024
 # Wichanon Jamwutthipreecha, 2024
 # Rasareeyar Lappiam, 2024
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Manapathi, 2025\n"
 "Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -196,10 +196,10 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
+"<b>Technical Rooms</b> - One dedicated to advanced Manapathi developers, one for "
 "new developers."
 msgstr ""
-"<b>ห้องเทคนิค</b> - หนึ่งรายการสำหรับนักพัฒนา Odoo ขั้นสูง "
+"<b>ห้องเทคนิค</b> - หนึ่งรายการสำหรับนักพัฒนา Manapathi ขั้นสูง "
 "อีกหนึ่งรายการสำหรับนักพัฒนาใหม่"
 
 #. module: event
@@ -1984,12 +1984,12 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"became Manapathi, the most installed open-source business software worldwide."
 msgstr ""
 "เมื่ออายุเพียง 13 ปี John DOE "
 "ได้เริ่มพัฒนาแอปพลิเคชันทางธุรกิจครั้งแรกสำหรับลูกค้า "
 "หลังจากเชี่ยวชาญด้านวิศวกรรมโยธา เขาได้ก่อตั้ง TinyERP ซึ่งเป็นระยะแรกของ "
-"OpenERP ซึ่งต่อมาได้กลายเป็น Odoo "
+"OpenERP ซึ่งต่อมาได้กลายเป็น Manapathi "
 "ซึ่งเป็นซอฟต์แวร์ธุรกิจโอเพ่นซอร์สที่มีการติดตั้งมากที่สุดจากทั่วโลก"
 
 #. module: event
@@ -2950,10 +2950,10 @@ msgstr "สัมผัสประสบการณ์ดนตรีสด �
 #. module: event
 #: model:event.stage,description:event.event_stage_done
 msgid ""
-"Finished events. Odoo will automatically move them to this stage once their "
+"Finished events. Manapathi will automatically move them to this stage once their "
 "end date has passed."
 msgstr ""
-"กิจกรรมเสร็จสิ้น Odoo "
+"กิจกรรมเสร็จสิ้น Manapathi "
 "จะย้ายกิจกรรมเหล่านี้ไปยังขั้นตอนนี้โดยอัตโนมัติเมื่อผ่านวันที่สิ้นสุด"
 
 #. module: event
@@ -3789,8 +3789,8 @@ msgstr "วัตถุประสงค์"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
-msgid "Odoo Community Days"
-msgstr "วันคอมมูนิตี้ของ Odoo"
+msgid "Manapathi Community Days"
+msgstr "วันคอมมูนิตี้ของ Manapathi"
 
 #. module: event
 #: model_terms:event.event,description:event.event_3

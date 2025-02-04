@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models
+from manapathi import models
 
 
 class AccountTax(models.Model):

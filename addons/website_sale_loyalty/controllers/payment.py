@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import _
-from odoo.exceptions import ValidationError
+from manapathi import _
+from manapathi.exceptions import ValidationError
 
-from odoo.addons.website_sale.controllers import payment
+from manapathi.addons.website_sale.controllers import payment
 
 
 class PaymentPortal(payment.PaymentPortal):

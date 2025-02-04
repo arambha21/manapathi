@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Maitê Dietze, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Maitê Dietze, 2024\n"
-"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/manapathi/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,13 +21,13 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid " Flag"
 msgstr "Sinalizar"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid " Flagged"
 msgstr "Sinalizado"
@@ -55,128 +55,128 @@ msgid "# Views"
 msgstr "Nº de visualizações"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to accept or refuse an answer."
 msgstr "%d karma necessário para aceitar ou recusar uma resposta."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to answer a question."
 msgstr "%d karma necessário para responder uma pergunta."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to close or reopen a post."
 msgstr "%d karma necessário para fechar ou reabrir uma publicação."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to comment."
 msgstr "%d karma necessário para comentar."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to convert a comment to an answer."
 msgstr "%d karma necessário para converter um comentário em uma resposta."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to convert an answer to a comment."
 msgstr "%d karma necessário para converter uma resposta em um comentário."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to convert your comment to an answer."
 msgstr "%d karma necessário para converter seu comentário em uma resposta."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_tag.py:0
 msgid "%d karma required to create a new Tag."
 msgstr "%d karma necessário para criar um novo marcador."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to create a new question."
 msgstr "%d karma necessário para criar uma nova pergunta."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to delete a comment."
 msgstr "%d karma necessário para excluir um comentário."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to delete or reactivate a post."
 msgstr "%d karma necessário para excluir ou reativar uma publicação."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "%d karma required to downvote."
 msgstr "%d karma necessário para rebaixar."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to edit a post."
 msgstr "%d karma necessário para editar uma publicação."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to flag a post."
 msgstr "%d karma necessário para sinalizar uma publicação."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to mark a post as offensive."
 msgstr "%d karma necessário para marcar uma publicação como ofensiva."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to post an image or link."
 msgstr "%d karma necessário para publicar uma imagem ou link."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to refuse a post."
 msgstr "%d karma necessário para recusar uma publicação."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to retag."
 msgstr "%d karma necessário para remarcar."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to unlink a post."
 msgstr "%d karma necessário para desvincular uma publicação."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "%d karma required to upvote."
 msgstr "%d karma necessário para curtir."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to validate a post."
 msgstr "%d karma necessário para validar uma publicação."
@@ -187,13 +187,13 @@ msgid "&amp;nbsp;"
 msgstr "&amp;nbsp;"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "'Please enter 2 or more characters'"
 msgstr "'Digite 2 ou mais caracteres'"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "'Tags'"
 msgstr "'Marcadores'"
@@ -215,13 +215,13 @@ msgid "/ (days + 2) **"
 msgstr "/ (dias + 2) **"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "45% of questions shared"
 msgstr "45% de perguntas compartilhadas"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "65% more chance to get an\n"
@@ -818,7 +818,7 @@ msgid "Accepted Answer"
 msgstr "Resposta aceita"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Accepted answer removed"
 msgstr "A resposta aceita foi removida"
@@ -829,7 +829,7 @@ msgid "Accepting an answer"
 msgstr "Aceitando uma resposta"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Access Denied"
 msgstr "Acesso negado"
@@ -876,7 +876,7 @@ msgstr ""
 " nas redes sociais."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_model_nav
 msgid "All"
@@ -903,13 +903,13 @@ msgid "Animation of a pen checking a checkbox"
 msgstr "Animação de uma caneta marcando uma caixa de seleção"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "Answer %s"
 msgstr "Resposta %s"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 #: model:mail.message.subtype,description:website_forum.mt_answer_edit
 #: model:mail.message.subtype,name:website_forum.mt_answer_edit
@@ -1019,7 +1019,7 @@ msgid "Archived"
 msgstr "Arquivado"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Are you sure you want to delete this comment?"
 msgstr "Tem certeza de que quer excluir este comentário?"
@@ -1030,13 +1030,13 @@ msgid "As a moderator, you can either validate or reject this answer."
 msgstr "Como moderador, você pode validar ou rejeitar essa resposta."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Ask a new question"
 msgstr "Fazer uma nova pergunta"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Ask a question"
 msgstr "Fazer uma pergunta"
@@ -1139,19 +1139,19 @@ msgid "Back to Question"
 msgstr "Voltar para a pergunta"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Bad \"filters\" value \"%(filters)s\"."
 msgstr "Valor incorreto de \"filtros\", \"%(filters)s\"."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Bad \"tag_char\" value \"%(tag_char)s\""
 msgstr "Valor de \"tag_char\" incorreto, \"%(tag_char)s\""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Bad Request"
 msgstr "Solicitação inválida"
@@ -1177,7 +1177,7 @@ msgid "Best Answer"
 msgstr "Melhor resposta"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "By sharing you answer, you will get additional"
 msgstr "Ao compartilhar sua resposta, você receberá"
@@ -1269,25 +1269,25 @@ msgid "Chief Commentator"
 msgstr "Chefe dos comentários"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click here to accept this answer."
 msgstr "Clique aqui para aceitar esta resposta."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to post your answer."
 msgstr "Clique para publicar sua resposta."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to post your question."
 msgstr "Clique para publicar sua pergunta."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to reply."
 msgstr "Clique para responder."
@@ -1456,7 +1456,7 @@ msgid "Create a new forum post"
 msgstr "Crie uma nova publicação no fórum"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Create a new post in this forum by clicking on the button."
 msgstr "Crie uma nova publicação neste fórum clicando no botão."
@@ -1481,7 +1481,7 @@ msgid "Create new tags"
 msgstr "Criar novos marcadores"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "Create option \""
 msgstr "Criar opção \""
@@ -1552,7 +1552,7 @@ msgid "Define the visibility of the challenge through menus"
 msgstr "Define a visibilidade dos desafios através dos menus"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 #: model_terms:ir.ui.view,arch_db:website_forum.moderation_queue
 #: model_terms:ir.ui.view,arch_db:website_forum.post_comment
@@ -1581,7 +1581,7 @@ msgid "Delete own posts"
 msgstr "Excluir publicações próprias"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Delete the accepted answer"
 msgstr "Excluir a resposta aceita"
@@ -1636,7 +1636,7 @@ msgid "Discussions (multiple answers)"
 msgstr "Discussões (múltiplas respostas)"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid "Dismiss"
@@ -1668,7 +1668,7 @@ msgid "Downvote"
 msgstr "Rebaixar"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Downvote for posting offensive contents"
 msgstr "Voto negativo por publicar conteúdos ofensivos"
@@ -1758,7 +1758,7 @@ msgstr ""
 "                            <i class=\"fa fa-question-circle\"/>"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "Facebook"
@@ -1919,7 +1919,7 @@ msgstr ""
 "tipo de tarefa de moderação."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/website.py:0
 #: model:ir.actions.act_url,name:website_forum.action_open_forum
 #: model:ir.model,name:website_forum.model_forum_forum
@@ -2006,7 +2006,7 @@ msgid "Get notified when this tag is used"
 msgstr "Seja notificado quando esse marcador for usado"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Give your post title."
 msgstr "Forneça o título da sua publicação."
@@ -2228,7 +2228,7 @@ msgid "Inappropriate and unacceptable statements"
 msgstr "Declarações inadequadas e inaceitáveis"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Insert tags related to your question."
 msgstr "Insira marcadores relacionados à sua pergunta."
@@ -2266,19 +2266,19 @@ msgid "Is the author's biography visible from his post"
 msgstr "A biografia do autor está visível em sua publicação"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "It is not allowed to modify someone else's vote."
 msgstr "Não é permitido modificar o voto de outra pessoa."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "It is not allowed to vote for its own post."
 msgstr "Não é permitido votar em sua própria publicação."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Karma Error"
 msgstr "Erro de karma"
@@ -2371,7 +2371,7 @@ msgid "Link to questions with the tag"
 msgstr "Link para perguntas com o marcador"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "LinkedIn"
@@ -2634,7 +2634,7 @@ msgid "Offensive"
 msgstr "Ofensivo"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Offensive Post"
 msgstr "Publicação ofensiva"
@@ -2645,13 +2645,13 @@ msgid "Offensive Posts"
 msgstr "Publicações ofensivas"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Oh no! Please <a href=\"%s\">sign in</a> to perform this action"
 msgstr "Ah não! <a href=\"%s\">Faça login</a> para executar essa ação"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "On average,"
 msgstr "Em média,"
@@ -2761,13 +2761,13 @@ msgid "Post Your Question"
 msgstr "Publicar pergunta"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Post is closed and marked as offensive content"
 msgstr "A publicação está fechada e marcada como conteúdo ofensivo"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Post is closed and marked as spam"
 msgstr "A publicação está fechada e marcada como spam"
@@ -2788,7 +2788,7 @@ msgid "Posted 100 comments"
 msgstr "100 comentários publicados"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Posting answer on a [Deleted] or [Closed] question is not possible."
 msgstr ""
@@ -2831,13 +2831,13 @@ msgid "Pundit"
 msgstr "Perito"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Put your answer here."
 msgstr "Insira sua resposta aqui."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Put your question here."
 msgstr "Insira sua pergunta aqui."
@@ -2849,13 +2849,13 @@ msgid "Question"
 msgstr "Pergunta"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "Question %s"
 msgstr "Pergunta %s"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 #: model:mail.message.subtype,description:website_forum.mt_question_edit
 #: model:mail.message.subtype,name:website_forum.mt_question_edit
@@ -2888,7 +2888,7 @@ msgid "Question set as favorite by 5 users"
 msgstr "Pergunta marcada como favorita por 5 usuários"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Question should not be empty."
 msgstr "A pergunta não pode estar em branco."
@@ -2955,7 +2955,7 @@ msgid "Ratings"
 msgstr "Avaliações"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Re: %s"
 msgstr "Re: %s"
@@ -3014,7 +3014,7 @@ msgid "Relevance Computation"
 msgstr "Cálculo de relevância"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Remove validated answer"
 msgstr "Remover resposta validada"
@@ -3027,7 +3027,7 @@ msgid "Reopen"
 msgstr "Reabrir"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Reopen a banned question"
 msgstr "Reabrir uma pergunta banida"
@@ -3045,7 +3045,7 @@ msgid "Reply"
 msgstr "Responder"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Reply should not be empty."
 msgstr "A resposta não deve estar em branco."
@@ -3113,7 +3113,7 @@ msgid "Second Relevance Parameter"
 msgstr "Parâmetro de relevância secundária"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/res_users.py:0
 msgid "See our Forum"
 msgstr "Veja o nosso fórum"
@@ -3153,7 +3153,7 @@ msgid "Sequence"
 msgstr "Sequência"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid ""
@@ -3165,7 +3165,7 @@ msgstr ""
 "marketing melhores."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "Share this content to increase your chances to be featured on the front page"
@@ -3190,7 +3190,7 @@ msgid "Showing results for"
 msgstr "Mostrando resultados para"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_sign_up_cta
@@ -3243,14 +3243,14 @@ msgid "Sorry, we could not find any results"
 msgstr "Sinto muito, não foi possível encontrar nenhum resultado"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Sorry, you cannot select your own posts as best answer"
 msgstr ""
 "Não é possível selecionar suas próprias publicações como melhor resposta"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Sorry, you cannot vote for your own posts"
 msgstr "Não é possível votar em suas próprias publicações"
@@ -3351,13 +3351,13 @@ msgid "Teaser"
 msgstr "Prévia"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "Thanks for posting!"
 msgstr "Obrigado por publicar!"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "The accepted answer is deleted"
 msgstr "A resposta aceita foi excluída"
@@ -3368,10 +3368,10 @@ msgstr "A resposta aceita foi excluída"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to Manapathi."
 msgstr ""
 "O objetivo deste site é criar uma base de conhecimentos relevantes que "
-"respondam a perguntas relacionadas ao Odoo."
+"respondam a perguntas relacionadas ao Manapathi."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -3453,13 +3453,13 @@ msgid "This forum has been archived."
 msgstr "Este fórum foi arquivado."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "This post can not be flagged"
 msgstr "Esta publicação não pode ser sinalizada"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "This post is already flagged"
 msgstr "Esta publicação já foi sinalizada"
@@ -3512,7 +3512,7 @@ msgid "Title must not be empty"
 msgstr "O título não pode ficar em branco"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Title should not be empty."
 msgstr "Informe um título."
@@ -3580,7 +3580,7 @@ msgid "Track Karma Changes"
 msgstr "Rastrear mudanças de karma"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "Twitter"
@@ -3669,7 +3669,7 @@ msgid "User"
 msgstr "Usuário"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "User answer accepted"
 msgstr "Resposta do usuário aceita"
@@ -3687,7 +3687,7 @@ msgid "Validate"
 msgstr "Validar"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Validate an answer"
 msgstr "Validar uma resposta"
@@ -3806,7 +3806,7 @@ msgid "Welcome Message"
 msgstr "Mensagem de boas-vindas"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid "Welcome!"
@@ -3843,7 +3843,7 @@ msgid "You already have a pending post"
 msgstr "Você já tem uma publicação pendente"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "You can share your question once it has been validated"
 msgstr "Você pode compartilhar sua pergunta após ter sido validada"
@@ -3854,7 +3854,7 @@ msgid "You can't vote for your own post"
 msgstr "Não é possível votar em sua própria publicação"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "You cannot create recursive forum posts."
 msgstr "Não é possível criar publicações recursivas no fórum."
@@ -3988,7 +3988,7 @@ msgid "downvote"
 msgstr "rebaixar"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "downvoted"
 msgstr "rebaixado"
@@ -4049,7 +4049,7 @@ msgid "has been posted. Click here to access the question :"
 msgstr "foi publicada. Clique aqui para acessar a pergunta:"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "here"
 msgstr "aqui"
@@ -4057,9 +4057,9 @@ msgstr "aqui"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize Manapathi to specific business needs,"
 msgstr ""
-"como configurar ou personalizar o Odoo para necessidades específicas de "
+"como configurar ou personalizar o Manapathi para necessidades específicas de "
 "negócios,"
 
 #. module: website_forum
@@ -4071,11 +4071,11 @@ msgstr "como desenvolver módulos para sua própria necessidade,"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "como instalar o Odoo em uma infraestrutura específica,"
+msgid "how to install Manapathi on a specific infrastructure,"
+msgstr "como instalar o Manapathi em uma infraestrutura específica,"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "if your\n"
@@ -4113,13 +4113,13 @@ msgstr ""
 "certo?”"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "karma is required to perform this action. "
 msgstr "karma necessário para executar esta ação."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "karma points"
 msgstr "pontos de karma"
@@ -4130,19 +4130,19 @@ msgid "matching \""
 msgstr "que correspondam a ''"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "no changes"
 msgstr "sem alterações"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "no more downvoted"
 msgstr "não mais rebaixado"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "no more upvoted"
 msgstr "não mais curtido"
@@ -4155,7 +4155,7 @@ msgid "on"
 msgstr "em"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "on social networks get an answer within\n"
@@ -4179,8 +4179,8 @@ msgstr "publicações"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
-msgstr "perguntas específicas sobre ofertas de serviços Odoo etc."
+msgid "specific questions about Manapathi service offers, etc."
+msgstr "perguntas específicas sobre ofertas de serviços Manapathi etc."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -4208,7 +4208,7 @@ msgid "upvote, add comments"
 msgstr "curtir, adicionar comentários"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "upvoted"
 msgstr "curtido"
@@ -4231,9 +4231,9 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use Manapathi for a specific business need,"
 msgstr ""
-"Qual é a melhor maneira de usar o Odoo para uma necessidade de negócios "
+"Qual é a melhor maneira de usar o Manapathi para uma necessidade de negócios "
 "específica,"
 
 #. module: website_forum

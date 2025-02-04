@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import json
 
-from odoo.http import Controller, request, route
+from manapathi.http import Controller, request, route
 
 
 class WebsiteSaleProductComparison(Controller):

@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* l10n_br
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.5alpha1\n"
+"Project-Id-Version: Manapathi Server 17.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 00:40+0000\n"
 "PO-Revision-Date: 2024-09-17 21:18+0000\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: l10n_br
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_br/models/res_partner_bank.py:0
 msgid "%s is not a valid CPF or CNPJ (don't include periods or dashes)."
 msgstr "%s não é um CPF ou CNPJ válido (não inclua pontos ou travessões)."
 
 #. module: l10n_br
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_br/models/res_partner_bank.py:0
 msgid "%s is not a valid email."
 msgstr "%s não é um e-mail válido"
@@ -4733,7 +4733,7 @@ msgid "Camutanga"
 msgstr "Camutanga"
 
 #. module: l10n_br
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_br/models/res_partner_bank.py:0
 msgid "Can't generate a Pix QR code with a currency other than BRL."
 msgstr "Não é possível gerar o código QR de Pix com moedas diferentes do BRL"
@@ -10941,7 +10941,7 @@ msgid "Interstate Fiscal Position Type"
 msgstr "Tipo de posição fiscal interestadual"
 
 #. module: l10n_br
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_br/models/l10n_br_zip_range.py:0
 msgid ""
 "Invalid zip range format: %(start)s %(end)s. It should follow this format: "
@@ -23279,7 +23279,7 @@ msgid "Souto Soares"
 msgstr "Souto Soares"
 
 #. module: l10n_br
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_br/models/l10n_br_zip_range.py:0
 msgid "Start should be less than end: %(start)s %(end)s"
 msgstr ""
@@ -25651,7 +25651,7 @@ msgid "The \"to\" zip must be unique."
 msgstr ""
 
 #. module: l10n_br
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_br/models/res_partner_bank.py:0
 msgid ""
 "The mobile number %s is invalid. It must start with +55, contain a 2 digit "
@@ -25661,7 +25661,7 @@ msgstr ""
 "2 dígitos e o número de 9 dígitos."
 
 #. module: l10n_br
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_br/models/res_partner_bank.py:0
 msgid ""
 "The proxy type must be Email Address, Mobile Number, CPF/CNPJ (BR) or Random "
@@ -25671,7 +25671,7 @@ msgstr ""
 "número de celular, CPF/CNPF ou chave aleatória."
 
 #. module: l10n_br
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_br/models/res_partner_bank.py:0
 msgid ""
 "The random key %s is invalid, the format looks like this: "
@@ -25796,7 +25796,7 @@ msgid "To"
 msgstr ""
 
 #. module: l10n_br
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_br/models/res_partner_bank.py:0
 msgid ""
 "To generate a Pix code the proxy type for %s must be Email Address, Mobile "

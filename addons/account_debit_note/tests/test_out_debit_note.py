@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.tests import tagged
-from odoo import fields
+from manapathi.addons.account.tests.common import AccountTestInvoicingCommon
+from manapathi.tests import tagged
+from manapathi import fields
 
 
 @tagged('post_install', '-at_install')

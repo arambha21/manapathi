@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 from hashlib import sha256
 from json import dumps, loads
 import logging
@@ -50,7 +50,7 @@ class pos_order(models.Model):
     l10n_fr_secure_sequence_number = fields.Integer(string="Inalteralbility No Gap Sequence #", readonly=True, copy=False)
     l10n_fr_string_to_hash = fields.Char(compute='_compute_string_to_hash', readonly=True, store=False)
     previous_order_id = fields.Many2one('pos.order', string='Previous Order', readonly=True, compute='_compute_previous_order', store=True, copy=False)
-    pos_version = fields.Char(help="Version of Odoo that created the order", readonly=True, copy=False)
+    pos_version = fields.Char(help="Version of Manapathi that created the order", readonly=True, copy=False)
 
     @api.depends('l10n_fr_secure_sequence_number')
     def _compute_previous_order(self):

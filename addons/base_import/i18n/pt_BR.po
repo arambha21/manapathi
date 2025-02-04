@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* base_import
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Maitê Dietze, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -442,12 +442,12 @@ msgstr "ID"
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
 msgid ""
 "If the file contains\n"
-"                    the column names, Odoo can try auto-detecting the\n"
+"                    the column names, Manapathi can try auto-detecting the\n"
 "                    field corresponding to the column. This makes imports\n"
 "                    simpler especially when the file has many columns."
 msgstr ""
 "Se o arquivo contiver \n"
-"os nomes das colunas, o Odoo pode tentar detectar automaticamente \n"
+"os nomes das colunas, o Manapathi pode tentar detectar automaticamente \n"
 "o campo correspondente à coluna. Isso torna as importações mais simples,\n"
 "especialmente quando o arquivo tem muitas colunas."
 
@@ -611,8 +611,8 @@ msgstr "Não foram encontrados registros correspondentes ao seguinte nome"
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
-msgid "Odoo Field"
-msgstr "Campo do Odoo"
+msgid "Manapathi Field"
+msgstr "Campo do Manapathi"
 
 #. module: base_import
 #. odoo-javascript
@@ -870,11 +870,11 @@ msgstr "Carregue seus arquivos"
 msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
 "system. You can use a custom format in addition to the suggestions provided."
-" Leave empty to let Odoo guess the format (recommended)"
+" Leave empty to let Manapathi guess the format (recommended)"
 msgstr ""
 "Use HH para horas em um sistema de 24 horas, use II em conjunto com 'p' para"
 " um sistema de 12 horas (am/pm). É possível usar um formato personalizado "
-"além das sugestões fornecidas. Deixe em branco para que o Odoo adivinhe o "
+"além das sugestões fornecidas. Deixe em branco para que o Manapathi adivinhe o "
 "formato (recomendado)."
 
 #. module: base_import
@@ -883,12 +883,12 @@ msgstr ""
 msgid ""
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
-"format in addition to the suggestions provided. Leave empty to let Odoo "
+"format in addition to the suggestions provided. Leave empty to let Manapathi "
 "guess the format (recommended)"
 msgstr ""
 "Use YYYY para representar o ano, MM para o mês e DD para o dia. Inclua "
 "separadores, como ponto, barra ou traço. Você pode usar um formato "
-"personalizado além das sugestões fornecidas. Deixe em branco para que o Odoo"
+"personalizado além das sugestões fornecidas. Deixe em branco para que o Manapathi"
 " adivinhe o formato (recomendado)."
 
 #. module: base_import

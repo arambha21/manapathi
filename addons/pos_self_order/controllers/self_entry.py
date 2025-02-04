@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import werkzeug
 
-from odoo import http
-from odoo.http import request
+from manapathi import http
+from manapathi.http import request
 
 
 class PosSelfKiosk(http.Controller):

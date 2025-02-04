@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': "Mail Group",
     'summary': "Manage your mailing lists",
     'description': """
-Manage your mailing lists from Odoo.
+Manage your mailing lists from Manapathi.
     """,
     'version': '1.1',
     'depends': [

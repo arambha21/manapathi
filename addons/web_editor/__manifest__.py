@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Web Editor',
     'category': 'Hidden',
     'description': """
-Odoo Web Editor widget.
+Manapathi Web Editor widget.
 ==========================
 
 """,
@@ -140,7 +140,7 @@ Odoo Web Editor widget.
             'web/static/lib/dompurify/DOMpurify.js',
 
             # odoo-editor
-            'web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js',
+            'web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js',
             'web_editor/static/src/js/editor/odoo-editor/src/utils/constants.js',
             'web_editor/static/src/js/editor/odoo-editor/src/utils/sanitize.js',
             'web_editor/static/src/js/editor/odoo-editor/src/utils/serialize.js',

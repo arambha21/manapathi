@@ -1,11 +1,11 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, Command, fields, models, _
-from odoo.addons.mail.tools.discuss import Store
-from odoo.exceptions import UserError
-from odoo.http import request
-from odoo.tools import get_lang
-from odoo.tools.sql import column_exists, create_column
+from manapathi import api, Command, fields, models, _
+from manapathi.addons.mail.tools.discuss import Store
+from manapathi.exceptions import UserError
+from manapathi.http import request
+from manapathi.tools import get_lang
+from manapathi.tools.sql import column_exists, create_column
 
 
 class WebsiteVisitor(models.Model):

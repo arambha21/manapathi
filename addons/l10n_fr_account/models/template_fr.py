@@ -1,6 +1,6 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import models, Command
-from odoo.addons.account.models.chart_template import template
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
+from manapathi import models, Command
+from manapathi.addons.account.models.chart_template import template
 
 
 class AccountChartTemplate(models.AbstractModel):

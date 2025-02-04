@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* pos_self_order
 # 
@@ -20,12 +20,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kim Asplund <kim.asplund@gmail.com>, 2024\n"
-"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Language-Team: Swedish (https://app.transifex.com/manapathi/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -38,7 +38,7 @@ msgid "\"QR codes\""
 msgstr "\"QR-koder\""
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid ""
 "%s is not available anymore, it has thus been removed from your order. "
@@ -48,7 +48,7 @@ msgstr ""
 "beställning. Vänligen granska din order och validera den igen."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "/ Tracker number:"
 msgstr "/ Tracker nummer:"
@@ -99,20 +99,20 @@ msgid "Add images"
 msgstr "Lägg till bilder"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_info_popup/product_info_popup.xml:0
 msgid "Add to Cart"
 msgstr "Lägg i kundvagnen"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "Add to cart"
 msgstr "Lägg i varukorgen"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "All the items will be removed from the cart."
 msgstr "Alla artiklar kommer att tas bort från kundvagnen."
@@ -129,19 +129,19 @@ msgid "Allow takeout order"
 msgstr "Tillåt beställning av avhämtning"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "An error has occurred"
 msgstr "Ett fel har inträffat"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Any items already sent will not be cancelled"
 msgstr "Eventuella redan skickade artiklar kommer inte att annulleras"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Are you sure you want to cancel this order?"
 msgstr "Är du säker på att du vill avbeställa den här ordern?"
@@ -157,7 +157,7 @@ msgid "Availability Until"
 msgstr "Tillgänglighet fram till"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_banner/product_info_banner.xml:0
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Available"
@@ -191,7 +191,7 @@ msgid "Available interface languages"
 msgstr "Tillgängliga gränssnittsspråk"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
@@ -201,19 +201,19 @@ msgid "Back"
 msgstr "Tillbaka"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 msgid "Cancel"
 msgstr "Avbryt"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Cancel Order"
 msgstr "Avbryt beställning"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.js:0
 msgid "Cancel order"
@@ -238,19 +238,19 @@ msgid "Choose when the customer will pay"
 msgstr "Välj när kunden ska betala"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 msgid "Choose your"
 msgstr "Välj din"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 msgid "Choose your eating location"
 msgstr "Välj plats där du vill äta"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/out_of_paper_popup/out_of_paper_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Close"
@@ -262,7 +262,7 @@ msgid "Close Session"
 msgstr "Stäng Sessionen"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Combo"
 msgstr "Kombination"
@@ -278,25 +278,25 @@ msgid "Config Settings"
 msgstr "Inställningar"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Connection lost, please try again later"
 msgstr "Förbindelsen bröts, försök igen senare"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/timeout_popup/timeout_popup.xml:0
 msgid "Continue"
 msgstr "Fortsätt"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Continue with table"
 msgstr "Fortsätt med tabellen"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Could you please confirm your table number?"
 msgstr "Kan du bekräfta ditt bordsnummer?"
@@ -312,7 +312,7 @@ msgid "Created on"
 msgstr "Skapad den"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.js:0
 msgid "Current"
 msgstr "Aktuellt"
@@ -376,7 +376,7 @@ msgid "Disable"
 msgstr "Inaktivera"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/components/language_popup/language_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
@@ -395,13 +395,13 @@ msgid "Download QR Codes"
 msgstr "Ladda ner QR-koder"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Download your receipt here"
 msgstr "Ladda ner ditt kvitto här"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Each Order"
 msgstr "Varje beställning"
@@ -416,19 +416,19 @@ msgstr ""
 "                    krypteras både försäljningsstället och bordsnamnen i den genererade URL:en, som visas i exemplet nedan:."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 msgid "Eat In"
 msgstr "Äta in"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Edit"
 msgstr "Redigera"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/attribute_selection/attribute_selection.xml:0
 msgid "Enter your custom value"
 msgstr "Ange ditt anpassade värde"
@@ -453,19 +453,19 @@ msgid "Fiscal Position"
 msgstr "Finansiell ställning"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/payment_page/payment_page.xml:0
 msgid "Follow instructions on the terminal"
 msgstr "Följ instruktionerna på terminalen"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Generic"
 msgstr "Generell"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Get a tracker and enter its number here"
 msgstr "Skaffa en tracker och ange dess nummer här"
@@ -481,7 +481,7 @@ msgid "Has paper"
 msgstr "Har papper"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_index.xml:0
 msgid ""
 "Hey, looks like you forgot to create products or add them to pos_config. "
@@ -496,7 +496,7 @@ msgid "Home buttons"
 msgstr "Hemknappar"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Hope you enjoyed your meal!"
 msgstr "Hoppas att du njöt av din måltid!"
@@ -540,7 +540,7 @@ msgid "Image to display on the self order screen"
 msgstr "Bild som ska visas på skärmen för självbeställning"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid ""
 "In Self-Order mode, you must have at least one table to generate QR codes"
@@ -558,7 +558,7 @@ msgid "Info"
 msgstr "Information"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/timeout_popup/timeout_popup.xml:0
 msgid ""
 "It seems there hasn't been any activity on this kiosk. Would you like to "
@@ -568,7 +568,7 @@ msgstr ""
 "Vill du fortsätta?"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 #: model:ir.actions.act_window,name:pos_self_order.action_pos_self_order_search_view
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__self_ordering_mode__kiosk
@@ -613,7 +613,7 @@ msgid "Light"
 msgstr "Ljus"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Loading..."
@@ -638,7 +638,7 @@ msgstr ""
 "                online med QR-koderna på dina bord"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Meal"
 msgstr "Måltid"
@@ -654,25 +654,25 @@ msgid "Mobile self-order & Kiosk"
 msgstr "Mobil självbetjäning & Kiosk"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/landing_page/landing_page.xml:0
 msgid "My Order"
 msgstr "Min beställning"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/landing_page/landing_page.xml:0
 msgid "My Orders"
 msgstr "Mina beställningar"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "NEW"
 msgstr "NY"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "NOTE"
 msgstr "NOT"
@@ -684,7 +684,7 @@ msgid "Name of the image to display on the self order screen"
 msgstr "Namn på den bild som ska visas på självbeställningsskärmen"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Next"
 msgstr "Nästa"
@@ -695,19 +695,19 @@ msgid "No"
 msgstr "Nej"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "No order found"
 msgstr "Ingen order hittades"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.xml:0
 msgid "No products found"
 msgstr "Inga produkter hittades"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_banner/product_info_banner.xml:0
 msgid "Not available"
 msgstr "Ej tillgänglig"
@@ -718,13 +718,13 @@ msgid "Not available in Self"
 msgstr "Ej tillgängligt i Self"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Ok"
 msgstr "Ok"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "Only pay after each is available with kiosk mode."
 msgstr "Endast betala efter varje är tillgängligt med kioskläge."
@@ -735,38 +735,38 @@ msgid "Open Kiosk"
 msgstr "Open Kiosk"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 msgid "Order"
 msgstr "Order"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Order Now"
 msgstr "Beställ Nu"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Order to pick-up at the counter"
 msgstr "Beställning för avhämtning vid disken"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Orders not found on server"
 msgstr "Beställningar hittades inte på servern"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Out of stock"
 msgstr "Slut i lager"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Pay"
@@ -784,7 +784,7 @@ msgid "Pay after"
 msgstr "Betala efter"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Pay at the cashier"
 msgstr "Betala i kassan"
@@ -799,7 +799,7 @@ msgstr ""
 " skapa ett bildspel"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/receipt_header/receipt_header.xml:0
 msgid "Pickup At Counter"
 msgstr "Upphämtning vid disk"
@@ -810,7 +810,7 @@ msgid "Pickup zone"
 msgstr "Upphämtningszon"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_session.py:0
 msgid "PoS Order by Session"
 msgstr "PoS Beställning per session"
@@ -886,7 +886,7 @@ msgid "Product"
 msgstr "Produkt"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Product Information"
 msgstr "Produktinformation"
@@ -897,7 +897,7 @@ msgid "Product Variant"
 msgstr "Produktvariant"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
@@ -908,13 +908,13 @@ msgid "Product image"
 msgstr "Produkt Bild"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Product is not available"
 msgstr "Produkten är inte tillgänglig"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Product not found"
 msgstr "Produkten hittades inte"
@@ -925,7 +925,7 @@ msgid "QR Codes"
 msgstr "QR-koder"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "QR codes can only be generated in mobile or consultation mode."
 msgstr "QR-koder kan endast genereras i mobil- eller konsultationsläge."
@@ -946,7 +946,7 @@ msgid "QR menu + Ordering"
 msgstr "QR-meny + Beställning"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_info_popup/product_info_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
@@ -969,7 +969,7 @@ msgid "Restaurant Table"
 msgstr "Restaurangbord"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/payment_page/payment_page.xml:0
 msgid "Retry"
 msgstr "Försök igen"
@@ -985,7 +985,7 @@ msgid "Security Token"
 msgstr "Säkerhetstoken"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Select a table"
 msgstr "Välj ett bord"
@@ -1052,13 +1052,13 @@ msgid "Self Takeaway"
 msgstr "Att ta med sig själv"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Self-Order"
 msgstr "Självbeställning"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_banner/product_info_banner.xml:0
 msgid "Self-ordering:"
 msgstr "Självbeställning:"
@@ -1074,13 +1074,13 @@ msgid "Service at"
 msgstr "Service på"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/receipt_header/receipt_header.xml:0
 msgid "Service at Table"
 msgstr "Service vid bordet"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Service at table"
 msgstr "Service vid bordet"
@@ -1121,13 +1121,13 @@ msgid "Table Stand Number"
 msgstr "Bordsstativ nummer"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/receipt_header/receipt_header.xml:0
 msgid "Table Tracker:"
 msgstr "Tabell Tracker:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Table detective time!"
 msgstr "Dags för bordsdetektiv!"
@@ -1138,50 +1138,50 @@ msgid "Table:"
 msgstr "Bord:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 msgid "Take Out"
 msgstr "Ta ut"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Tax:"
 msgstr "Skatt:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 msgid "Taxes:"
 msgstr "Moms:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Thanks a lot!"
 msgstr "Tack så mycket!"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability After must be set between 00:00 and 24:00"
 msgstr "Tillgänglighet efter måste ställas in mellan 00:00 och 24:00"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability Until must be greater than Availability After."
 msgstr ""
 "Tillgängligheten fram till måste vara större än tillgängligheten efter."
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability Until must be set between 00:00 and 24:00"
 msgstr "Tillgänglighet fram till måste ställas in mellan 00:00 och 24:00"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "The Self-Order default user must be a POS user"
 msgstr "Standardanvändaren för Self-Order måste vara en POS-användare"
@@ -1197,19 +1197,19 @@ msgid "The product will be available until this hour."
 msgstr "Produkten kommer att vara tillgänglig fram till denna timme."
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "The user must be a POS user"
 msgstr "Användaren måste vara en POS-användare"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "This combination does not exist."
 msgstr "Kombinationen existerar inte."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Total:"
@@ -1226,19 +1226,19 @@ msgid "URL:"
 msgstr "URL:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Unavailable"
 msgstr "Ej tillgänglig"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.xml:0
 msgid "Unavailable at this time of the day"
 msgstr "Ej tillgänglig vid denna tid på dygnet"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Uncategorised"
 msgstr "Okategoriserade"
@@ -1249,19 +1249,19 @@ msgid "Warning"
 msgstr "Varning"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "We're currently closed"
 msgstr "Vi är för närvarande stängda"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_index.xml:0
 msgid "We're currently closed."
 msgstr "Vi är för närvarande stängda."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "We're preparing your order!"
 msgstr "Vi förbereder din beställning!"
@@ -1272,57 +1272,57 @@ msgid "Yes"
 msgstr "Ja"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "You cannot add cash payment methods in kiosk mode."
 msgstr "Du kan inte lägga till kontantbetalningsmetoder i kioskläget."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
 msgid "You cannot edit a posted orderline !"
 msgstr "Du kan inte redigera en publicerad orderrad!"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "You're not authorized to perform this action"
 msgstr "Du är inte behörig att utföra den här åtgärden"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 msgid "Your Order"
 msgstr "Din beställning"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Your Selection"
 msgstr "Ditt val"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order has been cancelled"
 msgstr "Din beställning har annullerats"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order has been paid"
 msgstr "Din order har betalats"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Your order number"
 msgstr "Ditt ordernummer"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order status has been changed"
 msgstr "Din orderstatus har ändrats"
@@ -1338,23 +1338,23 @@ msgid "empty = all points of sale"
 msgstr "tom = alla försäljningsställen"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "floor"
 msgstr "golv"
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
-msgid "https://odoo.com"
-msgstr "https://odoo.com"
+msgid "https://manapathi.com"
+msgstr "https://manapathi.com"
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
-msgid "odoo"
-msgstr "odoo"
+msgid "manapathi"
+msgstr "manapathi"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "options"
 msgstr "alternativ"

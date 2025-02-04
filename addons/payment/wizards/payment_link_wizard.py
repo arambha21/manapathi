@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from werkzeug import urls
 
-from odoo import _, api, fields, models
+from manapathi import _, api, fields, models
 
-from odoo.addons.payment import utils as payment_utils
+from manapathi.addons.payment import utils as payment_utils
 
 
 class PaymentLinkWizard(models.TransientModel):

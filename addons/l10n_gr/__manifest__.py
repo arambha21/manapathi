@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Greece - Accounting',
     'icon': '/account/static/description/l10n.png',
     'countries': ['gr'],
-    'author': 'P. Christeas, Odoo S.A.',
+    'author': 'P. Christeas, Manapathi S.A.',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 This is the base module to manage the accounting chart for Greece.

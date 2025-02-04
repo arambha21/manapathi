@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, _
-from odoo.osv.expression import AND
+from manapathi import models, _
+from manapathi.osv.expression import AND
 
 
 class ProjectProject(models.Model):

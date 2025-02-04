@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.utm.models.utm_mixin import UtmMixin
-from odoo.addons.utm.tests.common import TestUTMCommon
-from odoo.tests import tagged
+from manapathi.addons.utm.models.utm_mixin import UtmMixin
+from manapathi.addons.utm.tests.common import TestUTMCommon
+from manapathi.tests import tagged
 
 
 @tagged("utm", "post_install", "-at_install")

@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import random
 from markupsafe import Markup
 
-from odoo import api, fields, models, _
-from odoo.exceptions import AccessDenied, AccessError, UserError
+from manapathi import api, fields, models, _
+from manapathi.exceptions import AccessDenied, AccessError, UserError
 
 
 class CrmLead(models.Model):

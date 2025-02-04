@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models
-from odoo.http import request, Response
+from manapathi import models
+from manapathi.http import request, Response
 
 
 class IrHttp(models.AbstractModel):
@@ -13,7 +13,7 @@ class IrHttp(models.AbstractModel):
 
     @classmethod
     def _set_utm(cls, response):
-        # Make sure response is an odoo Response.
+        # Make sure response is an manapathi Response.
         response = Response.load(response)
         domain = cls.get_utm_domain_cookies()
         for url_parameter, __, cookie_name in request.env['utm.mixin'].tracking_fields():

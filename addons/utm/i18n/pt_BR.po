@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* utm
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Maitê Dietze, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Maitê Dietze, 2024\n"
-"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/manapathi/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: utm
-#. odoo-python
+#. manapathi-python
 #: code:addons/utm/models/utm_source.py:0
 msgid "%(content)s (%(model_description)s created on %(create_date)s)"
 msgstr "%(content)s(%(model_description)s criado em %(create_date)s)"
@@ -38,13 +38,13 @@ msgid "Allows us to filter relevant Campaigns"
 msgstr "Permitir a filtragem de campanhas relevantes"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Approval-based Flow"
 msgstr "Fluxo baseado em aprovações"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Approved"
 msgstr "Aprovado"
@@ -68,7 +68,7 @@ msgstr ""
 "Atribua marcadores às campanhas para organizar, filtrar e monitorá-las."
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Audience-driven Flow"
 msgstr "Fluxo orientado por público"
@@ -133,7 +133,7 @@ msgid "Christmas Special"
 msgstr "Especial de Natal"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Collect ideas, design creative content and publish it once reviewed."
 msgstr "Reúna ideias e conteúdo de design criativo e publique após revisar."
@@ -145,7 +145,7 @@ msgid "Color Index"
 msgstr "Índice de cores"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Copywriting"
 msgstr "Redação"
@@ -189,7 +189,7 @@ msgid "Created on"
 msgstr "Criado em"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Creative Flow"
 msgstr "Fluxo criativo"
@@ -200,19 +200,19 @@ msgid "Delete"
 msgstr "Excluir"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Deploy"
 msgstr "Implementar"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Deployed"
 msgstr "Implementado"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 #: model:utm.stage,name:utm.campaign_stage_2
 msgid "Design"
@@ -228,7 +228,7 @@ msgid "Display Name"
 msgstr "Nome exibido"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Done"
 msgstr "Concluído"
@@ -249,19 +249,19 @@ msgid "Email Campaign - Services"
 msgstr "Campanha de e-mail - Serviços"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Event-driven Flow"
 msgstr "Fluxo orientado por eventos"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Gather Data"
 msgstr "Reunir dados"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid ""
 "Gather data, build a recipient list and write content based on your "
@@ -290,7 +290,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Ideas"
 msgstr "Ideias"
@@ -314,7 +314,7 @@ msgid "Last Updated on"
 msgstr "Última atualização em"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Later"
 msgstr "Mais tarde"
@@ -325,7 +325,7 @@ msgid "Link Tracker"
 msgstr "Rastreio de links"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "List-Building"
 msgstr "Criação de listas"
@@ -377,7 +377,7 @@ msgid "No Sources yet!"
 msgstr "Ainda não há origens."
 
 #. module: utm
-#. odoo-python
+#. manapathi-python
 #: code:addons/utm/models/utm_medium.py:0
 msgid ""
 "Oops, you can't delete the Medium '%s'.\n"
@@ -387,19 +387,19 @@ msgstr ""
 "Fazer isso seria como derrubar uma parede de suporte de carga - não é a melhor ideia."
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Pre-Launch"
 msgstr "Pré-lançamento"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Prepare Campaigns and get them approved before making them go live."
 msgstr "Prepare campanhas e obtenha aprovação a elas antes de lançá-las."
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid ""
 "Prepare your Campaign, test it with part of your audience and deploy it "
@@ -409,7 +409,7 @@ msgstr ""
 "completamente depois disso."
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Report"
 msgstr "Relatório"
@@ -426,13 +426,13 @@ msgid "Restore"
 msgstr "Restaurar"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Review"
 msgstr "Revisar"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Running"
 msgstr "Em execução"
@@ -453,13 +453,13 @@ msgid "Search UTM Medium"
 msgstr "Pesquisar meios UTM"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Send"
 msgstr "Enviar"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 #: model:utm.stage,name:utm.campaign_stage_3
 msgid "Sent"
@@ -471,13 +471,13 @@ msgid "Sequence"
 msgstr "Sequência"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Soft-Launch"
 msgstr "Lançamento progressivo"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Soft-Launch Flow"
 msgstr "Fluxo de lançamento progressivo"
@@ -551,13 +551,13 @@ msgid "The name must be unique"
 msgstr "O nome deve ser exclusivo"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "This Month"
 msgstr "Este mês"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "This Week"
 msgstr "Esta semana"
@@ -586,13 +586,13 @@ msgstr ""
 "e-mail"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "To be Approved"
 msgstr "A aprovar"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid ""
 "Track incoming events (e.g. Christmas, Black Friday, ...) and publish timely"
@@ -667,13 +667,13 @@ msgid "UTMs"
 msgstr "UTMs"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Use This For My Campaigns"
 msgstr "Usar nas Minhas campanhas"
 
 #. module: utm
-#. odoo-python
+#. manapathi-python
 #: code:addons/utm/models/utm_source.py:0
 msgid ""
 "You cannot update multiple records with the same name. The name should be "

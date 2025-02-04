@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 import logging
 import json
 
-from odoo import api, models, fields, _
-from odoo.exceptions import ValidationError, UserError
-from odoo.tools import float_is_zero
-from odoo.tools.sql import column_exists, create_column
+from manapathi import api, models, fields, _
+from manapathi.exceptions import ValidationError, UserError
+from manapathi.tools import float_is_zero
+from manapathi.tools.sql import column_exists, create_column
 from datetime import datetime
 
 _logger = logging.getLogger(__name__)

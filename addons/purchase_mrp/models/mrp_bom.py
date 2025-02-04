@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.tools import float_compare
+from manapathi import api, fields, models, _
+from manapathi.exceptions import UserError
+from manapathi.tools import float_compare
 
 
 class MrpBom(models.Model):

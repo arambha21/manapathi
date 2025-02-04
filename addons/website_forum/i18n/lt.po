@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
@@ -15,7 +15,7 @@
 # Gailius Kazlauskas, 2024
 # Silvija Butko <silvija.butko@gmail.com>, 2024
 # Gailius Kazlauskas <gailius@vialaurea.lt>, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@manapathi.com>, 2024
 # Martin Trigaux, 2024
 # vaalds <vaalds@gmail.com>, 2024
 # grupoda2 <dmitrijus.ivanovas@gmail.com>, 2024
@@ -29,12 +29,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Linas Versada <linaskrisiukenas@gmail.com>, 2024\n"
-"Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
+"Language-Team: Lithuanian (https://app.transifex.com/manapathi/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -42,13 +42,13 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid " Flag"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid " Flagged"
 msgstr ""
@@ -76,128 +76,128 @@ msgid "# Views"
 msgstr "# peržiūrų"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to accept or refuse an answer."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to answer a question."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to close or reopen a post."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to comment."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to convert a comment to an answer."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to convert an answer to a comment."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to convert your comment to an answer."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_tag.py:0
 msgid "%d karma required to create a new Tag."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to create a new question."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to delete a comment."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to delete or reactivate a post."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "%d karma required to downvote."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to edit a post."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to flag a post."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to mark a post as offensive."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to post an image or link."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to refuse a post."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to retag."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to unlink a post."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "%d karma required to upvote."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to validate a post."
 msgstr ""
@@ -208,13 +208,13 @@ msgid "&amp;nbsp;"
 msgstr "&amp;nbsp;"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "'Please enter 2 or more characters'"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "'Tags'"
 msgstr ""
@@ -237,13 +237,13 @@ msgid "/ (days + 2) **"
 msgstr "/ (dienos + 2) **"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "45% of questions shared"
 msgstr "45% klausimų pasidalinta"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "65% more chance to get an\n"
@@ -768,7 +768,7 @@ msgid "Accepted Answer"
 msgstr "Priimtas atsakymas"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Accepted answer removed"
 msgstr ""
@@ -779,7 +779,7 @@ msgid "Accepting an answer"
 msgstr "Atsakymo priėmimas"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Access Denied"
 msgstr "Prieiga neleidžiama"
@@ -825,7 +825,7 @@ msgstr ""
 "socialiniuose tinkluose, taip populiarinant forumo turinį."
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_model_nav
 msgid "All"
@@ -852,13 +852,13 @@ msgid "Animation of a pen checking a checkbox"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "Answer %s"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 #: model:mail.message.subtype,description:website_forum.mt_answer_edit
 #: model:mail.message.subtype,name:website_forum.mt_answer_edit
@@ -968,7 +968,7 @@ msgid "Archived"
 msgstr "Archyvuotas"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Are you sure you want to delete this comment?"
 msgstr ""
@@ -979,13 +979,13 @@ msgid "As a moderator, you can either validate or reject this answer."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Ask a new question"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Ask a question"
 msgstr ""
@@ -1085,19 +1085,19 @@ msgid "Back to Question"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Bad \"filters\" value \"%(filters)s\"."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Bad \"tag_char\" value \"%(tag_char)s\""
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Bad Request"
 msgstr "Bloga užklausa"
@@ -1123,7 +1123,7 @@ msgid "Best Answer"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "By sharing you answer, you will get additional"
 msgstr "Pasidalinę savo atsakymu, gausite papildomą"
@@ -1215,25 +1215,25 @@ msgid "Chief Commentator"
 msgstr "Vyriausias komentatorius"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click here to accept this answer."
 msgstr "Paspauskite čia, norėdami priimti atsakymą"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to post your answer."
 msgstr "Paskelbti savo atsakymą."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to post your question."
 msgstr "Paskelbti savo klausimą."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to reply."
 msgstr ""
@@ -1402,7 +1402,7 @@ msgid "Create a new forum post"
 msgstr "Sukurkite naują forumo įrašą"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Create a new post in this forum by clicking on the button."
 msgstr ""
@@ -1425,7 +1425,7 @@ msgid "Create new tags"
 msgstr "Sukurti naujas žymas"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "Create option \""
 msgstr ""
@@ -1496,7 +1496,7 @@ msgid "Define the visibility of the challenge through menus"
 msgstr "Nustatykite iššūkio matomumą per meniu"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 #: model_terms:ir.ui.view,arch_db:website_forum.moderation_queue
 #: model_terms:ir.ui.view,arch_db:website_forum.post_comment
@@ -1525,7 +1525,7 @@ msgid "Delete own posts"
 msgstr "Ištrinti savo įrašus"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Delete the accepted answer"
 msgstr ""
@@ -1580,7 +1580,7 @@ msgid "Discussions (multiple answers)"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid "Dismiss"
@@ -1612,7 +1612,7 @@ msgid "Downvote"
 msgstr "Neigiamas įvertinimas"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Downvote for posting offensive contents"
 msgstr ""
@@ -1700,7 +1700,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "Facebook"
@@ -1851,7 +1851,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/website.py:0
 #: model:ir.actions.act_url,name:website_forum.action_open_forum
 #: model:ir.model,name:website_forum.model_forum_forum
@@ -1938,7 +1938,7 @@ msgid "Get notified when this tag is used"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Give your post title."
 msgstr ""
@@ -2157,7 +2157,7 @@ msgid "Inappropriate and unacceptable statements"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Insert tags related to your question."
 msgstr "Įterpti žymas, susijusias su jūsų klausimu."
@@ -2195,19 +2195,19 @@ msgid "Is the author's biography visible from his post"
 msgstr "Ar autoriaus biografija matoma iš šio įrašo"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "It is not allowed to modify someone else's vote."
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "It is not allowed to vote for its own post."
 msgstr "Neleidžiama balsuoti už savo paties įrašą."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Karma Error"
 msgstr ""
@@ -2300,7 +2300,7 @@ msgid "Link to questions with the tag"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "LinkedIn"
@@ -2563,7 +2563,7 @@ msgid "Offensive"
 msgstr "Įžeidžiantis"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Offensive Post"
 msgstr "Įžeidžiantis įrašas"
@@ -2574,13 +2574,13 @@ msgid "Offensive Posts"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Oh no! Please <a href=\"%s\">sign in</a> to perform this action"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "On average,"
 msgstr "Vidutiniškai,"
@@ -2688,13 +2688,13 @@ msgid "Post Your Question"
 msgstr "Paskelbti savo klausimą"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Post is closed and marked as offensive content"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Post is closed and marked as spam"
 msgstr ""
@@ -2715,7 +2715,7 @@ msgid "Posted 100 comments"
 msgstr "Paskelbė 100 komentarų"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Posting answer on a [Deleted] or [Closed] question is not possible."
 msgstr "Negalima skelbti atsakymo [Ištrintam] ar [Uždarytam] klausimui."
@@ -2754,13 +2754,13 @@ msgid "Pundit"
 msgstr "Ekspertas"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Put your answer here."
 msgstr "Atsakykite čia."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Put your question here."
 msgstr "Klauskite čia."
@@ -2772,13 +2772,13 @@ msgid "Question"
 msgstr "Klausimas"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "Question %s"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 #: model:mail.message.subtype,description:website_forum.mt_question_edit
 #: model:mail.message.subtype,name:website_forum.mt_question_edit
@@ -2811,7 +2811,7 @@ msgid "Question set as favorite by 5 users"
 msgstr "Klausimas 5 vartotojų pažymėtas kaip mėgstamiausias "
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Question should not be empty."
 msgstr "Klausimas neturėtų būti tuščias"
@@ -2876,7 +2876,7 @@ msgid "Ratings"
 msgstr "Įvertinimai"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Re: %s"
 msgstr "Re: %s"
@@ -2934,7 +2934,7 @@ msgid "Relevance Computation"
 msgstr "Atitikimo skaičiavimas"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Remove validated answer"
 msgstr ""
@@ -2947,7 +2947,7 @@ msgid "Reopen"
 msgstr "Vėl atidaryti"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Reopen a banned question"
 msgstr ""
@@ -2965,7 +2965,7 @@ msgid "Reply"
 msgstr "Atsakyti"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Reply should not be empty."
 msgstr ""
@@ -3033,7 +3033,7 @@ msgid "Second Relevance Parameter"
 msgstr "Antrinis atitikimo parametras"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/res_users.py:0
 msgid "See our Forum"
 msgstr ""
@@ -3073,7 +3073,7 @@ msgid "Sequence"
 msgstr "Seka"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid ""
@@ -3082,7 +3082,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "Share this content to increase your chances to be featured on the front page"
@@ -3107,7 +3107,7 @@ msgid "Showing results for"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_sign_up_cta
@@ -3157,13 +3157,13 @@ msgid "Sorry, we could not find any results"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Sorry, you cannot select your own posts as best answer"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Sorry, you cannot vote for your own posts"
 msgstr "Atsiprašome, negalite balsuoti už savo įrašus"
@@ -3262,13 +3262,13 @@ msgid "Teaser"
 msgstr "Anonsas"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "Thanks for posting!"
 msgstr "Ačiū, kad dalinatės!"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "The accepted answer is deleted"
 msgstr ""
@@ -3279,7 +3279,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to Manapathi."
 msgstr ""
 
 #. module: website_forum
@@ -3355,13 +3355,13 @@ msgid "This forum has been archived."
 msgstr "Šis forumas buvo archyvuotas."
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "This post can not be flagged"
 msgstr "Šis įrašas negali būti pažymėtas"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "This post is already flagged"
 msgstr "Šis įrašas jau pažymėtas"
@@ -3412,7 +3412,7 @@ msgid "Title must not be empty"
 msgstr "Antraštė negali būti tuščia"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/controllers/website_forum.py:0
 msgid "Title should not be empty."
 msgstr "Antraštė negali būti tuščia."
@@ -3478,7 +3478,7 @@ msgid "Track Karma Changes"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "Twitter"
@@ -3567,7 +3567,7 @@ msgid "User"
 msgstr "Vartotojas"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "User answer accepted"
 msgstr ""
@@ -3585,7 +3585,7 @@ msgid "Validate"
 msgstr "Patvirtinti"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Validate an answer"
 msgstr ""
@@ -3704,7 +3704,7 @@ msgid "Welcome Message"
 msgstr "Pasisveikinimo pranešimas"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_forum.py:0
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid "Welcome!"
@@ -3736,7 +3736,7 @@ msgid "You already have a pending post"
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "You can share your question once it has been validated"
 msgstr ""
@@ -3747,7 +3747,7 @@ msgid "You can't vote for your own post"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "You cannot create recursive forum posts."
 msgstr "Negalite kurti pasikartojančių forumo įrašų."
@@ -3878,7 +3878,7 @@ msgid "downvote"
 msgstr "įvertinti neigiamai"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "downvoted"
 msgstr ""
@@ -3939,7 +3939,7 @@ msgid "has been posted. Click here to access the question :"
 msgstr "buvo pasidalinta. Paspauskite čia, norėdami pasiekti klausimą:"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "here"
 msgstr "čia"
@@ -3947,8 +3947,8 @@ msgstr "čia"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
-msgstr "kaip konfigūruoti ar pritaikyti \"Odoo\" konkretiems verslo poreikiams,"
+msgid "how to configure or customize Manapathi to specific business needs,"
+msgstr "kaip konfigūruoti ar pritaikyti \"Manapathi\" konkretiems verslo poreikiams,"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -3959,11 +3959,11 @@ msgstr "kaip kurti modulius savo reikmėms,"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "kaip diegti \"Odoo\" konkrečioje infrastruktūroje,"
+msgid "how to install Manapathi on a specific infrastructure,"
+msgstr "kaip diegti \"Manapathi\" konkrečioje infrastruktūroje,"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "if your\n"
@@ -3999,13 +3999,13 @@ msgid "it is a rant disguised as a question: “______ sucks, am I right?”"
 msgstr "Tai yra skundas paslėptas klausimu: \"_____ yra nesąmonė, teisingai?\""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "karma is required to perform this action. "
 msgstr ""
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "karma points"
 msgstr "karmos taškai"
@@ -4016,19 +4016,19 @@ msgid "matching \""
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "no changes"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "no more downvoted"
 msgstr ""
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "no more upvoted"
 msgstr ""
@@ -4041,7 +4041,7 @@ msgid "on"
 msgstr "nuo"
 
 #. module: website_forum
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
 "on social networks get an answer within\n"
@@ -4065,8 +4065,8 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
-msgstr "specifiniai klausimai apie \"Odoo\" paslaugų pasiūlymus ir t. t. "
+msgid "specific questions about Manapathi service offers, etc."
+msgstr "specifiniai klausimai apie \"Manapathi\" paslaugų pasiūlymus ir t. t. "
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -4094,7 +4094,7 @@ msgid "upvote, add comments"
 msgstr "teigiamai vertinti, pridėti komentarus"
 
 #. module: website_forum
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "upvoted"
 msgstr ""
@@ -4115,8 +4115,8 @@ msgstr "mūsų klausia hipotetinio atviro klausimo: \"Kas būtų, jei....?\""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
-msgstr "koks geriausias būdas naudoti \"Odoo\" specifiniam verslo poreikiui?"
+msgid "what's the best way to use Manapathi for a specific business need,"
+msgstr "koks geriausias būdas naudoti \"Manapathi\" specifiniam verslo poreikiui?"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.author_box

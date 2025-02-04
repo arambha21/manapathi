@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import calendar
 from collections import defaultdict
@@ -581,7 +581,7 @@ class AccountMove(models.Model):
     quick_edit_total_amount = fields.Monetary(
         string='Total (Tax inc.)',
         help='Use this field to encode the total amount of the invoice.\n'
-             'Odoo will automatically create one invoice line with default values to match it.',
+             'Manapathi will automatically create one invoice line with default values to match it.',
     )
     quick_encoding_vals = fields.Json(compute='_compute_quick_encoding_vals', exportable=False)
 
@@ -3589,7 +3589,7 @@ class AccountMove(models.Model):
         return format_structured_reference_iso(partner_ref_nr)
 
     def _get_invoice_reference_odoo_invoice(self):
-        """ This computes the reference based on the Odoo format.
+        """ This computes the reference based on the Manapathi format.
             We simply return the number of the invoice, defined on the journal
             sequence.
         """
@@ -3597,7 +3597,7 @@ class AccountMove(models.Model):
         return self.name
 
     def _get_invoice_reference_odoo_partner(self):
-        """ This computes the reference based on the Odoo format.
+        """ This computes the reference based on the Manapathi format.
             The data used is the reference set on the partner or its database
             id otherwise. For instance if the reference of the customer is
             'dumb customer 97', the reference will be 'CUST/dumb customer 97'.
@@ -4015,7 +4015,7 @@ class AccountMove(models.Model):
             'auto_post': self.auto_post,  # copy=False to avoid mistakes but should be the same in recurring copies
             'auto_post_until': self.auto_post_until,  # same as above
             'auto_post_origin_id': self.auto_post_origin_id.id,  # same as above
-            'invoice_user_id': self.invoice_user_id.id,  # otherwise user would be OdooBot
+            'invoice_user_id': self.invoice_user_id.id,  # otherwise user would be ManapathiBot
         })
         if self.invoice_date:
             values.update({'invoice_date': self._apply_delta_recurring_entries(self.invoice_date, self.auto_post_origin_id.invoice_date, self.auto_post)})

@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Indian - Accounting',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/india.html',
+    'website': 'https://www.manapathi.com/documentation/master/applications/finance/fiscal_localizations/india.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['in'],
     'version': '2.0',
@@ -11,11 +11,11 @@ Indian Accounting: Chart of Account.
 
 Indian accounting chart and localization.
 
-Odoo allows to manage Indian Accounting by providing Two Formats Of Chart of Accounts i.e Indian Chart Of Accounts - Standard and Indian Chart Of Accounts - Schedule VI.
+Manapathi allows to manage Indian Accounting by providing Two Formats Of Chart of Accounts i.e Indian Chart Of Accounts - Standard and Indian Chart Of Accounts - Schedule VI.
 
 Note: The Schedule VI has been revised by MCA and is applicable for all Balance Sheet made after
 31st March, 2011. The Format has done away with earlier two options of format of Balance
-Sheet, now only Vertical format has been permitted Which is Supported By Odoo.
+Sheet, now only Vertical format has been permitted Which is Supported By Manapathi.
   """,
     'category': 'Accounting/Localizations/Account Charts',
     'depends': [

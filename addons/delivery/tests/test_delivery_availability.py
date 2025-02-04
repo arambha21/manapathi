@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import Command
-from odoo.tests import Form, tagged
+from manapathi import Command
+from manapathi.tests import Form, tagged
 
-from odoo.addons.delivery.tests.common import DeliveryCommon
-from odoo.addons.sale.tests.common import SaleCommon
+from manapathi.addons.delivery.tests.common import DeliveryCommon
+from manapathi.addons.sale.tests.common import SaleCommon
 
 
 @tagged('post_install', '-at_install')

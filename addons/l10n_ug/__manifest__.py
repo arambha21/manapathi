@@ -7,7 +7,7 @@
     "category": "Accounting/Localizations/Account Charts",
     "license": "LGPL-3",
     "description": """
-This is the basic Ugandian localisation necessary to run Odoo in UG:
+This is the basic Ugandian localisation necessary to run Manapathi in UG:
 ================================================================================
     - Chart of accounts
     - Taxes

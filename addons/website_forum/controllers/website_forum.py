@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 import json
 import logging
 
@@ -9,12 +9,12 @@ import werkzeug.exceptions
 import werkzeug.urls
 import werkzeug.wrappers
 
-from odoo import _, http, tools
-from odoo.addons.website.models.ir_http import sitemap_qs2dom
-from odoo.addons.website_profile.controllers.main import WebsiteProfile
-from odoo.exceptions import AccessError, UserError
-from odoo.http import request
-from odoo.osv import expression
+from manapathi import _, http, tools
+from manapathi.addons.website.models.ir_http import sitemap_qs2dom
+from manapathi.addons.website_profile.controllers.main import WebsiteProfile
+from manapathi.exceptions import AccessError, UserError
+from manapathi.http import request
+from manapathi.osv import expression
 
 _logger = logging.getLogger(__name__)
 

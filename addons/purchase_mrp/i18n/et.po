@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* purchase_mrp
 # 
@@ -13,12 +13,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tairi Tiimann, 2024\n"
-"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Language-Team: Estonian (https://app.transifex.com/manapathi/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -51,7 +51,7 @@ msgid "Bill of Material Line"
 msgstr "Retsepti rida"
 
 #. module: purchase_mrp
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase_mrp/models/mrp_bom.py:0
 msgid "Components cost share have to be positive or equals to zero."
 msgstr "Komponentide kuluosa peab olema positiivne või võrdne nulliga."
@@ -87,18 +87,18 @@ msgid "Manufacturing Order"
 msgstr "Tootmistellimus"
 
 #. module: purchase_mrp
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase_mrp/models/purchase.py:0
 msgid "Manufacturing Source of %s"
 msgstr "Tootmise allikas %s"
 
 #. module: purchase_mrp
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase_mrp/models/stock_move.py:0
 msgid ""
-"Odoo is not able to generate the anglo saxon entries. The total valuation of"
+"Manapathi is not able to generate the anglo saxon entries. The total valuation of"
 " %s is zero."
-msgstr "Odoo ei saa anglosaksi kirjeid genereerida. Kogu väärtus %s on null."
+msgstr "Manapathi ei saa anglosaksi kirjeid genereerida. Kogu väärtus %s on null."
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_purchase_order
@@ -111,7 +111,7 @@ msgid "Purchase Order Line"
 msgstr "Ostutellimuse rida"
 
 #. module: purchase_mrp
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase_mrp/models/mrp_production.py:0
 msgid "Purchase Order generated from %s"
 msgstr "Ostutellimus on genereeritud %s"
@@ -131,7 +131,7 @@ msgstr ""
 "kulude summa peab olema 100."
 
 #. module: purchase_mrp
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase_mrp/models/mrp_bom.py:0
 msgid "The total cost share for a BoM's component have to be 100"
 msgstr "Retseptide komponendi kogukulu osa peab olema 100"

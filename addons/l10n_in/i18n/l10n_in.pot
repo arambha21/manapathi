@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* l10n_in
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0+e\n"
+"Project-Id-Version: Manapathi Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-02 11:46+0000\n"
 "PO-Revision-Date: 2025-01-02 11:46+0000\n"
@@ -33,7 +33,7 @@ msgid "4 Digits (turnover < 5 CR.)"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "4 digits, 6 digits or 8 digits"
 msgstr ""
@@ -44,7 +44,7 @@ msgid "6 Digits (turnover > 5 CR.)"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "6 digits or 8 digits"
 msgstr ""
@@ -55,7 +55,7 @@ msgid "8 Digits"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "8 digits"
 msgstr ""
@@ -77,14 +77,14 @@ msgid ""
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/res_partner.py:0
 msgid ""
 "As per GSTN the country should be other than India, so it's recommended to"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/res_partner.py:0
 msgid "As per GSTN the state should be %s, so it's recommended to"
 msgstr ""
@@ -184,7 +184,7 @@ msgid "Cancelled Credit Note"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "Check %s"
 msgstr ""
@@ -241,7 +241,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_in
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/l10n_in/static/src/components/hsn_autocomplete/hsn_autocomplete.js:0
 msgid "Could not contact API"
 msgstr ""
@@ -341,7 +341,7 @@ msgid "Enable this to check the GST Number status"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "Ensure that the HSN/SAC Code consists either %s in invoice lines"
 msgstr ""
@@ -352,7 +352,7 @@ msgid "Export India"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/template_in.py:0
 msgid "Export/SEZ"
 msgstr ""
@@ -384,7 +384,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "Go to Company configuration"
 msgstr ""
@@ -412,7 +412,7 @@ msgid "HSN Summary"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/product_template.py:0
 msgid "HSN code field must consist solely of digits and be %s in length."
 msgstr ""
@@ -528,19 +528,19 @@ msgid "Indian port code"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/template_in.py:0
 msgid "Inter State"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/template_in.py:0
 msgid "Intra State"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "Invalid sequence as per GST rule 46(b)"
 msgstr ""
@@ -556,7 +556,7 @@ msgid "Journal Item"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "Journal Items(s)"
 msgstr ""
@@ -586,7 +586,7 @@ msgid "L10N In Warning"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/template_in.py:0
 msgid "LUT - Export/SEZ"
 msgstr ""
@@ -786,7 +786,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid ""
 "Partner %(partner_name)s (%(partner_id)s) GSTIN is required under GST "
@@ -805,7 +805,7 @@ msgid "Place of supply:"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/res_config_settings.py:0
 msgid ""
 "Please ensure that at least one Indian service and production environment is"
@@ -813,7 +813,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "Please set a valid TIN Number on the Place of Supply %s"
 msgstr ""
@@ -907,7 +907,7 @@ msgid "STATE CESS"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/template_in.py:0
 msgid ""
 "SUPPLY MEANT FOR EXPORT/SUPPLY TO SEZ UNIT OR SEZ DEVELOPER FOR AUTHORISED "
@@ -915,7 +915,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/template_in.py:0
 msgid ""
 "SUPPLY MEANT FOR EXPORT/SUPPLY TO SEZ UNIT OR SEZ DEVELOPER FOR AUTHORISED "
@@ -924,7 +924,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_in
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/l10n_in/static/src/components/hsn_autocomplete/hsn_autocomplete.js:0
 msgid "Searching..."
 msgstr ""
@@ -989,13 +989,13 @@ msgid "The Port Code must be unique!"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/company.py:0
 msgid "The entered PAN seems invalid. Please enter a valid PAN."
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid ""
 "The invoice number should not exceed 16 characters\n"
@@ -1055,19 +1055,19 @@ msgid "Vendor Payment"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid "View %s"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/template_in.py:0
 msgid "Within %s"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/account_invoice.py:0
 msgid ""
 "Your company %s needs to have a correct address in order to validate this invoice.\n"
@@ -1095,19 +1095,19 @@ msgid "e.g. ABCTY1234D"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/product_template.py:0
 msgid "either 4, 6 or 8"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_in/models/product_template.py:0
 msgid "either 6 or 8"
 msgstr ""
 
 #. module: l10n_in
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/l10n_in/static/src/components/hsn_autocomplete/hsn_autocomplete.js:0
 msgid "hsn description field"
 msgstr ""

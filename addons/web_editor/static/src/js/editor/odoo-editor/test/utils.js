@@ -1,6 +1,6 @@
 /** @odoo-module **/
 
-import { OdooEditor } from '../src/OdooEditor.js';
+import { ManapathiEditor } from '../src/ManapathiEditor.js';
 import { sanitize } from '../src/utils/sanitize.js';
 import {
     closestElement,
@@ -260,7 +260,7 @@ function removeCheckIds(testContainer) {
     }
 }
 
-export async function testEditor(Editor = OdooEditor, spec, options = {}) {
+export async function testEditor(Editor = ManapathiEditor, spec, options = {}) {
     hasMobileTest = false;
     isMobileTest = options.isMobile;
 
@@ -659,7 +659,7 @@ async function pasteData (editor, text, type) {
 
 export const pasteText = async (editor, text) => pasteData(editor, text, 'text/plain');
 export const pasteHtml = async (editor, html) => pasteData(editor, html, 'text/html');
-export const pasteOdooEditorHtml = async (editor, html) => pasteData(editor, html, 'text/odoo-editor');
+export const pasteManapathiEditorHtml = async (editor, html) => pasteData(editor, html, 'text/odoo-editor');
 const overridenDomClass = [
     'HTMLBRElement',
     'HTMLHeadingElement',
@@ -686,4 +686,4 @@ export function patchEditorIframe(iframe) {
     }
 }
 
-export class BasicEditor extends OdooEditor {}
+export class BasicEditor extends ManapathiEditor {}

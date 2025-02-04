@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* base_import
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Martin Trigaux, 2024
 # Daye Jeong, 2024
 # Sarah Park, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -426,12 +426,12 @@ msgstr "ID"
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
 msgid ""
 "If the file contains\n"
-"                    the column names, Odoo can try auto-detecting the\n"
+"                    the column names, Manapathi can try auto-detecting the\n"
 "                    field corresponding to the column. This makes imports\n"
 "                    simpler especially when the file has many columns."
 msgstr ""
 "파일에 열 이름이\n"
-"                    포함되어 있는 경우, Odoo는 열에 해당하는 필드를\n"
+"                    포함되어 있는 경우, Manapathi는 열에 해당하는 필드를\n"
 "                    자동으로 감지할 수 있습니다. 이렇게 하면 특히 열이 많은 파일의 경우\n"
 "                    더 간편하게 가져오기를 할 수 있습니다."
 
@@ -589,8 +589,8 @@ msgstr "다음의 이름과 일치하는 레코드가 없습니다."
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
-msgid "Odoo Field"
-msgstr "Odoo 필드"
+msgid "Manapathi Field"
+msgstr "Manapathi 필드"
 
 #. module: base_import
 #. odoo-javascript
@@ -844,10 +844,10 @@ msgstr "파일 업로드"
 msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
 "system. You can use a custom format in addition to the suggestions provided."
-" Leave empty to let Odoo guess the format (recommended)"
+" Leave empty to let Manapathi guess the format (recommended)"
 msgstr ""
 "24시간 단위에서는 시간 표시로 HH를 사용하고, 12시간 단위에서는 'p'와 함께 II를 사용합니다. 제안 항목 외에도 사용자 지정 "
-"양식을 추가로 사용할 수 있습니다. Odoo에서 양식을 파악할 수 있도록 비워 두세요 (권장)."
+"양식을 추가로 사용할 수 있습니다. Manapathi에서 양식을 파악할 수 있도록 비워 두세요 (권장)."
 
 #. module: base_import
 #. odoo-javascript
@@ -855,11 +855,11 @@ msgstr ""
 msgid ""
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
-"format in addition to the suggestions provided. Leave empty to let Odoo "
+"format in addition to the suggestions provided. Leave empty to let Manapathi "
 "guess the format (recommended)"
 msgstr ""
 "연도는 YYYY로, 월은 MM, 일은 DD로 표시합니다. 12시간 단위에서는 'p'와 함께 II를 사용합니다. 점이나 빗금 (슬래시) "
-"또는 줄 표시 (대시)와 같은 구분 기호를 사용합니다., 제안 항목 외에도 사용자 지정 양식을 추가로 사용할 수 있습니다. Odoo에서 "
+"또는 줄 표시 (대시)와 같은 구분 기호를 사용합니다., 제안 항목 외에도 사용자 지정 양식을 추가로 사용할 수 있습니다. Manapathi에서 "
 "양식을 파악할 수 있도록 비워 두세요 (권장)."
 
 #. module: base_import

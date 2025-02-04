@@ -4,7 +4,7 @@ import {
     URL_REGEX,
     descendants,
     setSelection,
-} from '../../src/OdooEditor.js';
+} from '../../src/ManapathiEditor.js';
 import {
     BasicEditor,
     click,

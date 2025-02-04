@@ -1,4 +1,4 @@
-from odoo import api, models
+from manapathi import api, models
 
 
 class AccountMoveSend(models.AbstractModel):

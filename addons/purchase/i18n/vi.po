@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
 # Translators:
 # Martin Trigaux, 2024
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
-"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://app.transifex.com/manapathi/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -45,19 +45,19 @@ msgid "# of Lines"
 msgstr "# dòng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(product)s from %(original_receipt_date)s to %(new_receipt_date)s"
 msgstr "%(product)s từ %(original_receipt_date)s đến %(new_receipt_date)s"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%(vendor)s confirmed the receipt will take place on %(date)s."
 msgstr "%(vendor)s đã xác nhận nhập kho sẽ diễn ra vào %(date)s."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%s modified receipt dates for the following products:"
 msgstr "%s đã thay đổi ngày nhận các sản phẩm sau:"
@@ -565,7 +565,7 @@ msgstr ""
 " mức giá định sẵn."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "A sample email has been sent to %s."
 msgstr "Một email mẫu đã được gửi đến %s."
@@ -585,7 +585,7 @@ msgstr ""
 "của số lượng hàng trên mỗi kiện."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Accept"
@@ -673,7 +673,7 @@ msgid "Add several variants to the purchase order from a grid"
 msgstr "Thêm một số biến thể cho đơn mua hàng từ lưới"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Add some products or services to your quotation."
 msgstr "Thêm một số sản phẩm hoặc dịch vụ vào báo giá của bạn."
@@ -685,7 +685,7 @@ msgid "Add to PO"
 msgstr "Thêm vào PO"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Add to Purchase Order"
 msgstr "Thêm vào đơn mua hàng"
@@ -696,31 +696,31 @@ msgid "Administrator"
 msgstr "Quản trị viên"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "All"
 msgstr "Tất cả"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Draft RFQs"
 msgstr "Tất cả YCBG nháp"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Late RFQs"
 msgstr "Tất cả YCBG trễ"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All RFQs"
 msgstr "Tất cả YCBG"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Waiting RFQs"
 msgstr "Tất cả YCBG đang chờ"
@@ -858,7 +858,7 @@ msgid "Average Cost"
 msgstr "Giá vốn trung bình"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Avg Order Value"
 msgstr "Giá trị đơn hàng trung bình"
@@ -879,7 +879,7 @@ msgid "Bill Lines"
 msgstr "Chi tiết hoá đơn"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Bill Matching"
 msgstr "Khớp hoá đơn"
@@ -961,7 +961,7 @@ msgid "Cancel"
 msgstr "Hủy"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__cancel
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__cancel
@@ -974,7 +974,7 @@ msgid "Cancelled Purchase Order #"
 msgstr "Đơn mua hàng đã hủy #"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Cannot delete a purchase order line which is in state “%s”."
 msgstr "Không thể xóa một dòng đơn mua hàng đang trong trạng thái “%s”."
@@ -1031,7 +1031,7 @@ msgid "Company Total"
 msgstr "Tổng của công ty"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Compose Email"
 msgstr "Soạn email"
@@ -1067,7 +1067,7 @@ msgid "Confirm purchase orders in one step"
 msgstr "Xác nhận đơn mua hàng bằng một bước"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Confirm your purchase."
 msgstr "Xác nhận mua hàng của bạn."
@@ -1196,7 +1196,7 @@ msgid "Date Calendar Start"
 msgstr "Ngày bắt đầu lịch"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Date Updated"
 msgstr "Ngày đã được cập nhật"
@@ -1207,7 +1207,7 @@ msgid "Date:"
 msgstr "Ngày:"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Days"
 msgstr "Ngày"
@@ -1343,13 +1343,13 @@ msgid "Double validation amount"
 msgstr "Giá trị xác minh hai lần"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid "Down Payment (ref: %(ref)s)"
 msgstr "Khoản trả trước (mã: %(ref)s)"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Down Payments"
 msgstr "Khoản trả trước"
@@ -1368,9 +1368,9 @@ msgstr "YCBG nháp"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
-"quotations in Odoo. Enjoy the automation!"
+"quotations in Manapathi. Enjoy the automation!"
 msgstr ""
-"Kéo và thả tệp PDF yêu cầu báo giá vào danh sách báo giá của bạn trong Odoo."
+"Kéo và thả tệp PDF yêu cầu báo giá vào danh sách báo giá của bạn trong Manapathi."
 " Tận hưởng tính năng tự động hóa!"
 
 #. module: purchase
@@ -1390,7 +1390,7 @@ msgid "Extended Filters"
 msgstr "Bộ lọc mở rộng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Extra line with %s "
 msgstr "Dòng bổ sung với %s "
@@ -1432,13 +1432,13 @@ msgid "Forbidden values on non-accountable purchase order line"
 msgstr "Các giá trị bị cấm trên dòng đơn mua hàng không thể vào sổ"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From %s"
 msgstr "Từ %s"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From Electronic Document"
 msgstr "Từ chứng từ điện tử"
@@ -1551,19 +1551,19 @@ msgid "If true, the packaging can be used for purchase orders"
 msgstr "Nếu đúng, có thể sử dụng gói hàng cho các đơn mua hàng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Import Template for Products"
 msgstr "Nhập mẫu sản phẩm"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "In order to delete a purchase order, you must cancel it first."
 msgstr "Để xóa một đơn mua hàng, bạn phải hủy nó trước."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "In selected purchase order to merge these details must be same\n"
@@ -1583,7 +1583,7 @@ msgid "Incoterm"
 msgstr "Incoterm"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Indicate the product quantity you want to order."
 msgstr "Nêu rõ số lượng sản phẩm bạn muốn đặt hàng."
@@ -1654,7 +1654,7 @@ msgid "Last Updated on"
 msgstr "Cập nhật lần cuối vào"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Late"
 msgstr "Trễ"
@@ -1671,19 +1671,19 @@ msgid "Late RFQs"
 msgstr "YCBG trễ"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Lead Time to Purchase"
 msgstr "Thời gian hoàn thành"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Let's create your first request for quotation."
 msgstr "Hãy tạo yêu cầu báo giá đầu tiên của bạn."
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Let's try the Purchase app to manage the flow from purchase to reception and"
@@ -1728,7 +1728,7 @@ msgid "Lock Confirmed Orders"
 msgstr "Khoá đơn hàng đã xác nhận"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__done
 msgid "Locked"
@@ -1839,13 +1839,13 @@ msgid "My Activity Deadline"
 msgstr "Hạn chót hoạt động của tôi"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Draft RFQs"
 msgstr "YCBG nháp của tôi"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Late RFQs"
 msgstr "YCBG trễ của tôi"
@@ -1861,19 +1861,19 @@ msgid "My Purchases"
 msgstr "Mua hàng của tôi"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My RFQs"
 msgstr "YCBG của tôi"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Waiting RFQs"
 msgstr "YCBG đang chờ của tôi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Name"
 msgstr "Tên"
@@ -1884,7 +1884,7 @@ msgid "Name, TIN, Email, or Reference"
 msgstr "Tên, MST, email, hoặc mã"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Newest"
 msgstr "Mới nhất"
@@ -1952,8 +1952,8 @@ msgstr "Không được xác nhận"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Not using Odoo?"
-msgstr "Không sử dụng Odoo?"
+msgid "Not using Manapathi?"
+msgstr "Không sử dụng Manapathi?"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_note
@@ -1999,8 +1999,8 @@ msgstr "Số tin nhắn bị gửi lỗi"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -2023,7 +2023,7 @@ msgid "On received quantities"
 msgstr "Theo số lượng đã nhận"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid ""
 "Once you get the price from the vendor, you can complete the purchase order "
@@ -2042,7 +2042,7 @@ msgstr ""
 " sẽ chuyển thành đơn đặt hàng."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 msgid "Operation not supported"
 msgstr "Hoạt động không được hỗ trợ"
@@ -2104,7 +2104,7 @@ msgid "Orders"
 msgstr "Đơn hàng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Order due %(date)s"
 msgstr "Hạn đặt hàng %(date)s"
@@ -2152,7 +2152,7 @@ msgid "Payment terms"
 msgstr "Điều khoản thanh toán"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Please select at least two purchase orders with state RFQ and RFQ sent to "
@@ -2182,7 +2182,7 @@ msgid "Price"
 msgstr "Giá"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/product_catalog/purchase_order_line/purchase_order_line.xml:0
 msgid "Price:"
 msgstr "Giá:"
@@ -2335,7 +2335,7 @@ msgid "Purchase History"
 msgstr "Lịch sử mua hàng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/product.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Purchase History for %s"
@@ -2353,13 +2353,13 @@ msgid "Purchase Line and Vendor Bill line matching view"
 msgstr "Xem khớp dòng mua hàng và dòng hóa đơn mua hàng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "Purchase Matching"
 msgstr "Khớp đơn mua hàng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.action_report_purchase_order
@@ -2457,7 +2457,7 @@ msgid "Purchase Order Warning"
 msgstr "Cảnh báo đơn mua hàng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/analytic_account.py:0
 #: model:ir.actions.act_window,name:purchase.purchase_form_action
 #: model:ir.ui.menu,name:purchase.menu_purchase_form_action
@@ -2528,7 +2528,7 @@ msgid "Purchased"
 msgstr "Đã mua"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Purchased Last 7 Days"
 msgstr "Đã mua trong 7 ngày qua"
@@ -2634,13 +2634,13 @@ msgid "RFQ Sent"
 msgstr "YCBG đã gửi"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
 msgstr "YCBG được hợp nhất với %(oldest_rfq_name)s và %(cancelled_rfq)s"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %s"
 msgstr "YCBG được hợp nhất với %s"
@@ -2651,7 +2651,7 @@ msgid "RFQs"
 msgstr "YCBG"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "RFQs Sent Last 7 Days"
 msgstr "YCBG đã gửi trong 7 ngày qua"
@@ -2789,7 +2789,7 @@ msgid "Reporting"
 msgstr "Báo cáo"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: model:ir.actions.report,name:purchase.report_purchase_quotation
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -2860,7 +2860,7 @@ msgid "Search Reference Document"
 msgstr "Tìm mã chứng từ"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Search a vendor name, or create one on the fly."
 msgstr "Tìm kiếm tên nhà cung cấp hoặc tạo mới nhanh chóng."
@@ -2886,13 +2886,13 @@ msgid "Security Token"
 msgstr "Token bảo mật"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Select Vendor Bill lines to add to a Purchase Order"
 msgstr "Chọn dòng Hóa đơn mua hàng để thêm vào Đơn mua hàng"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Select a product, or create a new one on the fly."
 msgstr "Chọn một sản phẩm, hoặc tạo mới thật nhanh chóng. "
@@ -2942,7 +2942,7 @@ msgid "Send by Email"
 msgstr "Gửi qua email"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Send the request for quotation to your vendor."
 msgstr "Gửi yêu cầu báo giá cho nhà cung cấp của bạn."
@@ -3010,8 +3010,8 @@ msgstr "Được gắn sao"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Start on Odoo"
-msgstr "Bắt đầu trên Odoo"
+msgid "Start on Manapathi"
+msgstr "Bắt đầu trên Manapathi"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__state
@@ -3153,25 +3153,25 @@ msgstr ""
 "Bạn có thể sử dụng trường này để tìm kiếm nhanh."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been acknowledged by %s."
 msgstr "YCBG đã được xác nhận bởi %s."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been declined by %s."
 msgstr "YCBG đã bị từ chối bởi %s."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been acknowledged by %s."
 msgstr "Biên nhận đơn hàng đã được xác nhận bởi %s."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been declined by %s."
 msgstr "Biên nhận đơn hàng đã bị từ chối bởi %s."
@@ -3188,7 +3188,7 @@ msgstr ""
 "                    việc nhận sản phẩm và hóa đơn mua hàng."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
@@ -3208,7 +3208,7 @@ msgid "There are currently no requests for quotation for your account."
 msgstr "Tài khoản của bạn hiện không có yêu cầu báo giá nào."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid ""
 "There are no products to add to the Purchase Order. Are these Down Payments?"
@@ -3217,7 +3217,7 @@ msgstr ""
 "trước không?"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "There is no invoiceable line. If a product has a control policy based on "
@@ -3261,7 +3261,7 @@ msgid "This note is added to purchase orders."
 msgstr "Ghi chú này đã được thêm vào đơn mua hàng."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should "
@@ -3271,13 +3271,13 @@ msgstr ""
 "%(quantity).2f %(unit)s."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been created from: "
 msgstr "Hoá đơn mua hàng này đã được tạo từ:"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been modified from: "
 msgstr "Hoá đơn mua hàng này đã được chỉnh sửa từ:"
@@ -3312,7 +3312,7 @@ msgid "To Invoice Quantity"
 msgstr "Số lượng cần xuất hóa đơn"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "To Send"
 msgstr "Cần gửi"
@@ -3324,7 +3324,7 @@ msgid "Today Activities"
 msgstr "Hoạt động hôm nay"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_total
@@ -3405,7 +3405,7 @@ msgid "Type of the exception activity on record."
 msgstr "Loại hoạt động ngoại lệ trong bản ghi."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Unable to cancel purchase order(s): %s. You must first cancel their related "
@@ -3489,7 +3489,7 @@ msgid "UoM"
 msgstr "ĐVT"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Update Dates"
 msgstr "Ngày cập nhật"
@@ -3540,7 +3540,7 @@ msgid "Vendor Bill"
 msgstr "Hóa đơn mua hàng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Vendor Bill lines can only be added to one Purchase Order."
 msgstr "Dòng Hóa đơn mua hàng chỉ có thể được thêm vào một Đơn mua hàng."
@@ -3579,15 +3579,15 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Manapathi."
 msgstr ""
 "Hoá đơn mua hàng có thể được tạo trước dựa trên đơn mua hàng\n"
 "                    hay phiếu nhập kho. Điều này cho phép bạn kiểm soát hoá đơn\n"
 "                    bạn nhận được từ nhà cung cấp theo chứng từ nháp\n"
-"                    trong Odoo."
+"                    trong Manapathi."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View"
 msgstr "Chế độ xem"
@@ -3598,13 +3598,13 @@ msgid "View Details"
 msgstr "Xem chi tiết"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Order"
 msgstr "Xem đơn hàng"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Quotation"
 msgstr "Xem báo giá"
@@ -3615,7 +3615,7 @@ msgid "Volume"
 msgstr "Thể tích"
 
 #. module: purchase
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Waiting"
 msgstr "Đang chờ"
@@ -3633,11 +3633,11 @@ msgstr "YCBG đang chờ"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Want to import this document in Odoo?"
-msgstr "Bạn muốn nhập chứng từ này vào Odoo?"
+msgid "Want to import this document in Manapathi?"
+msgstr "Bạn muốn nhập chứng từ này vào Manapathi?"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__warning
 #: model:ir.model.fields.selection,name:purchase.selection__res_partner__purchase_warn__warning
@@ -3645,7 +3645,7 @@ msgid "Warning"
 msgstr "Cảnh báo"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Warning for %s"
@@ -3684,13 +3684,13 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, Manapathi will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Khi tạo đơn mua hàng, hãy xem tỷ lệ <i>Giao hàng đúng hạn</i> của nhà cung "
 "cấp: tỷ lệ sản phẩm được giao đúng hạn. Nếu tỷ lệ này quá thấp, hãy kích "
-"hoạt <i>nhắc nhở tự động</i>. Vài ngày trước khi đến hạn giao hàng, Odoo sẽ "
+"hoạt <i>nhắc nhở tự động</i>. Vài ngày trước khi đến hạn giao hàng, Manapathi sẽ "
 "gửi cho nhà cung cấp một email để yêu cầu xác nhận ngày giao hàng và thông "
 "báo cho bạn trong trường hợp có bất kỳ sự chậm trễ nào. Để nhận thống kê "
 "hiệu suất của nhà cung cấp, hãy nhấp vào tỷ lệ OTD."
@@ -3698,12 +3698,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Manapathi asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Khi gửi đơn mua hàng qua email, Odoo yêu cầu nhà cung cấp xác nhận đã nhận "
+"Khi gửi đơn mua hàng qua email, Manapathi yêu cầu nhà cung cấp xác nhận đã nhận "
 "đơn đặt hàng. Khi nhà cung cấp xác nhận đơn đặt hàng bằng cách nhấp vào một "
 "nút trong email, thông tin sẽ được thêm vào đơn đặt hàng. Sử dụng bộ lọc để "
 "theo dõi các đơn đặt hàng chưa được xác nhận."
@@ -3715,13 +3715,13 @@ msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
 msgstr "Bạn có thể tìm nhà cung cấp theo Tên, MST, email hoặc mã nội bộ."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "You can't select lines from multiple Vendor Bill to do the matching."
 msgstr "Bạn không thể chọn các dòng từ nhiều Hóa đơn mua hàng để so khớp."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid ""
 "You cannot change the type of a purchase order line. Instead you should "
@@ -3754,14 +3754,14 @@ msgstr ""
 "             dù đó là sản phẩm lưu kho, sản phẩm tiêu thụ hay dịch vụ."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid ""
 "You must select at least one Purchase Order line to match or create bill."
 msgstr "Bạn phải chọn ít nhất một dòng Đơn mua hàng để khớp hoặc tạo hóa đơn."
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
@@ -3786,7 +3786,7 @@ msgid "or create new"
 msgstr "hoặc tạo mới"
 
 #. module: purchase
-#. odoo-python
+#. manapathi-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "purchase orders merged"
 msgstr "đơn mua hàng được hợp nhất"

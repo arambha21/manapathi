@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields, api, _
-from odoo.tools.pdf import OdooPdfFileReader
-from odoo.osv import expression
-from odoo.tools import html_escape
-from odoo.exceptions import RedirectWarning
+from manapathi import models, fields, api, _
+from manapathi.tools.pdf import ManapathiPdfFileReader
+from manapathi.osv import expression
+from manapathi.tools import html_escape
+from manapathi.exceptions import RedirectWarning
 
 from lxml import etree
 from struct import error as StructError

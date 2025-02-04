@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from freezegun import freeze_time
 from unittest.mock import patch
 
-from odoo.addons.website_forum.tests.common import TestForumCommon
-from odoo.tests import tagged
+from manapathi.addons.website_forum.tests.common import TestForumCommon
+from manapathi.tests import tagged
 
 
 @tagged('post_install', '-at_install')

@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import logging
 import pprint
@@ -10,11 +10,11 @@ import psycopg2
 from dateutil import relativedelta
 from markupsafe import Markup
 
-from odoo import _, api, fields, models
-from odoo.exceptions import UserError, ValidationError
-from odoo.tools import format_amount
+from manapathi import _, api, fields, models
+from manapathi.exceptions import UserError, ValidationError
+from manapathi.tools import format_amount
 
-from odoo.addons.payment import utils as payment_utils
+from manapathi.addons.payment import utils as payment_utils
 
 _logger = logging.getLogger(__name__)
 

@@ -1,7 +1,7 @@
-/** @odoo-module */
+/** @manapathi-module */
 
 import publicWidget from '@web/legacy/js/public/public_widget';
-import { Component } from '@odoo/owl';
+import { Component } from '@manapathi/owl';
 
 publicWidget.registry.PaymentExpressCheckoutForm = publicWidget.Widget.extend({
     selector: 'form[name="o_payment_express_checkout_form"]',
@@ -65,7 +65,7 @@ publicWidget.registry.PaymentExpressCheckoutForm = publicWidget.Widget.extend({
             'tokenization_requested': false,
             'landing_route': this.paymentContext['landingRoute'],
             'access_token': this.paymentContext['accessToken'],
-            'csrf_token': odoo.csrf_token,
+            'csrf_token': manapathi.csrf_token,
         };
     },
 

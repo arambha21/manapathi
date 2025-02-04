@@ -1,4 +1,4 @@
-from odoo import fields, models
+from manapathi import fields, models
 
 
 class EventMailRegistration(models.Model):

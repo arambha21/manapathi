@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* account_peppol
 # 
 # Translators:
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Fernanda Alvarez, 2025
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Manapathi, 2025\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/41243/es_419/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,9 +166,9 @@ msgstr "Métodos de envío Peppol disponibles"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
-"By clicking the button below I accept that Odoo may process my e-invoices."
+"By clicking the button below I accept that Manapathi may process my e-invoices."
 msgstr ""
-"Al hacer clic en el siguiente botón, acepto que Odoo procese mis facturas "
+"Al hacer clic en el siguiente botón, acepto que Manapathi procese mis facturas "
 "electrónicas."
 
 #. module: account_peppol
@@ -413,8 +413,8 @@ msgstr "Obtener de Peppol"
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Free on Odoo"
-msgstr "Gratis en Odoo"
+msgid "Free on Manapathi"
+msgstr "Gratis en Manapathi"
 
 #. module: account_peppol
 #. odoo-javascript
@@ -430,8 +430,8 @@ msgstr "Entendido"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
-msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
-msgstr "Quiero migrar mi conexión existente de Peppol a Odoo (opcional):"
+msgid "I want to migrate my existing Peppol connection to Manapathi (optional):"
+msgstr "Quiero migrar mi conexión existente de Peppol a Manapathi (opcional):"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__id
@@ -549,14 +549,14 @@ msgstr "Aún no se ha verificado"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Odoo keeps you up to date with the new regulation."
-msgstr "Odoo le mantiene actualizado con la nueva regulación."
+msgid "Manapathi keeps you up to date with the new regulation."
+msgstr "Manapathi le mantiene actualizado con la nueva regulación."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_edi_proxy_client_user__proxy_type__peppol
@@ -895,10 +895,10 @@ msgstr "Prueba"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
-"                                    By clicking the button below I accept that Odoo may process my e-invoices."
+"                                    By clicking the button below I accept that Manapathi may process my e-invoices."
 msgstr ""
 "El modo de prueba permite enviar facturas electrónicas a través de la red de prueba de Peppol.\n"
-"                                    Al hacer clic en el siguiente botón, acepto que Odoo procese mis facturas electrónicas."
+"                                    Al hacer clic en el siguiente botón, acepto que Manapathi procese mis facturas electrónicas."
 
 #. module: account_peppol
 #. odoo-python
@@ -997,7 +997,7 @@ msgid ""
 "This feature is deprecated. Contact odoo support if you need a migration "
 "key."
 msgstr ""
-"Esta función es obsoleta. Póngase en contacto con Odoo si necesita una clave"
+"Esta función es obsoleta. Póngase en contacto con Manapathi si necesita una clave"
 " de migración."
 
 #. module: account_peppol
@@ -1150,10 +1150,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid ""
-"You will not be able to send or receive Peppol documents in Odoo anymore. "
+"You will not be able to send or receive Peppol documents in Manapathi anymore. "
 "Are you sure you want to proceed?"
 msgstr ""
-"Ya no podrá enviar o recibir documentos de Peppol en Odoo. ¿Está seguro de "
+"Ya no podrá enviar o recibir documentos de Peppol en Manapathi. ¿Está seguro de "
 "que desea continuar?"
 
 #. module: account_peppol

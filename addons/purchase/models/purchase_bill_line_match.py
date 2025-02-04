@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
+from manapathi import api, fields, models, _
 
-from odoo.tools import SQL
-from odoo.exceptions import UserError
+from manapathi.tools import SQL
+from manapathi.exceptions import UserError
 
 
 class PurchaseBillMatch(models.Model):

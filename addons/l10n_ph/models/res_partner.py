@@ -1,6 +1,6 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, api, models
+from manapathi import fields, api, models
 
 
 class ResPartner(models.Model):

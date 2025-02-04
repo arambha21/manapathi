@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import Command
+from manapathi import Command
 
-from odoo.addons.mail.tests.common import mail_new_test_user
-from odoo.addons.website.tests.test_performance import UtilPerf
+from manapathi.addons.mail.tests.common import mail_new_test_user
+from manapathi.addons.website.tests.test_performance import UtilPerf
 
 
 class TestForumPerformance(UtilPerf):

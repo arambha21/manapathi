@@ -1,7 +1,7 @@
-from odoo import Command, fields
-from odoo.tests import tagged
+from manapathi import Command, fields
+from manapathi.tests import tagged
 
-from odoo.addons.l10n_in.tests.common import L10nInTestInvoicingCommon
+from manapathi.addons.l10n_in.tests.common import L10nInTestInvoicingCommon
 
 
 @tagged('post_install', '-at_install', 'post_install_l10n')

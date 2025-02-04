@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import fields, models
+from manapathi import fields, models
 
 
 class AccountAnalyticApplicability(models.Model):

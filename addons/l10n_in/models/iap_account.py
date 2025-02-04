@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models
-from odoo.addons.iap import jsonrpc
+from manapathi import api, models
+from manapathi.addons.iap import jsonrpc
 
-DEFAULT_IAP_ENDPOINT = "https://l10n-in-edi.api.odoo.com"
-DEFAULT_IAP_TEST_ENDPOINT = "https://l10n-in-edi-demo.api.odoo.com"
+DEFAULT_IAP_ENDPOINT = "https://l10n-in-edi.api.manapathi.com"
+DEFAULT_IAP_TEST_ENDPOINT = "https://l10n-in-edi-demo.api.manapathi.com"
 IAP_SERVICE_NAME = 'l10n_in_edi'
 
 

@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 import time
 import logging
-from odoo import api, models, Command
-from odoo.exceptions import UserError, ValidationError
+from manapathi import api, models, Command
+from manapathi.exceptions import UserError, ValidationError
 
 _logger = logging.getLogger(__name__)
 

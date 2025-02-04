@@ -11,7 +11,7 @@ import { parseHTML, setSelection } from "@web_editor/js/editor/odoo-editor/src/u
 import { onRendered, useEffect } from "@odoo/owl";
 import { registry } from "@web/core/registry";
 import { COLOR_PICKER_TEMPLATE, wysiwygData } from "@web_editor/../tests/test_utils";
-import { OdooEditor } from '@web_editor/js/editor/odoo-editor/src/OdooEditor';
+import { ManapathiEditor } from '@web_editor/js/editor/odoo-editor/src/ManapathiEditor';
 import { uploadService } from "@web_editor/components/upload_progress_toast/upload_service";
 import { Wysiwyg } from "@web_editor/js/wysiwyg/wysiwyg";
 import { insertText } from '@web_editor/js/editor/odoo-editor/test/utils';
@@ -821,7 +821,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         assert.containsOnce(target, ".odoo-editor-editable p:contains('second')");
     });
 
-    QUnit.module('Odoo fields synchronisation');
+    QUnit.module('Manapathi fields synchronisation');
 
     QUnit.test("Synchronise fields when editing.", async (assert) => {
         serverData.models.partner.records = [{
@@ -855,7 +855,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         const newHistoryStepPromise = () => {
             historyStepPromise = makeDeferred();
         };
-        patchWithCleanup(OdooEditor.prototype, {
+        patchWithCleanup(ManapathiEditor.prototype, {
             historyStep() {
                 super.historyStep(...arguments);
                 if (historyStepPromise) {
@@ -918,7 +918,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         const newHistoryStepPromise = () => {
             historyStepPromise = makeDeferred();
         };
-        patchWithCleanup(OdooEditor.prototype, {
+        patchWithCleanup(ManapathiEditor.prototype, {
             historyStep() {
                 super.historyStep(...arguments);
                 if (historyStepPromise) {
@@ -981,7 +981,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         const newHistoryStepPromise = () => {
             historyStepPromise = makeDeferred();
         };
-        patchWithCleanup(OdooEditor.prototype, {
+        patchWithCleanup(ManapathiEditor.prototype, {
             historyStep() {
                 super.historyStep(...arguments);
                 if (historyStepPromise) {

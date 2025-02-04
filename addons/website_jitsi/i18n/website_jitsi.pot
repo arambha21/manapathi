@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* website_jitsi
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Manapathi Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
 "PO-Revision-Date: 2023-10-26 21:56+0000\n"
@@ -51,7 +51,7 @@ msgid "Chat Rooms"
 msgstr ""
 
 #. module: website_jitsi
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_jitsi/static/src/xml/chat_room_modal.xml:0
 msgid "Close"
 msgstr ""
@@ -118,7 +118,7 @@ msgid "Last activity"
 msgstr ""
 
 #. module: website_jitsi
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_jitsi/static/src/xml/chat_room_modal.xml:0
 msgid "Loading your room..."
 msgstr ""

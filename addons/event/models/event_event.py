@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import logging
 import pytz
@@ -801,4 +801,4 @@ class EventEvent(models.Model):
 
     def _get_printing_sponsor_text(self):
         sponsor_text = self.env['ir.config_parameter'].sudo().get_param('event.badge_printing_sponsor_text')
-        return sponsor_text or "Powered by Odoo"
+        return sponsor_text or "Powered by Manapathi"

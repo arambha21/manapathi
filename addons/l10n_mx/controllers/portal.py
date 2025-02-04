@@ -1,5 +1,5 @@
-from odoo.addons.portal.controllers import portal
-from odoo.http import request
+from manapathi.addons.portal.controllers import portal
+from manapathi.http import request
 
 class CustomerPortal(portal.CustomerPortal):
 

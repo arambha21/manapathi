@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* account_peppol
 # 
 # Translators:
 # Daye Jeong, 2025
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Manapathi, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -163,8 +163,8 @@ msgstr "사용 가능한 Peppol 전송 방법"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
-"By clicking the button below I accept that Odoo may process my e-invoices."
-msgstr "아래 버튼을 클릭하면 Odoo에서 내 전자 청구서를 처리하게 된다는 사실에 동의합니다."
+"By clicking the button below I accept that Manapathi may process my e-invoices."
+msgstr "아래 버튼을 클릭하면 Manapathi에서 내 전자 청구서를 처리하게 된다는 사실에 동의합니다."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__receiver
@@ -407,8 +407,8 @@ msgstr "Peppol에서 가져오기"
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Free on Odoo"
-msgstr "Odoo에서 무료"
+msgid "Free on Manapathi"
+msgstr "Manapathi에서 무료"
 
 #. module: account_peppol
 #. odoo-javascript
@@ -424,8 +424,8 @@ msgstr ""
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
-msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
-msgstr "기존 Peppol 연결을 Odoo로 마이그레이션합니다 (선택 사항):"
+msgid "I want to migrate my existing Peppol connection to Manapathi (optional):"
+msgstr "기존 Peppol 연결을 Manapathi로 마이그레이션합니다 (선택 사항):"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__id
@@ -537,14 +537,14 @@ msgstr "아직 승인되지 않음"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Odoo keeps you up to date with the new regulation."
-msgstr "Odoo는 최신 규정을 지속적으로 업데이트합니다."
+msgid "Manapathi keeps you up to date with the new regulation."
+msgstr "Manapathi는 최신 규정을 지속적으로 업데이트합니다."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_edi_proxy_client_user__proxy_type__peppol
@@ -876,9 +876,9 @@ msgstr "테스트"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
-"                                    By clicking the button below I accept that Odoo may process my e-invoices."
+"                                    By clicking the button below I accept that Manapathi may process my e-invoices."
 msgstr ""
-"아래 버튼을 클릭하면 Odoo가 테스트 모드에서 테스트 Peppol 네트워크를 통해\n"
+"아래 버튼을 클릭하면 Manapathi가 테스트 모드에서 테스트 Peppol 네트워크를 통해\n"
 "                                    전자 인보이스를 처리할 수 있음에 동의합니다."
 
 #. module: account_peppol
@@ -967,7 +967,7 @@ msgstr "일치하지 않는 인증 코드입니다."
 msgid ""
 "This feature is deprecated. Contact odoo support if you need a migration "
 "key."
-msgstr "이 기능은 더 이상 사용되지 않습니다. 마이그레이션 키가 필요한 경우 Odoo 지원팀에 문의하십시오."
+msgstr "이 기능은 더 이상 사용되지 않습니다. 마이그레이션 키가 필요한 경우 Manapathi 지원팀에 문의하십시오."
 
 #. module: account_peppol
 #. odoo-python
@@ -1110,9 +1110,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid ""
-"You will not be able to send or receive Peppol documents in Odoo anymore. "
+"You will not be able to send or receive Peppol documents in Manapathi anymore. "
 "Are you sure you want to proceed?"
-msgstr "더 이상 Odoo에서 Peppol 문서를 보내거나 받을 수 없습니다. 계속 진행하시겠습니까?"
+msgstr "더 이상 Manapathi에서 Peppol 문서를 보내거나 받을 수 없습니다. 계속 진행하시겠습니까?"
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__phone_number

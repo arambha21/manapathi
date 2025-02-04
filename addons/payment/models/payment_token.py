@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import logging
 
-from odoo import _, api, fields, models
-from odoo.exceptions import UserError, ValidationError
+from manapathi import _, api, fields, models
+from manapathi.exceptions import UserError, ValidationError
 
 
 class PaymentToken(models.Model):

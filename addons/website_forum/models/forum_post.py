@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import logging
 import math
 import re
 from datetime import datetime
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import UserError, ValidationError, AccessError
-from odoo.osv import expression
-from odoo.tools import sql, SQL
-from odoo.tools.json import scriptsafe as json_safe
+from manapathi import api, fields, models, tools, _
+from manapathi.exceptions import UserError, ValidationError, AccessError
+from manapathi.osv import expression
+from manapathi.tools import sql, SQL
+from manapathi.tools.json import scriptsafe as json_safe
 
 _logger = logging.getLogger(__name__)
 

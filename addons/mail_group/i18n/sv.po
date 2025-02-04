@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* mail_group
 # 
@@ -18,12 +18,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
-"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Language-Team: Swedish (https://app.transifex.com/manapathi/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -303,7 +303,7 @@ msgid "Always Allow"
 msgstr "Tillåt alltid"
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "An email with instructions has been sent."
 msgstr "Ett e-postmeddelande med instruktioner har skickats."
@@ -494,7 +494,7 @@ msgid "Email"
 msgstr "E-post"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Email %s is invalid"
 msgstr "E-post %s är ogiltig"
@@ -521,8 +521,8 @@ msgstr ""
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_domain
-msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "E-postdomän, t.ex. \"example.com\" i \"odoo@example.com"
+msgid "Email domain e.g. 'example.com' in 'manapathi@example.com'"
+msgstr "E-postdomän, t.ex. \"example.com\" i \"manapathi@example.com"
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -576,7 +576,7 @@ msgid "Group Name"
 msgstr "Gruppnamn"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Group message can only be linked to mail group. Current model is %s."
 msgstr ""
@@ -631,13 +631,13 @@ msgid "Image"
 msgstr "Bild"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Invalid action for URL generation (%s)"
 msgstr "Ogiltig åtgärd för URL-generering (%s)"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_moderation.py:0
 msgid "Invalid email address “%s”"
 msgstr "Ogiltig e-postadress \"%s\""
@@ -840,7 +840,7 @@ msgid "Messages Per Month"
 msgstr "Meddelanden per månad"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Messages are pending moderation"
 msgstr "Meddelanden väntar på att modereras"
@@ -887,7 +887,7 @@ msgid "Moderated emails in this group"
 msgstr "Modererade e-postmeddelanden i denna grupp"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderated group must have moderators."
 msgstr "En modererad grupp måste ha moderatorer."
@@ -925,7 +925,7 @@ msgid "Moderators"
 msgstr "Moderatorer"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderators must have an email address."
 msgstr "Moderatorer måste ha en e-postadress."
@@ -994,7 +994,7 @@ msgid "Number of message in this group"
 msgstr "Antal meddelanden i denna grupp"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Only an administrator or a moderator can send guidelines to group members."
@@ -1003,13 +1003,13 @@ msgstr ""
 "gruppmedlemmar."
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only members can send email to the mailing list."
 msgstr "Endast medlemmar kan skicka e-post till e-postlistan."
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only selected groups of users can send email to the mailing list."
 msgstr ""
@@ -1126,7 +1126,7 @@ msgid "Public Mailing List"
 msgstr "Offentlig e-postlista"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/wizard/mail_group_message_reject.py:0
 msgid "Re: %s"
 msgstr "Re: %s"
@@ -1273,7 +1273,7 @@ msgid "Subject"
 msgstr "Ämne"
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Subscribe"
@@ -1285,7 +1285,7 @@ msgid "Subscription confirmation to a mailing group"
 msgstr "Bekräftelse av prenumeration på en e-postgrupp"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
@@ -1301,7 +1301,7 @@ msgid "Thank you!"
 msgstr "Tack!"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The \"Authorized Group\" is missing."
 msgstr "\"Auktoriserad grupp\" saknas."
@@ -1312,25 +1312,25 @@ msgid "The email"
 msgstr "E-postmeddelandet"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The email \"%s\" is not valid."
 msgstr "E-postadressen \"%s\" är inte giltig."
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The group of the message do not match."
 msgstr "Gruppen i meddelandet stämmer inte överens."
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is empty."
 msgstr "Beskrivningen av riktlinjerna är tom."
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is missing."
 msgstr "Beskrivningen av riktlinjerna saknas."
@@ -1338,11 +1338,11 @@ msgstr "Beskrivningen av riktlinjerna saknas."
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Manapathi Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Klassen (Odoo-dokumenttyp) som detta alias är knutet till. All inkommande "
+"Klassen (Manapathi-dokumenttyp) som detta alias är knutet till. All inkommande "
 "e-post som inte ingår i en pågående diskussion skapar en ny post av denna "
 "klass (t ex Aktivitet)"
 
@@ -1350,43 +1350,43 @@ msgstr ""
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.manapathi.com>"
 msgstr ""
 "Namnet på alias för e-post, t.ex. 'kontakt' om du vill samla in e-post för "
 "<kontakt@exampel.se>"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The notification message is missing."
 msgstr "Meddelandet saknas."
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The partner can not be found."
 msgstr "Partnern kan inte hittas."
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The record of the message should be the group."
 msgstr "Den som registrerar meddelandet bör vara gruppen."
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "This email is already subscribed."
 msgstr "Det här e-postmeddelandet är redan prenumererat."
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "This email is not subscribed."
 msgstr "Denna e-post prenumereras inte."
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "This message can not be moderated"
 msgstr "Detta meddelande kan inte modereras"
@@ -1397,7 +1397,7 @@ msgid "This partner is already subscribed to the group"
 msgstr "Denna partner är redan prenumerant på gruppen"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Those messages can not be moderated: %s."
 msgstr "Dessa meddelanden kan inte modereras: %s."
@@ -1408,7 +1408,7 @@ msgid "To Review"
 msgstr "Att godkänna"
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Unsubscribe"
@@ -1438,7 +1438,7 @@ msgid "Whitelisted"
 msgstr "Vitlistad"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Wrong status (%s)"
 msgstr "Felaktig status (%s)"

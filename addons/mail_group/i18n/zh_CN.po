@@ -1,21 +1,21 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* mail_group
 # 
 # Translators:
-# Wil Odoo, 2024
-# Odoo哥 <vnsoft.he@gmail.com>, 2024
+# Wil Manapathi, 2024
+# Manapathi哥 <vnsoft.he@gmail.com>, 2024
 # Jeffery CHEN <jeffery9@gmail.com>, 2024
 # Chloe Wang, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Chloe Wang, 2025\n"
-"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/manapathi/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -312,7 +312,7 @@ msgid "Always Allow"
 msgstr "总是允许"
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "An email with instructions has been sent."
 msgstr "一封带有说明的电子邮件已经发出。"
@@ -499,7 +499,7 @@ msgid "Email"
 msgstr "电子邮件"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Email %s is invalid"
 msgstr "电子邮件%s是无效的"
@@ -524,8 +524,8 @@ msgstr "发送人的电子邮箱地址。找不到匹配的合作伙伴时，设
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_domain
-msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "电子邮件域名，例如 'odoo@example.com' 中的 'example.com'"
+msgid "Email domain e.g. 'example.com' in 'manapathi@example.com'"
+msgstr "电子邮件域名，例如 'manapathi@example.com' 中的 'example.com'"
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -579,7 +579,7 @@ msgid "Group Name"
 msgstr "群组名称"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Group message can only be linked to mail group. Current model is %s."
 msgstr "群发信息只能与邮件组相连。目前的模式是%s。"
@@ -629,13 +629,13 @@ msgid "Image"
 msgstr "图像"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Invalid action for URL generation (%s)"
 msgstr "无效的URL生成动作（%s）。"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_moderation.py:0
 msgid "Invalid email address “%s”"
 msgstr "无效电子邮件地址 “%s”"
@@ -835,7 +835,7 @@ msgid "Messages Per Month"
 msgstr "每个月的信息"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Messages are pending moderation"
 msgstr "信息正在等待审核"
@@ -882,7 +882,7 @@ msgid "Moderated emails in this group"
 msgstr "在这个小组中，经过修改的电子邮件"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderated group must have moderators."
 msgstr "有节制的小组必须有节制者。"
@@ -920,7 +920,7 @@ msgid "Moderators"
 msgstr "管理员"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderators must have an email address."
 msgstr "版主必须拥有电子邮件地址。"
@@ -986,20 +986,20 @@ msgid "Number of message in this group"
 msgstr "该组中的信息数量"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Only an administrator or a moderator can send guidelines to group members."
 msgstr "只有管理员或版主可以向小组成员发送指南。"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only members can send email to the mailing list."
 msgstr "只有会员可以向邮件列表发送电子邮件。"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only selected groups of users can send email to the mailing list."
 msgstr "只有选定的用户组，才能向邮件列表发送电子邮件。"
@@ -1109,7 +1109,7 @@ msgid "Public Mailing List"
 msgstr "公共邮件列表"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/wizard/mail_group_message_reject.py:0
 msgid "Re: %s"
 msgstr "回复: %s"
@@ -1254,7 +1254,7 @@ msgid "Subject"
 msgstr "主旨"
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Subscribe"
@@ -1266,7 +1266,7 @@ msgid "Subscription confirmation to a mailing group"
 msgstr "邮件群组的订阅确认"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
@@ -1279,7 +1279,7 @@ msgid "Thank you!"
 msgstr "谢谢！"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The \"Authorized Group\" is missing."
 msgstr "\"授权组”遗失."
@@ -1290,25 +1290,25 @@ msgid "The email"
 msgstr "电子邮件"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The email \"%s\" is not valid."
 msgstr "电子邮件\"%s\"是无效的。"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The group of the message do not match."
 msgstr "信息的组别不匹配。"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is empty."
 msgstr "准则描述是空的。"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is missing."
 msgstr "准则描述缺失。"
@@ -1316,51 +1316,51 @@ msgstr "准则描述缺失。"
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Manapathi Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"相应于这个别名对应的模型(Odoo单据种类)。任何一封不属于对某个已存在的记录的到来邮件，将导致此模块中新记录的创建(例如：一个新的项目任务)。"
+"相应于这个别名对应的模型(Manapathi单据种类)。任何一封不属于对某个已存在的记录的到来邮件，将导致此模块中新记录的创建(例如：一个新的项目任务)。"
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "邮件别名的名称，例如：如果您要收取 <jobs@example.odoo.com> 的EMail,别名就要设为：\"jobs\""
+"<jobs@example.manapathi.com>"
+msgstr "邮件别名的名称，例如：如果您要收取 <jobs@example.manapathi.com> 的EMail,别名就要设为：\"jobs\""
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The notification message is missing."
 msgstr "通知信息丢失。"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The partner can not be found."
 msgstr "无法找到该伙伴。"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The record of the message should be the group."
 msgstr "信息的记录应该是小组的。"
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "This email is already subscribed."
 msgstr "这封邮件已经被订阅了。"
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "This email is not subscribed."
 msgstr "此邮件未被订阅。"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "This message can not be moderated"
 msgstr "此信息不能被审核"
@@ -1371,7 +1371,7 @@ msgid "This partner is already subscribed to the group"
 msgstr "该伙伴已经订阅了该组"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Those messages can not be moderated: %s."
 msgstr "这些信息不能被审核。%s."
@@ -1382,7 +1382,7 @@ msgid "To Review"
 msgstr "待审查"
 
 #. module: mail_group
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Unsubscribe"
@@ -1411,7 +1411,7 @@ msgid "Whitelisted"
 msgstr "白名单"
 
 #. module: mail_group
-#. odoo-python
+#. manapathi-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Wrong status (%s)"
 msgstr "错误的状态（%s）。"

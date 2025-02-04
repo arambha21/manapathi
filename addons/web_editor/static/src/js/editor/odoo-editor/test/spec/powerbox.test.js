@@ -1,6 +1,6 @@
 /** @odoo-module */
 
-import { setSelection } from '../../src/OdooEditor.js';
+import { setSelection } from '../../src/ManapathiEditor.js';
 import { Powerbox } from '../../src/powerbox/Powerbox.js';
 import { BasicEditor, _isMobile, insertText, testEditor, triggerEvent } from '../utils.js';
 

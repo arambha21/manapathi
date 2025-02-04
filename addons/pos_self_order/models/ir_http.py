@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import re
 
-from odoo import api, models
-from odoo.http import request
+from manapathi import api, models
+from manapathi.http import request
 
 
 class IrHttp(models.AbstractModel):

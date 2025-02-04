@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import base64
 
-from odoo import fields, models
-from odoo.addons.l10n_ph import utils
+from manapathi import fields, models
+from manapathi.addons.l10n_ph import utils
 
 
 class Generate2307Wizard(models.TransientModel):

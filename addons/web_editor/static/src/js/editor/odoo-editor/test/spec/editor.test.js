@@ -1,6 +1,6 @@
 /** @odoo-module */
 
-import { OdooEditor } from '../../src/OdooEditor.js';
+import { ManapathiEditor } from '../../src/ManapathiEditor.js';
 import {
     childNodeIndex,
     getTraversedNodes,
@@ -4949,7 +4949,7 @@ X[]
                 });
             });
             it('should type a, b, c, undo x2, d, undo x2, redo x2', async () => {
-                await testEditor(OdooEditor, {
+                await testEditor(ManapathiEditor, {
                     contentBefore: '<p>[]</p>',
                     stepFunction: async editor => {
                         await insertText(editor, 'a');
@@ -4967,7 +4967,7 @@ X[]
                 });
             });
             it('should type a, b, c, undo x2, d, undo, redo x2', async () => {
-                await testEditor(OdooEditor, {
+                await testEditor(ManapathiEditor, {
                     contentBefore: '<p>[]</p>',
                     stepFunction: async editor => {
                         await insertText(editor, 'a');

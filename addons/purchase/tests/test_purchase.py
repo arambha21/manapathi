@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.tests import tagged, Form
-from odoo import Command, fields
-from odoo.exceptions import UserError
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
+from manapathi.addons.account.tests.common import AccountTestInvoicingCommon
+from manapathi.tests import tagged, Form
+from manapathi import Command, fields
+from manapathi.exceptions import UserError
 
 
 from datetime import timedelta

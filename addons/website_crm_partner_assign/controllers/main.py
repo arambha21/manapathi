@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import werkzeug.urls
 
 from werkzeug.exceptions import NotFound
 
-from odoo import fields
-from odoo import http
-from odoo.http import request
-from odoo.addons.portal.controllers.portal import CustomerPortal
-from odoo.addons.website_google_map.controllers.main import GoogleMap
-from odoo.addons.website_partner.controllers.main import WebsitePartnerPage
+from manapathi import fields
+from manapathi import http
+from manapathi.http import request
+from manapathi.addons.portal.controllers.portal import CustomerPortal
+from manapathi.addons.website_google_map.controllers.main import GoogleMap
+from manapathi.addons.website_partner.controllers.main import WebsitePartnerPage
 
-from odoo.tools.translate import _
+from manapathi.tools.translate import _
 
 
 class WebsiteAccount(CustomerPortal):

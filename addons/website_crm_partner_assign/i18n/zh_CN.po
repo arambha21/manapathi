@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* website_crm_partner_assign
 # 
 # Translators:
-# Wil Odoo, 2024
-# Odoo哥 <vnsoft.he@gmail.com>, 2024
+# Wil Manapathi, 2024
+# Manapathi哥 <vnsoft.he@gmail.com>, 2024
 # Chloe Wang, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Chloe Wang, 2025\n"
-"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/manapathi/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -27,7 +27,7 @@ msgid "# of Opportunity"
 msgstr "#商机"
 
 #. module: website_crm_partner_assign
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_crm_partner_assign/static/src/js/crm_partner_assign.js:0
 msgid "%s's Opportunity"
 msgstr "%s's 商机"
@@ -273,7 +273,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.manapathi.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Manapathi</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -359,7 +359,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        由<a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Odoo</a>驱动\n"
+"        由<a target=\"_blank\" href=\"https://www.manapathi.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Manapathi</a>驱动\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -377,7 +377,7 @@ msgid "Activation"
 msgstr "启用"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_res_partner_activation__active
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_res_partner_grade__active
@@ -401,19 +401,19 @@ msgid "Address:"
 msgstr "地址："
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "All Categories"
 msgstr "所有类别"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "All Countries"
 msgstr "所有国家"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "All fields are required!"
 msgstr "所有字段均为必填字段！"
@@ -517,7 +517,7 @@ msgid "Contact"
 msgstr "联系人"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_leads
 msgid "Contact Name"
@@ -668,7 +668,7 @@ msgid "Expected Closing:"
 msgstr "预期结束："
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Expected Revenue"
 msgstr "预期收益"
@@ -724,7 +724,7 @@ msgid "Forward to partner"
 msgstr "期待合作伙伴"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Future Activities"
 msgstr "未来活动"
@@ -782,19 +782,19 @@ msgid "Group By"
 msgstr "分组方式"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "I am interested by this lead."
 msgstr "我对此线索很感兴趣。"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "I am not interested by this lead. I contacted the lead."
 msgstr "我对此线索不感兴趣。我已联系此线索。"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "I am not interested by this lead. I have not contacted the lead."
 msgstr "对此线索不感兴趣。我尚未联系此线索。"
@@ -873,7 +873,7 @@ msgid "Last date this case was forwarded/assigned to a partner"
 msgstr "上次将此案件转交给合作伙伴的日期"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Late Activities"
 msgstr "最近活动"
@@ -956,7 +956,7 @@ msgid "Link to Lead"
 msgstr "关联到线索"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Lost"
 msgstr "丢失"
@@ -978,7 +978,7 @@ msgid "My Assigned Partners"
 msgstr "我的指定合作伙伴"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_res_partner_activation__name
 msgid "Name"
@@ -990,7 +990,7 @@ msgid "New Opportunity"
 msgstr "新商机"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Newest"
 msgstr "最新"
@@ -1012,7 +1012,7 @@ msgid "Next Partner Review"
 msgstr "下一次审查日期"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "No Activities"
 msgstr "没有活动"
@@ -1033,7 +1033,7 @@ msgid "No results found for \""
 msgstr "找不到结果 \""
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "Not allowed to update the following field(s): %s."
 msgstr "不允许更新以下字段： %s。"
@@ -1195,7 +1195,7 @@ msgid "Priority:"
 msgstr "优先级："
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "Probability"
@@ -1243,7 +1243,7 @@ msgid "References"
 msgstr "参考"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/website.py:0
 #: model:ir.ui.menu,name:website_crm_partner_assign.crm_menu_resellers
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
@@ -1320,13 +1320,13 @@ msgid "Sequence"
 msgstr "序列"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/wizard/crm_forward_to_partner.py:0
 msgid "Set an email address for the partner %s"
 msgstr "给合作伙伴%s设置EMail地址"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/wizard/crm_forward_to_partner.py:0
 msgid "Set an email address for the partner(s): %s"
 msgstr "为合作伙伴设置邮箱地址：%s"
@@ -1347,7 +1347,7 @@ msgid "Spam"
 msgstr "垃圾邮件"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunities
 msgid "Stage"
@@ -1374,7 +1374,7 @@ msgid "Tags"
 msgstr "标签"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/wizard/crm_forward_to_partner.py:0
 msgid "The Forward Email Template is not in the database"
 msgstr "转发邮件模板在数据库中不存在"
@@ -1395,7 +1395,7 @@ msgid "There are no opportunities."
 msgstr "这儿没有商机。"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "There is no country set in addresses for %(lead_names)s."
 msgstr "%(lead_names)s 的地址中没有设置国家/地区。"
@@ -1420,7 +1420,7 @@ msgid ""
 msgstr "这些用于了解您的合作伙伴在入职流程中所处的位置。"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Today Activities"
 msgstr "今日活动"
@@ -1441,7 +1441,7 @@ msgid "Visible on current website"
 msgstr "在当前网站显示"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "Warning"
 msgstr "警告"
@@ -1467,7 +1467,7 @@ msgid "Why aren't you interested in this lead?"
 msgstr "您为什么对这条线索不感兴趣？"
 
 #. module: website_crm_partner_assign
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "Won"
 msgstr "赢得"

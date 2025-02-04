@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* account_debit_note
 # 
@@ -14,12 +14,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2024\n"
-"Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
+"Language-Team: Lithuanian (https://app.transifex.com/manapathi/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -88,7 +88,7 @@ msgid "Debit Note Date"
 msgstr "Debetinės sąskaitos data"
 
 #. module: account_debit_note
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_debit_note/models/account_move.py:0
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 #: model:ir.model.fields,field_description:account_debit_note.field_account_bank_statement_line__debit_note_ids
@@ -192,7 +192,7 @@ msgid "The debit notes created for this invoice"
 msgstr "Debetinė sąskaita sukurta iš šios sąskaitos faktūros"
 
 #. module: account_debit_note
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid "This debit note was created from: %s"
 msgstr "Debetinė sąskaita buvo sukurta iš: %s"
@@ -203,7 +203,7 @@ msgid "Use Specific Journal"
 msgstr "Naudoti tam tikrą žurnalą"
 
 #. module: account_debit_note
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid ""
 "You can make a debit note only for a Customer Invoice, a Customer Credit "
@@ -214,13 +214,13 @@ msgstr ""
 "kreditinei sąskaitai faktūrai. "
 
 #. module: account_debit_note
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid "You can only debit posted moves."
 msgstr "Debetines sąskaitas galima kurti tik iš pavirtintų įrašų."
 
 #. module: account_debit_note
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid ""
 "You can't make a debit note for an invoice that is already linked to a debit"

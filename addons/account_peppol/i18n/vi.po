@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* account_peppol
 # 
 # Translators:
 # Thi Huong Nguyen, 2024
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Manapathi, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -164,9 +164,9 @@ msgstr "Phương thức gửi Peppol khả dụng"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
-"By clicking the button below I accept that Odoo may process my e-invoices."
+"By clicking the button below I accept that Manapathi may process my e-invoices."
 msgstr ""
-"Bằng cách nhấp vào nút dưới đây, tôi chấp nhận rằng Odoo có thể xử lý hóa "
+"Bằng cách nhấp vào nút dưới đây, tôi chấp nhận rằng Manapathi có thể xử lý hóa "
 "đơn điện tử của tôi."
 
 #. module: account_peppol
@@ -411,8 +411,8 @@ msgstr "Tìm nạp từ Peppol"
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Free on Odoo"
-msgstr "Miễn phí trên Odoo"
+msgid "Free on Manapathi"
+msgstr "Miễn phí trên Manapathi"
 
 #. module: account_peppol
 #. odoo-javascript
@@ -428,9 +428,9 @@ msgstr ""
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
-msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
+msgid "I want to migrate my existing Peppol connection to Manapathi (optional):"
 msgstr ""
-"Tôi muốn di chuyển kết nối Peppol hiện tại của mình sang Odoo (tùy chọn):"
+"Tôi muốn di chuyển kết nối Peppol hiện tại của mình sang Manapathi (tùy chọn):"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__id
@@ -544,14 +544,14 @@ msgstr "Chưa được xác minh"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Manapathi"
+msgstr "Manapathi"
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Odoo keeps you up to date with the new regulation."
-msgstr "Odoo giúp bạn cập nhật các quy định mới."
+msgid "Manapathi keeps you up to date with the new regulation."
+msgstr "Manapathi giúp bạn cập nhật các quy định mới."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_edi_proxy_client_user__proxy_type__peppol
@@ -886,10 +886,10 @@ msgstr "Kiểm thử"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
-"                                    By clicking the button below I accept that Odoo may process my e-invoices."
+"                                    By clicking the button below I accept that Manapathi may process my e-invoices."
 msgstr ""
 "Chế độ kiểm thử cho phép gửi hoá đơn điện tử qua mạng lưới Peppol thử nghiệm.\n"
-"                                 Bằng cách nhấp vào nút dưới đây, tôi chấp nhận rằng Odoo có thể xử lý hóa đơn điện tử của tôi."
+"                                 Bằng cách nhấp vào nút dưới đây, tôi chấp nhận rằng Manapathi có thể xử lý hóa đơn điện tử của tôi."
 
 #. module: account_peppol
 #. odoo-python
@@ -1132,10 +1132,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid ""
-"You will not be able to send or receive Peppol documents in Odoo anymore. "
+"You will not be able to send or receive Peppol documents in Manapathi anymore. "
 "Are you sure you want to proceed?"
 msgstr ""
-"Bạn sẽ không thể gửi hoặc nhận chứng từ Peppol trong Odoo nữa. Bạn có chắc "
+"Bạn sẽ không thể gửi hoặc nhận chứng từ Peppol trong Manapathi nữa. Bạn có chắc "
 "muốn tiếp tục?"
 
 #. module: account_peppol

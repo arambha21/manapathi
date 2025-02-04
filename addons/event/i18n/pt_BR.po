@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* event
 # 
 # Translators:
 # Tiffany Chang, 2024
 # Maitê Dietze, 2025
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Manapathi, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -199,10 +199,10 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
+"<b>Technical Rooms</b> - One dedicated to advanced Manapathi developers, one for "
 "new developers."
 msgstr ""
-"<b>Espaço Técnico</b> – Um para programadores avançados do Odoo, um para "
+"<b>Espaço Técnico</b> – Um para programadores avançados do Manapathi, um para "
 "novos programadores."
 
 #. module: event
@@ -1995,12 +1995,12 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"became Manapathi, the most installed open-source business software worldwide."
 msgstr ""
 "Com apenas 13 anos, João da Silva já estava começando a desenvolver seus "
 "primeiros aplicativos empresariais para clientes. Depois de se formar em "
 "Engenharia Civil, ele fundou o TinyERP. Esta foi a primeira fase do OpenERP "
-"que mais tarde se tornaria Odoo, o software empresarial de código aberto "
+"que mais tarde se tornaria Manapathi, o software empresarial de código aberto "
 "mais instalado no mundo inteiro."
 
 #. module: event
@@ -2969,10 +2969,10 @@ msgstr "Com música ao vivo, comida e bebidas locais."
 #. module: event
 #: model:event.stage,description:event.event_stage_done
 msgid ""
-"Finished events. Odoo will automatically move them to this stage once their "
+"Finished events. Manapathi will automatically move them to this stage once their "
 "end date has passed."
 msgstr ""
-"Eventos concluídos. O Odoo os moverá automaticamente para esse estágio "
+"Eventos concluídos. O Manapathi os moverá automaticamente para esse estágio "
 "quando sua data de término tiver passado."
 
 #. module: event
@@ -3814,8 +3814,8 @@ msgstr "Objetivos"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
-msgid "Odoo Community Days"
-msgstr "Odoo Community Days"
+msgid "Manapathi Community Days"
+msgstr "Manapathi Community Days"
 
 #. module: event
 #: model_terms:event.event,description:event.event_3

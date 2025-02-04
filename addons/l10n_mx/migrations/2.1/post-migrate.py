@@ -1,5 +1,5 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import api, Command, SUPERUSER_ID
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
+from manapathi import api, Command, SUPERUSER_ID
 
 
 def migrate(cr, version):

@@ -1,6 +1,6 @@
 /** @odoo-module */
 
-import { OdooEditor, parseHTML, setSelection, insertCharsAt } from '../../src/OdooEditor.js';
+import { ManapathiEditor, parseHTML, setSelection, insertCharsAt } from '../../src/ManapathiEditor.js';
 import {
     parseMultipleTextualSelection,
     redo,
@@ -100,9 +100,9 @@ const testMultiEditor = async spec => {
 
         // Insure all the client will have the same starting id.
         let nextId = 1;
-        OdooEditor.prototype._generateId = () => 'fake_id_' + nextId++;
+        ManapathiEditor.prototype._generateId = () => 'fake_id_' + nextId++;
 
-        clientInfo.editor = new OdooEditor(clientInfo.editable, Object.assign({
+        clientInfo.editor = new ManapathiEditor(clientInfo.editable, Object.assign({
             toSanitize: false,
             document: iframeDocument,
             collaborationClientId: clientInfo.clientId,
@@ -138,7 +138,7 @@ const testMultiEditor = async spec => {
 
     // From now, any any step from a client must have a different ID.
     let concurentNextId = 1;
-    OdooEditor.prototype._generateId = () => 'fake_concurent_id_' + concurentNextId++;
+    ManapathiEditor.prototype._generateId = () => 'fake_concurent_id_' + concurentNextId++;
 
     if (spec.afterCreate) {
         await spec.afterCreate(clientInfos);

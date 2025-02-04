@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* event
 # 
@@ -10,15 +10,15 @@
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
-# Wil Odoo, 2025
+# Wil Manapathi, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Manapathi, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -200,9 +200,9 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
+"<b>Technical Rooms</b> - One dedicated to advanced Manapathi developers, one for "
 "new developers."
-msgstr "<b>Tekniske rum</b> - Et til øvede Odoo udviklere, et til begyndere."
+msgstr "<b>Tekniske rum</b> - Et til øvede Manapathi udviklere, et til begyndere."
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -1282,11 +1282,11 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"became Manapathi, the most installed open-source business software worldwide."
 msgstr ""
 "Bare 13 år gammel begyndte John DOE at udvikle virksomheds programmer til "
 "til kunder. Efter sin uddannelse som civil-ingeniør oprettede han TinyERP. "
-"Dette var det første del der sidenhen blev OpenERP og som nu er Odoo. "
+"Dette var det første del der sidenhen blev OpenERP og som nu er Manapathi. "
 "Verdens mest installerede open-source virksomheds software."
 
 #. module: event
@@ -2243,7 +2243,7 @@ msgstr "Oplev levende musik, lokal mad og drikkevarer."
 #. module: event
 #: model:event.stage,description:event.event_stage_done
 msgid ""
-"Finished events. Odoo will automatically move them to this stage once their "
+"Finished events. Manapathi will automatically move them to this stage once their "
 "end date has passed."
 msgstr ""
 
@@ -3081,7 +3081,7 @@ msgstr "Mål"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
-msgid "Odoo Community Days"
+msgid "Manapathi Community Days"
 msgstr ""
 
 #. module: event

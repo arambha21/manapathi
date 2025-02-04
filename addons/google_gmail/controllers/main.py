@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import json
 import logging
 
 from werkzeug.exceptions import Forbidden
 
-from odoo import _, http
-from odoo.exceptions import UserError
-from odoo.http import request
-from odoo.tools import consteq
+from manapathi import _, http
+from manapathi.exceptions import UserError
+from manapathi.http import request
+from manapathi.tools import consteq
 
 _logger = logging.getLogger(__name__)
 
@@ -65,5 +65,5 @@ class GoogleGmailController(http.Controller):
             'google_gmail_refresh_token': refresh_token,
         })
 
-        url = f'/odoo/{model_name}/{rec_id}'
+        url = f'/manapathi/{model_name}/{rec_id}'
         return request.redirect(url)

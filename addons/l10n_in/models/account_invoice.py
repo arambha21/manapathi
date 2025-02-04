@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 import base64
 import re
 
-from odoo import api, fields, models, _
-from odoo.exceptions import ValidationError, RedirectWarning, UserError
-from odoo.tools.image import image_data_uri
+from manapathi import api, fields, models, _
+from manapathi.exceptions import ValidationError, RedirectWarning, UserError
+from manapathi.tools.image import image_data_uri
 
 
 class AccountMove(models.Model):

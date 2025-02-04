@@ -1,5 +1,5 @@
-from odoo import api, fields, models
-from odoo.tools import frozendict
+from manapathi import api, fields, models
+from manapathi.tools import frozendict
 
 
 

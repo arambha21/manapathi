@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 from dateutil.relativedelta import relativedelta
 
 from odoo import api, models, fields, _
@@ -41,7 +41,7 @@ class ResCurrency(models.Model):
         return bool(self.env['account.move.line'].sudo().search_count(['|', ('currency_id', '=', self.id), ('company_currency_id', '=', self.id)]))
 
     def _get_simple_currency_table(self, companies) -> SQL:
-        """ Helper creating the currency table and returning its definition for basic cases of Odoo reports needing to convert amounts using only the
+        """ Helper creating the currency table and returning its definition for basic cases of Manapathi reports needing to convert amounts using only the
         current rates, in a single period.
         """
         if self._check_currency_table_monocurrency(companies):

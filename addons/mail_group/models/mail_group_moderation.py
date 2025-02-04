@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models, api, _
-from odoo.exceptions import UserError
-from odoo.tools import email_normalize
+from manapathi import fields, models, api, _
+from manapathi.exceptions import UserError
+from manapathi.tools import email_normalize
 
 
 class MailGroupModeration(models.Model):

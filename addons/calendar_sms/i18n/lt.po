@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* calendar_sms
 # 
@@ -9,16 +9,16 @@
 # Gailius Kazlauskas <gailius@vialaurea.lt>, 2024
 # grupoda2 <dmitrijus.ivanovas@gmail.com>, 2024
 # Greta Šeštokė, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@manapathi.com>, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0+e\n"
+"Project-Id-Version: Manapathi Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 12:52+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Jonas Zinkevicius <jozi@odoo.com>, 2024\n"
-"Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
+"Last-Translator: Jonas Zinkevicius <jozi@manapathi.com>, 2024\n"
+"Language-Team: Lithuanian (https://app.transifex.com/manapathi/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -46,7 +46,7 @@ msgid "Event Alarm Manager"
 msgstr "Renginio signalo valdytojas"
 
 #. module: calendar_sms
-#. odoo-python
+#. manapathi-python
 #: code:addons/calendar_sms/models/calendar_event.py:0
 msgid "Event reminder: %(name)s, %(time)s."
 msgstr ""
@@ -59,7 +59,7 @@ msgid ""
 msgstr ""
 
 #. module: calendar_sms
-#. odoo-python
+#. manapathi-python
 #: code:addons/calendar_sms/models/calendar_alarm.py:0
 #: model:ir.model.fields,field_description:calendar_sms.field_calendar_alarm__sms_notify_responsible
 msgid "Notify Responsible"
@@ -81,7 +81,7 @@ msgid "SMS Text Message"
 msgstr "SMS žinutė"
 
 #. module: calendar_sms
-#. odoo-python
+#. manapathi-python
 #: code:addons/calendar_sms/models/calendar_event.py:0
 #: model_terms:ir.ui.view,arch_db:calendar_sms.view_calendar_event_tree_inherited
 msgid "Send SMS"
@@ -98,7 +98,7 @@ msgid "Template used to render SMS reminder content."
 msgstr ""
 
 #. module: calendar_sms
-#. odoo-python
+#. manapathi-python
 #: code:addons/calendar_sms/models/calendar_event.py:0
 msgid "There are no attendees on these events"
 msgstr "Šiuose susitikimuose nėra dalyvių."

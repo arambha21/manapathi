@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models
-from odoo.addons.base.models.res_lang import LangDataDict
+from manapathi import models
+from manapathi.addons.base.models.res_lang import LangDataDict
 
 
 class ResLang(models.Model):

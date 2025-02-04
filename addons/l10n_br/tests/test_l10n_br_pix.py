@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import Command
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.exceptions import ValidationError
-from odoo.tests import tagged
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
+from manapathi import Command
+from manapathi.addons.account.tests.common import AccountTestInvoicingCommon
+from manapathi.exceptions import ValidationError
+from manapathi.tests import tagged
 
 
 @tagged("post_install_l10n", "post_install", "-at_install")

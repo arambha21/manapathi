@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* pos_self_order
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
-"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://app.transifex.com/manapathi/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -26,7 +26,7 @@ msgid "\"QR codes\""
 msgstr "\"mã QR\""
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid ""
 "%s is not available anymore, it has thus been removed from your order. "
@@ -36,7 +36,7 @@ msgstr ""
 " hàng và xác nhận lại."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "/ Tracker number:"
 msgstr "/Số theo dõi:"
@@ -87,20 +87,20 @@ msgid "Add images"
 msgstr " Thêm hình ảnh"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_info_popup/product_info_popup.xml:0
 msgid "Add to Cart"
 msgstr "Thêm vào giỏ hàng"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "Add to cart"
 msgstr "Thêm vào giỏ hàng"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "All the items will be removed from the cart."
 msgstr "Tất cả các mặt hàng sẽ được loại bỏ khỏi giỏ hàng."
@@ -116,19 +116,19 @@ msgid "Allow takeout order"
 msgstr "Cho phép đơn hàng mang đi"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "An error has occurred"
 msgstr "Đã xảy ra lỗi"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Any items already sent will not be cancelled"
 msgstr "Các mặt hàng đã được gửi đi sẽ không bị hủy"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Are you sure you want to cancel this order?"
 msgstr "Bạn có chắc chắn muốn huỷ đơn hàng này không?"
@@ -144,7 +144,7 @@ msgid "Availability Until"
 msgstr "Sẵn sàng cho đến"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_banner/product_info_banner.xml:0
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Available"
@@ -178,7 +178,7 @@ msgid "Available interface languages"
 msgstr "Ngôn ngữ giao diện có sẵn"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
@@ -188,19 +188,19 @@ msgid "Back"
 msgstr "Quay lại"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 msgid "Cancel"
 msgstr "Hủy"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Cancel Order"
 msgstr "Huỷ đơn hàng"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.js:0
 msgid "Cancel order"
@@ -225,19 +225,19 @@ msgid "Choose when the customer will pay"
 msgstr "Chọn thời điểm khách hàng sẽ thanh toán"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 msgid "Choose your"
 msgstr "Chọn"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 msgid "Choose your eating location"
 msgstr "Chọn nơi thưởng thức"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/out_of_paper_popup/out_of_paper_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Close"
@@ -249,7 +249,7 @@ msgid "Close Session"
 msgstr "Đóng phiên"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Combo"
 msgstr "Combo"
@@ -265,25 +265,25 @@ msgid "Config Settings"
 msgstr "Cài đặt cấu hình"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Connection lost, please try again later"
 msgstr "Đã mất kết nối, vui lòng thử lại sau"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/timeout_popup/timeout_popup.xml:0
 msgid "Continue"
 msgstr "Tiếp tục"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Continue with table"
 msgstr "Tiếp tục với bàn"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Could you please confirm your table number?"
 msgstr "Bạn có thể xác nhận số bàn của bạn được không?"
@@ -299,7 +299,7 @@ msgid "Created on"
 msgstr "Được tạo vào"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.js:0
 msgid "Current"
 msgstr "Hiện tại"
@@ -363,7 +363,7 @@ msgid "Disable"
 msgstr "Tắt"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/components/language_popup/language_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
@@ -382,13 +382,13 @@ msgid "Download QR Codes"
 msgstr "Tải xuống mã QR"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Download your receipt here"
 msgstr "Tải xuống biên lai của bạn ở đây"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Each Order"
 msgstr "Mỗi đơn hàng"
@@ -403,19 +403,19 @@ msgstr ""
 "                     cả tên điểm bán hàng và tên bàn đều được mã hóa trong URL được tạo, như trong ví dụ dưới đây:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 msgid "Eat In"
 msgstr "Dùng tại chỗ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Edit"
 msgstr "Chỉnh sửa"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/attribute_selection/attribute_selection.xml:0
 msgid "Enter your custom value"
 msgstr "Nhập giá trị tùy chỉnh của bạn"
@@ -440,19 +440,19 @@ msgid "Fiscal Position"
 msgstr "Vị trí tài chính"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/payment_page/payment_page.xml:0
 msgid "Follow instructions on the terminal"
 msgstr "Làm theo hướng dẫn trên thiết bị đầu cuối"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Generic"
 msgstr "Chung"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Get a tracker and enter its number here"
 msgstr "Lấy một thiết bị theo dõi và nhập số thiết bị ở đây"
@@ -468,7 +468,7 @@ msgid "Has paper"
 msgstr "Có giấy"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_index.xml:0
 msgid ""
 "Hey, looks like you forgot to create products or add them to pos_config. "
@@ -483,7 +483,7 @@ msgid "Home buttons"
 msgstr "Nút Trang chủ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Hope you enjoyed your meal!"
 msgstr "Chúc bạn ngon miệng!"
@@ -527,7 +527,7 @@ msgid "Image to display on the self order screen"
 msgstr "Hình ảnh hiển thị trên màn hình tự phục vụ"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid ""
 "In Self-Order mode, you must have at least one table to generate QR codes"
@@ -544,7 +544,7 @@ msgid "Info"
 msgstr "Thông tin"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/timeout_popup/timeout_popup.xml:0
 msgid ""
 "It seems there hasn't been any activity on this kiosk. Would you like to "
@@ -553,7 +553,7 @@ msgstr ""
 "Có vẻ như chưa có hoạt động nào trên ki-ốt này. Bạn có muốn tiếp tục không?"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 #: model:ir.actions.act_window,name:pos_self_order.action_pos_self_order_search_view
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__self_ordering_mode__kiosk
@@ -598,7 +598,7 @@ msgid "Light"
 msgstr "Sáng"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Loading..."
@@ -623,7 +623,7 @@ msgstr ""
 "                 online bằng mã QR trên bàn của bạn"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Meal"
 msgstr "Bữa ăn"
@@ -639,25 +639,25 @@ msgid "Mobile self-order & Kiosk"
 msgstr "Ki-ốt & tự phục vụ trên điện thoại"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/landing_page/landing_page.xml:0
 msgid "My Order"
 msgstr "Đơn hàng của tôi"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/landing_page/landing_page.xml:0
 msgid "My Orders"
 msgstr "Đơn hàng của tôi"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "NEW"
 msgstr "MỚI"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
 msgid "NOTE"
 msgstr "GHI CHÚ"
@@ -669,7 +669,7 @@ msgid "Name of the image to display on the self order screen"
 msgstr "Tên của hình ảnh hiển thị trên màn hình tự phục vụ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Next"
 msgstr "Tiếp theo"
@@ -680,19 +680,19 @@ msgid "No"
 msgstr "Không"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "No order found"
 msgstr "Không tìm thấy đơn hàng"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.xml:0
 msgid "No products found"
 msgstr "Không tìm thấy sản phẩm nào"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_banner/product_info_banner.xml:0
 msgid "Not available"
 msgstr "Không khả dụng"
@@ -703,13 +703,13 @@ msgid "Not available in Self"
 msgstr "Không có sẵn trong tự gọi đồ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Ok"
 msgstr "Ok"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "Only pay after each is available with kiosk mode."
 msgstr "Chỉ thanh toán sau khi có sẵn với chế độ ki-ốt."
@@ -720,38 +720,38 @@ msgid "Open Kiosk"
 msgstr "Mở ki-ốt"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 msgid "Order"
 msgstr "Đơn hàng"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Order Now"
 msgstr "Đặt hàng ngay"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Order to pick-up at the counter"
 msgstr "Đơn hàng cần nhận tại quầy"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Orders not found on server"
 msgstr "Đơn hàng không tìm thấy trên máy chủ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Out of stock"
 msgstr "Hết hàng"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Pay"
@@ -769,7 +769,7 @@ msgid "Pay after"
 msgstr "Thanh toán sau"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Pay at the cashier"
 msgstr "Thanh toán tại quầy thu ngân"
@@ -784,7 +784,7 @@ msgstr ""
 "tạo bản trình chiếu"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/receipt_header/receipt_header.xml:0
 msgid "Pickup At Counter"
 msgstr "Nhận tại quầy"
@@ -795,7 +795,7 @@ msgid "Pickup zone"
 msgstr "Khu vực nhận đồ"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_session.py:0
 msgid "PoS Order by Session"
 msgstr "Đơn hàng POS theo phiên"
@@ -871,7 +871,7 @@ msgid "Product"
 msgstr "Sản phẩm"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Product Information"
 msgstr "Thông tin sản phẩm"
@@ -882,7 +882,7 @@ msgid "Product Variant"
 msgstr "Biến thể sản phẩm"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
@@ -893,13 +893,13 @@ msgid "Product image"
 msgstr "Hình ảnh sản phẩm"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Product is not available"
 msgstr "Sản phẩm hiện không còn."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Product not found"
 msgstr "Không tìm thấy sản phẩm"
@@ -910,7 +910,7 @@ msgid "QR Codes"
 msgstr "Mã QR"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "QR codes can only be generated in mobile or consultation mode."
 msgstr "Mã QR chỉ có thể được tạo ở chế độ di động hoặc tư vấn."
@@ -931,7 +931,7 @@ msgid "QR menu + Ordering"
 msgstr "Menu QR + Gọi đồ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_info_popup/product_info_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
@@ -954,7 +954,7 @@ msgid "Restaurant Table"
 msgstr "Bàn nhà hàng"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/payment_page/payment_page.xml:0
 msgid "Retry"
 msgstr "Thử lại"
@@ -970,7 +970,7 @@ msgid "Security Token"
 msgstr "Token bảo mật"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Select a table"
 msgstr "Chọn bàn"
@@ -1037,13 +1037,13 @@ msgid "Self Takeaway"
 msgstr "Tự gọi đồ mang đi"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Self-Order"
 msgstr "Đơn tự phục vụ"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_banner/product_info_banner.xml:0
 msgid "Self-ordering:"
 msgstr "Tự phục vụ:"
@@ -1059,13 +1059,13 @@ msgid "Service at"
 msgstr "Dịch vụ tại"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/receipt_header/receipt_header.xml:0
 msgid "Service at Table"
 msgstr "Dịch vụ tại bàn"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Service at table"
 msgstr "Dịch vụ tại bàn"
@@ -1106,13 +1106,13 @@ msgid "Table Stand Number"
 msgstr "Số bảng đánh dấu bàn"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/receipt_header/receipt_header.xml:0
 msgid "Table Tracker:"
 msgstr "Thiết bị theo dõi bàn:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Table detective time!"
 msgstr "Đến lúc kiểm tra bàn rồi!"
@@ -1123,50 +1123,50 @@ msgid "Table:"
 msgstr "Bàn:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
 msgid "Take Out"
 msgstr "Mang đi"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Tax:"
 msgstr "Thuế:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 msgid "Taxes:"
 msgstr "Thuế:    "
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "Thanks a lot!"
 msgstr "Cảm ơn bạn!"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability After must be set between 00:00 and 24:00"
 msgstr "Thời gian Sẵn sàng sau phải được đặt trong khoảng từ 00:00 đến 24:00"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability Until must be greater than Availability After."
 msgstr "Thời gian Sẵn sàng cho đến phải lớn hơn thời gian Sẵn sàng sau."
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_category.py:0
 msgid "The Availability Until must be set between 00:00 and 24:00"
 msgstr ""
 "Thời gian Sẵn sàng cho đến phải được đặt trong khoảng từ 00:00 đến 24:00"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "The Self-Order default user must be a POS user"
 msgstr "Người dùng mặc định cho Tự phục vụ phải là người dùng POS"
@@ -1182,19 +1182,19 @@ msgid "The product will be available until this hour."
 msgstr "Sản phẩm sẽ còn cho đến giờ này."
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "The user must be a POS user"
 msgstr "Người dùng phải là người dùng POS"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "This combination does not exist."
 msgstr "Kết hợp này không tồn tại."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Total:"
@@ -1211,19 +1211,19 @@ msgid "URL:"
 msgstr "URL:"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Unavailable"
 msgstr "Không có sẵn"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.xml:0
 msgid "Unavailable at this time of the day"
 msgstr "Không có vào thời gian này trong ngày"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Uncategorised"
 msgstr "Không phân loại"
@@ -1234,19 +1234,19 @@ msgid "Warning"
 msgstr "Cảnh báo"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "We're currently closed"
 msgstr "Chúng tôi hiện đang đóng cửa"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_index.xml:0
 msgid "We're currently closed."
 msgstr "Chúng tôi hiện đang đóng cửa."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "We're preparing your order!"
 msgstr "Chúng tôi đang chuẩn bị đơn hàng của bạn!"
@@ -1257,57 +1257,57 @@ msgid "Yes"
 msgstr "Có"
 
 #. module: pos_self_order
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_self_order/models/pos_config.py:0
 #: code:addons/pos_self_order/models/res_config_settings.py:0
 msgid "You cannot add cash payment methods in kiosk mode."
 msgstr "Bạn không thể thêm phương thức thanh toán tiền mặt ở chế độ ki-ốt."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
 msgid "You cannot edit a posted orderline !"
 msgstr "Bạn không thể chỉnh sửa dòng đơn hàng đã được vào sổ!"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "You're not authorized to perform this action"
 msgstr "Bạn không được phép thực hiện tác vụ này."
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 msgid "Your Order"
 msgstr "Đơn hàng của bạn"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Your Selection"
 msgstr "Lựa chọn của bạn"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order has been cancelled"
 msgstr "Đơn hàng của bạn đã bị hủy"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order has been paid"
 msgstr "Đơn hàng của bạn đã được thanh toán"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Your order number"
 msgstr "Số đơn hàng của bạn"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Your order status has been changed"
 msgstr "Trạng thái đơn hàng của bạn đã được thay đổi"
@@ -1323,23 +1323,23 @@ msgid "empty = all points of sale"
 msgstr "trống = tất cả POS"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
 msgid "floor"
 msgstr "sàn"
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
-msgid "https://odoo.com"
-msgstr "https://odoo.com"
+msgid "https://manapathi.com"
+msgstr "https://manapathi.com"
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
-msgid "odoo"
-msgstr "odoo"
+msgid "manapathi"
+msgstr "manapathi"
 
 #. module: pos_self_order
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "options"
 msgstr "tuỳ chọn"

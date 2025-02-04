@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Argentina - Accounting',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/argentina.html',
@@ -34,7 +34,7 @@ Demo data for testing:
   * Gritti (Monotributo)
   * Montana Sur. IVA Liberado in Zona Franca
   * Barcelona food (Cliente del Exterior)
-  * Odoo (Proveedor del Exterior)
+  * Manapathi (Proveedor del Exterior)
 
 Highlights:
 

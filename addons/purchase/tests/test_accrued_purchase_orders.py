@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from odoo import fields, Command
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.tests import tagged
-from odoo.exceptions import UserError
+from manapathi import fields, Command
+from manapathi.addons.account.tests.common import AccountTestInvoicingCommon
+from manapathi.tests import tagged
+from manapathi.exceptions import UserError
 
 
 @tagged('post_install', '-at_install')

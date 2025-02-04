@@ -37,7 +37,7 @@ import { _t } from "@web/core/l10n/translation";
 import { renderToElement } from "@web/core/utils/render";
 import { RPCError } from "@web/core/network/rpc";
 import { ColumnLayoutMixin } from "@web_editor/js/common/column_layout_mixin";
-import { Tooltip as OdooTooltip } from "@web/core/tooltip/tooltip";
+import { Tooltip as ManapathiTooltip } from "@web/core/tooltip/tooltip";
 import { AddSnippetDialog } from "@web_editor/js/editor/add_snippet_dialog";
 import { scrollTo } from "@web_editor/js/common/scrolling";
 
@@ -1599,7 +1599,7 @@ var SnippetEditor = publicWidget.Widget.extend({
      * specific action/react to a specific event.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onOptionUpdate: function (ev) {
         var self = this;
@@ -1645,7 +1645,7 @@ var SnippetEditor = publicWidget.Widget.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onSnippetOptionVisibilityUpdate: function (ev) {
         if (this.options.wysiwyg.isSaving()) {
@@ -1902,7 +1902,7 @@ class SnippetsMenu extends Component {
 
         this.snippetsMenuRef = useRef("snippets-menu");
 
-        // Odoo Editor uses the HTML Element to bind commands.
+        // Manapathi Editor uses the HTML Element to bind commands.
         this.toolbarWrapperRef = useRef("toolbar-wrapper");
         // SnippetOptions are still rendered using legacy widgets.
         // TODO: remove this ref when Options are rendered using OWL.
@@ -1960,7 +1960,7 @@ class SnippetsMenu extends Component {
             const titleButtons = this.customizePanel.querySelector("#o_we_editor_toolbar_container > we-title");
             this.options.wysiwyg.odooEditor.bindExecCommand(titleButtons);
 
-            // Get table container and bind commands to Odoo Editor.
+            // Get table container and bind commands to Manapathi Editor.
             const customizeTableBlock = this.customizePanel.querySelector('#o-we-editor-table-container');
             this.options.wysiwyg.odooEditor.bindExecCommand(customizeTableBlock);
             // TODO: Remove this and instead, use a callback once the editor is
@@ -4215,7 +4215,7 @@ class SnippetsMenu extends Component {
      * Called when a child editor asks for insertion zones to be enabled.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onActivateInsertionZones(ev) {
         this._activateInsertionZones(ev.data.$selectorSiblings, ev.data.$selectorChildren, ev.data.canBeSanitizedUnless, ev.data.toInsertInline, ev.data.selectorGrids, ev.data.fromIframe);
@@ -4237,7 +4237,7 @@ class SnippetsMenu extends Component {
      * snippet of a DOM element.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onCallForEachChildSnippet(ev) {
         this._callForEachChildSnippet(ev.data.$snippet, ev.data.callback)
@@ -4247,7 +4247,7 @@ class SnippetsMenu extends Component {
      * Called when the overlay dimensions/positions should be recomputed.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onOverlaysCoverUpdate(ev) {
         this.snippetEditors.forEach(editor => {
@@ -4262,7 +4262,7 @@ class SnippetsMenu extends Component {
      * call the _onClone methods if the element's editor has one.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     async _onCloneSnippet(ev) {
         ev.stopPropagation();
@@ -4276,7 +4276,7 @@ class SnippetsMenu extends Component {
      * Called when a child editor asks to clean the UI of a snippet.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onCleanUIRequest(ev) {
         const targetEditors = this.snippetEditors.filter(editor => {
@@ -4307,7 +4307,7 @@ class SnippetsMenu extends Component {
      * Called when a snippet has moved in the page.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     async _onSnippetDragAndDropStop(ev) {
         this.snippetEditorDragging = false;
@@ -4371,7 +4371,7 @@ class SnippetsMenu extends Component {
      * Returns the droppable snippet from which a dropped snippet originates.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onFindSnippetTemplate(ev) {
         const snippet = [...this.snippets.values()].find((snippet) => {
@@ -4393,7 +4393,7 @@ class SnippetsMenu extends Component {
      * Calls back if the specified element is selected.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onIsElementSelected(ev) {
         for (const editor of this.snippetEditors) {
@@ -4533,7 +4533,7 @@ class SnippetsMenu extends Component {
         if (this.hideShownTooltip) {
             this.hideShownTooltip();
         }
-        this.hideShownTooltip = this.popover.add(snippetEl, OdooTooltip, {
+        this.hideShownTooltip = this.popover.add(snippetEl, ManapathiTooltip, {
             tooltip: _t("Drag and drop the building block."),
         });
         this._hideSnippetTooltips(1500);
@@ -4550,7 +4550,7 @@ class SnippetsMenu extends Component {
     }
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onGetSnippetVersions(ev) {
         const snippet = [...this.snippets.values()].find((snippet) => snippet.name === ev.data.snippetName);
@@ -4588,7 +4588,7 @@ class SnippetsMenu extends Component {
     }
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     async _onRemoveSnippet(ev) {
         ev.stopPropagation();
@@ -4609,7 +4609,7 @@ class SnippetsMenu extends Component {
         if (data.invalidateSnippetCache) {
             this.invalidateSnippetCache = true;
         }
-        // If it's an OdooEvent sent by sub-widgets, we prevent the event
+        // If it's an ManapathiEvent sent by sub-widgets, we prevent the event
         // from triggering the request on the parent.
         ev.stopped = true;
         this._buttonClick(async (after) => {
@@ -4646,7 +4646,7 @@ class SnippetsMenu extends Component {
     }
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      * @param {Object} ev.data
      * @param {function} ev.data.exec
      */
@@ -4655,7 +4655,7 @@ class SnippetsMenu extends Component {
     }
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onSnippetEditorDestroyed(ev) {
         ev.stopPropagation();
@@ -4681,7 +4681,7 @@ class SnippetsMenu extends Component {
     /**
      * @see _snippetOptionUpdate
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onSnippetOptionUpdate(ev) {
         ev.stopPropagation();
@@ -4692,7 +4692,7 @@ class SnippetsMenu extends Component {
     }
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     async _onSnippetOptionVisibilityUpdate(ev) {
         if (this.options.wysiwyg.isSaving()) {
@@ -4706,7 +4706,7 @@ class SnippetsMenu extends Component {
     }
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onSnippetThumbnailURLRequest(ev) {
         if (!ev.data.key) {
@@ -4886,7 +4886,7 @@ class SnippetsMenu extends Component {
     }
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onRequestEditable(ev) {
         ev.data.callback($(this.options.wysiwyg.odooEditor.editable));
@@ -5053,7 +5053,7 @@ class SnippetsMenu extends Component {
     }
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {ManapathiEvent} ev
      */
     _onOpenAddSnippetDialog(ev) {
         this._openAddSnippetDialog(ev.data.snippetGroup, ev.data.initialSnippetEl);

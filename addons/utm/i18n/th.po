@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Manapathi Server.
 # This file contains the translation of the following modules:
 # 	* utm
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Manapathi, 2024
 # Rasareeyar Lappiam, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Manapathi Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2024\n"
-"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
+"Language-Team: Thai (https://app.transifex.com/manapathi/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: utm
-#. odoo-python
+#. manapathi-python
 #: code:addons/utm/models/utm_source.py:0
 msgid "%(content)s (%(model_description)s created on %(create_date)s)"
 msgstr "%(content)s (%(model_description)s สร้างเมื่อวันที่ %(create_date)s)"
@@ -38,13 +38,13 @@ msgid "Allows us to filter relevant Campaigns"
 msgstr "ช่วยให้เราสามารถกรองแคมเปญที่เกี่ยวข้อง"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Approval-based Flow"
 msgstr "โฟลว์ตามการอนุมัติ"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Approved"
 msgstr "อนุมัติแล้ว"
@@ -67,7 +67,7 @@ msgid "Assign tags to your campaigns to organize, filter and track them."
 msgstr "กำหนดแท็กให้กับแคมเปญของคุณเพื่อจัดระเบียบ กรอง และติดตาม"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Audience-driven Flow"
 msgstr "โฟลว์ที่ขับเคลื่อนโดยผู้ชม"
@@ -130,7 +130,7 @@ msgid "Christmas Special"
 msgstr "คริสต์มาสสเปเชียล"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Collect ideas, design creative content and publish it once reviewed."
 msgstr "รวบรวมไอเดีย ออกแบบเนื้อหาที่สร้างสรรค์ และเผยแพร่เมื่อตรวจสอบแล้ว"
@@ -142,7 +142,7 @@ msgid "Color Index"
 msgstr "ดัชนีสี"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Copywriting"
 msgstr "การเขียนโฆษณา"
@@ -186,7 +186,7 @@ msgid "Created on"
 msgstr "สร้างเมื่อ"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Creative Flow"
 msgstr "โฟลว์ความคิดสร้างสรรค์"
@@ -197,19 +197,19 @@ msgid "Delete"
 msgstr "ลบ"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Deploy"
 msgstr "ปรับใช้"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Deployed"
 msgstr "ปรับใช้"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 #: model:utm.stage,name:utm.campaign_stage_2
 msgid "Design"
@@ -225,7 +225,7 @@ msgid "Display Name"
 msgstr "แสดงชื่อ"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Done"
 msgstr "เสร็จสิ้น"
@@ -246,19 +246,19 @@ msgid "Email Campaign - Services"
 msgstr "อีเมลแคมเปญ - บริการ"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Event-driven Flow"
 msgstr "โฟลว์ที่ขับเคลื่อนด้วยอีเวนต์"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Gather Data"
 msgstr "รวบรวมข้อมูล"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid ""
 "Gather data, build a recipient list and write content based on your "
@@ -287,7 +287,7 @@ msgid "ID"
 msgstr "ไอดี"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Ideas"
 msgstr "แนวคิด"
@@ -311,7 +311,7 @@ msgid "Last Updated on"
 msgstr "อัปเดตครั้งล่าสุดเมื่อ"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Later"
 msgstr "ภายหลัง"
@@ -322,7 +322,7 @@ msgid "Link Tracker"
 msgstr "ตัวติดตามลิงก์"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "List-Building"
 msgstr "ตัวสร้าง-รายการ"
@@ -374,7 +374,7 @@ msgid "No Sources yet!"
 msgstr "ยังไม่มีแหล่งที่มา!"
 
 #. module: utm
-#. odoo-python
+#. manapathi-python
 #: code:addons/utm/models/utm_medium.py:0
 msgid ""
 "Oops, you can't delete the Medium '%s'.\n"
@@ -384,19 +384,19 @@ msgstr ""
 "การดำเนินการเช่นนั้นอาจไม่ใช่ความคิดที่ดีที่สุด"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Pre-Launch"
 msgstr "ก่อนการเปิดตัว"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Prepare Campaigns and get them approved before making them go live."
 msgstr "เตรียมแคมเปญและได้รับการอนุมัติก่อนที่จะเผยแพร่"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid ""
 "Prepare your Campaign, test it with part of your audience and deploy it "
@@ -406,7 +406,7 @@ msgstr ""
 "และปรับใช้อย่างเต็มที่ในภายหลัง"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Report"
 msgstr "รายงาน"
@@ -423,13 +423,13 @@ msgid "Restore"
 msgstr "คืนค่า"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Review"
 msgstr "รีวิว"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Running"
 msgstr "การดำเนินการ"
@@ -450,13 +450,13 @@ msgid "Search UTM Medium"
 msgstr "ค้นหาวิธีที่เข้ามา UTM"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Send"
 msgstr "ส่ง"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 #: model:utm.stage,name:utm.campaign_stage_3
 msgid "Sent"
@@ -468,13 +468,13 @@ msgid "Sequence"
 msgstr "ลำดับ"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Soft-Launch"
 msgstr "Soft-Launch"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Soft-Launch Flow"
 msgstr "โฟลว์ Soft-Launch"
@@ -548,13 +548,13 @@ msgid "The name must be unique"
 msgstr "ชื่อต้องไม่ซ้ำกัน"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "This Month"
 msgstr "เดือนนี้"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "This Week"
 msgstr "สัปดาห์นี้"
@@ -582,13 +582,13 @@ msgstr ""
 "นี่เป็นที่มาของลิงก์ เช่น เครื่องมือค้นหา โดเมนอื่นๆ หรือชื่อรายการอีเมล"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "To be Approved"
 msgstr "ได้รับการอนุมัติ"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid ""
 "Track incoming events (e.g. Christmas, Black Friday, ...) and publish timely"
@@ -661,13 +661,13 @@ msgid "UTMs"
 msgstr "UTMs"
 
 #. module: utm
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Use This For My Campaigns"
 msgstr "ใช้สิ่งนี้สำหรับแคมเปญของฉัน"
 
 #. module: utm
-#. odoo-python
+#. manapathi-python
 #: code:addons/utm/models/utm_source.py:0
 msgid ""
 "You cannot update multiple records with the same name. The name should be "

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import UserError
-from odoo.tools import SQL
+from manapathi import api, fields, models, tools, _
+from manapathi.exceptions import UserError
+from manapathi.tools import SQL
 
 
 class PrivacyLookupWizard(models.TransientModel):

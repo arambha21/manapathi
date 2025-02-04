@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 
-from odoo import fields, models, api
+from manapathi import fields, models, api
 from markupsafe import escape
 
 

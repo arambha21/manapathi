@@ -170,10 +170,10 @@ export const CLIPBOARD_WHITELISTS = {
         'table-bordered',
         /^padding-/,
         /^shadow/,
-        // Odoo colors
+        // Manapathi colors
         /^text-o-/,
         /^bg-o-/,
-        // Odoo lists
+        // Manapathi lists
         'o_checked',
         'o_checklist',
         'oe-nested',
@@ -217,7 +217,7 @@ function getImageUrl (file) {
         };
     });
 }
-export class OdooEditor extends EventTarget {
+export class ManapathiEditor extends EventTarget {
     constructor(editable, options = {}) {
         super();
 
