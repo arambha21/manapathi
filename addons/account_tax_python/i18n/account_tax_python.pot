@@ -57,7 +57,7 @@ msgid "Formula Decoded Info"
 msgstr ""
 
 #. module: account_tax_python
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_tax_python/models/account_tax.py:0
 msgid "Malformed formula '%(formula)s' at position %(position)s"
 msgstr ""

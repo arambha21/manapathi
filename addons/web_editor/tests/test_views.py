@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests import TransactionCase
+from manapathi.tests import TransactionCase
 
 
 class TestViews(TransactionCase):

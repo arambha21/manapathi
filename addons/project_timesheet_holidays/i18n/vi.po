@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Manapathi, 2024\n"
-"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://app.transifex.com/manapathi/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,7 +30,7 @@ msgid "Analytic Lines"
 msgstr "Chi tiết phân tích"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 msgid ""
 "Both the internal project and task are required to generate a timesheet for "
@@ -76,7 +76,7 @@ msgstr ""
 " nghỉ lễ của công ty."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 msgid "Internal"
 msgstr "Nội bộ"
@@ -87,7 +87,7 @@ msgid "Internal Project"
 msgstr "Dự án nội bộ"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/project_task.py:0
 msgid "Operation not supported"
 msgstr "Hoạt động không được hỗ trợ"
@@ -130,7 +130,7 @@ msgstr ""
 "nghỉ phép. Bạn có thể chỉ định một nhiệm vụ khác cho từng loại nghỉ phép."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 #: code:addons/project_timesheet_holidays/models/res_company.py:0
@@ -139,7 +139,7 @@ msgid "Time Off"
 msgstr "Nghỉ phép"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 #: code:addons/project_timesheet_holidays/models/resource_calendar_leaves.py:0
 msgid "Time Off (%(index)s/%(total)s)"
@@ -167,13 +167,13 @@ msgid "Timesheets"
 msgstr "Bảng chấm công"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid "View Time Off"
 msgstr "Xem nghỉ phép"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot create timesheets for a task that is linked to a time off type. "
@@ -184,7 +184,7 @@ msgstr ""
 " mới."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot delete timesheets that are linked to time off requests. Please "
@@ -194,7 +194,7 @@ msgstr ""
 "vào đó, hãy sử dụng ứng dụng Nghỉ phép để huỷ đơn nghỉ phép của bạn."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot modify timesheets that are linked to time off requests. Please "

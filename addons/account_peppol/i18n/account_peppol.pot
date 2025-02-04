@@ -16,13 +16,13 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid "%s (customer not on Peppol)"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "%s has requested electronic invoices reception on Peppol."
 msgstr ""
@@ -44,7 +44,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "A participant with these details has already been registered on the network."
@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "A purchase journal must be used to receive Peppol documents."
 msgstr ""
@@ -85,7 +85,7 @@ msgid "Account used for Peppol"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.js:0
 msgid "Activate"
 msgstr ""
@@ -96,25 +96,25 @@ msgid "Activate Electronic Invoicing"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Activate Electronic Invoicing (via Peppol)"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Activate Peppol"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Activate Peppol (Demo)"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Activate Peppol (Test)"
 msgstr ""
@@ -125,7 +125,7 @@ msgid "Allow incoming invoices"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Allow reception"
 msgstr ""
@@ -179,7 +179,7 @@ msgid "Cancel PEPPOL"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move.py:0
 msgid "Cannot cancel an entry that has already been sent to PEPPOL"
 msgstr ""
@@ -190,14 +190,14 @@ msgid "Cannot receive this format"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Cannot register a user with a %s application"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Check Partner(s)"
 msgstr ""
@@ -237,7 +237,7 @@ msgid "Confirm"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Connection error, please try again later."
 msgstr ""
@@ -248,25 +248,25 @@ msgid "Contact"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Contact details were updated."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid "Contact email and mobile number are required."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Contact email and phone number are required."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Create, send and receive e-invoices for free."
 msgstr ""
@@ -286,7 +286,7 @@ msgid "Created on"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Customer is on Peppol but did not enable receiving documents."
 msgstr ""
@@ -298,7 +298,7 @@ msgid "Demo"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Discard"
 msgstr ""
@@ -326,7 +326,7 @@ msgid "Done"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "E-invoices will soon be mandatory in many countries"
 msgstr ""
@@ -349,7 +349,7 @@ msgid "EDI user"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "EDI user should be of type Peppol"
 msgstr ""
@@ -390,19 +390,19 @@ msgid "Fetch from Peppol"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Free on Manapathi"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Fully automated"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.js:0
 msgid "Got it !"
 msgstr ""
@@ -426,7 +426,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/controllers/portal.py:0
 msgid ""
 "If you want to be invoiced by Peppol, your configuration must be valid."
@@ -526,7 +526,7 @@ msgid "Manapathi"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Manapathi keeps you up to date with the new regulation."
 msgstr ""
@@ -543,14 +543,14 @@ msgid "PEPPOL Purchase Journal"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid ""
 "PEPPOL allows for complete automation of sending and receiving e-invoices."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid ""
 "PEPPOL is the secure standard for e-invoices used in EU and across the "
@@ -621,7 +621,7 @@ msgid "Peppol Ready"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_journal.py:0
 msgid "Peppol Ready invoices"
 msgstr ""
@@ -642,7 +642,7 @@ msgid "Peppol Services Wizard"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol document (UUID: %(uuid)s) has been received successfully"
 msgstr ""
@@ -666,13 +666,13 @@ msgid "Peppol endpoint verification"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol error: %s"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Peppol is in testing/demo mode."
 msgstr ""
@@ -688,7 +688,7 @@ msgid "Peppol status"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol status update: %s"
 msgstr ""
@@ -704,7 +704,7 @@ msgid "Phone"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid ""
 "Please enter the mobile number in the correct international format.\n"
@@ -713,19 +713,19 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Please fill in the EAS code and the Participant ID code."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "Please install the phonenumbers library."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Please verify partner configuration in partner settings."
 msgstr ""
@@ -766,31 +766,31 @@ msgid "Register as a receiver"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Registered as a receiver."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "Registered as a sender (demo)."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Registered as a sender."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "Registered to receive documents via Peppol (demo)."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Registered to receive documents via Peppol."
@@ -802,7 +802,7 @@ msgid "Rejected"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Remove from Peppol"
 msgstr ""
@@ -814,7 +814,7 @@ msgid "SMS verification code"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Send again"
 msgstr ""
@@ -858,37 +858,37 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/controllers/portal.py:0
 msgid "That country is not available for Peppol."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "The Peppol endpoint identification number is not correct."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "The Peppol service that is used is likely to be %s."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "The document has been sent to the Peppol Access Point for processing"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "The e-invoicing network"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid ""
 "The endpoint number might not be correct. Please check if you entered the "
@@ -896,7 +896,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/wizard/service_wizard.py:0
 msgid ""
 "The following services are listed on your participant but cannot be "
@@ -905,13 +905,13 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "The partner is missing Peppol EAS and/or Endpoint identifier."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid ""
 "The peppol status of the documents has been reset when switching from Demo "
@@ -932,21 +932,21 @@ msgid "The unique id that identifies this user, typically the vat"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "The verification code is not correct"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid ""
-"This feature is deprecated. Contact odoo support if you need a migration "
+"This feature is deprecated. Contact manapathi support if you need a migration "
 "key."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "This verification code has expired. Please request a new one."
 msgstr ""
@@ -959,7 +959,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Too many attempts to request an SMS code. Please try again later."
 msgstr ""
@@ -974,7 +974,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Update"
 msgstr ""
@@ -1007,13 +1007,13 @@ msgid "Verify partner's PEPPOL endpoint"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "View Partner(s)"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "We could not find a user with this information on our server. Please check "
@@ -1021,19 +1021,19 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "What is Peppol and why it's great ?"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Why should I use PEPPOL ?"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Why should you use it ?"
 msgstr ""
@@ -1044,31 +1044,31 @@ msgid "Wizard"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "You can now receive demo vendor bills."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You can now send and receive electronic invoices via Peppol"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You can now send electronic invoices via Peppol."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "You can now send invoices in demo mode."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "You can send this invoice electronically via Peppol."
 msgstr ""
@@ -1081,7 +1081,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid ""
 "You will not be able to send or receive Peppol documents in Manapathi anymore. "
@@ -1111,7 +1111,7 @@ msgid "Your migration key is:"
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid ""
@@ -1125,7 +1125,7 @@ msgid "Your registration should be activated within a day."
 msgstr ""
 
 #. module: account_peppol
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_peppol/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__invoice_sending_method__peppol
 msgid "by Peppol"

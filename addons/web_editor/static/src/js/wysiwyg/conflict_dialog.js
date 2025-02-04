@@ -1,6 +1,6 @@
-/* @odoo-module */
+/* @manapathi-module */
 
-import { Component } from "@odoo/owl";
+import { Component } from "@manapathi/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 
 export class ConflictDialog extends Component {

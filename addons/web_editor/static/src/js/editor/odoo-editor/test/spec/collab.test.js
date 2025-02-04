@@ -1,4 +1,4 @@
-/** @odoo-module */
+/** @manapathi-module */
 
 import { ManapathiEditor, parseHTML, setSelection, insertCharsAt } from '../../src/ManapathiEditor.js';
 import {

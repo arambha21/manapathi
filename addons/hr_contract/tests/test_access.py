@@ -1,8 +1,8 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests.common import TransactionCase
+from manapathi.tests.common import TransactionCase
 
-from odoo.addons.mail.tests.common import mail_new_test_user
+from manapathi.addons.mail.tests.common import mail_new_test_user
 
 class TestContractPublicAccess(TransactionCase):
 

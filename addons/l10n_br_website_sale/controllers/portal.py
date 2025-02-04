@@ -1,6 +1,6 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
-from odoo.addons.account.controllers.portal import CustomerPortal
-from odoo.http import request
+from manapathi.addons.account.controllers.portal import CustomerPortal
+from manapathi.http import request
 
 class CustomerPortalBr(CustomerPortal):
 

@@ -3,15 +3,15 @@
 # * hr_contract
 #
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@manapathi.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Manapathi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
-"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
-"Language-Team: Galician (https://www.transifex.com/odoo/teams/41243/gl/)\n"
+"Last-Translator: Martin Trigaux <mat@manapathi.com>, 2017\n"
+"Language-Team: Galician (https://www.transifex.com/manapathi/teams/41243/gl/)\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgid "# Contracts using it"
 msgstr ""
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/report/hr_contract_history.py:0
 msgid "%s's Contracts History"
 msgstr ""
@@ -91,7 +91,7 @@ msgid ""
 msgstr ""
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "According to the contract's end date, this contract has been put in red on the %s. Please advise and correct."
 msgstr ""
@@ -143,7 +143,7 @@ msgid "Administrator"
 msgstr ""
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
 "An employee can only have one contract at the same time. (Excluding Draft and Cancelled contracts).\n"
@@ -174,7 +174,7 @@ msgid "Calendar Mismatch"
 msgstr ""
 
 #. module: hr_contract
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/hr_contract/static/src/widgets/tooltip_warning_widget.js:0
 msgid "Calendar Mismatch: The employee's calendar does not match this contract's calendar. This could lead to unexpected behaviors."
 msgstr ""
@@ -211,7 +211,7 @@ msgid "Contract"
 msgstr ""
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "Contract %(contract)s: start date (%(start)s) must be earlier than contract end date (%(end)s)."
 msgstr ""
@@ -404,7 +404,7 @@ msgid "Departure Wizard"
 msgstr ""
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/wizard/hr_departure_wizard.py:0
 msgid "Departure date can't be earlier than the start date of current contract."
 msgstr ""
@@ -838,7 +838,7 @@ msgid ""
 msgstr ""
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The contract of %s is about to expire."
 msgstr ""

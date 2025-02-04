@@ -1,7 +1,7 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, _
-from odoo.osv import expression
+from manapathi import models, _
+from manapathi.osv import expression
 
 
 class ProductReplenishMixin(models.AbstractModel):

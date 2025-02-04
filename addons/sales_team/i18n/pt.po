@@ -24,7 +24,7 @@ msgstr ""
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 "PO-Revision-Date: 2022-09-22 05:55+0000\n"
 "Last-Translator: Martin Trigaux, 2022\n"
-"Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
+"Language-Team: Portuguese (https://app.transifex.com/manapathi/teams/41243/pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,19 +85,19 @@ msgid "Add members to automatically assign their documents to this sales team."
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Adding %(user_name)s in this team would remove him/her from its current team %(team_name)s."
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid "Adding %(user_name)s in this team would remove him/her from its current teams %(team_names)s."
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Adding %(user_names)s in this team would remove them from their current teams (%(team_names)s)."
 msgstr ""
@@ -128,7 +128,7 @@ msgid "Avatar"
 msgstr "Avatar"
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Big Pretty Button :)"
 msgstr ""
@@ -139,7 +139,7 @@ msgid "CRM Tag"
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Cannot delete default team \"%s\""
 msgstr ""
@@ -532,7 +532,7 @@ msgid "Salesteams Search"
 msgstr "Procurar Equipa de Vendas"
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Sample data"
 msgstr "Amostra de dados"
@@ -616,7 +616,7 @@ msgid "Those represent the different categories of things you have to do (e.g. \
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "To add a Salesperson into multiple Teams, activate the Multi-Team option in settings."
 msgstr ""
@@ -638,7 +638,7 @@ msgid "UX: Limit to team company or all if no company"
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Undefined graph model for Sales Team: %s"
 msgstr ""
@@ -702,7 +702,7 @@ msgid "Website"
 msgstr "Website"
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid "You are trying to create duplicate membership(s). We found that %(duplicates)s already exist(s)."
 msgstr ""

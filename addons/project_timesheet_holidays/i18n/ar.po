@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Manapathi, 2024\n"
-"Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
+"Language-Team: Arabic (https://app.transifex.com/manapathi/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,7 +30,7 @@ msgid "Analytic Lines"
 msgstr "البنود التحليلية"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 msgid ""
 "Both the internal project and task are required to generate a timesheet for "
@@ -75,7 +75,7 @@ msgstr ""
 " أيام الإجازة. "
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 msgid "Internal"
 msgstr "داخلي"
@@ -86,7 +86,7 @@ msgid "Internal Project"
 msgstr "مشروع داخلي"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/project_task.py:0
 msgid "Operation not supported"
 msgstr "العملية غير مدعومة "
@@ -129,7 +129,7 @@ msgstr ""
 "طريق طلبات الإجازة. يمكنك تحديد مهمة أخرى في كل نوع إجازة على حدة. "
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 #: code:addons/project_timesheet_holidays/models/res_company.py:0
@@ -138,7 +138,7 @@ msgid "Time Off"
 msgstr "الإجازات "
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 #: code:addons/project_timesheet_holidays/models/resource_calendar_leaves.py:0
 msgid "Time Off (%(index)s/%(total)s)"
@@ -166,13 +166,13 @@ msgid "Timesheets"
 msgstr "الجداول الزمنية "
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid "View Time Off"
 msgstr "عرض الإجازات "
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot create timesheets for a task that is linked to a time off type. "
@@ -182,7 +182,7 @@ msgstr ""
 "الإجازات لطلب إجازة جديدة عوضاً عن ذلك. "
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot delete timesheets that are linked to time off requests. Please "
@@ -192,7 +192,7 @@ msgstr ""
 "تطبيق الإجازات عوضاً عن ذلك. "
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot modify timesheets that are linked to time off requests. Please "

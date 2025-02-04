@@ -8,10 +8,10 @@ from babel.dates import format_date
 from datetime import date
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.release import version
-from odoo.tools import SQL
+from manapathi import api, fields, models, _
+from manapathi.exceptions import UserError
+from manapathi.release import version
+from manapathi.tools import SQL
 
 
 class CrmTeam(models.Model):

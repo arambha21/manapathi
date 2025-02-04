@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models, _, fields
-from odoo.tools import float_compare
+from manapathi import api, models, _, fields
+from manapathi.tools import float_compare
 
 
 class ReportBomStructure(models.AbstractModel):

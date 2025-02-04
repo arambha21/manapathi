@@ -2,9 +2,9 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
 import re
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError, ValidationError, RedirectWarning
-from odoo.tools import float_round, float_repr
+from manapathi import api, fields, models, _
+from manapathi.exceptions import UserError, ValidationError, RedirectWarning
+from manapathi.tools import float_round, float_repr
 
 
 class AccountMove(models.Model):

@@ -4,11 +4,11 @@
 from unittest.mock import patch
 from unittest.mock import DEFAULT
 
-from odoo import exceptions
-from odoo.addons.link_tracker.tests.common import MockLinkTracker
-from odoo.addons.sms.models.sms_sms import SmsSms as SmsModel
-from odoo.addons.sms.tests.common import SMSCommon
-from odoo.tests import tagged
+from manapathi import exceptions
+from manapathi.addons.link_tracker.tests.common import MockLinkTracker
+from manapathi.addons.sms.models.sms_sms import SmsSms as SmsModel
+from manapathi.addons.sms.tests.common import SMSCommon
+from manapathi.tests import tagged
 
 
 @tagged('link_tracker')

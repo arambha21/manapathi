@@ -2,11 +2,11 @@
 
 import logging
 
-from odoo import _, api, fields, models, modules, tools
-from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
-from odoo.addons.account_peppol.tools.demo_utils import handle_demo
-from odoo.exceptions import UserError
-from odoo.tools import split_every
+from manapathi import _, api, fields, models, modules, tools
+from manapathi.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
+from manapathi.addons.account_peppol.tools.demo_utils import handle_demo
+from manapathi.exceptions import UserError
+from manapathi.tools import split_every
 
 _logger = logging.getLogger(__name__)
 BATCH_SIZE = 50
@@ -24,8 +24,8 @@ class AccountEdiProxyClientUser(models.Model):
     def _get_proxy_urls(self):
         urls = super()._get_proxy_urls()
         urls['peppol'] = {
-            'prod': 'https://peppol.api.odoo.com',
-            'test': 'https://peppol.test.odoo.com',
+            'prod': 'https://peppol.api.manapathi.com',
+            'test': 'https://peppol.test.manapathi.com',
             'demo': 'demo',
         }
         return urls

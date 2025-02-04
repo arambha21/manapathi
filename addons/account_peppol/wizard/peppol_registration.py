@@ -5,11 +5,11 @@ try:
 except ImportError:
     phonenumbers = None
 
-from odoo import _, api, fields, models, modules
-from odoo.exceptions import UserError, ValidationError
+from manapathi import _, api, fields, models, modules
+from manapathi.exceptions import UserError, ValidationError
 
-from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
-from odoo.addons.account_peppol.tools.demo_utils import handle_demo
+from manapathi.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
+from manapathi.addons.account_peppol.tools.demo_utils import handle_demo
 
 
 class PeppolRegistration(models.TransientModel):

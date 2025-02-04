@@ -1,9 +1,9 @@
 # coding: utf-8
 import logging
 import json
-from odoo import http, _
-from odoo.http import request
-from odoo.tools import consteq
+from manapathi import http, _
+from manapathi.http import request
+from manapathi.tools import consteq
 
 _logger = logging.getLogger(__name__)
 

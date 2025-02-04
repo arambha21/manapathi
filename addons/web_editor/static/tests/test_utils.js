@@ -1,9 +1,9 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 import { MockServer } from "@web/../tests/helpers/mock_server";
 import testUtils from "@web/../tests/legacy_tests/helpers/test_utils";
 import { patch } from "@web/core/utils/patch";
-import * as ManapathiEditorLib from "@web_editor/js/editor/odoo-editor/src/ManapathiEditor";
+import * as ManapathiEditorLib from "@web_editor/js/editor/manapathi-editor/src/ManapathiEditor";
 import { Wysiwyg } from '@web_editor/js/wysiwyg/wysiwyg';
 import options from "@web_editor/js/editor/snippets.options";
 import { TABLE_ATTRIBUTES, TABLE_STYLES } from '@web_editor/js/backend/convert_inline';

@@ -13,15 +13,15 @@ from base64 import b64decode, b64encode
 from math import floor
 from os.path import join as opj
 
-from odoo.http import request, Response
-from odoo import http, tools, _
-from odoo.tools.misc import file_open
-from odoo.tools.image import image_data_uri, binary_to_image
+from manapathi.http import request, Response
+from manapathi import http, tools, _
+from manapathi.tools.misc import file_open
+from manapathi.tools.image import image_data_uri, binary_to_image
 
 
 logger = logging.getLogger(__name__)
-DEFAULT_LIBRARY_ENDPOINT = 'https://media-api.odoo.com'
-DEFAULT_OLG_ENDPOINT = 'https://olg.api.odoo.com'
+DEFAULT_LIBRARY_ENDPOINT = 'https://media-api.manapathi.com'
+DEFAULT_OLG_ENDPOINT = 'https://olg.api.manapathi.com'
 
 
 def get_existing_attachment(IrAttachment, vals):

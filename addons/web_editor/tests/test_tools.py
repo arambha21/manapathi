@@ -3,8 +3,8 @@
 
 import re
 
-from odoo.tests import common, tagged
-from odoo.addons.web_editor import tools
+from manapathi.tests import common, tagged
+from manapathi.addons.web_editor import tools
 
 
 @tagged('post_install', '-at_install')

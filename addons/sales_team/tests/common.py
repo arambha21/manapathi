@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests import TransactionCase
+from manapathi.tests import TransactionCase
 
-from odoo.addons.base.tests.common import BaseCommon
-from odoo.addons.mail.tests.common import mail_new_test_user
+from manapathi.addons.base.tests.common import BaseCommon
+from manapathi.addons.mail.tests.common import mail_new_test_user
 
 
 class SalesTeamCommon(BaseCommon):

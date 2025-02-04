@@ -1,4 +1,4 @@
-/** @odoo-module */
+/** @manapathi-module */
 
 export function send_payment_cancel() {
     return [

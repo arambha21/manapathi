@@ -1,6 +1,6 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
-from odoo import models, fields
-from odoo.tools import SQL
+from manapathi import models, fields
+from manapathi.tools import SQL
 
 
 class AccountInvoiceReport(models.Model):

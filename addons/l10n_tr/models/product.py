@@ -1,4 +1,4 @@
-from odoo import api, models, fields
+from manapathi import api, models, fields
 
 
 class ProductTemplate(models.Model):

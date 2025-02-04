@@ -17,7 +17,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
-"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Language-Team: Swedish (https://app.transifex.com/manapathi/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -35,7 +35,7 @@ msgid "Analytic Lines"
 msgstr "Objektrader"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 msgid ""
 "Both the internal project and task are required to generate a timesheet for "
@@ -82,7 +82,7 @@ msgstr ""
 "semesterprojekt vid validering av en ledighet."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 msgid "Internal"
 msgstr "Intern"
@@ -93,7 +93,7 @@ msgid "Internal Project"
 msgstr "Internt projekt"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/project_task.py:0
 msgid "Operation not supported"
 msgstr "Åtgärd stöds inte"
@@ -138,7 +138,7 @@ msgstr ""
 "ledighetstyp individuellt."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 #: code:addons/project_timesheet_holidays/models/res_company.py:0
@@ -147,7 +147,7 @@ msgid "Time Off"
 msgstr "Frånvaro"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 #: code:addons/project_timesheet_holidays/models/resource_calendar_leaves.py:0
 msgid "Time Off (%(index)s/%(total)s)"
@@ -175,13 +175,13 @@ msgid "Timesheets"
 msgstr "Tidrapporter"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid "View Time Off"
 msgstr "Visa ledighet"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot create timesheets for a task that is linked to a time off type. "
@@ -191,7 +191,7 @@ msgstr ""
 "ledighetstyp. Använd appen Time Off för att begära ny ledighet istället."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot delete timesheets that are linked to time off requests. Please "
@@ -202,7 +202,7 @@ msgstr ""
 "Applikationen för Ledighet istället."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot modify timesheets that are linked to time off requests. Please "

@@ -1,4 +1,4 @@
-/** @odoo-module */
+/** @manapathi-module */
 
 import { BasicEditor, insertText, testEditor, deleteForward, deleteBackward } from '../utils.js';
 

@@ -5,8 +5,8 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 from freezegun import freeze_time
 
-from odoo import Command
-from odoo.tests import common
+from manapathi import Command
+from manapathi.tests import common
 
 
 class TestTimesheetGlobalTimeOff(common.TransactionCase):

@@ -6,10 +6,10 @@ from pytz import timezone, UTC
 from datetime import date, datetime, time
 from dateutil.relativedelta import relativedelta
 
-from odoo import _, api, fields, models
-from odoo.osv import expression
-from odoo.addons.resource.models.utils import Intervals
-from odoo.exceptions import UserError
+from manapathi import _, api, fields, models
+from manapathi.osv import expression
+from manapathi.addons.resource.models.utils import Intervals
+from manapathi.exceptions import UserError
 
 
 class EmployeePublic(models.Model):

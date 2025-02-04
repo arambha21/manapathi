@@ -1,5 +1,5 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
-from odoo import api, models, _
+from manapathi import api, models, _
 
 
 class AccountMoveSendWizard(models.TransientModel):

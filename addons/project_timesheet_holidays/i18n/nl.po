@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Wil Manapathi, 2024
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
+# Erwin van der Ploeg <erwin@manapathiexperts.nl>, 2024
 # Manon Rondou, 2025
 # 
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
-"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://app.transifex.com/manapathi/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -32,7 +32,7 @@ msgid "Analytic Lines"
 msgstr "Analytische boekingen"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 msgid ""
 "Both the internal project and task are required to generate a timesheet for "
@@ -79,7 +79,7 @@ msgstr ""
 "van het bedrijf wanneer de verlofaanvraag bevestigd wordt."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 msgid "Internal"
 msgstr "Intern"
@@ -90,7 +90,7 @@ msgid "Internal Project"
 msgstr "Intern project"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/project_task.py:0
 msgid "Operation not supported"
 msgstr "Bewerking niet ondersteund"
@@ -136,7 +136,7 @@ msgstr ""
 "een andere taak bepalen."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 #: code:addons/project_timesheet_holidays/models/res_company.py:0
@@ -145,7 +145,7 @@ msgid "Time Off"
 msgstr "Verlof"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 #: code:addons/project_timesheet_holidays/models/resource_calendar_leaves.py:0
 msgid "Time Off (%(index)s/%(total)s)"
@@ -173,13 +173,13 @@ msgid "Timesheets"
 msgstr "Urenstaten"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid "View Time Off"
 msgstr "Bekijk het verlof"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot create timesheets for a task that is linked to a time off type. "
@@ -190,7 +190,7 @@ msgstr ""
 " vragen."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot delete timesheets that are linked to time off requests. Please "
@@ -200,7 +200,7 @@ msgstr ""
 "Annuleer liever je verlofaanvraag in de Verlof applicatie."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot modify timesheets that are linked to time off requests. Please "

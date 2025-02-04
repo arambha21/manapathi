@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import exceptions
-from odoo.addons.crm.tests.common import TestCrmCommon
-from odoo.addons.crm_iap_mine.tests.common import MockIAPReveal
-from odoo.tests.common import users
+from manapathi import exceptions
+from manapathi.addons.crm.tests.common import TestCrmCommon
+from manapathi.addons.crm_iap_mine.tests.common import MockIAPReveal
+from manapathi.tests.common import users
 
 
 class TestLeadMine(TestCrmCommon, MockIAPReveal):

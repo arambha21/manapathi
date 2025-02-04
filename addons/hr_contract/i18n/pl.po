@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
-"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+"Language-Team: Polish (https://app.transifex.com/manapathi/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,7 +31,7 @@ msgid "# Contracts using it"
 msgstr "# Umowy używają tego"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/report/hr_contract_history.py:0
 msgid "%s's Contracts History"
 msgstr "%s - historia zatrudnienia"
@@ -84,7 +84,7 @@ msgid "<span>Days</span>"
 msgstr "<span>Dni</span>"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
 "According to Employee's Working Permit Expiration Date, this contract has "
@@ -92,7 +92,7 @@ msgid ""
 msgstr ""
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
 "According to the contract's end date, this contract has been put in red on "
@@ -152,7 +152,7 @@ msgid "Administrator"
 msgstr "Administrator"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
 "An employee can only have one contract at the same time. (Excluding Draft and Cancelled contracts).\n"
@@ -191,7 +191,7 @@ msgid "Calendar Mismatch"
 msgstr "Niezgodność kalendarza"
 
 #. module: hr_contract
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/hr_contract/static/src/widgets/tooltip_warning_widget.js:0
 msgid ""
 "Calendar Mismatch: The employee's calendar does not match this contract's "
@@ -241,7 +241,7 @@ msgid "Contract"
 msgstr "Umowa"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
 "Contract %(contract)s: start date (%(start)s) must be earlier than contract "
@@ -446,7 +446,7 @@ msgid "Departure Wizard"
 msgstr "Ustawienia odejścia"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/wizard/hr_departure_wizard.py:0
 msgid ""
 "Departure date can't be earlier than the start date of current contract."
@@ -955,7 +955,7 @@ msgstr ""
 "Możesz użyć tego pola do szybkiego wyszukiwania."
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The contract of %s is about to expire."
 msgstr "Umowa %s jest blisko wygaśnięcia."
@@ -966,7 +966,7 @@ msgid "The default working hours are set in configuration."
 msgstr "Domyślne godziny pracy są ustawione w konfiguracji."
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The work permit of %s is about to expire."
 msgstr ""
@@ -1056,7 +1056,7 @@ msgid "Working Schedule"
 msgstr "Godziny pracy"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_employee.py:0
 msgid "You cannot delete an employee with a running contract."
 msgstr ""

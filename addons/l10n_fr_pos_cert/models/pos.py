@@ -4,8 +4,8 @@ from hashlib import sha256
 from json import dumps, loads
 import logging
 
-from odoo import models, api, fields, release, _
-from odoo.exceptions import UserError
+from manapathi import models, api, fields, release, _
+from manapathi.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
 

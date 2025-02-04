@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 import { click, editInput, getFixture, makeDeferred, mockSendBeacon, nextTick, patchWithCleanup } from "@web/../tests/helpers/utils";
 import { createWebClient, doAction } from "@web/../tests/webclient/helpers";
@@ -7,14 +7,14 @@ import { FileSelectorControlPanel } from "@web_editor/components/media_dialog/fi
 import { FormController } from '@web/views/form/form_controller';
 import { HtmlField } from "@web_editor/js/backend/html_field";
 import { MediaDialog } from "@web_editor/components/media_dialog/media_dialog";
-import { parseHTML, setSelection } from "@web_editor/js/editor/odoo-editor/src/utils/utils";
-import { onRendered, useEffect } from "@odoo/owl";
+import { parseHTML, setSelection } from "@web_editor/js/editor/manapathi-editor/src/utils/utils";
+import { onRendered, useEffect } from "@manapathi/owl";
 import { registry } from "@web/core/registry";
 import { COLOR_PICKER_TEMPLATE, wysiwygData } from "@web_editor/../tests/test_utils";
-import { ManapathiEditor } from '@web_editor/js/editor/odoo-editor/src/ManapathiEditor';
+import { ManapathiEditor } from '@web_editor/js/editor/manapathi-editor/src/ManapathiEditor';
 import { uploadService } from "@web_editor/components/upload_progress_toast/upload_service";
 import { Wysiwyg } from "@web_editor/js/wysiwyg/wysiwyg";
-import { insertText } from '@web_editor/js/editor/odoo-editor/test/utils';
+import { insertText } from '@web_editor/js/editor/manapathi-editor/test/utils';
 
 async function iframeReady(iframe) {
     const iframeLoadPromise = makeDeferred();
@@ -132,13 +132,13 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         });
         await wysiwygPromise;
 
-        assert.containsOnce(target, ".odoo-editor-editable p:contains(first)");
+        assert.containsOnce(target, ".manapathi-editor-editable p:contains(first)");
 
         // click on the pager to switch to the next record
         await click(target.querySelector(".o_pager_next"));
 
-        assert.containsOnce(target, ".odoo-editor-editable p:contains(second)");
-        const paragraph = target.querySelector(".odoo-editor-editable p");
+        assert.containsOnce(target, ".manapathi-editor-editable p:contains(second)");
+        const paragraph = target.querySelector(".manapathi-editor-editable p");
         setSelection(paragraph, 0, paragraph, 0);
 
         wysiwyg.openMediaDialog();
@@ -228,7 +228,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
                 </form>`,
         });
         await wysiwygPromise;
-        const editor = wysiwyg.odooEditor;
+        const editor = wysiwyg.manapathiEditor;
         const editable = editor.editable;
         editor.testMode = true;
         assert.strictEqual(editable.innerHTML, `<p>first</p>`);
@@ -269,7 +269,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
                 </form>`,
         });
         await wysiwygPromise;
-        const editor = wysiwyg.odooEditor;
+        const editor = wysiwyg.manapathiEditor;
         const editable = editor.editable;
         editor.testMode = true;
         assert.strictEqual(editable.innerHTML, `<p>first</p>`);
@@ -660,7 +660,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         });
         // Let the htmlField be mounted and recover the Component instance.
         const htmlField = await htmlFieldPromise;
-        const editor = htmlField.wysiwyg.odooEditor;
+        const editor = htmlField.wysiwyg.manapathiEditor;
 
         // Simulate an urgent save without any image in the content.
         sendBeaconDef = makeDeferred();
@@ -736,7 +736,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         });
         // Let the htmlField be mounted and recover the Component instance.
         const htmlField = await htmlFieldPromise;
-        const editor = htmlField.wysiwyg.odooEditor;
+        const editor = htmlField.wysiwyg.manapathiEditor;
 
         const paragraph = editor.editable.querySelector(".test_target");
         Wysiwyg.setRange(paragraph);
@@ -800,7 +800,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         });
         // Let the htmlField be mounted and recover the Component instance.
         const htmlField = await htmlFieldPromise;
-        const editor = htmlField.wysiwyg.odooEditor;
+        const editor = htmlField.wysiwyg.manapathiEditor;
 
         const paragraph = editor.editable.querySelector(".image_target");
         Wysiwyg.setRange(paragraph);
@@ -814,11 +814,11 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
             bubbles: true,
             cancelable: true
         });
-        target.querySelector(".odoo-editor-editable").dispatchEvent(blurEvent);
+        target.querySelector(".manapathi-editor-editable").dispatchEvent(blurEvent);
 
         await click(target.querySelector(".o_pager_next"));
         await nextTick();
-        assert.containsOnce(target, ".odoo-editor-editable p:contains('second')");
+        assert.containsOnce(target, ".manapathi-editor-editable p:contains('second')");
     });
 
     QUnit.module('Manapathi fields synchronisation');
@@ -876,7 +876,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 
         // Let the htmlField be mounted and recover the Component instance.
         const htmlField = await htmlFieldPromise;
-        const editor = htmlField.wysiwyg.odooEditor;
+        const editor = htmlField.wysiwyg.manapathiEditor;
         const node = editor.editable.querySelector('p').childNodes[0];
         newHistoryStepPromise();
         node.textContent = 'b';
@@ -939,7 +939,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 
         // Let the htmlField be mounted and recover the Component instance.
         const htmlField = await htmlFieldPromise;
-        const editor = htmlField.wysiwyg.odooEditor;
+        const editor = htmlField.wysiwyg.manapathiEditor;
         const node = editor.editable.querySelector('p').childNodes[0];
         newHistoryStepPromise();
         node.textContent = 'b';
@@ -1002,7 +1002,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 
         // Let the htmlField be mounted and recover the Component instance.
         const htmlField = await htmlFieldPromise;
-        const editor = htmlField.wysiwyg.odooEditor;
+        const editor = htmlField.wysiwyg.manapathiEditor;
         const node = editor.editable.querySelector('div.oe_unremovable');
         newHistoryStepPromise();
         node.textContent = 'b';
@@ -1044,7 +1044,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
             mockRPC: mockRPC,
         });
 
-        const editable = document.querySelector(".odoo-editor-editable");
+        const editable = document.querySelector(".manapathi-editor-editable");
         const p = editable.firstElementChild;
         Wysiwyg.setRange(p);
 
@@ -1226,7 +1226,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
                 </form>`,
         });
         await wysiwygPromise;
-        const editor = htmlField.wysiwyg.odooEditor;
+        const editor = htmlField.wysiwyg.manapathiEditor;
 
         const paragraph = editor.editable.querySelector(".content");
         setSelection(paragraph, 0, paragraph, 0);
@@ -1343,7 +1343,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
                 </form>`,
         });
         await wysiwygPromise;
-        const editor = htmlField.wysiwyg.odooEditor;
+        const editor = htmlField.wysiwyg.manapathiEditor;
         const table = editor.editable.querySelector("table");
         const firstp = table.firstElementChild.firstElementChild.firstElementChild.firstElementChild;
         const lastp = table.firstElementChild.lastElementChild.lastElementChild.firstElementChild;
@@ -1401,7 +1401,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
                 </form>`,
         });
         await wysiwygPromise;
-        const editor = htmlField.wysiwyg.odooEditor;
+        const editor = htmlField.wysiwyg.manapathiEditor;
         const paragraph = editor.editable.querySelectorAll(".content")[1];
         setSelection(paragraph, 0, paragraph, 0);
         await nextTick();

@@ -3,9 +3,9 @@
 
 from freezegun import freeze_time
 
-from odoo import fields
-from odoo.addons.hr.tests.test_mail_activity_plan import ActivityScheduleHRCase
-from odoo.tests import tagged, users
+from manapathi import fields
+from manapathi.addons.hr.tests.test_mail_activity_plan import ActivityScheduleHRCase
+from manapathi.tests import tagged, users
 
 
 @tagged('mail_activity', 'mail_activity_plan')

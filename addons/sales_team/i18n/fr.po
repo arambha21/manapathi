@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
-"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://app.transifex.com/manapathi/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -74,7 +74,7 @@ msgstr ""
 "équipe commerciale."
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
 "Adding %(user_name)s in this team will remove them from %(team_names)s. "
@@ -85,7 +85,7 @@ msgstr ""
 "Configuration>Paramètres."
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid ""
 "Adding %(user_names)s in this team will remove them from %(team_names)s."
@@ -119,7 +119,7 @@ msgid "Avatar"
 msgstr "Avatar"
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Big Pretty Button :)"
 msgstr "Gros et joli bouton :)"
@@ -130,7 +130,7 @@ msgid "CRM Tag"
 msgstr "Étiquette CRM"
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Cannot delete default team \"%s\""
 msgstr "Impossible de supprimer l'équipe par défaut \"%s\""
@@ -521,7 +521,7 @@ msgid "Salesteams Search"
 msgstr "Recherche d'équipes"
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Sample data"
 msgstr "Données démo"
@@ -632,7 +632,7 @@ msgstr ""
 "équipes si aucune entreprise n'est définie"
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Undefined graph model for Sales Team: %s"
 msgstr "Modèle de graphique non défini pour l'équipe commerciale : %s"
@@ -705,7 +705,7 @@ msgid "Website"
 msgstr "Site Web"
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid ""
 "Working in multiple teams? Activate the option under Configuration>Settings."
@@ -714,7 +714,7 @@ msgstr ""
 "Configuration>Paramètres."
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
 "You are trying to create duplicate membership(s). We found that "

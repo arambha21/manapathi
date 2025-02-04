@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
-from odoo import models, api, fields, _
-from odoo.exceptions import UserError
+from manapathi import models, api, fields, _
+from manapathi.exceptions import UserError
 from datetime import datetime
-from odoo.fields import Datetime, Date
-from odoo.tools.misc import format_date
+from manapathi.fields import Datetime, Date
+from manapathi.tools.misc import format_date
 import pytz
 
 

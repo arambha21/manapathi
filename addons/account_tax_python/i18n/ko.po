@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Daye Jeong, 2024\n"
-"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://app.transifex.com/manapathi/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -78,7 +78,7 @@ msgid "Formula Decoded Info"
 msgstr "공식 디코딩된 정보"
 
 #. module: account_tax_python
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_tax_python/models/account_tax.py:0
 msgid "Malformed formula '%(formula)s' at position %(position)s"
 msgstr "잘못된 수식 '%(formula)s'이 %(position)s에서 발견되었습니다."

@@ -4,9 +4,9 @@ from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
 from freezegun import freeze_time
 
-from odoo.exceptions import ValidationError
-from odoo.addons.hr_contract.tests.common import TestContractCommon
-from odoo.tests import tagged
+from manapathi.exceptions import ValidationError
+from manapathi.addons.hr_contract.tests.common import TestContractCommon
+from manapathi.tests import tagged
 
 @tagged('test_contracts')
 class TestHrContracts(TestContractCommon):

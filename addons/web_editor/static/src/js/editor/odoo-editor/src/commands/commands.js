@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 import { REGEX_BOOTSTRAP_COLUMN } from '../utils/constants.js';
 import {
     ancestors,

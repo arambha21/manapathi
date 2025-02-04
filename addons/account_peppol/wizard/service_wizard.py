@@ -3,7 +3,7 @@
 import logging
 from markupsafe import Markup
 
-from odoo import api, fields, models, _
+from manapathi import api, fields, models, _
 
 _logger = logging.getLogger(__name__)
 

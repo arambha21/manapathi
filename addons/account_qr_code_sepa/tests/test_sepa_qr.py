@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
 
-from odoo.exceptions import UserError
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.tests import tagged
-from odoo import fields
+from manapathi.exceptions import UserError
+from manapathi.addons.account.tests.common import AccountTestInvoicingCommon
+from manapathi.tests import tagged
+from manapathi import fields
 
 @tagged('post_install', '-at_install')
 class TestSEPAQRCode(AccountTestInvoicingCommon):

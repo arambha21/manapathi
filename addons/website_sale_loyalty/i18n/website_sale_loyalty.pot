@@ -26,13 +26,13 @@ msgid "<strong>Coupons - </strong>"
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_sale_loyalty/wizard/coupon_share.py:0
 msgid "A coupon is needed for coupon programs."
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_sale_loyalty/models/loyalty_rule.py:0
 msgid "A coupon with the same code was found."
 msgstr ""
@@ -48,13 +48,13 @@ msgid "Available on Website"
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_sale_loyalty/controllers/payment.py:0
 msgid "Cannot process payment: applied reward was changed or has expired."
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/website_sale_loyalty/static/src/js/portal_loyalty_card.xml:0
 #: model_terms:ir.ui.view,arch_db:website_sale_loyalty.modify_code_form
 msgid "Claim"
@@ -211,7 +211,7 @@ msgid "Promo Code"
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_sale_loyalty/wizard/coupon_share.py:0
 msgid "Provide either a coupon or a program."
 msgstr ""
@@ -239,7 +239,7 @@ msgid "Sales Order Line"
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_sale_loyalty/wizard/coupon_share.py:0
 #: model_terms:ir.ui.view,arch_db:website_sale_loyalty.loyalty_card_view_tree_inherit_website_sale_loyalty
 #: model_terms:ir.ui.view,arch_db:website_sale_loyalty.loyalty_program_view_tree_inherit_website_sale_loyalty
@@ -247,7 +247,7 @@ msgid "Share"
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_sale_loyalty/wizard/coupon_share.py:0
 msgid "Share %s"
 msgstr ""
@@ -268,7 +268,7 @@ msgid "Show Discount in Subtotal"
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_sale_loyalty/controllers/main.py:0
 msgid ""
 "The coupon will be automatically applied when you add something in your "
@@ -281,13 +281,13 @@ msgid "The following promo code was applied on your order:"
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_sale_loyalty/models/loyalty_rule.py:0
 msgid "The promo code must be unique."
 msgstr ""
 
 #. module: website_sale_loyalty
-#. odoo-python
+#. manapathi-python
 #: code:addons/website_sale_loyalty/wizard/coupon_share.py:0
 msgid "The shared website should correspond to the website of the program."
 msgstr ""

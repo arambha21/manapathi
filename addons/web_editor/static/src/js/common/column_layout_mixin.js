@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 export const ColumnLayoutMixin = {
     /**

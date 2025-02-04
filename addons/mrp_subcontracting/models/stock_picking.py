@@ -3,9 +3,9 @@
 from collections import defaultdict
 from datetime import timedelta
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.tools.float_utils import float_compare
+from manapathi import api, fields, models, _
+from manapathi.exceptions import UserError
+from manapathi.tools.float_utils import float_compare
 from dateutil.relativedelta import relativedelta
 
 

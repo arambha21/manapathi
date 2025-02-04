@@ -1,7 +1,7 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields
-from odoo.tools.sql import column_exists, create_column
+from manapathi import models, fields
+from manapathi.tools.sql import column_exists, create_column
 
 
 class AccountMoveLine(models.Model):

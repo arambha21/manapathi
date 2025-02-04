@@ -6,10 +6,10 @@ import threading
 from datetime import date
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models, _
-from odoo.exceptions import ValidationError
+from manapathi import api, fields, models, _
+from manapathi.exceptions import ValidationError
 
-from odoo.osv import expression
+from manapathi.osv import expression
 
 import logging
 _logger = logging.getLogger(__name__)

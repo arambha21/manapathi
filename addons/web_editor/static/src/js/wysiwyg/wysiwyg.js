@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 import { session } from "@web/session";
 import { user } from "@web/core/user";
@@ -8,7 +8,7 @@ import { browser } from "@web/core/browser/browser";
 import { useService } from "@web/core/utils/hooks";
 import customColors from "@web_editor/js/editor/custom_colors";
 import { localization } from "@web/core/l10n/localization";
-import * as ManapathiEditorLib from "@web_editor/js/editor/odoo-editor/src/ManapathiEditor";
+import * as ManapathiEditorLib from "@web_editor/js/editor/manapathi-editor/src/ManapathiEditor";
 import { Toolbar } from "@web_editor/js/editor/toolbar";
 import { LinkPopoverWidget } from '@web_editor/js/wysiwyg/widgets/link_popover_widget';
 import { AltDialog } from '@web_editor/js/wysiwyg/widgets/alt_dialog';
@@ -19,7 +19,7 @@ import { ImageCrop } from '@web_editor/js/wysiwyg/widgets/image_crop';
 
 import * as wysiwygUtils from "@web_editor/js/common/wysiwyg_utils";
 import weUtils from "@web_editor/js/common/utils";
-import { isIconElement, isSelectionInSelectors, peek } from '@web_editor/js/editor/odoo-editor/src/utils/utils';
+import { isIconElement, isSelectionInSelectors, peek } from '@web_editor/js/editor/manapathi-editor/src/utils/utils';
 import { PeerToPeer, RequestError } from "@web_editor/js/wysiwyg/PeerToPeer";
 import { rpc } from "@web/core/network/rpc";
 import { uniqueId } from "@web/core/utils/functions";
@@ -46,7 +46,7 @@ import {
     onWillUpdateProps,
     markup,
     status,
-} from "@odoo/owl";
+} from "@manapathi/owl";
 import { isCSSColor } from '@web/core/utils/colors';
 import { EmojiPicker } from '@web/core/emoji_picker/emoji_picker';
 import { Tooltip } from "@web/core/tooltip/tooltip";
@@ -167,16 +167,16 @@ export class Wysiwyg extends Component {
         const getColorPickedHandler = (colorType) => {
             return (params) => {
                 if (this.hadNonCollapsedSelectionBeforeColorpicker) {
-                    this.odooEditor.historyResetLatestComputedSelection(true);
+                    this.manapathiEditor.historyResetLatestComputedSelection(true);
                 }
                 // Unstash the mutations now that the color is picked.
-                this.odooEditor.historyUnstash();
+                this.manapathiEditor.historyUnstash();
                 this._processAndApplyColor(colorType, params.color);
                 // Deselect tables so the applied color can be seen
                 // without using `!important` (otherwise the selection
                 // hides it).
-                if (hasValidSelection(this.odooEditor.editable)) {
-                    this.odooEditor.deselectTable();
+                if (hasValidSelection(this.manapathiEditor.editable)) {
+                    this.manapathiEditor.deselectTable();
                 }
                 this._updateEditorUI(this.lastMediaClicked && { target: this.lastMediaClicked });
             };
@@ -185,14 +185,14 @@ export class Wysiwyg extends Component {
         const getColorHoverHandler = (colorType) => {
             return (props) => {
                 if (this.hadNonCollapsedSelectionBeforeColorpicker) {
-                    this.odooEditor.historyResetLatestComputedSelection(true);
+                    this.manapathiEditor.historyResetLatestComputedSelection(true);
                 }
-                this.odooEditor.historyPauseSteps();
+                this.manapathiEditor.historyPauseSteps();
                 try {
                     this._processAndApplyColor(colorType, props.color, true);
-                    this.odooEditor._computeHistorySelection();
+                    this.manapathiEditor._computeHistorySelection();
                 } finally {
-                    this.odooEditor.historyUnpauseSteps();
+                    this.manapathiEditor.historyUnpauseSteps();
                 }
             }
         };
@@ -204,11 +204,11 @@ export class Wysiwyg extends Component {
             withGradients: true,
             onColorLeave: () => {
                 // We need to prevent rollback in case the seclection is in unremovable
-                this.odooEditor.withoutRollback(() => this.odooEditor.historyRevertCurrentStep());
+                this.manapathiEditor.withoutRollback(() => this.manapathiEditor.historyRevertCurrentStep());
                 // Compute the selection to ensure it's preserved between
                 // selectionchange events in case this gets triggered multiple
                 // times quickly.
-                this.odooEditor._computeHistorySelection();
+                this.manapathiEditor._computeHistorySelection();
             },
             onInputEnter: (ev) => {
                 const pickergroup = ev.target.closest('.colorpicker-group');
@@ -293,7 +293,7 @@ export class Wysiwyg extends Component {
     }
 
     defaultOptions = {
-        lang: 'odoo',
+        lang: 'manapathi',
         colors: customColors,
         recordInfo: {context: {}},
         document: document,
@@ -416,7 +416,7 @@ export class Wysiwyg extends Component {
         weUtils.setEditableDocument(this.options.document);
 
         const _getContentEditableAreas = this.options.getContentEditableAreas;
-        this.odooEditor = new ManapathiEditor(this.$editable[0], Object.assign({
+        this.manapathiEditor = new ManapathiEditor(this.$editable[0], Object.assign({
             _t: _t,
             toolbar: this.toolbarEl,
             document: this.options.document,
@@ -521,16 +521,16 @@ export class Wysiwyg extends Component {
             autoActivateContentEditable: this.options.autoActivateContentEditable,
         }, editorCollaborationOptions));
 
-        this.odooEditor.addEventListener('contentChanged', function () {
+        this.manapathiEditor.addEventListener('contentChanged', function () {
             self.$editable.trigger('content_changed');
         });
         document.addEventListener("mousemove", this._signalOnline, true);
         document.addEventListener("keydown", this._signalOnline, true);
         document.addEventListener("keyup", this._signalOnline, true);
-        if (this.odooEditor.document !== document) {
-            this.odooEditor.document.addEventListener("mousemove", this._signalOnline, true);
-            this.odooEditor.document.addEventListener("keydown", this._signalOnline, true);
-            this.odooEditor.document.addEventListener("keyup", this._signalOnline, true);
+        if (this.manapathiEditor.document !== document) {
+            this.manapathiEditor.document.addEventListener("mousemove", this._signalOnline, true);
+            this.manapathiEditor.document.addEventListener("keydown", this._signalOnline, true);
+            this.manapathiEditor.document.addEventListener("keyup", this._signalOnline, true);
         }
 
         this._initialValue = this.getValue();
@@ -540,8 +540,8 @@ export class Wysiwyg extends Component {
         // continuing to search for it, but it is not clear why. As the wrapwrap
         // will be removed, this code will not stay for too long anyway.
         if ($('wrapwrap').length) {
-            this.multiSelectionTarget = $().getScrollingTarget(this.odooEditor.document);
-            this.multiSelectionTarget.addEventListener('scroll', this.odooEditor.multiselectionRefresh, { passive: true });
+            this.multiSelectionTarget = $().getScrollingTarget(this.manapathiEditor.document);
+            this.multiSelectionTarget.addEventListener('scroll', this.manapathiEditor.multiselectionRefresh, { passive: true });
         }
 
         this.$editable.on('click', '[data-oe-field][data-oe-sanitize-prevent-edition]', () => {
@@ -561,7 +561,7 @@ export class Wysiwyg extends Component {
             'mousedown touchstart',
             '[data-oe-field]',
             function () {
-                self.odooEditor.observerUnactive();
+                self.manapathiEditor.observerUnactive();
                 const $field = $(this);
                 if (($field.data('oe-type') === "datetime" || $field.data('oe-type') === "date")) {
                     let selector = '[data-oe-id="' + $field.data('oe-id') + '"]';
@@ -597,7 +597,7 @@ export class Wysiwyg extends Component {
                         $field.attr('contenteditable', false);
                     }
                 }
-                self.odooEditor.observerActive();
+                self.manapathiEditor.observerActive();
             }
         );
 
@@ -635,7 +635,7 @@ export class Wysiwyg extends Component {
             if (isEditable) {
                 this.showTooltip = false;
 
-                if (!isProtected(this.odooEditor.document.getSelection().anchorNode)) {
+                if (!isProtected(this.manapathiEditor.document.getSelection().anchorNode)) {
                     if (this.options.onDblClickEditableMedia && targetEl.nodeName === 'IMG' && targetEl.src) {
                         this.options.onDblClickEditableMedia(ev);
                     } else {
@@ -648,7 +648,7 @@ export class Wysiwyg extends Component {
         if (options.snippets) {
             this.snippetsMenuComponent = await this.getSnippetsMenuClass(options);
             await this._insertSnippetMenu();
-            $(this.odooEditor.document.body).addClass('editor_enable');
+            $(this.manapathiEditor.document.body).addClass('editor_enable');
 
             this._onBeforeUnload = (event) => {
                 if (this.isDirty()) {
@@ -658,7 +658,7 @@ export class Wysiwyg extends Component {
             window.addEventListener('beforeunload', this._onBeforeUnload);
         }
         if (this.options.getContentEditableAreas) {
-            $(this.options.getContentEditableAreas(this.odooEditor)).find('*').off('mousedown mouseup click');
+            $(this.options.getContentEditableAreas(this.manapathiEditor)).find('*').off('mousedown mouseup click');
         }
 
         // The toolbar must be configured after the snippetMenu is loaded
@@ -666,9 +666,9 @@ export class Wysiwyg extends Component {
         // buttons must use the jquery loaded in that iframe.
         this._configureToolbar(options);
 
-        $(this.odooEditor.editable).on('mouseup', this._updateEditorUI.bind(this));
-        $(this.odooEditor.editable).on('keydown', this._updateEditorUI.bind(this));
-        $(this.odooEditor.editable).on('keydown', this._handleShortcuts.bind(this));
+        $(this.manapathiEditor.editable).on('mouseup', this._updateEditorUI.bind(this));
+        $(this.manapathiEditor.editable).on('keydown', this._updateEditorUI.bind(this));
+        $(this.manapathiEditor.editable).on('keydown', this._handleShortcuts.bind(this));
         // Ensure the Toolbar always have the correct layout in note.
         this._updateEditorUI();
 
@@ -730,23 +730,23 @@ export class Wysiwyg extends Component {
         });
 
         this._onSelectionChange = this._onSelectionChange.bind(this);
-        this.odooEditor.document.addEventListener('selectionchange', this._onSelectionChange);
+        this.manapathiEditor.document.addEventListener('selectionchange', this._onSelectionChange);
         if (!this.state.showSnippetsMenu) {
             this.setCSSVariables(this.toolbarEl);
         }
 
-        this.odooEditor.addEventListener('preObserverActive', () => {
+        this.manapathiEditor.addEventListener('preObserverActive', () => {
             // The onPostSanitize will be called right after the
             // editor sanitization (to be right before the historyStep).
             // If any `.o_not_editable` is created while the observer is
             // unactive, now is the time to call `onPostSanitize` before the
             // editor could register a mutation.
-            this._onPostSanitize(this.odooEditor.editable);
+            this._onPostSanitize(this.manapathiEditor.editable);
         });
 
         if (this.options.autohideToolbar) {
-            if (this.odooEditor.isMobile) {
-                this.odooEditor.editable.before(this.toolbarEl);
+            if (this.manapathiEditor.isMobile) {
+                this.manapathiEditor.editable.before(this.toolbarEl);
             } else {
                 document.body.append(this.toolbarEl);
             }
@@ -876,7 +876,7 @@ export class Wysiwyg extends Component {
     }
     setupToolbar(toolbarEl) {
         this.toolbarEl = toolbarEl;
-        this.odooEditor.setupToolbar(toolbarEl);
+        this.manapathiEditor.setupToolbar(toolbarEl);
         this._configureToolbar(this.options)
         this._updateEditorUI();
     }
@@ -896,12 +896,12 @@ export class Wysiwyg extends Component {
         document.removeEventListener("keydown", this._signalOnline, true);
         document.removeEventListener("keyup", this._signalOnline, true);
         this._collaborationStopBus && this._collaborationStopBus();
-        if (this.odooEditor) {
-            this.odooEditor.document.removeEventListener("mousemove", this._signalOnline, true);
-            this.odooEditor.document.removeEventListener("keydown", this._signalOnline, true);
-            this.odooEditor.document.removeEventListener("keyup", this._signalOnline, true);
-            this.odooEditor.document.removeEventListener('selectionchange', this._onSelectionChange);
-            this.odooEditor.destroy();
+        if (this.manapathiEditor) {
+            this.manapathiEditor.document.removeEventListener("mousemove", this._signalOnline, true);
+            this.manapathiEditor.document.removeEventListener("keydown", this._signalOnline, true);
+            this.manapathiEditor.document.removeEventListener("keyup", this._signalOnline, true);
+            this.manapathiEditor.document.removeEventListener('selectionchange', this._onSelectionChange);
+            this.manapathiEditor.destroy();
         }
         // If peer to peer is initializing, wait for properly closing it.
         if (this._peerToPeerLoading) {
@@ -916,7 +916,7 @@ export class Wysiwyg extends Component {
         const $body = $(document.body);
         $body.off('mousemove', this.resizerMousemove);
         $body.off('mouseup', this.resizerMouseup);
-        this.multiSelectionTarget?.removeEventListener('scroll', this.odooEditor.multiselectionRefresh, { passive: true });
+        this.multiSelectionTarget?.removeEventListener('scroll', this.manapathiEditor.multiselectionRefresh, { passive: true });
         this.$editable?.off('.Wysiwyg');
         this.toolbarEl?.remove();
         this.imageCropEL?.remove();
@@ -957,7 +957,7 @@ export class Wysiwyg extends Component {
             this.$editable.css('max-height', this.options.maxHeight);
         }
         if (this.options.resizable && !isMobileOS()) {
-            const $wrapper = $('<div class="o_wysiwyg_wrapper odoo-editor">');
+            const $wrapper = $('<div class="o_wysiwyg_wrapper manapathi-editor">');
             $wrapper.append(this.$editable);
             this.$resizer = $(`<div class="o_wysiwyg_resizer">
                 <div class="o_wysiwyg_resizer_hook"></div>
@@ -1051,8 +1051,8 @@ export class Wysiwyg extends Component {
         $editable.find('[data-editor-message]').removeAttr('data-editor-message');
         $editable.find('a.o_image, span.fa, i.fa').html('');
         $editable.find('[aria-describedby]').removeAttr('aria-describedby').removeAttr('data-bs-original-title');
-        if (this.odooEditor) {
-            this.odooEditor.cleanForSave($editable[0]);
+        if (this.manapathiEditor) {
+            this.manapathiEditor.cleanForSave($editable[0]);
             this._attachHistoryIds($editable[0]);
         }
         return $editable.html();
@@ -1079,7 +1079,7 @@ export class Wysiwyg extends Component {
      * Reset the history.
      */
     historyReset() {
-        this.odooEditor.historyReset();
+        this.manapathiEditor.historyReset();
     }
     /**
      * Saves the content or the given editable.
@@ -1092,7 +1092,7 @@ export class Wysiwyg extends Component {
         this.savingContent = true;
         if (!editable) {
             await this.cleanForSave();
-            const editables = "getContentEditableAreas" in this.options ? this.options.getContentEditableAreas(this.odooEditor) : [];
+            const editables = "getContentEditableAreas" in this.options ? this.options.getContentEditableAreas(this.manapathiEditor) : [];
             await this.savePendingImages(editables.length ? $(editables) : this.$editable);
             await this._saveViewBlocks();
         } else {
@@ -1183,19 +1183,19 @@ export class Wysiwyg extends Component {
      * @returns {String}
      */
     setValue(value) {
-        this.odooEditor.resetContent(value);
+        this.manapathiEditor.resetContent(value);
     }
     /**
      * Undo one step of change in the editor.
      */
     undo() {
-        this.odooEditor.historyUndo();
+        this.manapathiEditor.historyUndo();
     }
     /**
      * Redo one step of change in the editor.
      */
     redo() {
-        this.odooEditor.historyRedo();
+        this.manapathiEditor.historyRedo();
     }
     /**
      * Focus inside the editor.
@@ -1203,7 +1203,7 @@ export class Wysiwyg extends Component {
      * Set cursor to the editor latest position before blur or to the last editable node, ready to type.
      */
     focus() {
-        if (this.odooEditor && !this.odooEditor.historyResetLatestComputedSelection(true)) {
+        if (this.manapathiEditor && !this.manapathiEditor.historyResetLatestComputedSelection(true)) {
             // If the editor don't have an history step to focus to,
             // We place the cursor after the end of the editor exiting content.
             const range = document.createRange();
@@ -1211,20 +1211,20 @@ export class Wysiwyg extends Component {
             range.selectNodeContents(elementToTarget);
             range.collapse();
 
-            const selection = this.odooEditor.document.getSelection();
+            const selection = this.manapathiEditor.document.getSelection();
             selection.removeAllRanges();
             selection.addRange(range);
         }
     }
     getDeepRange() {
-        return getDeepRange(this.odooEditor.editable);
+        return getDeepRange(this.manapathiEditor.editable);
     }
     closestElement(...args) {
         return closestElement(...args);
     }
-    async cleanForSave(editable = this.odooEditor.editable) {
-        if (this.odooEditor) {
-            this.odooEditor.cleanForSave(editable);
+    async cleanForSave(editable = this.manapathiEditor.editable) {
+        if (this.manapathiEditor) {
+            this.manapathiEditor.cleanForSave(editable);
             this._attachHistoryIds(editable);
         }
 
@@ -1235,7 +1235,7 @@ export class Wysiwyg extends Component {
         }
     }
     isSelectionInEditable() {
-        return this.odooEditor.isSelectionInEditable();
+        return this.manapathiEditor.isSelectionInEditable();
     }
     /**
      * Start or resume the Manapathi field changes muation observers.
@@ -1250,20 +1250,20 @@ export class Wysiwyg extends Component {
             characterData: true,
             attributeOldValue: true,
         };
-        if (this.odooFieldObservers) {
-            for (let observerData of this.odooFieldObservers) {
+        if (this.manapathiFieldObservers) {
+            for (let observerData of this.manapathiFieldObservers) {
                 observerData.observer.observe(observerData.field, observerOptions);
             }
         } else {
-            const odooFieldSelector = '[data-oe-model], [data-oe-translation-source-sha]';
-            const $odooFields = this.$editable.find(odooFieldSelector);
-            const renderingClassesSelector = this.odooEditor.options.renderingClasses
+            const manapathiFieldSelector = '[data-oe-model], [data-oe-translation-source-sha]';
+            const $manapathiFields = this.$editable.find(manapathiFieldSelector);
+            const renderingClassesSelector = this.manapathiEditor.options.renderingClasses
                 .map(className => `.${className}`).join(", ");
-            this.odooFieldObservers = [];
+            this.manapathiFieldObservers = [];
 
-            $odooFields.each((i, field) => {
+            $manapathiFields.each((i, field) => {
                 const observer = new MutationObserver((mutations) => {
-                    mutations = this.odooEditor.filterMutationRecords(mutations);
+                    mutations = this.manapathiEditor.filterMutationRecords(mutations);
                     mutations = mutations.filter(rec =>
                         !(rec.type === "attributes" && (rec.attributeName.startsWith("data-oe-t")))
                     );
@@ -1276,7 +1276,7 @@ export class Wysiwyg extends Component {
                     if ($node.hasClass('o_translation_without_style')) {
                         return;
                     }
-                    let $nodes = $odooFields.filter(function () {
+                    let $nodes = $manapathiFields.filter(function () {
                         return this !== field;
                     });
                     if ($node.data('oe-model')) {
@@ -1322,7 +1322,7 @@ export class Wysiwyg extends Component {
 
                     // TODO adapt in master: remove this and only use the
                     //  `_pauseManapathiFieldObservers(field)` call.
-                    this.__odooFieldObserversToPause = this.odooFieldObservers.filter(
+                    this.__manapathiFieldObserversToPause = this.manapathiFieldObservers.filter(
                         // Exclude inner translation fields observers. They
                         // still handle translation synchronization inside the
                         // targeted field.
@@ -1339,10 +1339,10 @@ export class Wysiwyg extends Component {
                     // content.
                     const fieldNodeClone = $node[0].cloneNode(true);
                     for (const node of fieldNodeClone.querySelectorAll(renderingClassesSelector)) {
-                        node.classList.remove(...this.odooEditor.options.renderingClasses);
+                        node.classList.remove(...this.manapathiEditor.options.renderingClasses);
                     }
                     const html = $(fieldNodeClone).html();
-                    this.odooEditor.withoutRollback(() => {
+                    this.manapathiEditor.withoutRollback(() => {
                         for (const node of $nodes) {
                             if (node.classList.contains('o_translation_without_style')) {
                                 // For generated elements such as the navigation
@@ -1362,7 +1362,7 @@ export class Wysiwyg extends Component {
                     this._observeManapathiFieldChanges();
                 });
                 observer.observe(field, observerOptions);
-                this.odooFieldObservers.push({field: field, observer: observer});
+                this.manapathiFieldObservers.push({field: field, observer: observer});
             });
         }
     }
@@ -1371,9 +1371,9 @@ export class Wysiwyg extends Component {
      */
     _pauseManapathiFieldObservers() {
         // TODO adapt in master: remove this and directly exclude observers with
-        // targets inside the current field (we use `this.odooFieldObservers`
+        // targets inside the current field (we use `this.manapathiFieldObservers`
         // as fallback for compatibility here).
-        const fieldObserversData = this.__odooFieldObserversToPause || this.odooFieldObservers;
+        const fieldObserversData = this.__manapathiFieldObserversToPause || this.manapathiFieldObservers;
         for (let observerData of fieldObserversData) {
             observerData.observer.disconnect();
         }
@@ -1382,13 +1382,13 @@ export class Wysiwyg extends Component {
      * Open the link tools or the image link tool depending on the selection.
      */
     openLinkToolsFromSelection() {
-        const selection = this.odooEditor.document.getSelection();
+        const selection = this.manapathiEditor.document.getSelection();
         // If there is no selection return
         if (!selection || selection.rangeCount === 0) {
             return;
         }
         // If there is a video in selection then return
-        for (const el of getSelectedNodes(this.odooEditor.editable)) {
+        for (const el of getSelectedNodes(this.manapathiEditor.editable)) {
             if (
                 el.classList?.contains("media_iframe_video")
                 || el.classList?.contains("media_iframe_video_size")
@@ -1404,7 +1404,7 @@ export class Wysiwyg extends Component {
         // Link tool is different if the selection is an image or a text.
         if (targetEl.nodeType === Node.ELEMENT_NODE
                 && (targetEl.tagName === 'IMG' || targetEl.querySelectorAll('img').length === 1)) {
-            this.odooEditor.dispatchEvent(new Event('activate_image_link_tool'));
+            this.manapathiEditor.dispatchEvent(new Event('activate_image_link_tool'));
             return;
         }
         this.toggleLinkTools();
@@ -1421,7 +1421,7 @@ export class Wysiwyg extends Component {
     async toggleLinkTools(options = {}) {
         const shouldFocusUrl = options.shouldFocusUrl === undefined ? true : options.shouldFocusUrl;
 
-        const linkEl = getInSelection(this.odooEditor.document, 'a');
+        const linkEl = getInSelection(this.manapathiEditor.document, 'a');
         if (linkEl && (!linkEl.matches(this.customizableLinksSelector) || !linkEl.isContentEditable)) {
             return;
         }
@@ -1433,7 +1433,7 @@ export class Wysiwyg extends Component {
                 if (options.shoudFocusUrl) {
                     // Wait for the editor panel to be fully updated.
                     this.mutex.exec(() => {
-                        this.odooEditor.dispatchEvent(new Event('activate_image_link_tool'));
+                        this.manapathiEditor.dispatchEvent(new Event('activate_image_link_tool'));
                     });
                 }
                 return;
@@ -1442,23 +1442,23 @@ export class Wysiwyg extends Component {
                 const $button = $(this.toolbarEl.querySelector('#create-link'));
                 if (!this.state.linkToolProps || ![options.link, ...wysiwygUtils.ancestors(options.link)].includes(this.linkToolsInfos.link)) {
                     const { link } = getOrCreateLink({
-                        containerNode: this.odooEditor.editable,
+                        containerNode: this.manapathiEditor.editable,
                         startNode: options.link || this.lastMediaClicked,
                     });
                     if (!link) {
                         return;
                     }
                     const addHintClasses = () => {
-                        this.odooEditor.observerUnactive("hint_classes");
+                        this.manapathiEditor.observerUnactive("hint_classes");
                         link.classList.add('oe_edited_link');
                         $button.addClass('active');
-                        this.odooEditor.observerActive("hint_classes");
+                        this.manapathiEditor.observerActive("hint_classes");
                     };
                     const removeHintClasses = () => {
-                        this.odooEditor.observerUnactive("hint_classes");
+                        this.manapathiEditor.observerUnactive("hint_classes");
                         link.classList.remove('oe_edited_link');
                         $button.removeClass('active');
-                        this.odooEditor.observerActive("hint_classes");
+                        this.manapathiEditor.observerActive("hint_classes");
                     };
                     this.linkToolsInfos = {
                         onDestroy: () => {},
@@ -1470,7 +1470,7 @@ export class Wysiwyg extends Component {
                     this.state.linkToolProps = {
                         ...this.options.linkOptions,
                         wysiwyg: this,
-                        editable: this.odooEditor.editable,
+                        editable: this.manapathiEditor.editable,
                         link,
                         // If the link contains an image or an icon do not
                         // display the label input (e.g. some mega menu links).
@@ -1491,7 +1491,7 @@ export class Wysiwyg extends Component {
                 }
                 // update the shouldFocusUrl prop to focus on url when double click and click edit link
                 this.state.linkToolProps.shouldFocusUrl = shouldFocusUrl;
-                this.odooEditor.document.removeEventListener('click', this._onClick, true);
+                this.manapathiEditor.document.removeEventListener('click', this._onClick, true);
                 document.removeEventListener('click', this._onClick, true);
                 this._onClick = ev => {
                     if (
@@ -1504,30 +1504,30 @@ export class Wysiwyg extends Component {
                         // Destroy the link tools on click anywhere outside the
                         // toolbar if the target is the orgiginal target not in the original target.
                         this.destroyLinkTools();
-                        this.odooEditor.document.removeEventListener('click', this._onClick, true);
+                        this.manapathiEditor.document.removeEventListener('click', this._onClick, true);
                         document.removeEventListener('click', this._onClick, true);
                     }
                 };
-                this.odooEditor.document.addEventListener('click', this._onClick, true);
+                this.manapathiEditor.document.addEventListener('click', this._onClick, true);
                 document.addEventListener('click', this._onClick, true);
             } else {
                 this.destroyLinkTools();
             }
         } else {
-            const historyStepIndex = this.odooEditor.historySize() - 1;
-            this.odooEditor.historyPauseSteps();
+            const historyStepIndex = this.manapathiEditor.historySize() - 1;
+            this.manapathiEditor.historyPauseSteps();
             let { link } = getOrCreateLink({
-                containerNode: this.odooEditor.editable,
+                containerNode: this.manapathiEditor.editable,
                 startNode: options.link,
             });
             if (!link) {
-                this.odooEditor.historyUnpauseSteps();
+                this.manapathiEditor.historyUnpauseSteps();
                 return
             }
             this._shouldDelayBlur = true;
             this.env.services.dialog.add(LinkDialog, {
                 ...this.options.linkOptions,
-                editable: this.odooEditor.editable,
+                editable: this.manapathiEditor.editable,
                 link,
                 needLabel: true && !link.querySelector('img'),
                 focusField: link.innerHTML ? 'url' : '',
@@ -1540,15 +1540,15 @@ export class Wysiwyg extends Component {
                         data.rel = 'ugc';
                     }
                     data.linkDialog.applyLinkToDom(data);
-                    this.odooEditor.historyUnpauseSteps();
-                    this.odooEditor.historyStep();
+                    this.manapathiEditor.historyUnpauseSteps();
+                    this.manapathiEditor.historyStep();
                     const link = data.linkDialog.$link[0];
                     const linkIndex = childNodeIndex(link);
                     setSelection(link.parentElement, linkIndex+1, link.parentElement, linkIndex+1, false);
                 },
                 onClose: () => {
-                    this.odooEditor.historyUnpauseSteps();
-                    this.odooEditor.historyRevertUntil(historyStepIndex)
+                    this.manapathiEditor.historyUnpauseSteps();
+                    this.manapathiEditor.historyRevertUntil(historyStepIndex)
                 }
             });
         }
@@ -1561,23 +1561,23 @@ export class Wysiwyg extends Component {
      * @param {String} [options.language]
      */
     openChatGPTDialog(mode = 'prompt', options={}) {
-        const restore = preserveCursor(this.odooEditor.document);
+        const restore = preserveCursor(this.manapathiEditor.document);
         const params = {
             insert: content => {
-                this.odooEditor.historyPauseSteps();
-                const insertedNodes = this.odooEditor.execCommand('insert', content);
-                this.odooEditor.historyUnpauseSteps();
+                this.manapathiEditor.historyPauseSteps();
+                const insertedNodes = this.manapathiEditor.execCommand('insert', content);
+                this.manapathiEditor.historyUnpauseSteps();
                 this.notification.add(_t('Your content was successfully generated.'), {
                     title: _t('Content generated'),
                     type: 'success',
                 });
-                this.odooEditor.historyStep();
+                this.manapathiEditor.historyStep();
                 // Add a frame around the inserted content to highlight it for 2
                 // seconds.
                 const start = insertedNodes?.length && closestElement(insertedNodes[0]);
                 const end = insertedNodes?.length && closestElement(insertedNodes[insertedNodes.length - 1]);
                 if (start && end) {
-                    const divContainer = this.odooEditor.editable.parentElement;
+                    const divContainer = this.manapathiEditor.editable.parentElement;
                     let [parent, left, top] = [start.offsetParent, start.offsetLeft, start.offsetTop - start.scrollTop];
                     while (parent && !parent.contains(divContainer)) {
                         left += parent.offsetLeft;
@@ -1602,12 +1602,12 @@ export class Wysiwyg extends Component {
             },
         };
         if (mode === 'alternatives' || mode === 'translate') {
-            params.originalText = this.odooEditor.document.getSelection().toString() || '';
+            params.originalText = this.manapathiEditor.document.getSelection().toString() || '';
         }
         if (mode === 'translate') {
             params.language = options.language;
         }
-        this.odooEditor.document.getSelection().collapseToEnd();
+        this.manapathiEditor.document.getSelection().collapseToEnd();
         this.env.services.dialog.add(
             mode === 'prompt' ? ChatGPTPromptDialog : mode === 'translate' ? ChatGPTTranslateDialog : ChatGPTAlternativesDialog,
             params,
@@ -1620,10 +1620,10 @@ export class Wysiwyg extends Component {
     removeLink() {
         if (this.state.showSnippetsMenu && wysiwygUtils.isImg(this.lastElement)) {
             this.mutex.exec(() => {
-                this.odooEditor.dispatchEvent(new Event('deactivate_image_link_tool'));
+                this.manapathiEditor.dispatchEvent(new Event('deactivate_image_link_tool'));
             });
         } else {
-            this.odooEditor.execCommand('unlink');
+            this.manapathiEditor.execCommand('unlink');
         }
     }
     /**
@@ -1632,7 +1632,7 @@ export class Wysiwyg extends Component {
     // todo: review me
     async destroyLinkTools() {
         if (this.state.linkToolProps) {
-            const selection = this.odooEditor.document.getSelection();
+            const selection = this.manapathiEditor.document.getSelection();
             const link = this.linkToolsInfos.link;
             let anchorNode
             let focusNode;
@@ -1693,8 +1693,8 @@ export class Wysiwyg extends Component {
                 },
             },
         });
-        this.odooEditor.document.getSelection()?.collapseToEnd();
-        this.odooEditor.editable.blur();
+        this.manapathiEditor.document.getSelection()?.collapseToEnd();
+        this.manapathiEditor.editable.blur();
     }
     /**
      * Open the media dialog.
@@ -1707,7 +1707,7 @@ export class Wysiwyg extends Component {
      * @param {Class} [params.MediaDialog] Optional
      */
     openMediaDialog(params = {}) {
-        const sel = this.odooEditor.document.getSelection();
+        const sel = this.manapathiEditor.document.getSelection();
 
         if (!sel.rangeCount) {
             return;
@@ -1716,9 +1716,9 @@ export class Wysiwyg extends Component {
         // We lose the current selection inside the content editable when we
         // click the media dialog button so we need to be able to restore the
         // selection when the modal is closed.
-        const restoreSelection = preserveCursor(this.odooEditor.document);
+        const restoreSelection = preserveCursor(this.manapathiEditor.document);
 
-        const editable = ManapathiEditorLib.closestElement(params.node || range.startContainer, '.o_editable') || this.odooEditor.editable;
+        const editable = ManapathiEditorLib.closestElement(params.node || range.startContainer, '.o_editable') || this.manapathiEditor.editable;
         const { resModel, resId, field, type } = this._getRecordInfo(editable);
 
         this.env.services.dialog.add(params.MediaDialog || MediaDialog, {
@@ -1739,14 +1739,14 @@ export class Wysiwyg extends Component {
     }
     // todo: test me
     showEmojiPicker() {
-        const targetEl = this.odooEditor.document.getSelection();
+        const targetEl = this.manapathiEditor.document.getSelection();
         const closest = closestBlock(targetEl.anchorNode);
-        const restoreSelection = preserveCursor(this.odooEditor.document);
+        const restoreSelection = preserveCursor(this.manapathiEditor.document);
 
         this.popover.add(closest, EmojiPicker, {
                 onSelect: (str) => {
                     restoreSelection();
-                    this.odooEditor.execCommand('insert', str);
+                    this.manapathiEditor.execCommand('insert', str);
                 },
             }, {
                 onPositioned: (popover) => {
@@ -1810,7 +1810,7 @@ export class Wysiwyg extends Component {
             } else {
                 params.node.replaceWith(element);
             }
-            this.odooEditor.unbreakableStepUnactive();
+            this.manapathiEditor.unbreakableStepUnactive();
 
             if (params.node.matches(".oe_unremovable")) {
                 // The "oe_unremovable" class prevents element deletion and must
@@ -1819,20 +1819,20 @@ export class Wysiwyg extends Component {
                 // "historyStep" will block the replacement.
                 params.node.classList.remove("oe_unremovable");
                 element.classList.remove("oe_unremovable");
-                this.odooEditor.historyStep();
-                this.odooEditor.observerUnactive("unremovable");
+                this.manapathiEditor.historyStep();
+                this.manapathiEditor.observerUnactive("unremovable");
                 element.classList.add("oe_unremovable");
-                this.odooEditor.observerActive("unremovable");
+                this.manapathiEditor.observerActive("unremovable");
             } else {
-                this.odooEditor.historyStep();
+                this.manapathiEditor.historyStep();
             }
 
             // Refocus again to save updates when calling `_onWysiwygBlur`
-            this.odooEditor.editable.focus();
+            this.manapathiEditor.editable.focus();
         } else {
-            const result = this.odooEditor.execCommand('insert', element);
+            const result = this.manapathiEditor.execCommand('insert', element);
             // Refocus again to save updates when calling `_onWysiwygBlur`
-            this.odooEditor.editable.focus();
+            this.manapathiEditor.editable.focus();
             return result;
         }
 
@@ -1848,7 +1848,7 @@ export class Wysiwyg extends Component {
         }
     }
     getInSelection(selector) {
-        return getInSelection(this.odooEditor.document, selector);
+        return getInSelection(this.manapathiEditor.document, selector);
     }
     /**
      * Adds an empty action in the mutex. Can be used to wait for some options
@@ -1884,7 +1884,7 @@ export class Wysiwyg extends Component {
      * @returns {Promise<Component>}
      */
     async getSnippetsMenuClass() {
-        const snippetsEditor = await odoo.loader.modules.get('@web_editor/js/editor/snippets.editor')[Symbol.for('default')];
+        const snippetsEditor = await manapathi.loader.modules.get('@web_editor/js/editor/snippets.editor')[Symbol.for('default')];
         const { SnippetsMenu } = snippetsEditor;
         return SnippetsMenu;
     }
@@ -1960,7 +1960,7 @@ export class Wysiwyg extends Component {
                     break;
                 }
                 case 'open-chatgpt': {
-                    this.openChatGPTDialog(this.odooEditor.document.getSelection()?.isCollapsed ? 'prompt' : 'alternatives');
+                    this.openChatGPTDialog(this.manapathiEditor.document.getSelection()?.isCollapsed ? 'prompt' : 'alternatives');
                     break;
                 }
             }
@@ -2040,16 +2040,16 @@ export class Wysiwyg extends Component {
                 $image.removeData('transfo-destroy');
                 return;
             }
-            $image.transfo({document: this.odooEditor.document});
+            $image.transfo({document: this.manapathiEditor.document});
             const destroyTransfo = () => {
                 $image.transfo('destroy');
-                $(this.odooEditor.document).off('mousedown', mousedown).off('mouseup', mouseup);
-                this.odooEditor.document.removeEventListener('keydown', keydown);
+                $(this.manapathiEditor.document).off('mousedown', mousedown).off('mouseup', mouseup);
+                this.manapathiEditor.document.removeEventListener('keydown', keydown);
             }
             const mouseup = () => {
                 imgTransformBtn.classList.toggle('active', $image[0].matches('[style*="transform"]'));
             };
-            $(this.odooEditor.document).on('mouseup', mouseup);
+            $(this.manapathiEditor.document).on('mouseup', mouseup);
             const mousedown = mousedownEvent => {
                 if (!$(mousedownEvent.target).closest('.transfo-container').length) {
                     destroyTransfo();
@@ -2060,14 +2060,14 @@ export class Wysiwyg extends Component {
                 }
                 $image.trigger('content_changed');
             };
-            $(this.odooEditor.document).on('mousedown', mousedown);
+            $(this.manapathiEditor.document).on('mousedown', mousedown);
             const keydown = keydownEvent => {
                 if (keydownEvent.key === 'Escape') {
                     keydownEvent.stopImmediatePropagation();
                     destroyTransfo();
                 }
             };
-            this.odooEditor.document.addEventListener('keydown', keydown);
+            this.manapathiEditor.document.addEventListener('keydown', keydown);
         });
         $toolbar.find('#image-delete').click(e => {
             if (!this.lastMediaClicked) {
@@ -2078,7 +2078,7 @@ export class Wysiwyg extends Component {
             $(this.lastMediaClicked).remove();
             this.lastMediaClicked = undefined;
             setSelection(anchorNode, anchorOffset, anchorNode, anchorOffset);
-            this.odooEditor.toolbarHide();
+            this.manapathiEditor.toolbarHide();
         });
         $toolbar.find('#fa-resize div').click(e => {
             if (!this.lastMediaClicked) {
@@ -2104,8 +2104,8 @@ export class Wysiwyg extends Component {
         }
         this.imageCropProps.media = this.lastMediaClicked;
         this.imageCropProps.showCount++;
-        this.odooEditor.toolbarHide();
-        $(this.lastMediaClicked).on('image_cropper_destroyed', () => this.odooEditor.toolbarShow());
+        this.manapathiEditor.toolbarHide();
+        $(this.lastMediaClicked).on('image_cropper_destroyed', () => this.manapathiEditor.toolbarShow());
     }
     /**
      * @private
@@ -2114,7 +2114,7 @@ export class Wysiwyg extends Component {
      * @returns {String} color
      */
     _getSelectedColor($, colorType) {
-        const selection = this.odooEditor.document.getSelection();
+        const selection = this.manapathiEditor.document.getSelection();
         if (!selection) return;
         const range = selection.rangeCount && selection.getRangeAt(0);
         const targetNode = range && range.startContainer;
@@ -2139,14 +2139,14 @@ export class Wysiwyg extends Component {
         this.colorPalettesProps[colorType].resetTabCount++;
         this.colorPalettesProps[colorType].selectedColor = selectedColor;
 
-        const selection = this.odooEditor.document.getSelection();
+        const selection = this.manapathiEditor.document.getSelection();
         const range = selection.rangeCount && selection.getRangeAt(0);
         this.hadNonCollapsedSelectionBeforeColorpicker = range && !selection.isCollapsed;
 
         // The color_leave event will revert the mutations with
         // `historyRevertCurrentStep`. We must stash the current
         // mutations to prevent them from being reverted.
-        this.odooEditor.historyStash();
+        this.manapathiEditor.historyStash();
     }
     getColorPaletteTabChangeHandler(colorType) {
         return (selectedTab) => {
@@ -2157,7 +2157,7 @@ export class Wysiwyg extends Component {
         if (color && !isCSSColor(color) && !weUtils.isColorGradient(color)) {
             color = (colorType === "text" ? 'text-' : 'bg-') + color;
         }
-        const selectedTds = this.odooEditor.document.querySelectorAll('td.o_selected_td');
+        const selectedTds = this.manapathiEditor.document.querySelectorAll('td.o_selected_td');
         const applyTransparency =
             color.startsWith('#') && // Check for hex color.
             !selectedTds.length && // Do not apply to table cells.
@@ -2170,9 +2170,9 @@ export class Wysiwyg extends Component {
             const HEX_OPACITY = '99';
             color = color.concat(HEX_OPACITY);
         }
-        let coloredElements = this.odooEditor.execCommand('applyColor', color, colorType === 'text' ? 'color' : 'backgroundColor', this.lastMediaClicked);
+        let coloredElements = this.manapathiEditor.execCommand('applyColor', color, colorType === 'text' ? 'color' : 'backgroundColor', this.lastMediaClicked);
         // Some nodes returned by applyColor can be removed of the document by the sanitization in historyStep
-        coloredElements = coloredElements.filter(element => this.odooEditor.document.contains(element));
+        coloredElements = coloredElements.filter(element => this.manapathiEditor.document.contains(element));
 
         const coloredTds = coloredElements && coloredElements.length && Array.isArray(coloredElements) && coloredElements.filter(coloredElement => coloredElement.classList.contains('o_selected_td'));
         if (coloredTds.length) {
@@ -2187,12 +2187,12 @@ export class Wysiwyg extends Component {
             const first = coloredElements[0];
             const last = coloredElements[coloredElements.length - 1];
 
-            const sel = this.odooEditor.document.getSelection();
+            const sel = this.manapathiEditor.document.getSelection();
             const range = sel.getRangeAt(0);
             const isSelForward = sel.anchorNode === range.startContainer && sel.anchorOffset === range.startOffset;
             range.setStart(first, 0);
             range.setEnd(...endPos(last));
-                const { startContainer, startOffset, endContainer, endOffset } = getDeepRange(this.odooEditor.editable, { range });
+                const { startContainer, startOffset, endContainer, endOffset } = getDeepRange(this.manapathiEditor.editable, { range });
             if (isSelForward) {
                 sel.setBaseAndExtent(startContainer, startOffset, endContainer, endOffset);
             } else {
@@ -2201,7 +2201,7 @@ export class Wysiwyg extends Component {
         }
 
         const hexColor = this._colorToHex(color);
-        this.odooEditor.updateColorpickerLabels({
+        this.manapathiEditor.updateColorpickerLabels({
             [colorType === 'text' ? 'text' : 'hiliteColor']: hexColor,
         });
     }
@@ -2237,7 +2237,7 @@ export class Wysiwyg extends Component {
         // Override selectAll (CTRL+A) to restrict it to the editable zone / current snippet and prevent traceback.
         if (e && e.key === 'a' && (e.ctrlKey || e.metaKey)) {
             e.preventDefault();
-            const selection = this.odooEditor.document.getSelection();
+            const selection = this.manapathiEditor.document.getSelection();
             const containerSelector = '#wrap>*, .oe_structure>*, [contenteditable]';
             const container =
                 (selection &&
@@ -2257,20 +2257,20 @@ export class Wysiwyg extends Component {
      * Update any editor UI that is not handled by the editor itself.
      */
     _updateEditorUI(e) {
-        let selection = this.odooEditor.document.getSelection();
+        let selection = this.manapathiEditor.document.getSelection();
         if (!selection) return;
         const anchorNode = selection.anchorNode;
         if (isProtected(anchorNode)) {
             return;
         }
-        if (this.odooEditor.document.querySelector(".transfo-container")) {
+        if (this.manapathiEditor.document.querySelector(".transfo-container")) {
             return;
         }
 
-        this.odooEditor.automaticStepSkipStack();
+        this.manapathiEditor.automaticStepSkipStack();
         // We need to use the editor's window so the tooltip displays in its
         // document even if it's in an iframe.
-        const editorWindow = this.odooEditor.document.defaultView;
+        const editorWindow = this.manapathiEditor.document.defaultView;
         const $target = e ? editorWindow.$(e.target) : editorWindow.$();
         // Restore paragraph dropdown button's default ID.
         this.toolbarEl.querySelector('#mediaParagraphDropdownButton')?.setAttribute('id', 'paragraphDropdownButton');
@@ -2340,10 +2340,10 @@ export class Wysiwyg extends Component {
         // Unselect all media.
         this.$editable.find('.o_we_selected_image').removeClass('o_we_selected_image');
         if (isInMedia) {
-            this.odooEditor.automaticStepSkipStack();
+            this.manapathiEditor.automaticStepSkipStack();
             // Select the media in the DOM.
-            const selection = this.odooEditor.document.getSelection();
-            const range = this.odooEditor.document.createRange();
+            const selection = this.manapathiEditor.document.getSelection();
+            const range = this.manapathiEditor.document.createRange();
             range.selectNode(this.lastMediaClicked);
             selection.removeAllRanges();
             selection.addRange(range);
@@ -2374,7 +2374,7 @@ export class Wysiwyg extends Component {
             }, 400));
         }
         // Toolbar might have changed size, update its position.
-        this.odooEditor.updateToolbarPosition();
+        this.manapathiEditor.updateToolbarPosition();
         // Update color of already opened colorpickers.
         setTimeout(() => {
             for (const colorType in this.colorPalettesProps) {
@@ -2457,9 +2457,9 @@ export class Wysiwyg extends Component {
             priority: priority,
             description: description,
             fontawesome: iconClass,
-            isDisabled: () => isSelectionInSelectors('.o_editor_banner') || !this.odooEditor.isSelectionInBlockRoot(),
+            isDisabled: () => isSelectionInSelectors('.o_editor_banner') || !this.manapathiEditor.isSelectionInBlockRoot(),
             callback: () => {
-                const bannerElement = parseHTML(this.odooEditor.document, `
+                const bannerElement = parseHTML(this.manapathiEditor.document, `
                     <div class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-${alertClass} pb-0 pt-3" role="status" data-oe-protected="true">
                         <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${_t(title)}">${emoji}</i>
                         <div class="w-100 px-3" data-oe-protected="false">
@@ -2467,8 +2467,8 @@ export class Wysiwyg extends Component {
                         </div>
                     </div>
                 `).childNodes[0];
-                this.odooEditor.execCommand('insert', bannerElement);
-                this.odooEditor.activateContenteditable();
+                this.manapathiEditor.execCommand('insert', bannerElement);
+                this.manapathiEditor.activateContenteditable();
                 setSelection(bannerElement.querySelector('.o_editor_banner > div > p'), 0);
             },
         }
@@ -2531,9 +2531,9 @@ export class Wysiwyg extends Component {
                 priority: 30,
                 description: _t('Add a blockquote section'),
                 fontawesome: 'fa-quote-right',
-                isDisabled: () => !this.odooEditor.isSelectionInBlockRoot(),
+                isDisabled: () => !this.manapathiEditor.isSelectionInBlockRoot(),
                 callback: () => {
-                    this.odooEditor.execCommand('setTag', 'blockquote');
+                    this.manapathiEditor.execCommand('setTag', 'blockquote');
                 },
             },
             {
@@ -2542,9 +2542,9 @@ export class Wysiwyg extends Component {
                 priority: 20,
                 description: _t('Add a code section'),
                 fontawesome: 'fa-code',
-                isDisabled: () => !this.odooEditor.isSelectionInBlockRoot(),
+                isDisabled: () => !this.manapathiEditor.isSelectionInBlockRoot(),
                 callback: () => {
-                    this.odooEditor.execCommand('setTag', 'pre');
+                    this.manapathiEditor.execCommand('setTag', 'pre');
                 },
             },
             {
@@ -2552,7 +2552,7 @@ export class Wysiwyg extends Component {
                 name: _t('Signature'),
                 description: _t('Insert your signature'),
                 fontawesome: 'fa-pencil-square-o',
-                isDisabled: () => !this.odooEditor.isSelectionInBlockRoot(),
+                isDisabled: () => !this.manapathiEditor.isSelectionInBlockRoot(),
                 callback: async () => {
                     const [currentUser] = await this.orm.read(
                         'res.users',
@@ -2560,7 +2560,7 @@ export class Wysiwyg extends Component {
                         ['signature'],
                     );
                     if (currentUser && currentUser.signature) {
-                        this.odooEditor.execCommand('insert', parseHTML(this.odooEditor.document, currentUser.signature));
+                        this.manapathiEditor.execCommand('insert', parseHTML(this.manapathiEditor.document, currentUser.signature));
                     }
                 },
             },
@@ -2570,7 +2570,7 @@ export class Wysiwyg extends Component {
                 description: _t('Generate or transform content with AI.'),
                 fontawesome: 'fa-magic',
                 priority: 1,
-                isDisabled: () => !this.odooEditor.isSelectionInBlockRoot(),
+                isDisabled: () => !this.manapathiEditor.isSelectionInBlockRoot(),
                 callback: async () => this.openChatGPTDialog(),
             },
         ];
@@ -2582,12 +2582,12 @@ export class Wysiwyg extends Component {
                     priority: 13,
                     description: _t('Convert into 2 columns'),
                     fontawesome: 'fa-columns',
-                    callback: () => this.odooEditor.execCommand('columnize', 2, editorOptions.insertParagraphAfterColumns),
+                    callback: () => this.manapathiEditor.execCommand('columnize', 2, editorOptions.insertParagraphAfterColumns),
                     isDisabled: () => {
-                        if (!this.odooEditor.isSelectionInBlockRoot()) {
+                        if (!this.manapathiEditor.isSelectionInBlockRoot()) {
                             return true;
                         }
-                        const anchor = this.odooEditor.document.getSelection().anchorNode;
+                        const anchor = this.manapathiEditor.document.getSelection().anchorNode;
                         const row = closestElement(anchor, '.o_text_columns .row');
                         return row && row.childElementCount === 2;
                     },
@@ -2598,12 +2598,12 @@ export class Wysiwyg extends Component {
                     priority: 12,
                     description: _t('Convert into 3 columns'),
                     fontawesome: 'fa-columns',
-                    callback: () => this.odooEditor.execCommand('columnize', 3, editorOptions.insertParagraphAfterColumns),
+                    callback: () => this.manapathiEditor.execCommand('columnize', 3, editorOptions.insertParagraphAfterColumns),
                     isDisabled: () => {
-                        if (!this.odooEditor.isSelectionInBlockRoot()) {
+                        if (!this.manapathiEditor.isSelectionInBlockRoot()) {
                             return true;
                         }
-                        const anchor = this.odooEditor.document.getSelection().anchorNode;
+                        const anchor = this.manapathiEditor.document.getSelection().anchorNode;
                         const row = closestElement(anchor, '.o_text_columns .row');
                         return row && row.childElementCount === 3;
                     },
@@ -2614,12 +2614,12 @@ export class Wysiwyg extends Component {
                     priority: 11,
                     description: _t('Convert into 4 columns'),
                     fontawesome: 'fa-columns',
-                    callback: () => this.odooEditor.execCommand('columnize', 4, editorOptions.insertParagraphAfterColumns),
+                    callback: () => this.manapathiEditor.execCommand('columnize', 4, editorOptions.insertParagraphAfterColumns),
                     isDisabled: () => {
-                        if (!this.odooEditor.isSelectionInBlockRoot()) {
+                        if (!this.manapathiEditor.isSelectionInBlockRoot()) {
                             return true;
                         }
-                        const anchor = this.odooEditor.document.getSelection().anchorNode;
+                        const anchor = this.manapathiEditor.document.getSelection().anchorNode;
                         const row = closestElement(anchor, '.o_text_columns .row');
                         return row && row.childElementCount === 4;
                     },
@@ -2630,12 +2630,12 @@ export class Wysiwyg extends Component {
                     priority: 10,
                     description: _t('Back to one column'),
                     fontawesome: 'fa-columns',
-                    callback: () => this.odooEditor.execCommand('columnize', 0),
+                    callback: () => this.manapathiEditor.execCommand('columnize', 0),
                     isDisabled: () => {
-                        if (!this.odooEditor.isSelectionInBlockRoot()) {
+                        if (!this.manapathiEditor.isSelectionInBlockRoot()) {
                             return true;
                         }
-                        const anchor = this.odooEditor.document.getSelection().anchorNode;
+                        const anchor = this.manapathiEditor.document.getSelection().anchorNode;
                         const row = closestElement(anchor, '.o_text_columns .row');
                         return !row;
                     },
@@ -2888,7 +2888,7 @@ export class Wysiwyg extends Component {
             return Promise.resolve();
         }
 
-        // remove ZeroWidthSpace from odoo field value
+        // remove ZeroWidthSpace from manapathi field value
         // ZeroWidthSpace may be present from ManapathiEditor edition process
         let escapedHtml = this._getEscapedElement($el).prop('outerHTML');
 
@@ -2943,12 +2943,12 @@ export class Wysiwyg extends Component {
     }
     _onSelectionChange() {
         if (this.linkPopover && this.isSelectionInEditable()) {
-            const selectionInLink = getInSelection(this.odooEditor.document, 'a') === this.linkPopover.target;
+            const selectionInLink = getInSelection(this.manapathiEditor.document, 'a') === this.linkPopover.target;
             const isVisible = this.linkPopover.el.offsetParent;
             if (
                 isVisible &&
                 (
-                    (this.options.autohideToolbar && !this.odooEditor.document.getSelection().isCollapsed) ||
+                    (this.options.autohideToolbar && !this.manapathiEditor.document.getSelection().isCollapsed) ||
                     !selectionInLink
                 )
             ) {
@@ -2990,7 +2990,7 @@ export class Wysiwyg extends Component {
     _onScroll(ev) {
         if (ev.target.contains(this.$editable[0])) {
             this.scrollContainer = ev.target;
-            this.odooEditor.updateToolbarPosition();
+            this.manapathiEditor.updateToolbarPosition();
         }
     }
     _signalOffline() {
@@ -3010,7 +3010,7 @@ export class Wysiwyg extends Component {
         this.ptp.notifyAllClients('ptp_join');
         // Send last step to all peers. If the peers cannot add the step, they
         // will ask for missing steps.
-        this.ptp.notifyAllClients('oe_history_step', peek(this.odooEditor.historyGetSteps()), { transport: 'rtc' });
+        this.ptp.notifyAllClients('oe_history_step', peek(this.manapathiEditor.historyGetSteps()), { transport: 'rtc' });
     }
     /**
      * Process missing steps received from a peer.
@@ -3031,12 +3031,12 @@ export class Wysiwyg extends Component {
         if (missingSteps === -1 || !missingSteps.length) {
             return false;
         }
-        this.ptp && this.odooEditor.onExternalHistorySteps(missingSteps);
+        this.ptp && this.manapathiEditor.onExternalHistorySteps(missingSteps);
         return true;
     }
     _showConflictDialog() {
         if (this._conflictDialogOpened) return;
-        const content = markup(this.odooEditor.editable.cloneNode(true).outerHTML);
+        const content = markup(this.manapathiEditor.editable.cloneNode(true).outerHTML);
         this._conflictDialogOpened = true;
         this.env.services.dialog.add(ConflictDialog, {
             content,
@@ -3079,16 +3079,16 @@ export class Wysiwyg extends Component {
                 get_start_time: () => this._startCollaborationTime,
                 get_client_name: () => user.name,
                 get_client_avatar: () => `${browser.location.origin}/web/image?model=res.users&field=avatar_128&id=${encodeURIComponent(user.userId)}`,
-                get_missing_steps: (params) => this.odooEditor.historyGetMissingSteps(params.requestPayload),
+                get_missing_steps: (params) => this.manapathiEditor.historyGetMissingSteps(params.requestPayload),
                 get_history_from_snapshot: () => this._getHistorySnapshot(),
-                get_collaborative_selection: () => this.odooEditor.getCurrentCollaborativeSelection(),
+                get_collaborative_selection: () => this.manapathiEditor.getCurrentCollaborativeSelection(),
                 recover_document: (params) => {
                     const { serverDocumentId, fromStepId } = params.requestPayload;
-                    if (!this.odooEditor.historyGetBranchIds().includes(serverDocumentId)) {
+                    if (!this.manapathiEditor.historyGetBranchIds().includes(serverDocumentId)) {
                         return;
                     }
                     return {
-                        missingSteps: this.odooEditor.historyGetMissingSteps({ fromStepId }),
+                        missingSteps: this.manapathiEditor.historyGetMissingSteps({ fromStepId }),
                         snapshot: this._getHistorySnapshot(),
                     };
                 },
@@ -3096,11 +3096,11 @@ export class Wysiwyg extends Component {
             onNotification: async ({ fromClientId, notificationName, notificationPayload }) => {
                 switch (notificationName) {
                     case 'ptp_remove':
-                        this.odooEditor.multiselectionRemove(notificationPayload);
+                        this.manapathiEditor.multiselectionRemove(notificationPayload);
                         break;
                     case 'ptp_disconnect':
                         this.ptp.removeClient(fromClientId);
-                        this.odooEditor.multiselectionRemove(fromClientId);
+                        this.manapathiEditor.multiselectionRemove(fromClientId);
                         break;
                     case 'rtc_data_channel_open': {
                         fromClientId = notificationPayload.connectionClientId;
@@ -3124,7 +3124,7 @@ export class Wysiwyg extends Component {
                         } else {
                             // Make both send their last step to each other to
                             // ensure they are in sync.
-                            this.ptp.notifyAllClients('oe_history_step', peek(this.odooEditor.historyGetSteps()), { transport: 'rtc' });
+                            this.ptp.notifyAllClients('oe_history_step', peek(this.manapathiEditor.historyGetSteps()), { transport: 'rtc' });
                             this._setCollaborativeSelection(fromClientId);
                         }
 
@@ -3133,21 +3133,21 @@ export class Wysiwyg extends Component {
                         ).then((clientName) => {
                             if (clientName === REQUEST_ERROR) return;
                             this.ptp.clientsInfos[fromClientId].clientName = clientName;
-                            this.odooEditor.multiselectionRefresh();
+                            this.manapathiEditor.multiselectionRefresh();
                         });
                         const getClientAvatar = this.requestClient(
                             fromClientId, 'get_client_avatar', undefined, { transport: 'rtc' }
                         ).then(clientAvatarUrl => {
                             if (clientAvatarUrl === REQUEST_ERROR) return;
                             this.ptp.clientsInfos[fromClientId].clientAvatarUrl = clientAvatarUrl;
-                            this.odooEditor.multiselectionRefresh();
+                            this.manapathiEditor.multiselectionRefresh();
                         });
                         await Promise.all([getClientAvatar, getClientNamePromise]);
                         break;
                     }
                     case 'oe_history_step':
                         if (this._historySyncFinished) {
-                            this.odooEditor.onExternalHistorySteps([notificationPayload]);
+                            this.manapathiEditor.onExternalHistorySteps([notificationPayload]);
                         } else {
                             this._historyStepsBuffer.push(notificationPayload);
                         }
@@ -3160,7 +3160,7 @@ export class Wysiwyg extends Component {
                         const selection = notificationPayload;
                         selection.clientName = client.clientName;
                         selection.clientAvatarUrl = client.clientAvatarUrl;
-                        this.odooEditor.onExternalMultiselectionUpdate(selection);
+                        this.manapathiEditor.onExternalMultiselectionUpdate(selection);
                         break;
                     }
                 }
@@ -3195,7 +3195,7 @@ export class Wysiwyg extends Component {
         const remoteSelection = await this.requestClient(fromClientId, 'get_collaborative_selection', undefined, { transport: 'rtc' });
         if (remoteSelection === REQUEST_ERROR) return;
         if (remoteSelection) {
-            this.odooEditor.onExternalMultiselectionUpdate(remoteSelection);
+            this.manapathiEditor.onExternalMultiselectionUpdate(remoteSelection);
         }
     }
     /**
@@ -3217,7 +3217,7 @@ export class Wysiwyg extends Component {
         if (!this._serverLastStepId) {
             return false;
         }
-        return !this.odooEditor.historyGetBranchIds().includes(this._serverLastStepId);
+        return !this.manapathiEditor.historyGetBranchIds().includes(this._serverLastStepId);
     }
     /**
      * Update the server document last step id and recover from a stale document
@@ -3288,7 +3288,7 @@ export class Wysiwyg extends Component {
                     peerId,
                     'recover_document', {
                         serverDocumentId: this._serverLastStepId,
-                        fromStepId: peek(this.odooEditor.historyGetBranchIds()),
+                        fromStepId: peek(this.manapathiEditor.historyGetBranchIds()),
                     },
                     { transport: 'rtc' }
                 ).then((response) => {
@@ -3374,7 +3374,7 @@ export class Wysiwyg extends Component {
         const content = record[this.options.collaborationChannel.collaborationFieldName];
         const lastHistoryId = content && this._getLastHistoryStepId(content);
         // If a change was made in the document while retrieving it, the
-        // lastHistoryId will be different if the odoo bus did not have time to
+        // lastHistoryId will be different if the manapathi bus did not have time to
         // notify the user.
         if (this._serverLastStepId !== lastHistoryId) {
             // todo: instrument it to ensure it never happens
@@ -3431,7 +3431,7 @@ export class Wysiwyg extends Component {
         this._historySyncFinished = true;
         // In case there are steps received in the meantime, process them.
         if (this._historyStepsBuffer.length) {
-            this.odooEditor.onExternalHistorySteps(this._historyStepsBuffer);
+            this.manapathiEditor.onExternalHistorySteps(this._historyStepsBuffer);
             this._historyStepsBuffer = [];
         }
         this.options.onHistoryResetFromSteps();
@@ -3451,11 +3451,11 @@ export class Wysiwyg extends Component {
      */
     async resetValue(value) {
         this.setValue(value);
-        this.odooEditor.historyReset();
+        this.manapathiEditor.historyReset();
         this._historyShareId = Math.floor(Math.random() * Math.pow(2,52)).toString();
         this._serverLastStepId = value && this._getLastHistoryStepId(value);
         if (this._serverLastStepId) {
-            this.odooEditor.historySetInitialId(this._serverLastStepId);
+            this.manapathiEditor.historySetInitialId(this._serverLastStepId);
         }
     }
     /**
@@ -3479,7 +3479,7 @@ export class Wysiwyg extends Component {
             return;
         }
         this._currentClientId = this._generateClientId();
-        this.odooEditor.collaborationSetClientId(this._currentClientId);
+        this.manapathiEditor.collaborationSetClientId(this._currentClientId);
         this.resetValue(value);
         this.setupCollaboration(collaborationChannel);
         if (this.options.collaborativeTrigger === 'start') {
@@ -3494,7 +3494,7 @@ export class Wysiwyg extends Component {
     _getHistorySnapshot() {
         return Object.assign(
             {},
-            this.odooEditor.historyGetSnapshotSteps(),
+            this.manapathiEditor.historyGetSnapshotSteps(),
             { historyShareId: this._historyShareId }
         );
     }
@@ -3508,8 +3508,8 @@ export class Wysiwyg extends Component {
         }
         this._historyShareId = historyShareId;
         this._historySyncAtLeastOnce = true;
-        this.odooEditor.historyResetFromSteps(steps, historyIds);
-        this.odooEditor.historyResetLatestComputedSelection();
+        this.manapathiEditor.historyResetFromSteps(steps, historyIds);
+        this.manapathiEditor.historyResetLatestComputedSelection();
         return true;
     }
     /**
@@ -3520,7 +3520,7 @@ export class Wysiwyg extends Component {
     _onPostSanitize(node) {
         // _fixLinkMutatedElements check to be removed after the new link edge
         // solution is merged.
-        if (node?.querySelectorAll && this.odooEditor && !this.odooEditor._fixLinkMutatedElements) {
+        if (node?.querySelectorAll && this.manapathiEditor && !this.manapathiEditor._fixLinkMutatedElements) {
             // TODO rethink o_editable as a content-editable marker without
             // breaking the o_editable behaviors (website, mass_mailing, ...)
             for (const element of node.querySelectorAll('.o_not_editable')) {
@@ -3530,14 +3530,14 @@ export class Wysiwyg extends Component {
             }
         }
     }
-    _attachHistoryIds(editable = this.odooEditor.editable) {
+    _attachHistoryIds(editable = this.manapathiEditor.editable) {
         if (this.options.collaborative) {
             // clean existig 'data-last-history-steps' attributes
             editable.querySelectorAll('[data-last-history-steps]').forEach(
                 el => el.removeAttribute('data-last-history-steps')
             );
 
-            const historyIds = this.odooEditor.historyGetBranchIds().join(',');
+            const historyIds = this.manapathiEditor.historyGetBranchIds().join(',');
             const firstChild = editable.children[0];
             if (firstChild) {
                 firstChild.setAttribute('data-last-history-steps', historyIds);

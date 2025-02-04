@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 import websiteSaleAddress from '@website_sale/js/address';
 

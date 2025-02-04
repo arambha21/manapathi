@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 import './commands/deleteBackward.js';
 import './commands/deleteForward.js';
@@ -276,7 +276,7 @@ export class ManapathiEditor extends EventTarget {
                 showExtendedTextStylesOptions: false,
                 autoActivateContentEditable: true,
                 // TODO probably move `getCSSVariableValue` and
-                // `convertNumericToUnit` as odoo-editor utils to avoid this
+                // `convertNumericToUnit` as manapathi-editor utils to avoid this
                 getCSSVariableValue: () => null,
                 convertNumericToUnit: x => x,
             },
@@ -341,7 +341,7 @@ export class ManapathiEditor extends EventTarget {
         editable.oid = 'root';
         this._idToNodeMap.set(1, editable);
         this.editable = editable;
-        this.editable.classList.add("odoo-editor-editable");
+        this.editable.classList.add("manapathi-editor-editable");
         if (this.options.toSanitize) {
             sanitize(editable);
             this.options.onPostSanitize(editable);
@@ -2111,7 +2111,7 @@ export class ManapathiEditor extends EventTarget {
     /**
      * `activateContenteditable` serves as an interface for external use,
      * allowing users to conveniently trigger `_activateContenteditable`
-     * from outside the odooEditor.
+     * from outside the manapathiEditor.
      */
     activateContenteditable() {
         this.canActivateContentEditable = true;
@@ -4154,11 +4154,11 @@ export class ManapathiEditor extends EventTarget {
         }
         const dataHtmlElement = document.createElement('data');
         dataHtmlElement.append(rangeContent);
-        const odooHtml = dataHtmlElement.innerHTML.replace(/\uFEFF/g, "");
-        const odooText = selection.toString().replace(/\uFEFF/g, "");
-        clipboardEvent.clipboardData.setData('text/plain', odooText);
-        clipboardEvent.clipboardData.setData('text/html', odooHtml);
-        clipboardEvent.clipboardData.setData('text/odoo-editor', odooHtml);
+        const manapathiHtml = dataHtmlElement.innerHTML.replace(/\uFEFF/g, "");
+        const manapathiText = selection.toString().replace(/\uFEFF/g, "");
+        clipboardEvent.clipboardData.setData('text/plain', manapathiText);
+        clipboardEvent.clipboardData.setData('text/html', manapathiHtml);
+        clipboardEvent.clipboardData.setData('text/manapathi-editor', manapathiHtml);
     }
     /**
      * @private
@@ -4565,7 +4565,7 @@ export class ManapathiEditor extends EventTarget {
         let currentNode = closestElement(selection.anchorNode);
         while (
             !currentNode.classList.contains('o_editable') &&
-            !currentNode.classList.contains('odoo-editor-editable') &&
+            !currentNode.classList.contains('manapathi-editor-editable') &&
             !selectionInBlockRoot
             ) {
             selectionInBlockRoot = isBlock(currentNode);
@@ -5203,7 +5203,7 @@ export class ManapathiEditor extends EventTarget {
         }
         ev.preventDefault();
         const files = getImageFiles(ev.clipboardData);
-        const odooEditorHtml = ev.clipboardData.getData('text/odoo-editor');
+        const manapathiEditorHtml = ev.clipboardData.getData('text/manapathi-editor');
         const clipboardHtml = ev.clipboardData.getData('text/html');
         const targetSupportsHtmlContent = isHtmlContentSupported(sel.anchorNode);
         // Replace entire link if its label is fully selected.
@@ -5216,8 +5216,8 @@ export class ManapathiEditor extends EventTarget {
         if (!targetSupportsHtmlContent) {
             const text = ev.clipboardData.getData("text/plain");
             this._applyCommand("insert", text);
-        } else if (odooEditorHtml) {
-            const fragment = parseHTML(this.document, odooEditorHtml);
+        } else if (manapathiEditorHtml) {
+            const fragment = parseHTML(this.document, manapathiEditorHtml);
             const selector = this.options.renderingClasses.map(c => `.${c}`).join(',');
             if (selector) {
                 for (const element of fragment.querySelectorAll(selector)) {

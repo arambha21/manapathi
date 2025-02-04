@@ -15,7 +15,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Piia Paurson <piia@avalah.ee>, 2024\n"
-"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Language-Team: Estonian (https://app.transifex.com/manapathi/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -28,31 +28,31 @@ msgid "Bank Accounts"
 msgstr "Pangakontod"
 
 #. module: account_qr_code_sepa
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_qr_code_sepa/models/res_bank.py:0
 msgid "Can't generate a SEPA QR Code with the %s currency."
 msgstr "SEPA QR-koodi ei saa luua %s valuutaga."
 
 #. module: account_qr_code_sepa
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_qr_code_sepa/models/res_bank.py:0
 msgid "Can't generate a SEPA QR code if the account type isn't IBAN."
 msgstr "SEPA QR-koodi ei saa luua, kui konto tüüp ei ole IBAN."
 
 #. module: account_qr_code_sepa
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_qr_code_sepa/models/res_bank.py:0
 msgid "Can't generate a SEPA QR code with a non SEPA iban."
 msgstr "Ei saa luua SEPA QR-koodi ilma SEPA IBAN-ta."
 
 #. module: account_qr_code_sepa
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_qr_code_sepa/models/res_bank.py:0
 msgid "SEPA Credit Transfer QR"
 msgstr "SEPA Pangaülekande QR"
 
 #. module: account_qr_code_sepa
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_qr_code_sepa/models/res_bank.py:0
 msgid ""
 "The account receiving the payment must have an account holder name or "

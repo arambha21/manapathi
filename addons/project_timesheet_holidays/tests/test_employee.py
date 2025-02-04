@@ -3,7 +3,7 @@
 
 from freezegun import freeze_time
 
-from odoo.tests import TransactionCase, tagged
+from manapathi.tests import TransactionCase, tagged
 
 
 @tagged('post_install', '-at_install')

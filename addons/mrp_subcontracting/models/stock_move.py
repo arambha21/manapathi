@@ -3,10 +3,10 @@
 
 from collections import defaultdict
 
-from odoo import fields, models, api, _
-from odoo.exceptions import AccessError
-from odoo.tools.float_utils import float_compare, float_is_zero, float_round
-from odoo.tools.misc import OrderedSet
+from manapathi import fields, models, api, _
+from manapathi.exceptions import AccessError
+from manapathi.tools.float_utils import float_compare, float_is_zero, float_round
+from manapathi.tools.misc import OrderedSet
 
 
 class StockMove(models.Model):

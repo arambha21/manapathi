@@ -1,8 +1,8 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import http, _
-from odoo.http import request
-from odoo.addons.account.controllers.download_docs import _get_headers
+from manapathi import http, _
+from manapathi.http import request
+from manapathi.addons.account.controllers.download_docs import _get_headers
 
 
 class EfakturDownloadController(http.Controller):

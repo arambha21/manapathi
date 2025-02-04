@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2024\n"
-"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://app.transifex.com/manapathi/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid ""
 "%(credit_count)d credits will be consumed to find %(company_count)d "
@@ -190,7 +190,7 @@ msgid "Countries"
 msgstr "Quốc gia"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "Create a Lead Mining Request"
 msgstr "Tạo một yêu cầu khai thác lead"
@@ -311,7 +311,7 @@ msgid "From"
 msgstr "Từ"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_case_kanban_view_leads
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
@@ -322,7 +322,7 @@ msgid "Generate Leads"
 msgstr "Tạo lead"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "Generate new leads based on their country, industry, size, etc."
 msgstr "Tạo lead mới dựa trên quốc gia, ngành nghề, quy mô,..."
@@ -474,7 +474,7 @@ msgid "Legal"
 msgstr "Hợp pháp"
 
 #. module: crm_iap_mine
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
 msgid ""
 "Looking for more opportunities?<br>Try the <b>Lead Generation</b> tool."
@@ -508,13 +508,13 @@ msgid "Name already exists!"
 msgstr "Tên đã tồn tại!"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_lead.py:0
 msgid "Need help reaching your target?"
 msgstr "Bạn cần trợ giúp để đạt chỉ tiêu của mình?"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "New"
 msgstr "Mới"
@@ -525,7 +525,7 @@ msgid "No Result"
 msgstr "Không có kết quả"
 
 #. module: crm_iap_mine
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
 msgid "Now, just let the magic happen!"
 msgstr "Bây giờ, chỉ cần chờ điều kỳ diệu xảy ra!"
@@ -558,7 +558,7 @@ msgid "Opportunities"
 msgstr "Cơ hội"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "Opportunity created by Manapathi Lead Generation"
 msgstr "Cơ hội được tạo bởi chức năng tạo lead của Manapathi"
@@ -745,7 +745,7 @@ msgid "Telecommunication Services"
 msgstr "Dịch vụ viễn thông"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "This makes a total of %d credits for this request."
 msgstr "Như vậy tổng cộng là %d tín dụng cho yêu cầu này."
@@ -762,7 +762,7 @@ msgid "Type"
 msgstr "Loại"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid ""
 "Up to %(credit_count)d additional credits will be consumed to identify "
@@ -772,7 +772,7 @@ msgstr ""
 "%(contact_count)d liên hệ cho mỗi công ty. "
 
 #. module: crm_iap_mine
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
 msgid "Which Industry do you want to target?"
 msgstr "Bạn muốn nhắm mục tiêu tới ngành nghề nào? "
@@ -783,7 +783,7 @@ msgid "You do not have enough credits to submit this request."
 msgstr "Bạn không có đủ tín dụng để gửi yêu cầu này. "
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "Your request could not be executed: %s"
 msgstr "Không thể thực thi yêu cầu của bạn: %s"

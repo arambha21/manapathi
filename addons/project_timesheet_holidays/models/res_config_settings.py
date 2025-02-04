@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models
+from manapathi import api, fields, models
 
 
 class ResConfigSettings(models.TransientModel):

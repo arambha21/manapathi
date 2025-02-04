@@ -2,9 +2,9 @@
 
 from collections import defaultdict
 
-from odoo import models, fields, api, _
-from odoo.exceptions import UserError, ValidationError
-from odoo.tools.sql import column_exists, create_column, drop_index, index_exists
+from manapathi import models, fields, api, _
+from manapathi.exceptions import UserError, ValidationError
+from manapathi.tools.sql import column_exists, create_column, drop_index, index_exists
 
 
 class AccountMove(models.Model):

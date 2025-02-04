@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<manapathi>
     <record id="peppol_registration_form" model="ir.ui.view">
         <field name="name">peppol.registration.form</field>
         <field name="model">peppol.registration</field>
@@ -50,4 +50,4 @@
             </form>
         </field>
     </record>
-</odoo>
+</manapathi>

@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
 "Adding %(user_name)s in this team will remove them from %(team_names)s. "
@@ -73,7 +73,7 @@ msgid ""
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid ""
 "Adding %(user_names)s in this team will remove them from %(team_names)s."
@@ -106,7 +106,7 @@ msgid "Avatar"
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Big Pretty Button :)"
 msgstr ""
@@ -117,7 +117,7 @@ msgid "CRM Tag"
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Cannot delete default team \"%s\""
 msgstr ""
@@ -499,7 +499,7 @@ msgid "Salesteams Search"
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Sample data"
 msgstr ""
@@ -602,7 +602,7 @@ msgid "UX: Limit to team company or all if no company"
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Undefined graph model for Sales Team: %s"
 msgstr ""
@@ -669,14 +669,14 @@ msgid "Website"
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid ""
 "Working in multiple teams? Activate the option under Configuration>Settings."
 msgstr ""
 
 #. module: sales_team
-#. odoo-python
+#. manapathi-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
 "You are trying to create duplicate membership(s). We found that "

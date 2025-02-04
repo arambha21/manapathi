@@ -2,12 +2,12 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 from datetime import datetime, timedelta
 
-from odoo import models, api, fields
-from odoo.fields import Datetime as FieldDateTime
+from manapathi import models, api, fields
+from manapathi.fields import Datetime as FieldDateTime
 from dateutil.relativedelta import relativedelta
-from odoo.tools.translate import _
-from odoo.exceptions import UserError
-from odoo.osv.expression import AND
+from manapathi.tools.translate import _
+from manapathi.exceptions import UserError
+from manapathi.osv.expression import AND
 
 
 class AccountClosing(models.Model):

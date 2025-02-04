@@ -25,7 +25,7 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025\n"
-"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"Language-Team: Finnish (https://app.transifex.com/manapathi/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -33,7 +33,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid ""
 "%(credit_count)d credits will be consumed to find %(company_count)d "
@@ -201,7 +201,7 @@ msgid "Countries"
 msgstr "Maat"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "Create a Lead Mining Request"
 msgstr "Luo liidin kalastelupyyntö"
@@ -322,7 +322,7 @@ msgid "From"
 msgstr "Alkaa"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_case_kanban_view_leads
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
@@ -333,7 +333,7 @@ msgid "Generate Leads"
 msgstr "Luo liidejä"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "Generate new leads based on their country, industry, size, etc."
 msgstr "Luo uusia liidejä perustuen maahan, toimialaan, kokoon, yms."
@@ -486,7 +486,7 @@ msgid "Legal"
 msgstr "Laillinen"
 
 #. module: crm_iap_mine
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
 msgid ""
 "Looking for more opportunities?<br>Try the <b>Lead Generation</b> tool."
@@ -521,13 +521,13 @@ msgid "Name already exists!"
 msgstr "Samanniminen suodatin on jo olemassa!"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_lead.py:0
 msgid "Need help reaching your target?"
 msgstr "Tarvitsetko apua tavoitteen saavuttamisessa?"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "New"
 msgstr "Uusi"
@@ -538,7 +538,7 @@ msgid "No Result"
 msgstr "Ei tulosta"
 
 #. module: crm_iap_mine
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
 msgid "Now, just let the magic happen!"
 msgstr "Odota, ja anna taian vaikuttaa!"
@@ -571,7 +571,7 @@ msgid "Opportunities"
 msgstr "Mahdollisuudet"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "Opportunity created by Manapathi Lead Generation"
 msgstr "Manapathi Lead Generationin luoma myyntimahdollisuus"
@@ -758,7 +758,7 @@ msgid "Telecommunication Services"
 msgstr "Televiestintäpalvelut"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "This makes a total of %d credits for this request."
 msgstr "Tämä tarkoittaa yhteensä %d krediittiä pyyntöä varten."
@@ -775,7 +775,7 @@ msgid "Type"
 msgstr "Tyyppi"
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid ""
 "Up to %(credit_count)d additional credits will be consumed to identify "
@@ -785,7 +785,7 @@ msgstr ""
 "yhteyshenkilön tunnistamiseen yritystä kohden."
 
 #. module: crm_iap_mine
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
 msgid "Which Industry do you want to target?"
 msgstr "Mihin toimialaan haluat kohdistaa?"
@@ -796,7 +796,7 @@ msgid "You do not have enough credits to submit this request."
 msgstr "Sinulla ei ole tarpeeksi krediittejä tämän pyynnön lähettämiseen."
 
 #. module: crm_iap_mine
-#. odoo-python
+#. manapathi-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 msgid "Your request could not be executed: %s"
 msgstr "Pyyntöäsi ei voitu toteuttaa: %s"

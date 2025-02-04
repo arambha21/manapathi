@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError, ValidationError
+from manapathi import api, fields, models, _
+from manapathi.exceptions import UserError, ValidationError
 
 import re
 

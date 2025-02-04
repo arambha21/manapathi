@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.sms.tests.common import SMSCommon
-from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
+from manapathi.addons.sms.tests.common import SMSCommon
+from manapathi.addons.test_mail_sms.tests.common import TestSMSRecipients
 
 
 class TestSmsTemplate(SMSCommon, TestSMSRecipients):

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
-import odoo
+import manapathi
 
-from odoo.addons.point_of_sale.tests.common import TestPoSCommon
+from manapathi.addons.point_of_sale.tests.common import TestPoSCommon
 
 
-@odoo.tests.tagged('post_install', '-at_install')
+@manapathi.tests.tagged('post_install', '-at_install')
 class TestPoSSaleMarginReport(TestPoSCommon):
 
     def setUp(self):

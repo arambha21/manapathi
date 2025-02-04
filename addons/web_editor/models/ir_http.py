@@ -1,7 +1,7 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models
-from odoo.http import request
+from manapathi import models
+from manapathi.http import request
 
 
 CONTEXT_KEYS = ['editable', 'edit_translations', 'translatable']

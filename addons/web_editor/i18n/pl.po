@@ -3,8 +3,8 @@
 # 	* web_editor
 # 
 # Translators:
-# Paweł Wodyński <pw@myodoo.pl>, 2024
-# Maksym <ms@myodoo.pl>, 2024
+# Paweł Wodyński <pw@mymanapathi.pl>, 2024
+# Maksym <ms@mymanapathi.pl>, 2024
 # Wil Manapathi, 2024
 # Interactive AV-IT, 2024
 # Marta Wacławek, 2025
@@ -16,7 +16,7 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
-"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+"Language-Team: Polish (https://app.transifex.com/manapathi/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -24,25 +24,25 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "%spx"
 msgstr "%spx"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "%spx (Original)"
 msgstr "%spx (Oryginał)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "%spx (Suggested)"
 msgstr "%spx (sugerowane)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid ""
@@ -54,26 +54,26 @@ msgstr ""
 "ekranu...)."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "'Title tag' is shown as a tooltip when you hover the picture."
 msgstr "\"Tag tytułu\" jest wyświetlany jako tooltip po najechaniu na obrazek."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 msgid "(ALT Tag)"
 msgstr "(ALT Tag)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 msgid "(TITLE Tag)"
 msgstr "(Tag TYTUŁU)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "(URL or Embed)"
 msgstr "(URL lub osadź)"
@@ -89,14 +89,14 @@ msgid "1977"
 msgstr "1977"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "1x"
 msgstr "1x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "2 columns"
 msgstr "2 kolumny"
@@ -112,47 +112,47 @@ msgid "25%"
 msgstr "25%"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "2x"
 msgstr "2x"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "3 Stars"
 msgstr "3 Gwiazdki"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "3 columns"
 msgstr "3 kolumny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "3x"
 msgstr "3x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "4 columns"
 msgstr "4 kolumny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "4x"
 msgstr "4x"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "5 Stars"
 msgstr "5 Gwiazdek"
 
@@ -162,7 +162,7 @@ msgid "50%"
 msgstr "50%"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "5x"
@@ -220,87 +220,87 @@ msgid "<span class=\"w-100\">Linear</span>"
 msgstr "<span class=\"w-100\">Liniowe</span>"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "ACCESS OPTIONS ANYWAY"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 msgid "AI Copywriter"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "AI Tools"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Above"
 msgstr "Nad"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Accepts"
 msgstr "Akceptuje"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.xml:0
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Add"
 msgstr "Dodaj"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Add Column"
 msgstr "Dodaj kolumnę"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Add Row"
 msgstr "Dodaj wiersz"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.js:0
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Add URL"
 msgstr "Dodaj link"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a blockquote section"
 msgstr "Dodaj sekcję cytatów blokowych"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a button"
 msgstr "Dodaj przycisk"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a code section"
 msgstr "Dodaj sekcję kodu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a link"
 msgstr "Dodaj link"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add an emoji"
 msgstr "Dodaj emoji"
@@ -321,7 +321,7 @@ msgid "Airy &amp; Zigs"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "Alert"
 msgstr "Ostrzeżenie"
@@ -347,25 +347,25 @@ msgid "Alignment"
 msgstr "Wyrównanie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "All"
 msgstr "Wszystko"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.js:0
 msgid "All documents have been loaded"
 msgstr "Wszystkie dokumenty zostały załadowane"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "All images have been loaded"
 msgstr "Wszystkie obrazki zostały załadowane"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Allow users to view and edit the field in HTML."
 msgstr ""
@@ -376,7 +376,7 @@ msgid "Alt tag"
 msgstr "Alt tag"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "An error occurred while fetching the entered URL."
 msgstr ""
@@ -387,38 +387,38 @@ msgid "Angle"
 msgstr "Kąt"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Animated"
 msgstr "Animowane"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Anonymous"
 msgstr "Anonimowo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Apply"
 msgstr "Zastosuj"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Are you sure you want to delete the block %s?"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "Are you sure you want to delete this file?"
 msgstr "Czy na pewno chcesz usunąć ten plik?"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Aspect Ratio"
 msgstr "Proporcje obrazu"
@@ -429,25 +429,25 @@ msgid "Assets Utils"
 msgstr "Assets Utils"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Autoconvert to Relative Link"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Autoconvert to relative link"
 msgstr "Automatycznie konwertuj na link względny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Autoplay"
 msgstr "Autoplay"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Back to one column"
 msgstr "Powrót do jednej kolumny"
@@ -458,7 +458,7 @@ msgid "Background"
 msgstr "Tło"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Background Color"
@@ -475,31 +475,31 @@ msgid "Background Shapes"
 msgstr "Kształty tła"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Danger"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Info"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Success"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Warning"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banners"
 msgstr ""
@@ -510,20 +510,20 @@ msgid "Base"
 msgstr "Baza"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Basic blocks"
 msgstr "Bloki podstawowe"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Below"
 msgstr "Pod"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Big section heading"
 msgstr "Duży nagłówek sekcji"
 
@@ -533,7 +533,7 @@ msgid "Blobs"
 msgstr "Plamki"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Block"
 msgstr "Blokuj"
@@ -544,7 +544,7 @@ msgid "Block &amp; Rainy"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Blocks"
 msgstr "Bloki"
@@ -565,25 +565,25 @@ msgid "Bold"
 msgstr "Pogrubienie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border"
 msgstr "Obramowanie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border Color"
 msgstr "Kolor obramowania"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border Style"
 msgstr "Styl obramowania"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border Width"
 msgstr "Grubość obramowania"
@@ -604,13 +604,13 @@ msgid "Brushed"
 msgstr "Szczotkowany"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Bulleted list"
 msgstr "Lista punktowana"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
@@ -618,25 +618,25 @@ msgid "Button"
 msgstr "Przycisk"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 msgid "Button Primary"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 msgid "Button Secondary"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "CSS Edit"
 msgstr "Edycja CSS"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
@@ -649,62 +649,62 @@ msgid "Center"
 msgstr "Centrum"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 msgid "Change media description and tooltip"
 msgstr "Zmień opis mediów i etykietkę narzędzi"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "ChatGPT"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Checklist"
 msgstr "Lista kontrolna"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Choose a record..."
 msgstr "Wybierz zapis"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_progress_toast.xml:0
 msgid "Close"
 msgstr "Zamknij"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Code"
 msgstr "Kod"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Codeview"
 msgstr "Przegląd kodu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Collaborative edition"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Collaborative trigger"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_color_widget
@@ -724,14 +724,14 @@ msgid "Colors"
 msgstr "Kolory"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Column"
 msgstr "Kolumna"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg_colorpicker.xml:0
 msgid "Common colors"
 msgstr "Wspólne kolory"
@@ -747,19 +747,19 @@ msgid "Composition"
 msgstr "Kompozycja"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Confirm"
 msgstr "Potwierdź"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid "Content conflict"
 msgstr "Konflikt treści"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Content generated"
 msgstr ""
@@ -770,37 +770,37 @@ msgid "Contrast"
 msgstr "Kontrast"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Convert into 2 columns"
 msgstr "Konwersja na 2 kolumny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Convert into 3 columns"
 msgstr "Konwersja na 3 kolumny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Convert into 4 columns"
 msgstr "Konwersja na 4 kolumny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Copy-paste your URL or embed code here"
 msgstr "Skopiuj i wklej tutaj swój adres URL lub kod do osadzania"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Could not install module %s"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_service.js:0
 msgid "Could not load the file \"%s\"."
 msgstr ""
@@ -811,26 +811,26 @@ msgid "Cover"
 msgstr "Okładka"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Create"
 msgstr "Utwórz"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Create a list with numbering"
 msgstr "Utwórz listę z numeracją"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Create a simple bulleted list"
 msgstr "Utwórz prostą listę punktowaną"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Create an URL."
 msgstr "Utwórz URL"
 
@@ -845,14 +845,14 @@ msgid "Created on"
 msgstr "Data utworzenia"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Crop Image"
 msgstr "Przytnij obrazek"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
@@ -862,43 +862,43 @@ msgid "Custom"
 msgstr "Własne"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Custom %s"
 msgstr "Własny %s"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Custom Button"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Customize"
 msgstr "Dostosuj"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Dailymotion"
 msgstr "Dailymotion"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Dashed"
 msgstr "Przerywany"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Decoration"
 msgstr "Dekoracja"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -906,7 +906,7 @@ msgid "Default"
 msgstr "Domyślny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Default + Rounded"
 msgstr "Domyślny + Zaokrąglony"
@@ -917,19 +917,19 @@ msgid "Define a custom gradient"
 msgstr "Zdefiniuj własny gradient."
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Delete"
 msgstr "Usuń"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Delete %s"
 msgstr "Usuń %s"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -942,13 +942,13 @@ msgid "Devices"
 msgstr "Urządzenia"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Direct Download"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
@@ -959,7 +959,7 @@ msgid "Discard"
 msgstr "Odrzuć"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid ""
 "Discover a world of awesomeness in our copyright-free image haven. No legal "
@@ -967,25 +967,25 @@ msgid ""
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Display 1"
 msgstr "Display 1"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Display 2"
 msgstr "Display 2"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Display 3"
 msgstr "Display 3"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Display 4"
 msgstr "Display 4"
@@ -996,43 +996,43 @@ msgid "Display Name"
 msgstr "Nazwa wyświetlana"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Do you want to install %s App?"
 msgstr "Czy chcesz zainstalować aplikację %s?"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.js:0
 msgid "Documents"
 msgstr "Dokumenty"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Dotted"
 msgstr "Wykropkowany"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Double"
 msgstr "Podwójny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Double-click to edit"
 msgstr "Kliknij dwukrotnie, aby edytować"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Drag and drop the building block."
 msgstr "Przeciągnij i upuść blok konstrukcyjny."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Duplicate Container"
 msgstr "Zduplikuj pojemnik"
@@ -1043,7 +1043,7 @@ msgid "Dynamic Colors"
 msgstr "Dynamiczne kolory"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Dynamic Placeholder"
 msgstr "Dynamiczny element zastępczy"
@@ -1059,49 +1059,49 @@ msgid "Edit image"
 msgstr "Edytuj obraz"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Edit media description"
 msgstr "Edytuj opis multimediów"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Embed Image"
 msgstr "Osadzanie obrazu"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Embed Youtube Video"
 msgstr "Osadzanie wideo Youtube"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Embed the image in the document."
 msgstr "Osadzenie obrazu w dokumencie."
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Embed the youtube video in the document."
 msgstr "Osadzenie filmu z youtube w dokumencie."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Emoji"
 msgstr "Emotikon"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Empty quote"
 msgstr "Pusty cytat"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Error"
 msgstr "Błąd"
@@ -1132,25 +1132,25 @@ msgid "Field html History"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_progress_toast.xml:0
 msgid "File has been uploaded"
 msgstr "Plik został przesłany"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Fill"
 msgstr "Wypełniony"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Fill + Rounded"
 msgstr "Wypełnienie + Zaokrąglenie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Fill Color"
 msgstr "Kolor wypełnienia"
@@ -1166,13 +1166,13 @@ msgid "First Panel"
 msgstr "Pierwszy panel"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Flat"
 msgstr "Płaskie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid "Flexible"
 msgstr "Elastyczność"
@@ -1183,13 +1183,13 @@ msgid "Flip"
 msgstr "Odwróć"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Flip Horizontal"
 msgstr "Odwróć w poziomie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Flip Vertical"
 msgstr "Odwróć w pionie"
@@ -1200,74 +1200,74 @@ msgid "Floating Shapes"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Focus"
 msgstr "Fokus"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Font Color"
 msgstr "Kolor czcionki"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Font size"
 msgstr "Rozmiar czcionki "
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "For technical reasons, this block cannot be dropped here"
 msgstr "Z przyczyn technicznych blok ten nie może zostać tutaj usunięty"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Format"
 msgstr "Format"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Full screen"
 msgstr "Pełny ekran"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/backend.xml:0
 msgid "Fullscreen"
 msgstr "Pełny Ekran"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
 msgid "Generate Text with AI"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Generate or transform content with AI"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Generate or transform content with AI."
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 msgid "Generating"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 msgid "Generating an alternative..."
 msgstr ""
@@ -1288,7 +1288,7 @@ msgid "Geometrics Rounded"
 msgstr "Geometria zaokrąglona"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Gradient"
 msgstr "Gradient"
@@ -1299,134 +1299,134 @@ msgid "HTTP Routing"
 msgstr "HTTP Routing"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1"
 msgstr "Nagłówek 1"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1 Display 1"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1 Display 2"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1 Display 3"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1 Display 4"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 2"
 msgstr "Nagłówek 2"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 3"
 msgstr "Nagłówek 3"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 4"
 msgstr "Nagłówek 4"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 5"
 msgstr "Nagłówek 5"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 6"
 msgstr "Nagłówek 6"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 1"
 msgstr "Nagłówek 1"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 2"
 msgstr "Nagłówek 2"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 3"
 msgstr "Nagłówek 3"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 4"
 msgstr "Nagłówek 4"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 5"
 msgstr "Nagłówek 5"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 6"
 msgstr "Nagłówek 6"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Height"
 msgstr "Wysokość"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Hide Dailymotion logo"
 msgstr "Ukryj logo Dailymotion"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Hide fullscreen button"
 msgstr "Ukryj przycisk pelengu ekranu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Hide player controls"
 msgstr "Ukryj elementy sterujące odtwarzacza"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Hide sharing button"
 msgstr "Ukryj przycisk udostępniania"
@@ -1447,7 +1447,7 @@ msgid "Horizontal mirror"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Html"
 msgstr "Html"
@@ -1458,55 +1458,55 @@ msgid "ID"
 msgstr "ID"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Icon"
 msgstr "Ikona"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Icon Formatting"
 msgstr "Formatowanie ikon"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 1x"
 msgstr "Rozmiar ikony 1x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 2x"
 msgstr "Rozmiar ikony 2x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 3x"
 msgstr "Rozmiar ikony 3x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 4x"
 msgstr "Rozmiar ikony 4x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 5x"
 msgstr "Rozmiar ikony 5x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.js:0
 msgid "Icons"
 msgstr "Ikony"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid ""
 "If you discard the current edits, all unsaved changes will be lost. You can "
@@ -1516,13 +1516,13 @@ msgstr ""
 "powrócić do trybu edycji."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "Illustrations"
 msgstr "Ilustracje"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -1530,19 +1530,19 @@ msgid "Image"
 msgstr "Obraz"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Image Formatting"
 msgstr "Formatowanie obrazu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Image padding"
 msgstr "Wypełnienie obrazu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.js:0
 msgid "Images"
 msgstr "Obrazy"
@@ -1553,13 +1553,13 @@ msgid "Inkwell"
 msgstr "Kałamarz"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Inline Text"
 msgstr "Tekst w linii"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
@@ -1567,164 +1567,164 @@ msgid "Insert"
 msgstr "Wstaw"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Insert a Link / Button"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 msgid "Insert a block"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a danger banner"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Insert a field"
 msgstr "Wstaw pole"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert a horizontal rule separator"
 msgstr "Wstaw poziomy separator"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a picture"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert a rating over 3 stars"
 msgstr "Wstaw ocenę powyżej 3 gwiazdek"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert a rating over 5 stars"
 msgstr "Wstaw ocenę powyżej 5 gwiazdek"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a success banner"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert a table"
 msgstr "Wstaw tabelę"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a video"
 msgstr "Wstaw wideo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a warning banner"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert above"
 msgstr "Wstaw powyżej"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert an info banner"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert below"
 msgstr "Wstaw poniżej"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert left"
 msgstr "Wstaw z lewej strony"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Insert media"
 msgstr "Wstaw media"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Insert or edit link"
 msgstr "Wstawianie lub edytowanie łącza"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert right"
 msgstr "Wstaw z prawej strony"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert your signature"
 msgstr "Wstaw swój podpis"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Install"
 msgstr "Instaluj"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/add_snippet_dialog.js:0
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Install %s"
 msgstr "Zainstaluj %s"
 
 #. module: web_editor
-#. odoo-python
+#. manapathi-python
 #: code:addons/web_editor/models/ir_ui_view.py:0
 msgid "Invalid field value for %(field_name)s: %(value)s"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Invisible Elements"
 msgstr "Niewidoczne elementy"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Item"
 msgstr "Element"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Label"
 msgstr "Etykieta"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Large"
@@ -1741,20 +1741,20 @@ msgid "Last Updated on"
 msgstr "Data ostatniej aktualizacji"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Layout"
 msgstr "Układ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Left"
 msgstr "Lewy"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Light"
 msgstr "Światło"
@@ -1765,63 +1765,63 @@ msgid "Linear"
 msgstr "Liniowo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Link"
 msgstr "Odnośnik"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link Label"
 msgstr "Etykieta łącza"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link Shape"
 msgstr "Kształt linku"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link Size"
 msgstr "Rozmiar linku"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link Style"
 msgstr "Styl linku"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link_popover_widget.js:0
 msgid "Link copied to clipboard."
 msgstr "Link skopiowany do schowka."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link to an uploaded document"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "List"
 msgstr "Lista"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "Load more..."
 msgstr "Załaduj więcej..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
@@ -1831,7 +1831,7 @@ msgid "Loading..."
 msgstr "Pobieranie..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Loop"
 msgstr "Pętla"
@@ -1842,7 +1842,7 @@ msgid "Main Color"
 msgstr "Kolor główny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Marketing Tools"
 msgstr "Narzędzia marketingowe"
@@ -1853,130 +1853,130 @@ msgid "Maven"
 msgstr "Kruk"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Max height"
 msgstr "Maksymalna wysokość"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Media"
 msgstr "Mediów"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Medium"
 msgstr "Medium"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Medium section heading"
 msgstr "Nagłówek sekcji średniej"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Min height"
 msgstr "Minimalna wysokość"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "More info about this app."
 msgstr "Więcej informacji o tej aplikacji."
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Move down"
 msgstr "Przesuń w dół"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Move left"
 msgstr "Przesuń w lewo"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Move right"
 msgstr "Przesuń w prawo"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Move up"
 msgstr "Przesuń w górę"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "My Images"
 msgstr "Moje obrazy"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__name
 msgid "Name"
 msgstr "Nazwa"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Navigation"
 msgstr "Nawigacja"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "No"
 msgstr "Nie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link_popover_widget.js:0
 msgid "No URL specified"
 msgstr "Nie określono adresu URL"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.xml:0
 msgid "No documents found."
 msgstr "Nie znaleziono żadnych dokumentów."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid "No images found."
 msgstr "Nie znaleziono żadnych obrazów."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "No more records"
 msgstr "Nie ma więcej rekordów"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/icon_selector.xml:0
 msgid "No pictograms found."
 msgstr "Nie znaleziono piktogramów."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "No videos"
 msgstr "Brak wideo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
@@ -1986,15 +1986,15 @@ msgid "None"
 msgstr "Brak"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Normal"
 msgstr "Zwykły"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Numbered list"
 msgstr "Lista numerowana"
 
@@ -2004,20 +2004,20 @@ msgid "Manapathi Editor Tests"
 msgstr "Testy Manapathi Editor"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Open in New Window"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Open in new window"
 msgstr "Otwórz w nowym oknie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid "Optimized"
 msgstr "Zoptymalizowany"
@@ -2028,19 +2028,19 @@ msgid "Origins"
 msgstr "Źródła"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Outline"
 msgstr "Zarys"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Outline + Rounded"
 msgstr "Kontur + Zaokrąglony"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Overlay"
 msgstr "Nakładka"
@@ -2051,7 +2051,7 @@ msgid "Padding"
 msgstr "Margines wewnętrzny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Page Options"
 msgstr "Opcje strony"
@@ -2062,14 +2062,14 @@ msgid "Panels"
 msgstr "Panele"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Paragraph block"
 msgstr "Blok akapitu"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Paste as URL"
 msgstr "Wklej jako adres URL"
 
@@ -2085,20 +2085,20 @@ msgid "Position"
 msgstr "Stanowisko"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Preset #{number}"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Preview"
 msgstr "Podgląd"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_progress_toast.xml:0
 msgid "Progress bar"
 msgstr "Pasek postępu"
@@ -2124,7 +2124,7 @@ msgid "Quality"
 msgstr "Jakość"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Quote"
@@ -2211,7 +2211,7 @@ msgid "Qweb Field qweb"
 msgstr "Pole qweb"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "REPLACE BY NEW VERSION"
 msgstr ""
@@ -2222,7 +2222,7 @@ msgid "Radial"
 msgstr "Promieniowy"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Readonly field"
 msgstr "Pole tylko do odczytu"
@@ -2233,19 +2233,19 @@ msgid "Redirect the user elsewhere when he clicks on the media."
 msgstr "Przekieruj użytkownika w inne miejsce po kliknięciu multimediów."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Remove (DELETE)"
 msgstr "Usuń (DELETE)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Remove Block"
 msgstr "Usuń blok"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Remove Current"
 msgstr "Usuń bieżący"
@@ -2256,32 +2256,32 @@ msgid "Remove Selected Color"
 msgstr "Usuń wybrany kolor"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Remove columns"
 msgstr "Usuń kolumny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Remove format"
 msgstr "Usuń format"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Remove link"
 msgstr "Usuń odnośnik"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Rename %s"
 msgstr "Zmień nazwę %s"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 msgid "Rename the block"
 msgstr ""
@@ -2292,7 +2292,7 @@ msgid "Repeat pattern"
 msgstr "Powtórz wzór"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -2300,27 +2300,27 @@ msgid "Replace"
 msgstr "Zamień"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Replace media"
 msgstr "Wymiana mediów"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Reset"
 msgstr "Zresetuj"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Reset Image"
 msgstr "Zresetuj Obraz"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Reset Size"
 msgstr ""
@@ -2336,54 +2336,54 @@ msgid "Reset transformation"
 msgstr "Resetowanie transformacji"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Resizable"
 msgstr "Możliwość zmiany rozmiaru"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Resize Default"
 msgstr "Zmień rozmiar domyślny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Resize Full"
 msgstr "Zmień rozmiar pełny"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Resize Half"
 msgstr "Zmień rozmiar połowy"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Resize Quarter"
 msgstr "Zmień rozmiar ćwierci"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Right"
 msgstr "Prawo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Rotate Left"
 msgstr "Obrót w lewo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Rotate Right"
 msgstr "Obrót w prawo"
@@ -2399,13 +2399,13 @@ msgid "Rotate right"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Row"
 msgstr "Wiersz"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Sandboxed preview"
 msgstr ""
@@ -2416,7 +2416,7 @@ msgid "Saturation"
 msgstr "Nasycenie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
@@ -2424,86 +2424,86 @@ msgid "Save"
 msgstr "Zapisz"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Save and Install"
 msgstr "Zapisz i zainstaluj"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Save and Reload"
 msgstr "Zapisz i przeładuj"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.js:0
 msgid "Search a document"
 msgstr "Wyszukiwanie dokumentu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/icon_selector.xml:0
 msgid "Search a pictogram"
 msgstr "Wyszukiwanie piktogramu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Search an image"
 msgstr "Wyszukiwanie obrazu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 msgid "Search for a block"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Search for a block (e.g. numbers, image wall, ...)"
 msgstr "Szukaj wśród bloków (np. liczby, obrazy, ...)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Search for records..."
 msgstr "Wyszukiwanie rekordów..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Search more..."
 msgstr "Wyszukaj więcej..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Search to show more records"
 msgstr "Wyszukaj, aby wyświetlić więcej rekordów"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Select a block on your page to style it."
 msgstr "Wybierz blok na stronie, aby nadać mu styl."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.xml:0
 msgid "Select a media"
 msgstr "Wybierz media"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
 msgid "Send a message"
 msgstr "Wyślij wiadomość"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "Separator"
 msgstr "Separator"
@@ -2514,14 +2514,14 @@ msgid "Sepia"
 msgstr "Sepia"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Shadow"
 msgstr "Cień"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -2529,21 +2529,21 @@ msgid "Shape"
 msgstr "Kształt "
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Shape: Circle"
 msgstr "Kształt: Koło"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Shape: Rounded"
 msgstr "Kształt: Zaokrąglony"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Shape: Thumbnail"
@@ -2555,7 +2555,7 @@ msgid "Shapes"
 msgstr "Kształty"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "Show optimized images"
 msgstr "Pokaż zoptymalizowane obrazy"
@@ -2566,13 +2566,13 @@ msgid "Show/Hide on Mobile"
 msgstr "Pokaż/ukryj na stronie mobilnej"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Signature"
 msgstr "Podpis"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
@@ -2606,32 +2606,32 @@ msgid "Size 5x"
 msgstr "Rozmiar 5x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Small"
 msgstr "Mały"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Small section heading"
 msgstr "Mały nagłówek sekcji"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 msgid "Snippet name"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Snippets"
 msgstr "Snippety"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Solid"
@@ -2643,7 +2643,7 @@ msgid "Solids"
 msgstr "Ciała stałe"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid ""
 "Someone with escalated rights previously modified this area, you are "
@@ -2658,7 +2658,7 @@ msgid "Specials"
 msgstr "Specjalne"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid ""
 "Specify when the collaboration starts. 'Focus' will start the collaboration "
@@ -2673,7 +2673,7 @@ msgid "Speed"
 msgstr "Prędkość"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Start"
 msgstr "Uruchom"
@@ -2684,94 +2684,94 @@ msgid "Stretch"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Structure"
 msgstr "Struktura"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Style"
 msgstr "Styl"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Suggestions"
 msgstr "Sugestie"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Switch direction"
 msgstr "Kierunek przełączania"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Switch the text's direction"
 msgstr "Przełączanie kierunku tekstu"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Table"
 msgstr "Stół"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Table Options"
 msgstr "Opcje tabeli"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Text"
 msgstr "Tekst"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Text Color"
 msgstr "Kolor tekstu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Text align"
 msgstr "Pozycja tekstu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Text style"
 msgstr "Styl tekstu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "The URL does not seem to work."
 msgstr "Adres URL wydaje się nie działać."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "The URL seems valid."
 msgstr "Adres URL wydaje się prawidłowy."
 
 #. module: web_editor
-#. odoo-python
+#. manapathi-python
 #: code:addons/web_editor/models/ir_qweb_fields.py:0
 msgid "The datetime %(value)s does not match the format %(format)s"
 msgstr ""
 
 #. module: web_editor
-#. odoo-python
+#. manapathi-python
 #: code:addons/web_editor/tools.py:0
 msgid ""
 "The document was already saved from someone with a different history for "
@@ -2779,25 +2779,25 @@ msgid ""
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "The provided url does not reference any supported video"
 msgstr "Podany adres URL nie odnosi się do żadnego obsługiwanego wideo"
 
 #. module: web_editor
-#. odoo-python
+#. manapathi-python
 #: code:addons/web_editor/tools.py:0
 msgid "The provided url is invalid"
 msgstr "Podany adres url jest nieprawidłowy"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "The provided url is not valid"
 msgstr "Podany adres URL jest nieprawidłowy"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid ""
 "The version from the database will be used.\n"
@@ -2805,73 +2805,73 @@ msgid ""
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Theme"
 msgstr "Motyw"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg_colorpicker.xml:0
 msgid "Theme colors"
 msgstr "Kolory motywów"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid "There is a conflict between your version and the one in the database."
 msgstr "Występuje konflikt między wersją użytkownika a wersją w bazie danych."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
 msgid "Thinking..."
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link_popover_widget.js:0
 msgid "This URL is invalid. Preview couldn't be updated."
 msgstr "Ten adres URL jest nieprawidłowy. Nie można zaktualizować podglądu."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "This block cannot be dropped anywhere on this page."
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "This block is outdated."
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "This document is not saved!"
 msgstr "Ten dokument nie jest zapisany!"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "This file is a public view attachment."
 msgstr "Ten plik jest publicznie dostępnym załącznikiem."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "This file is attached to the current record."
 msgstr "Plik ten jest dołączony do bieżącego rekordu."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid "This image is an external image"
 msgstr "Ten obraz jest obrazem zewnętrznym"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
@@ -2881,13 +2881,13 @@ msgstr ""
 "przyciąć, najpierw pobierz go z oryginalnego źródła i prześlij do Manapathi."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Tip: Esc to preview"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Title"
 msgstr "Tytuł"
@@ -2898,7 +2898,7 @@ msgid "Title tag"
 msgstr "Tag tytułu"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid ""
 "To save a snippet, we need to save all your previous modifications and "
@@ -2913,63 +2913,63 @@ msgid "Toaster"
 msgstr "Toster"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle bold"
 msgstr "Przełącz pogrubienie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle checklist"
 msgstr "Przełącz listę kontrolną"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle icon spin"
 msgstr "Przełącz obracanie ikony"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle italic"
 msgstr "Przełącz kursywę"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle ordered list"
 msgstr "Przełącz uporządkowaną listę"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle strikethrough"
 msgstr "Przełącz przekreślenie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle underline"
 msgstr "Przełącz podkreślenie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle unordered list"
 msgstr "Przełącz listę nieuporządkowaną"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Tooltip"
 msgstr "Tooltip"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Track tasks with a checklist"
 msgstr "Śledzenie zadań za pomocą listy kontrolnej"
 
@@ -2984,39 +2984,39 @@ msgid "Transform the picture"
 msgstr "Przekształć obraz"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Transform the picture (click twice to reset transformation)"
 msgstr "Przekształć obraz (kliknij dwa razy, aby zresetować transformację)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/backend.xml:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Translate"
 msgstr "Przetłumacz"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Translate with AI"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
 msgid "Translating..."
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg_colorpicker.xml:0
 msgid "Transparent colors"
 msgstr "Przezroczyste kolory"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/icon_selector.xml:0
 msgid "Try searching with other keywords."
 msgstr "Spróbuj wyszukać za pomocą innych słów kluczowych."
@@ -3027,13 +3027,13 @@ msgid "Type"
 msgstr "Typ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Type \"/\" for commands"
 msgstr "Wpisz \"/\" dla poleceń"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "URL or Email"
 msgstr "Adres URL lub e-mail"
@@ -3044,19 +3044,19 @@ msgid "Unalign"
 msgstr "Cofnij wyrównanie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.js:0
 msgid "Upload a document"
 msgstr "Prześlij dokument"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Upload an image"
 msgstr "Wgraj obrazek"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Uploaded image's format is not supported. Try with: "
 msgstr "Format przesłanego obrazu nie jest obsługiwany. Spróbuj z:"
@@ -3072,32 +3072,32 @@ msgid "Vertical mirror"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Video"
 msgstr "Wideo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Video Formatting"
 msgstr "Formatowanie wideo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Video code"
 msgstr "Kod wideo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.js:0
 msgid "Videos"
 msgstr "Wideo"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Videos are muted when autoplay is enabled"
 msgstr "Filmy są wyciszane, gdy włączona jest funkcja autoodtwarzania."
@@ -3108,7 +3108,7 @@ msgid "View"
 msgstr "Widok"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Vimeo"
 msgstr "Vimeo"
@@ -3119,7 +3119,7 @@ msgid "Walden"
 msgstr "Walden"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid ""
 "Warning: after closing this dialog, the version you were working on will be "
@@ -3144,8 +3144,8 @@ msgid "Web Editor Converter Test"
 msgstr "Test konwertera edytora stron internetowych"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Widgets"
 msgstr "Widżety"
@@ -3156,7 +3156,7 @@ msgid "Width"
 msgstr "Szerokość"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid ""
 "With the option enabled, all content can only be viewed in a sandboxed "
@@ -3164,7 +3164,7 @@ msgid ""
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid ""
 "Wow, it feels a bit empty in here. Upload from the button in the top right "
@@ -3172,13 +3172,13 @@ msgid ""
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Write something..."
 msgstr "Napisz coś..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "XL"
 msgstr "XL"
@@ -3189,13 +3189,13 @@ msgid "Xpro"
 msgstr "Xpro"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Yes"
 msgstr "Tak"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid ""
 "You can not replace a field by this image. If you want to use this image, "
@@ -3203,19 +3203,19 @@ msgid ""
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid "You can not use this image in a field"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "You can still access the block options but it might be ineffective."
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.xml:0
 msgid ""
 "You can upload documents with the button located in the top left of the "
@@ -3225,44 +3225,44 @@ msgstr ""
 "górnym rogu ekranu."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "You might not be able to customize it anymore."
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Youku"
 msgstr "Youku"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Your URL"
 msgstr "Twój adres URL"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Your content was successfully generated."
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Youtube"
 msgstr "Youtube"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Zoom In"
 msgstr "Zbliżenie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Zoom Out"
 msgstr "Oddalenie"
@@ -3273,19 +3273,19 @@ msgid "add"
 msgstr "dodaj"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "all"
 msgstr "wszystko"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 msgid "alternatives..."
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "and"
 msgstr "i"
@@ -3301,7 +3301,7 @@ msgid "darken"
 msgstr "przyciemnienie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "database"
 msgstr ""
@@ -3312,25 +3312,25 @@ msgid "exclusion"
 msgstr "wykluczenie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "fill"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "fill,rounded-circle"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "flat"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "lg"
 msgstr ""
@@ -3341,7 +3341,7 @@ msgid "lighten"
 msgstr "rozjaśnienie"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "media-library"
 msgstr ""
@@ -3352,13 +3352,13 @@ msgid "multiply"
 msgstr "mnożyć się"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "outline"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "outline,rounded-circle"
 msgstr ""
@@ -3369,13 +3369,13 @@ msgid "overlay"
 msgstr "nakładka"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "px"
 msgstr "px"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "rounded-circle"
 msgstr ""
@@ -3386,19 +3386,19 @@ msgid "screen"
 msgstr "ekran"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "sm"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "to"
 msgstr "do"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "videos"
 msgstr "filmy wideo"

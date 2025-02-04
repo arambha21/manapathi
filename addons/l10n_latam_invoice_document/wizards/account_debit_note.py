@@ -1,4 +1,4 @@
-from odoo import models
+from manapathi import models
 
 
 class AccountDebitNote(models.TransientModel):

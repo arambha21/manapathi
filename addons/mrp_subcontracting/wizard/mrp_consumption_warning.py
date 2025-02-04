@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models
+from manapathi import models
 
 
 class MrpConsumptionWarning(models.TransientModel):

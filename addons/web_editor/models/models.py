@@ -2,7 +2,7 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 from hashlib import sha256
 
-from odoo import api, models
+from manapathi import api, models
 
 
 class Base(models.AbstractModel):

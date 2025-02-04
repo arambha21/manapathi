@@ -1,6 +1,6 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
-import * as ManapathiEditorLib from "@web_editor/js/editor/odoo-editor/src/ManapathiEditor";
+import * as ManapathiEditorLib from "@web_editor/js/editor/manapathi-editor/src/ManapathiEditor";
 import { _t } from "@web/core/l10n/translation";
 import { isVisible } from "@web/core/utils/ui";
 import weUtils from "@web_editor/js/common/utils";
@@ -11,9 +11,9 @@ import {
     onWillUpdateProps,
     useState,
     useRef,
-} from "@odoo/owl";
+} from "@manapathi/owl";
 import { useService } from "@web/core/utils/hooks";
-import { deduceURLfromText } from "@web_editor/js/editor/odoo-editor/src/utils/sanitize";
+import { deduceURLfromText } from "@web_editor/js/editor/manapathi-editor/src/utils/sanitize";
 
 const { getDeepRange, getInSelection, EMAIL_REGEX, PHONE_REGEX } = ManapathiEditorLib;
 

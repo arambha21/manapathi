@@ -3,7 +3,7 @@
 
 from random import randint
 
-from odoo import fields, models
+from manapathi import fields, models
 
 
 class Tag(models.Model):

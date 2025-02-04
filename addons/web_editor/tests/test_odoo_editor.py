@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
+import manapathi.tests
 
-@odoo.tests.tagged("post_install", "-at_install")
-class TestManapathiEditor(odoo.tests.HttpCase):
+@manapathi.tests.tagged("post_install", "-at_install")
+class TestManapathiEditor(manapathi.tests.HttpCase):
 
-    def test_odoo_editor_suite(self):
+    def test_manapathi_editor_suite(self):
         self.browser_js('/web_editor/tests', "", "", login='admin', timeout=1800)

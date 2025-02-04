@@ -4,7 +4,7 @@ from pytz import timezone
 
 from datetime import datetime, date
 
-from odoo.addons.hr_contract.tests.common import TestContractCommon
+from manapathi.addons.hr_contract.tests.common import TestContractCommon
 
 
 class TestAttendances(TestContractCommon):

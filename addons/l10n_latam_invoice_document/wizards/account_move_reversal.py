@@ -1,7 +1,7 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields, api, _
-from odoo.exceptions import UserError
+from manapathi import models, fields, api, _
+from manapathi.exceptions import UserError
 
 
 class AccountMoveReversal(models.TransientModel):

@@ -3,7 +3,7 @@
 
 from datetime import date, datetime
 from dateutil.relativedelta import relativedelta
-from odoo.addons.hr_contract.tests.common import TestContractCommon
+from manapathi.addons.hr_contract.tests.common import TestContractCommon
 
 
 class TestHrContracts(TestContractCommon):

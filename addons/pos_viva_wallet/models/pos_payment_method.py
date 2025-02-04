@@ -3,8 +3,8 @@
 import logging
 import requests
 
-from odoo import fields, models, api, tools, _
-from odoo.exceptions import UserError, AccessError
+from manapathi import fields, models, api, tools, _
+from manapathi.exceptions import UserError, AccessError
 
 _logger = logging.getLogger(__name__)
 TIMEOUT = 10

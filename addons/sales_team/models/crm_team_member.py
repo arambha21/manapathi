@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, exceptions, fields, models, _
+from manapathi import api, exceptions, fields, models, _
 
 
 class CrmTeamMember(models.Model):

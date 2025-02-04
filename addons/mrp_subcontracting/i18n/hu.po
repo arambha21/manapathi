@@ -16,7 +16,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2024\n"
-"Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
+"Language-Team: Hungarian (https://app.transifex.com/manapathi/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -24,13 +24,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 msgid "%(name)s Sequence Resupply Subcontractor"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 msgid "%(name)s Sequence subcontracting"
 msgstr ""
@@ -41,7 +41,7 @@ msgid "/my/productions"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "All"
 msgstr "Összes"
@@ -148,7 +148,7 @@ msgid "Display Action Record Components"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Done"
@@ -175,7 +175,7 @@ msgid "Hide"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_location.py:0
 msgid ""
 "In order to manage stock accurately, subcontracting locations must be type "
@@ -216,7 +216,7 @@ msgid "MRP Productions for which the Partner is the subcontractor"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_move_line.py:0
 msgid ""
 "Make sure you validate or adapt the related resupply picking to your "
@@ -245,25 +245,25 @@ msgid "Manufacturing Reference"
 msgstr "Gyártási hivatkozás"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "Name"
 msgstr "Név"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "Newest"
 msgstr "Legújabb"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 msgid "Nothing to record"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_quant.py:0
 msgid "Operation not supported"
 msgstr "A művelet nem támogatott"
@@ -284,7 +284,7 @@ msgid "Order"
 msgstr "Rendelés"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_move.py:0
 msgid ""
 "Portal users cannot create a stock move with a state 'Done' or change the "
@@ -318,13 +318,13 @@ msgid "Quants"
 msgstr "Kvantok"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_move.py:0
 msgid "Raw Materials for %s"
 msgstr "Nyersanyag ehhez: %s"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "Ready"
 msgstr "Előkészítve"
@@ -345,20 +345,20 @@ msgid "Register components for subcontracted product"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_warehouse__subcontracting_route_id
 msgid "Resupply Subcontractor"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_replenish_mixin.py:0
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 #: model:stock.route,name:mrp_subcontracting.route_resupply_subcontractor_mto
@@ -417,7 +417,7 @@ msgid "Stock Rule"
 msgstr "Készletszabály"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_move.py:0
 msgid "Subcontract"
 msgstr ""
@@ -428,13 +428,13 @@ msgid "Subcontracted"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "Subcontracted manufacturing orders cannot be merged."
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 #: model:ir.model.fields.selection,name:mrp_subcontracting.selection__mrp_bom__type__subcontract
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.stock_picking_form_view
@@ -442,7 +442,7 @@ msgid "Subcontracting"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/res_company.py:0
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_company__subcontracting_location_id
 msgid "Subcontracting Location"
@@ -479,13 +479,13 @@ msgid "Subcontracting Resupply Operation Type"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mrp_subcontracting/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
 msgid "Subcontracting:"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/report/mrp_report_bom_structure.py:0
 msgid "Subcontracting: %s"
 msgstr ""
@@ -534,7 +534,7 @@ msgid "There are currently no productions for your account."
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 msgid ""
 "There shouldn't be multiple productions to record for the same subcontracted"
@@ -542,7 +542,7 @@ msgid ""
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "This MO isn't related to a subcontracted move"
 msgstr ""
@@ -576,7 +576,7 @@ msgid ""
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_bom.py:0
 msgid ""
 "You can not set a Bill of Material with operations or by-product line as "
@@ -584,31 +584,31 @@ msgid ""
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_location.py:0
 msgid "You cannot alter the company's subcontracting location"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "You cannot write on fields %s in mrp.production."
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "You must enter a serial number for %s"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "You must enter a serial number for each line of %s"
 msgstr ""
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid ""
 "You must indicate a non-zero amount consumed for at least one of your "

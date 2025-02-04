@@ -3,7 +3,7 @@
 from datetime import datetime
 from pytz import timezone, utc
 
-from odoo import models
+from manapathi import models
 
 
 class ResourceCalendarLeaves(models.Model):

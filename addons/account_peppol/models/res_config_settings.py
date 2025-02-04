@@ -1,9 +1,9 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import _, api, fields, models, modules, tools
-from odoo.exceptions import UserError, ValidationError
+from manapathi import _, api, fields, models, modules, tools
+from manapathi.exceptions import UserError, ValidationError
 
-from odoo.addons.account_peppol.tools.demo_utils import handle_demo
+from manapathi.addons.account_peppol.tools.demo_utils import handle_demo
 
 
 class ResConfigSettings(models.TransientModel):
@@ -102,7 +102,7 @@ class ResConfigSettings(models.TransientModel):
         The migration key is then displayed in Peppol settings.
         Currently, reopening after migrating away is not supported.
         """
-        raise UserError(_("This feature is deprecated. Contact odoo support if you need a migration key."))
+        raise UserError(_("This feature is deprecated. Contact manapathi support if you need a migration key."))
 
     @handle_demo
     def button_deregister_peppol_participant(self):

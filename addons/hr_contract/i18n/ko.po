@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Daye Jeong, 2024\n"
-"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://app.transifex.com/manapathi/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,7 +31,7 @@ msgid "# Contracts using it"
 msgstr "# 사용하는 계약"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/report/hr_contract_history.py:0
 msgid "%s's Contracts History"
 msgstr "%s의 계약 내역"
@@ -101,7 +101,7 @@ msgid "<span>Days</span>"
 msgstr "<span>일</span>"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
 "According to Employee's Working Permit Expiration Date, this contract has "
@@ -109,7 +109,7 @@ msgid ""
 msgstr "직원의 취업 허가 만료일에 따라 이 계약은 %s이 빨간색으로 표시되어 있습니다. 확인 후 수정해주시기 바랍니다."
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
 "According to the contract's end date, this contract has been put in red on "
@@ -169,7 +169,7 @@ msgid "Administrator"
 msgstr "관리자"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
 "An employee can only have one contract at the same time. (Excluding Draft and Cancelled contracts).\n"
@@ -208,7 +208,7 @@ msgid "Calendar Mismatch"
 msgstr "일정 불일치"
 
 #. module: hr_contract
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/hr_contract/static/src/widgets/tooltip_warning_widget.js:0
 msgid ""
 "Calendar Mismatch: The employee's calendar does not match this contract's "
@@ -259,7 +259,7 @@ msgid "Contract"
 msgstr "근로 계약"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
 "Contract %(contract)s: start date (%(start)s) must be earlier than contract "
@@ -462,7 +462,7 @@ msgid "Departure Wizard"
 msgstr "퇴사 마법사"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/wizard/hr_departure_wizard.py:0
 msgid ""
 "Departure date can't be earlier than the start date of current contract."
@@ -968,7 +968,7 @@ msgstr ""
 "이 필드는 빠른 검색을 위해 사용할 수 있습니다."
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The contract of %s is about to expire."
 msgstr "%s의 계약이 곧 만료됩니다."
@@ -979,7 +979,7 @@ msgid "The default working hours are set in configuration."
 msgstr "기본 근무 시간은 설정에서 구성할 수 있습니다."
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The work permit of %s is about to expire."
 msgstr "%s의 취업 허가가 곧 만료됩니다."
@@ -1069,7 +1069,7 @@ msgid "Working Schedule"
 msgstr "근무 일정"
 
 #. module: hr_contract
-#. odoo-python
+#. manapathi-python
 #: code:addons/hr_contract/models/hr_employee.py:0
 msgid "You cannot delete an employee with a running contract."
 msgstr "계약이 진행 중인 직원은 삭제할 수 없습니다."

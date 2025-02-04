@@ -1,13 +1,13 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.point_of_sale.tests.test_frontend import TestPointOfSaleHttpCommon
-from odoo.addons.pos_viva_wallet.models.pos_payment_method import PosPaymentMethod
+from manapathi.addons.point_of_sale.tests.test_frontend import TestPointOfSaleHttpCommon
+from manapathi.addons.pos_viva_wallet.models.pos_payment_method import PosPaymentMethod
 from unittest.mock import patch
-from odoo import Command
-import odoo.tests
+from manapathi import Command
+import manapathi.tests
 
 
-@odoo.tests.tagged('post_install', '-at_install')
+@manapathi.tests.tagged('post_install', '-at_install')
 class TestVivaWalletHttpCommon(TestPointOfSaleHttpCommon):
 
     @classmethod

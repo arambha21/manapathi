@@ -2,8 +2,8 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 from datetime import datetime
 
-from odoo import fields, models
-from odoo.osv.expression import AND
+from manapathi import fields, models
+from manapathi.osv.expression import AND
 
 
 class ResourceCalendar(models.Model):

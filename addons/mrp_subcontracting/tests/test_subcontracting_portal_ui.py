@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import Command
-from odoo.tests import Form, HttpCase, tagged
+from manapathi import Command
+from manapathi.tests import Form, HttpCase, tagged
 
 
 @tagged('post_install', '-at_install')

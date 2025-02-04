@@ -3,14 +3,14 @@
 
 import logging
 
-from odoo import api, fields, models, _
-from odoo.addons.iap.tools import iap_tools
-from odoo.exceptions import UserError
-from odoo.tools import is_html_empty
+from manapathi import api, fields, models, _
+from manapathi.addons.iap.tools import iap_tools
+from manapathi.exceptions import UserError
+from manapathi.tools import is_html_empty
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap-services.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap-services.manapathi.com'
 
 MAX_LEAD = 200
 
@@ -283,7 +283,7 @@ class CRMLeadMiningRequest(models.Model):
                     subtype_xmlid='mail.mt_note',
                 )
 
-    # Methods responsible for format response data into valid odoo lead data
+    # Methods responsible for format response data into valid manapathi lead data
     @api.model
     def _lead_vals_from_response(self, data):
         self.ensure_one()

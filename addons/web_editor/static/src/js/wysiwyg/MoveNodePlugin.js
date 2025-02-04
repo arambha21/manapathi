@@ -1,10 +1,10 @@
-/** @odoo-module */
+/** @manapathi-module */
 import {
     ancestors,
     closestElement,
     resetOuids,
     setSelection,
-} from '@web_editor/js/editor/odoo-editor/src/ManapathiEditor';
+} from '@web_editor/js/editor/manapathi-editor/src/ManapathiEditor';
 import { useNativeDraggable } from "@web_editor/js/editor/drag_and_drop";
 
 const simpleDraggableHook = {

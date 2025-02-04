@@ -1,6 +1,6 @@
-from odoo.addons.account.tests.test_tax import TestTaxCommon
-from odoo.tests import tagged
-from odoo.exceptions import ValidationError
+from manapathi.addons.account.tests.test_tax import TestTaxCommon
+from manapathi.tests import tagged
+from manapathi.exceptions import ValidationError
 
 
 @tagged('post_install', '-at_install')

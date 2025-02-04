@@ -1,10 +1,10 @@
 import csv
 
-from odoo import Command
-from odoo.exceptions import UserError, ValidationError, RedirectWarning
-from odoo.tests import tagged
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.addons.l10n_id_efaktur.models.efaktur_document import FK_HEAD_LIST, LT_HEAD_LIST, OF_HEAD_LIST, _csv_row
+from manapathi import Command
+from manapathi.exceptions import UserError, ValidationError, RedirectWarning
+from manapathi.tests import tagged
+from manapathi.addons.account.tests.common import AccountTestInvoicingCommon
+from manapathi.addons.l10n_id_efaktur.models.efaktur_document import FK_HEAD_LIST, LT_HEAD_LIST, OF_HEAD_LIST, _csv_row
 
 
 @tagged('post_install', '-at_install', 'post_install_l10n')

@@ -1,4 +1,4 @@
-// @odoo-module ignore
+// @manapathi-module ignore
 
 (function () {
 'use strict';

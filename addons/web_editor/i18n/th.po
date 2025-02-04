@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2025\n"
-"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
+"Language-Team: Thai (https://app.transifex.com/manapathi/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -22,25 +22,25 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "%spx"
 msgstr "%spx"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "%spx (Original)"
 msgstr "%sพิกเซล (ต้นฉบับ)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "%spx (Suggested)"
 msgstr "%sพิกเซล (แนะนำ)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid ""
@@ -51,26 +51,26 @@ msgstr ""
 "(การเชื่อมต่อช้า รูปภาพหายไป โปรแกรมอ่านหน้าจอ ...)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "'Title tag' is shown as a tooltip when you hover the picture."
 msgstr "'แท็กชื่อ' จะแสดงเป็นคำแนะนำเครื่องมือเมื่อคุณวางเมาส์เหนือรูปภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 msgid "(ALT Tag)"
 msgstr "(ALT แท็ก)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 msgid "(TITLE Tag)"
 msgstr "(TITLE แท็ก)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "(URL or Embed)"
 msgstr "(URL หรือ ฝัง)"
@@ -86,14 +86,14 @@ msgid "1977"
 msgstr "1977"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "1x"
 msgstr "1x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "2 columns"
 msgstr "2 คอลัมน์"
@@ -109,47 +109,47 @@ msgid "25%"
 msgstr "25%"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "2x"
 msgstr "2x"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "3 Stars"
 msgstr "3 ดาว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "3 columns"
 msgstr "3 คอลัมน์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "3x"
 msgstr "3x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "4 columns"
 msgstr "4 คอลัมน์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "4x"
 msgstr "4x"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "5 Stars"
 msgstr "5 ดาว"
 
@@ -159,7 +159,7 @@ msgid "50%"
 msgstr "50%"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "5x"
@@ -217,87 +217,87 @@ msgid "<span class=\"w-100\">Linear</span>"
 msgstr "<span class=\"w-100\">เชิงเส้น</span>"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "ACCESS OPTIONS ANYWAY"
 msgstr "เข้าถึงตัวเลือกต่อไป"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 msgid "AI Copywriter"
 msgstr "นักเขียนบทความ AI"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "AI Tools"
 msgstr "เครื่องมือ AI"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Above"
 msgstr "เหนือ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Accepts"
 msgstr "ยอมรับ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.xml:0
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Add"
 msgstr "เพิ่ม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Add Column"
 msgstr "เพิ่มคอลัมน์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Add Row"
 msgstr "เพิ่มแถว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.js:0
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Add URL"
 msgstr "เพิ่ม URL"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a blockquote section"
 msgstr "เพิ่มส่วน Blockquote"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a button"
 msgstr "เพิ่มปุ่ม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a code section"
 msgstr "เพิ่มส่วนโค้ด"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a link"
 msgstr "เพิ่มลิงก์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add an emoji"
 msgstr "เพิ่มอีโมจิ"
@@ -318,7 +318,7 @@ msgid "Airy &amp; Zigs"
 msgstr "Airy &amp; Zigs"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "Alert"
 msgstr "การเตือน"
@@ -344,25 +344,25 @@ msgid "Alignment"
 msgstr "การจัดตำแหน่ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "All"
 msgstr "ทั้งหมด"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.js:0
 msgid "All documents have been loaded"
 msgstr "โหลดเอกสารทั้งหมดแล้ว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "All images have been loaded"
 msgstr "โหลดรูปภาพทั้งหมดแล้ว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Allow users to view and edit the field in HTML."
 msgstr "อนุญาตให้ผู้ใช้ดูและแก้ไขฟิลด์ในรูปแบบ HTML ได้"
@@ -373,7 +373,7 @@ msgid "Alt tag"
 msgstr "แท็ก Alt"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "An error occurred while fetching the entered URL."
 msgstr "เกิดข้อผิดพลาดขณะดึงข้อมูล URL ที่ป้อน"
@@ -384,38 +384,38 @@ msgid "Angle"
 msgstr "มุม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Animated"
 msgstr "เคลื่อนไหว"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Anonymous"
 msgstr "ผู้ใช้นิรนาม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Apply"
 msgstr "นำไปใช้"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Are you sure you want to delete the block %s?"
 msgstr "คุณแน่ใจว่าต้องการลบบล็อค %s หรือไม่?"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "Are you sure you want to delete this file?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบไฟล์นี้"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Aspect Ratio"
 msgstr "อัตราส่วนภาพ"
@@ -426,25 +426,25 @@ msgid "Assets Utils"
 msgstr "การใช้สินทรัพย์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Autoconvert to Relative Link"
 msgstr "แปลงอัตโนมัติเป็นลิงค์แบบสัมพันธ์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Autoconvert to relative link"
 msgstr "แปลงอัตโนมัติเป็นลิงก์ที่เกี่ยวข้อง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Autoplay"
 msgstr "เล่นอัตโนมัติ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Back to one column"
 msgstr "กลับไปที่คอลัมน์เดียว"
@@ -455,7 +455,7 @@ msgid "Background"
 msgstr "พื้นหลัง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Background Color"
@@ -472,31 +472,31 @@ msgid "Background Shapes"
 msgstr "รูปร่างพื้นหลัง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Danger"
 msgstr "ป้ายความปลอดภัย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Info"
 msgstr "ข้อมูลป้าย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Success"
 msgstr "ป้ายความสำเร็จ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Warning"
 msgstr "ป้ายคำเตือน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banners"
 msgstr "ป้าย"
@@ -507,20 +507,20 @@ msgid "Base"
 msgstr "ฐาน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Basic blocks"
 msgstr "บล็อกพื้นฐาน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Below"
 msgstr "ด้านล่าง"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Big section heading"
 msgstr "ส่วนหัวของส่วนใหญ่"
 
@@ -530,7 +530,7 @@ msgid "Blobs"
 msgstr "บล็อบส์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Block"
 msgstr "บล็อก"
@@ -541,7 +541,7 @@ msgid "Block &amp; Rainy"
 msgstr "Block &amp; Rainy"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Blocks"
 msgstr "บล็อก"
@@ -562,25 +562,25 @@ msgid "Bold"
 msgstr "ตัวหนา"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border"
 msgstr "กรอบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border Color"
 msgstr "สีเส้นขอบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border Style"
 msgstr "สไตล์เส้นขอบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border Width"
 msgstr "ความกว้างเส้นขอบ"
@@ -601,13 +601,13 @@ msgid "Brushed"
 msgstr "แปรง"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Bulleted list"
 msgstr "รายการหัวข้อย่อย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
@@ -615,25 +615,25 @@ msgid "Button"
 msgstr "ปุ่ม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 msgid "Button Primary"
 msgstr "ปุ่มหลัก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 msgid "Button Secondary"
 msgstr "ปุ่มรอง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "CSS Edit"
 msgstr "แก้ไข CSS"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
@@ -646,62 +646,62 @@ msgid "Center"
 msgstr "กลาง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 msgid "Change media description and tooltip"
 msgstr "เปลี่ยนคำอธิบายสื่อและคำแนะนำเครื่องมือ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "ChatGPT"
 msgstr "ChatGPT"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Checklist"
 msgstr "รายการตรวจสอบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Choose a record..."
 msgstr "เลือกบันทึก..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_progress_toast.xml:0
 msgid "Close"
 msgstr "ปิด"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Code"
 msgstr "โค้ด"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Codeview"
 msgstr "Codeview"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Collaborative edition"
 msgstr "ฉบับการทำงานร่วมกัน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Collaborative trigger"
 msgstr "ทริกเกอร์การทำงานร่วมกัน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_color_widget
@@ -721,14 +721,14 @@ msgid "Colors"
 msgstr "สี"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Column"
 msgstr "คอลัมน์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg_colorpicker.xml:0
 msgid "Common colors"
 msgstr "สีทั่วไป"
@@ -744,19 +744,19 @@ msgid "Composition"
 msgstr "ส่วนประกอบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Confirm"
 msgstr "ยืนยัน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid "Content conflict"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Content generated"
 msgstr "สร้างเนื้อหาแล้ว"
@@ -767,37 +767,37 @@ msgid "Contrast"
 msgstr "เปรียบต่าง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Convert into 2 columns"
 msgstr "แปลงเป็น 2 คอลัมน์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Convert into 3 columns"
 msgstr "แปลงเป็น 3 คอลัมน์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Convert into 4 columns"
 msgstr "แปลงเป็น 4 คอลัมน์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Copy-paste your URL or embed code here"
 msgstr "คัดลอกและวาง URL หรือโค้ดสำหรับฝังที่นี่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Could not install module %s"
 msgstr "ไม่สามารถติดตั้งโมดูล %s ได้"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_service.js:0
 msgid "Could not load the file \"%s\"."
 msgstr "ไม่สามารถโหลดไฟล์ \"%s\" ได้"
@@ -808,26 +808,26 @@ msgid "Cover"
 msgstr "หน้าปก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Create"
 msgstr "สร้าง"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Create a list with numbering"
 msgstr "สร้างรายการที่มีการเรียงลำดับเลข"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Create a simple bulleted list"
 msgstr "สร้างรายการหัวข้อย่อยแบบง่าย"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Create an URL."
 msgstr "สร้าง URL"
 
@@ -842,14 +842,14 @@ msgid "Created on"
 msgstr "สร้างเมื่อ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Crop Image"
 msgstr "ตัดรูป"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
@@ -859,43 +859,43 @@ msgid "Custom"
 msgstr "กำหนดเอง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Custom %s"
 msgstr "กำหนดเอง %s"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Custom Button"
 msgstr "ปุ่มกำหนดเอง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Customize"
 msgstr "ปรับแต่งได้"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Dailymotion"
 msgstr "Dailymotion"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Dashed"
 msgstr "เส้นประ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Decoration"
 msgstr "การตกแต่ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -903,7 +903,7 @@ msgid "Default"
 msgstr "เริ่มต้น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Default + Rounded"
 msgstr "ค่าเริ่มต้น + โค้งมน"
@@ -914,19 +914,19 @@ msgid "Define a custom gradient"
 msgstr "กำหนดการไล่สีที่กำหนดเอง"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Delete"
 msgstr "ลบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Delete %s"
 msgstr "ลบ %s"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -939,13 +939,13 @@ msgid "Devices"
 msgstr "อุปกรณ์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Direct Download"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
@@ -956,7 +956,7 @@ msgid "Discard"
 msgstr "ละทิ้ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid ""
 "Discover a world of awesomeness in our copyright-free image haven. No legal "
@@ -966,25 +966,25 @@ msgstr ""
 "มีแต่ภาพสวยๆเท่านั้น!"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Display 1"
 msgstr "จอ 1"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Display 2"
 msgstr "จอ 2"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Display 3"
 msgstr "จอ 3"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Display 4"
 msgstr "จอ 4"
@@ -995,43 +995,43 @@ msgid "Display Name"
 msgstr "แสดงชื่อ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Do you want to install %s App?"
 msgstr "คุณต้องการติดตั้งแอป %s หรือไม่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.js:0
 msgid "Documents"
 msgstr "เอกสาร"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Dotted"
 msgstr "เส้นจุด"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Double"
 msgstr "สองเส้น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Double-click to edit"
 msgstr "ดับเบิ้ลคลิกเพื่อแก้ไข"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Drag and drop the building block."
 msgstr "ลากและวางแบบเอกสารสำเร็จรูป"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Duplicate Container"
 msgstr "คอนเทนเนอร์ที่ซ้ำกัน"
@@ -1042,7 +1042,7 @@ msgid "Dynamic Colors"
 msgstr "สีไดนามิก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Dynamic Placeholder"
 msgstr "ตัวยึดตำแหน่งแบบไดนามิก"
@@ -1058,49 +1058,49 @@ msgid "Edit image"
 msgstr "แก้ไขภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Edit media description"
 msgstr "แก้ไขคำอธิบายสื่อ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Embed Image"
 msgstr "ฝังรูปภาพ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Embed Youtube Video"
 msgstr "ฝังวิดีโอ Youtube"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Embed the image in the document."
 msgstr "ฝังรูปภาพในเอกสาร"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Embed the youtube video in the document."
 msgstr "ฝังวิดีโอ YouTube ลงในเอกสาร"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Emoji"
 msgstr "อิโมจิ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Empty quote"
 msgstr "ใบเสนอราคาที่ว่างเปล่า"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Error"
 msgstr "ผิดพลาด"
@@ -1131,25 +1131,25 @@ msgid "Field html History"
 msgstr "ฟิลด์ประวัติ html"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_progress_toast.xml:0
 msgid "File has been uploaded"
 msgstr "ไฟล์ได้รับการอัปโหลด"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Fill"
 msgstr "เติม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Fill + Rounded"
 msgstr "เติม + โค้งมน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Fill Color"
 msgstr "เติมสี"
@@ -1165,13 +1165,13 @@ msgid "First Panel"
 msgstr "แผงแรก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Flat"
 msgstr "คงที่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid "Flexible"
 msgstr "ยืดหยุ่นได้"
@@ -1182,13 +1182,13 @@ msgid "Flip"
 msgstr "พลิก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Flip Horizontal"
 msgstr "พลิกแนวนอน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Flip Vertical"
 msgstr "พลิกแนวตั้ง"
@@ -1199,74 +1199,74 @@ msgid "Floating Shapes"
 msgstr "รูปทรงลอยตัว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Focus"
 msgstr "โฟกัส"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Font Color"
 msgstr "สีฟอนต์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Font size"
 msgstr "ขนาดฟอนต์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "For technical reasons, this block cannot be dropped here"
 msgstr "สำหรับเหตุผลทางเทคนิค บล็อกนี้ไม่สามารถถูกวางที่นี่ได้"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Format"
 msgstr "รูปแบบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Full screen"
 msgstr "เต็มหน้าจอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/backend.xml:0
 msgid "Fullscreen"
 msgstr "แบบเต็มหน้าจอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
 msgid "Generate Text with AI"
 msgstr "สร้างข้อความด้วย AI"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Generate or transform content with AI"
 msgstr "สร้างหรือแปลงเนื้อหาด้วย AI"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Generate or transform content with AI."
 msgstr "สร้างหรือแปลงเนื้อหาด้วย AI"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 msgid "Generating"
 msgstr "สร้าง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 msgid "Generating an alternative..."
 msgstr "สร้างทางเลือกอื่น..."
@@ -1287,7 +1287,7 @@ msgid "Geometrics Rounded"
 msgstr "เรขาคณิตโค้งมน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Gradient"
 msgstr "การไล่สี"
@@ -1298,134 +1298,134 @@ msgid "HTTP Routing"
 msgstr "การกำหนด HTTP"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1"
 msgstr "ส่วนหัว 1"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1 Display 1"
 msgstr "ส่วนหัว 1 จอแสดงผล 1"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1 Display 2"
 msgstr "ส่วนหัว 1 จอแสดงผล 2"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1 Display 3"
 msgstr "ส่วนหัว 1 จอแสดงผล 3"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1 Display 4"
 msgstr "ส่วนหัว 1 จอแสดงผล 4"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 2"
 msgstr "ส่วนหัว 2"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 3"
 msgstr "ส่วนหัว 3"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 4"
 msgstr "ส่วนหัว 4"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 5"
 msgstr "ส่วนหัว 5"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 6"
 msgstr "ส่วนหัว 6"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 1"
 msgstr "ส่วนหัว 1"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 2"
 msgstr "ส่วนหัว 2"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 3"
 msgstr "ส่วนหัว 3"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 4"
 msgstr "หัวเรื่อง 4"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 5"
 msgstr "หัวเรื่อง 5"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 6"
 msgstr "หัวเรื่อง 6"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Height"
 msgstr "ความสูง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Hide Dailymotion logo"
 msgstr "ซ่อนโลโก้ Dailymotion"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Hide fullscreen button"
 msgstr "ปุ่มซ่อนเต็มหน้าจอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Hide player controls"
 msgstr "ซ่อนการควบคุมผู้เล่น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Hide sharing button"
 msgstr "ซ่อนปุ่มแชร์"
@@ -1446,7 +1446,7 @@ msgid "Horizontal mirror"
 msgstr "กระจกแนวนอน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Html"
 msgstr "Html"
@@ -1457,55 +1457,55 @@ msgid "ID"
 msgstr "ไอดี"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Icon"
 msgstr "ไอคอน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Icon Formatting"
 msgstr "การจัดรูปแบบไอคอน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 1x"
 msgstr "ขนาดไอคอน 1x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 2x"
 msgstr "ขนาดไอคอน 2x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 3x"
 msgstr "ขนาดไอคอน 3x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 4x"
 msgstr "ขนาดไอคอน 4x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Icon size 5x"
 msgstr "ขนาดไอคอน 5x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.js:0
 msgid "Icons"
 msgstr "ไอคอน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid ""
 "If you discard the current edits, all unsaved changes will be lost. You can "
@@ -1515,13 +1515,13 @@ msgstr ""
 "คุณสามารถยกเลิกเพื่อกลับสู่โหมดแก้ไข"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "Illustrations"
 msgstr "ภาพประกอบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -1529,19 +1529,19 @@ msgid "Image"
 msgstr "รูปภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Image Formatting"
 msgstr "การจัดรูปแบบภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Image padding"
 msgstr "แพดดิ้งรูปภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.js:0
 msgid "Images"
 msgstr "รูปภาพ"
@@ -1552,13 +1552,13 @@ msgid "Inkwell"
 msgstr "Inkwell"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Inline Text"
 msgstr "ข้อความแบบอินไลน์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
@@ -1566,164 +1566,164 @@ msgid "Insert"
 msgstr "แทรก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Insert a Link / Button"
 msgstr "แทรกลิงค์ / ปุ่ม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 msgid "Insert a block"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a danger banner"
 msgstr "แทรกป้ายความปลอดภัย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Insert a field"
 msgstr "แทรกฟิลด์"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert a horizontal rule separator"
 msgstr "แทรกตัวคั่นกฎแนวนอน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a picture"
 msgstr "แทรกรูปภาพ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert a rating over 3 stars"
 msgstr "ใส่คะแนนมากกว่า 3 ดาว"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert a rating over 5 stars"
 msgstr "ใส่คะแนนมากกว่า 5 ดาว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a success banner"
 msgstr "แทรกป้ายความสำเร็จ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert a table"
 msgstr "แทรกตาราง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a video"
 msgstr "แทรกวิดีโอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a warning banner"
 msgstr "แทรกป้ายคำเตือน"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert above"
 msgstr "แทรกด้านบน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert an info banner"
 msgstr "แทรกป้ายข้อมูล"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert below"
 msgstr "แทรกด้านล่าง"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert left"
 msgstr "แทรกด้านซ้าย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Insert media"
 msgstr "แทรกสื่อ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Insert or edit link"
 msgstr "แทรกหรือแก้ไขลิงก์"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Insert right"
 msgstr "แทรกด้านขวา"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert your signature"
 msgstr "แทรกลายเซ็นของคุณ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Install"
 msgstr "ติดตั้ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/add_snippet_dialog.js:0
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Install %s"
 msgstr "ติดตั้ง %s"
 
 #. module: web_editor
-#. odoo-python
+#. manapathi-python
 #: code:addons/web_editor/models/ir_ui_view.py:0
 msgid "Invalid field value for %(field_name)s: %(value)s"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Invisible Elements"
 msgstr "องค์ประกอบที่มองไม่เห็น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Item"
 msgstr "รายการ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Label"
 msgstr "ป้าย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Large"
@@ -1740,20 +1740,20 @@ msgid "Last Updated on"
 msgstr "อัปเดตครั้งล่าสุดเมื่อ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Layout"
 msgstr "เค้าโครง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Left"
 msgstr "ซ้าย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Light"
 msgstr "อ่อน"
@@ -1764,63 +1764,63 @@ msgid "Linear"
 msgstr "เชิงเส้น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Link"
 msgstr "ลิงก์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link Label"
 msgstr "ป้ายลิงก์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link Shape"
 msgstr "รูปร่างลิงค์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link Size"
 msgstr "ขนาดลิงค์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link Style"
 msgstr "สไตล์ลิงก์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link_popover_widget.js:0
 msgid "Link copied to clipboard."
 msgstr "คัดลอกลิงก์ไปยังคลิปบอร์ด"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Link to an uploaded document"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "List"
 msgstr "รายการ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "Load more..."
 msgstr "โหลดเพิ่ม..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
@@ -1830,7 +1830,7 @@ msgid "Loading..."
 msgstr "กำลังโหลด..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Loop"
 msgstr "ห่วง"
@@ -1841,7 +1841,7 @@ msgid "Main Color"
 msgstr "สีหลัก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Marketing Tools"
 msgstr "เครื่องมือทางการตลาด"
@@ -1852,130 +1852,130 @@ msgid "Maven"
 msgstr "Maven"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Max height"
 msgstr "ความสูงที่สูงสุด"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Media"
 msgstr "มีเดีย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Medium"
 msgstr "วิธีที่เข้ามา"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Medium section heading"
 msgstr "ส่วนหัวของส่วนขนาดกลาง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Min height"
 msgstr "ความสูงขั้นต่ำ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "More info about this app."
 msgstr "ข้อมูลเพิ่มเติมเกี่ยวกับแอปนี้"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Move down"
 msgstr "เลื่อนลง"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Move left"
 msgstr "เลื่อนไปทางซ้าย"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Move right"
 msgstr "เลื่อนไปทางขวา"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Move up"
 msgstr "เลื่อนขึ้น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "My Images"
 msgstr "รูปภาพของฉัน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__name
 msgid "Name"
 msgstr "ชื่อ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Navigation"
 msgstr "การนำทาง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "No"
 msgstr "ไม่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link_popover_widget.js:0
 msgid "No URL specified"
 msgstr "ไม่ระบุ URL"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.xml:0
 msgid "No documents found."
 msgstr "ไม่พบเอกสาร"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid "No images found."
 msgstr "ไม่พบรูปภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "No more records"
 msgstr "ไม่มีบันทึกเพิ่มเติม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/icon_selector.xml:0
 msgid "No pictograms found."
 msgstr "ไม่พบรูปภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "No videos"
 msgstr "ไม่มีวิดีโอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
@@ -1985,15 +1985,15 @@ msgid "None"
 msgstr "ไม่มี"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Normal"
 msgstr "ปกติ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Numbered list"
 msgstr "รายการที่มีเลข"
 
@@ -2003,20 +2003,20 @@ msgid "Manapathi Editor Tests"
 msgstr "การทดสอบตัวแก้ไข Manapathi"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Open in New Window"
 msgstr "เปิดหน้าต่างใหม่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Open in new window"
 msgstr "เปิดหน้าต่างใหม่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid "Optimized"
 msgstr "ปรับให้เหมาะสม"
@@ -2027,19 +2027,19 @@ msgid "Origins"
 msgstr "แหล่งที่มา"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Outline"
 msgstr "เค้าโครง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Outline + Rounded"
 msgstr "เค้าโครง + โค้งมน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Overlay"
 msgstr "ซ้อนทับ"
@@ -2050,7 +2050,7 @@ msgid "Padding"
 msgstr "แพดดิ้ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Page Options"
 msgstr "ตัวเลือกหน้า"
@@ -2061,14 +2061,14 @@ msgid "Panels"
 msgstr "แผง"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Paragraph block"
 msgstr "ย่อหน้าบล็อก"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Paste as URL"
 msgstr "วางเป็น URL"
 
@@ -2084,20 +2084,20 @@ msgid "Position"
 msgstr "ตำแหน่ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Preset #{number}"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Preview"
 msgstr "ตัวอย่าง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_progress_toast.xml:0
 msgid "Progress bar"
 msgstr "แถบความคืบหน้า"
@@ -2123,7 +2123,7 @@ msgid "Quality"
 msgstr "คุณภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Quote"
@@ -2210,7 +2210,7 @@ msgid "Qweb Field qweb"
 msgstr "Qweb Field qweb"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "REPLACE BY NEW VERSION"
 msgstr "แทนที่ด้วยเวอร์ชันใหม่"
@@ -2221,7 +2221,7 @@ msgid "Radial"
 msgstr "เรเดียล"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Readonly field"
 msgstr "ฟิลด์อ่านได้อย่างเดียว"
@@ -2232,19 +2232,19 @@ msgid "Redirect the user elsewhere when he clicks on the media."
 msgstr "เปลี่ยนเส้นทางผู้ใช้ไปที่อื่นเมื่อเขาคลิกที่สื่อ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Remove (DELETE)"
 msgstr "นำออก (ลบ)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Remove Block"
 msgstr "นำบล็อกออก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Remove Current"
 msgstr "นำกระแสออก"
@@ -2255,32 +2255,32 @@ msgid "Remove Selected Color"
 msgstr "ลบสีที่เลือก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Remove columns"
 msgstr "ลบคอลัมน์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Remove format"
 msgstr "นำรูปแบบออก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Remove link"
 msgstr "นำลิงก์ออก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Rename %s"
 msgstr "เปลี่ยนชื่อ %s"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 msgid "Rename the block"
 msgstr ""
@@ -2291,7 +2291,7 @@ msgid "Repeat pattern"
 msgstr "รูปแบบซ้ำ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -2299,27 +2299,27 @@ msgid "Replace"
 msgstr "แทนที่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Replace media"
 msgstr "แทนที่สื่อ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Reset"
 msgstr "ตั้งค่าใหม่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Reset Image"
 msgstr "รีเซ็ตภาพ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Reset Size"
 msgstr "รีเซ็ตขนาด"
@@ -2335,54 +2335,54 @@ msgid "Reset transformation"
 msgstr "รีเซ็ตการเปลี่ยนแปลง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Resizable"
 msgstr "ปรับขนาดได้"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Resize Default"
 msgstr "ปรับขนาดค่าเริ่มต้น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Resize Full"
 msgstr "ปรับขนาดเต็ม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Resize Half"
 msgstr "ปรับขนาดครึ่ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Resize Quarter"
 msgstr "ปรับขนาดส่วน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Right"
 msgstr "ขวา"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Rotate Left"
 msgstr "หมุนซ้าย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Rotate Right"
 msgstr "หมุนขวา"
@@ -2398,13 +2398,13 @@ msgid "Rotate right"
 msgstr "หมุนขวา"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Row"
 msgstr "แถว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Sandboxed preview"
 msgstr "การแสดงตัวอย่างแบบแซนด์บ็อกซ์"
@@ -2415,7 +2415,7 @@ msgid "Saturation"
 msgstr "ความอิ่มตัวสี"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
@@ -2423,86 +2423,86 @@ msgid "Save"
 msgstr "บันทึก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Save and Install"
 msgstr "บันทึกและติดตั้ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Save and Reload"
 msgstr "บันทึกและโหลดซ้ำ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.js:0
 msgid "Search a document"
 msgstr "ค้นหาเอกสาร"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/icon_selector.xml:0
 msgid "Search a pictogram"
 msgstr "ค้นหารูปสัญลักษณ์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Search an image"
 msgstr "ค้นหารูปภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 msgid "Search for a block"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Search for a block (e.g. numbers, image wall, ...)"
 msgstr "ค้นหาบล็อก (เช่น ตัวเลข ผนังรูปภาพ ...)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Search for records..."
 msgstr "ค้นหาบันทึก..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Search more..."
 msgstr "ค้นหาเพิ่มเติม..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Search to show more records"
 msgstr "ค้นหาเพื่อแสดงบันทึกเพิ่มเติม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Select a block on your page to style it."
 msgstr "เลือกบล็อกบนเพจของคุณเพื่อจัดรูปแบบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.xml:0
 msgid "Select a media"
 msgstr "เลือกสื่อ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
 msgid "Send a message"
 msgstr "ส่งข้อความ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "Separator"
 msgstr "ตัวแบ่ง"
@@ -2513,14 +2513,14 @@ msgid "Sepia"
 msgstr "ซีเปีย"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Shadow"
 msgstr "เงา"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -2528,21 +2528,21 @@ msgid "Shape"
 msgstr "รูปร่าง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Shape: Circle"
 msgstr "รูปร่าง: วงกลม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Shape: Rounded"
 msgstr "รูปร่าง: โค้งมน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Shape: Thumbnail"
@@ -2554,7 +2554,7 @@ msgid "Shapes"
 msgstr "รูปร่าง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "Show optimized images"
 msgstr "แสดงภาพที่ปรับให้เหมาะสมที่สุด"
@@ -2565,13 +2565,13 @@ msgid "Show/Hide on Mobile"
 msgstr "แสดง/ซ่อนบนมือถือ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Signature"
 msgstr "ลายเซ็น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
@@ -2605,32 +2605,32 @@ msgid "Size 5x"
 msgstr "ขนาด 5x"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Small"
 msgstr "เล็ก"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Small section heading"
 msgstr "ส่วนหัวส่วนขนาดเล็ก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/add_snippet_dialog.xml:0
 msgid "Snippet name"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Snippets"
 msgstr "ตัวอย่าง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Solid"
@@ -2642,7 +2642,7 @@ msgid "Solids"
 msgstr "ของแข็ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid ""
 "Someone with escalated rights previously modified this area, you are "
@@ -2657,7 +2657,7 @@ msgid "Specials"
 msgstr "พิเศษ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid ""
 "Specify when the collaboration starts. 'Focus' will start the collaboration "
@@ -2676,7 +2676,7 @@ msgid "Speed"
 msgstr "ความเร็ว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Start"
 msgstr "เริ่ม"
@@ -2687,94 +2687,94 @@ msgid "Stretch"
 msgstr "ยืด"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Structure"
 msgstr "โครงสร้าง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Style"
 msgstr "สไตล์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Suggestions"
 msgstr "ข้อเสนอ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Switch direction"
 msgstr "สลับทิศทาง"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Switch the text's direction"
 msgstr "สลับทิศทางของข้อความ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Table"
 msgstr "ตาราง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Table Options"
 msgstr "ตัวเลือกตาราง"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Text"
 msgstr "ข้อความ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Text Color"
 msgstr "สีข้อความ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Text align"
 msgstr "จัดข้อความ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Text style"
 msgstr "รูปแบบข้อความ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "The URL does not seem to work."
 msgstr "ดูเหมือนว่า URL จะไม่ทำงาน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "The URL seems valid."
 msgstr "URL ดูเหมือนถูกต้อง"
 
 #. module: web_editor
-#. odoo-python
+#. manapathi-python
 #: code:addons/web_editor/models/ir_qweb_fields.py:0
 msgid "The datetime %(value)s does not match the format %(format)s"
 msgstr "วันที่และเวลา %(value)s ไม่ตรงกับรูปแบบ %(format)s"
 
 #. module: web_editor
-#. odoo-python
+#. manapathi-python
 #: code:addons/web_editor/tools.py:0
 msgid ""
 "The document was already saved from someone with a different history for "
@@ -2784,25 +2784,25 @@ msgstr ""
 " \"%(model)s\", ฟิลด์ \"%(field)s\" ที่มี ID \"%(id)d\""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "The provided url does not reference any supported video"
 msgstr "URL ที่ให้มาไม่ได้อ้างอิงถึงวิดีโอที่รองรับ"
 
 #. module: web_editor
-#. odoo-python
+#. manapathi-python
 #: code:addons/web_editor/tools.py:0
 msgid "The provided url is invalid"
 msgstr "URL ที่ระบุไม่ถูกต้อง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "The provided url is not valid"
 msgstr "URL ที่ระบุไม่ถูกต้อง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid ""
 "The version from the database will be used.\n"
@@ -2812,73 +2812,73 @@ msgstr ""
 "                            หากคุณต้องการเก็บการเปลี่ยนแปลง ให้คัดลอกเนื้อหาด้านล่างและแก้ไขเอกสารใหม่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Theme"
 msgstr "ธีม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg_colorpicker.xml:0
 msgid "Theme colors"
 msgstr "ธีมสี"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid "There is a conflict between your version and the one in the database."
 msgstr "มีข้อขัดแย้งระหว่างเวอร์ชันของคุณกับเวอร์ชันในฐานข้อมูล"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_prompt_dialog.xml:0
 msgid "Thinking..."
 msgstr "กำลังคิดอยู่..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link_popover_widget.js:0
 msgid "This URL is invalid. Preview couldn't be updated."
 msgstr "URL นี้ไม่ถูกต้อง ไม่สามารถอัปเดตการแสดงตัวอย่างได้"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "This block cannot be dropped anywhere on this page."
 msgstr "ไม่สามารถวางบล็อคนี้ที่ใดก็ได้บนหน้านี้"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "This block is outdated."
 msgstr "บล็อกนี้ล้าสมัยแล้ว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "This document is not saved!"
 msgstr "เอกสารนี้ไม่ได้รับการบันทึก!"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "This file is a public view attachment."
 msgstr "ไฟล์นี้เป็นเอกสารแนบสำหรับมุมมองสาธารณะ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "This file is attached to the current record."
 msgstr "ไฟล์นี้แนบมากับบันทึกปัจจุบัน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid "This image is an external image"
 msgstr "ภาพนี้เป็นภาพภายนอก"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
@@ -2888,13 +2888,13 @@ msgstr ""
 "โปรดดาวน์โหลดจากแหล่งที่มาดั้งเดิมและอัปโหลดใน Manapathi ก่อน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Tip: Esc to preview"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Title"
 msgstr "คำนำหน้าชื่อ"
@@ -2905,7 +2905,7 @@ msgid "Title tag"
 msgstr "แท็กชื่อเรื่อง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid ""
 "To save a snippet, we need to save all your previous modifications and "
@@ -2920,63 +2920,63 @@ msgid "Toaster"
 msgstr "Toaster"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle bold"
 msgstr "สลับตัวหนา"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle checklist"
 msgstr "สลับรายการตรวจสอบ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle icon spin"
 msgstr "สลับการหมุนไอคอน"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle italic"
 msgstr "สลับตัวเอียง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle ordered list"
 msgstr "สลับรายการที่เรียงลำดับ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle strikethrough"
 msgstr "สลับขีดทับ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle underline"
 msgstr "สลับการขีดเส้นใต้"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle unordered list"
 msgstr "สลับรายการที่ไม่เรียงลำดับ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/alt_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Tooltip"
 msgstr "ทูลทิป"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Track tasks with a checklist"
 msgstr "ติดตามงานด้วยรายการตรวจสอบ"
 
@@ -2991,39 +2991,39 @@ msgid "Transform the picture"
 msgstr "แปลงภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Transform the picture (click twice to reset transformation)"
 msgstr "แปลงรูปภาพ (คลิกสองครั้งเพื่อรีเซ็ตการแปลง)"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/backend.xml:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Translate"
 msgstr "แปล"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Translate with AI"
 msgstr "แปลด้วย AI"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
 msgid "Translating..."
 msgstr "กำลังแปล..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg_colorpicker.xml:0
 msgid "Transparent colors"
 msgstr "สีโปร่งแสง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/icon_selector.xml:0
 msgid "Try searching with other keywords."
 msgstr "ลองค้นหาด้วยคำอื่นๆ"
@@ -3034,13 +3034,13 @@ msgid "Type"
 msgstr "ประเภท"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 msgid "Type \"/\" for commands"
 msgstr "พิมพ์ \"/\" สำหรับ commands"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "URL or Email"
 msgstr "URL หรือ อีเมลล์"
@@ -3051,19 +3051,19 @@ msgid "Unalign"
 msgstr "ไม่จัดตำแหน่ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.js:0
 msgid "Upload a document"
 msgstr "อัปโหลดเอกสาร"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Upload an image"
 msgstr "อัปโหลดภาพ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "Uploaded image's format is not supported. Try with: "
 msgstr "ไม่รองรับรูปแบบของรูปภาพที่อัปโหลด ให้ลองกับ:"
@@ -3079,32 +3079,32 @@ msgid "Vertical mirror"
 msgstr "กระจกแนวตั้ง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Video"
 msgstr "วิดีโอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Video Formatting"
 msgstr "การจัดรูปแบบวิดีโอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Video code"
 msgstr "โค้ดวิดีโอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.js:0
 msgid "Videos"
 msgstr "วิดีโอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Videos are muted when autoplay is enabled"
 msgstr "วิดีโอจะถูกปิดเสียงเมื่อเปิดใช้งานการเล่นอัตโนมัติ"
@@ -3115,7 +3115,7 @@ msgid "View"
 msgstr "ดู"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Vimeo"
 msgstr "Vimeo"
@@ -3126,7 +3126,7 @@ msgid "Walden"
 msgstr "Walden"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid ""
 "Warning: after closing this dialog, the version you were working on will be "
@@ -3151,8 +3151,8 @@ msgid "Web Editor Converter Test"
 msgstr "การทดสอบตัวแปลงแก้ไขเว็บ"
 
 #. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/ManapathiEditor.js:0
+#. manapathi-javascript
+#: code:addons/web_editor/static/src/js/editor/manapathi-editor/src/ManapathiEditor.js:0
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Widgets"
 msgstr "วิดเจ็ต"
@@ -3163,7 +3163,7 @@ msgid "Width"
 msgstr "ความกว้าง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid ""
 "With the option enabled, all content can only be viewed in a sandboxed "
@@ -3173,7 +3173,7 @@ msgstr ""
 "แบบแซนด์บ็อกซ์หรือในตัวแก้ไขโค้ดเท่านั้น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid ""
 "Wow, it feels a bit empty in here. Upload from the button in the top right "
@@ -3181,13 +3181,13 @@ msgid ""
 msgstr "ว้าว มันรู้สึกว่างเปล่านิดหน่อยที่นี่ เริ่มอัปโหลดจากปุ่มมุมขวาบน!"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.options.js:0
 msgid "Write something..."
 msgstr "เขียนข้อความที่นี่..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "XL"
 msgstr "XL"
@@ -3198,13 +3198,13 @@ msgid "Xpro"
 msgstr "Xpro"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:0
 msgid "Yes"
 msgstr "ใช่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid ""
 "You can not replace a field by this image. If you want to use this image, "
@@ -3214,19 +3214,19 @@ msgstr ""
 "โปรดบันทึกลงในคอมพิวเตอร์ของคุณก่อน จากนั้นให้อัปโหลดที่นี่"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid "You can not use this image in a field"
 msgstr "คุณไม่สามารถใช้รูปภาพนี้ในฟิลด์ได้"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "You can still access the block options but it might be ineffective."
 msgstr "คุณยังคงสามารถเข้าถึงตัวเลือกการบล็อกได้ แต่อาจไม่ได้ผล"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.xml:0
 msgid ""
 "You can upload documents with the button located in the top left of the "
@@ -3234,44 +3234,44 @@ msgid ""
 msgstr "คุณสามารถอัปโหลดเอกสารด้วยปุ่มที่อยู่ด้านบนซ้ายของหน้าจอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "You might not be able to customize it anymore."
 msgstr "คุณอาจไม่สามารถปรับแต่งได้อีกต่อไป"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Youku"
 msgstr "Youku"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Your URL"
 msgstr "URL ของคุณ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Your content was successfully generated."
 msgstr "สร้างเนื้อหาของคุณสำเร็จแล้ว"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Youtube"
 msgstr "Youtube"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Zoom In"
 msgstr "ขยายเข้า"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Zoom Out"
 msgstr "ขยายออก"
@@ -3282,19 +3282,19 @@ msgid "add"
 msgstr "เพิ่ม"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "all"
 msgstr "ทั้งหมด"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_alternatives_dialog.xml:0
 msgid "alternatives..."
 msgstr "ทางเลือก..."
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "and"
 msgstr "และ"
@@ -3310,7 +3310,7 @@ msgid "darken"
 msgstr "มืดลง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "database"
 msgstr "ฐานข้อมูล"
@@ -3321,25 +3321,25 @@ msgid "exclusion"
 msgstr "การยกเว้น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "fill"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "fill,rounded-circle"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "flat"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "lg"
 msgstr ""
@@ -3350,7 +3350,7 @@ msgid "lighten"
 msgstr "สว่างขึ้น"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "media-library"
 msgstr "media-library"
@@ -3361,13 +3361,13 @@ msgid "multiply"
 msgstr "คูณ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "outline"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "outline,rounded-circle"
 msgstr ""
@@ -3378,13 +3378,13 @@ msgid "overlay"
 msgstr "โอเวอร์เลย์"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "px"
 msgstr "px"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "rounded-circle"
 msgstr ""
@@ -3395,19 +3395,19 @@ msgid "screen"
 msgstr "หน้าจอ"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "sm"
 msgstr ""
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "to"
 msgstr "ถึง"
 
 #. module: web_editor
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "videos"
 msgstr "วิดีโอ"

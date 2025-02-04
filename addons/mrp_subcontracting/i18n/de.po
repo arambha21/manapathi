@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
-"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://app.transifex.com/manapathi/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,13 +21,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 msgid "%(name)s Sequence Resupply Subcontractor"
 msgstr "%(name)s: Sequenz der Belieferung des Subunternehmers"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 msgid "%(name)s Sequence subcontracting"
 msgstr "%(name)s: Sequenz für Unterauftragsvergabe"
@@ -38,7 +38,7 @@ msgid "/my/productions"
 msgstr "/my/productions"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "All"
 msgstr "Alle"
@@ -151,7 +151,7 @@ msgid "Display Action Record Components"
 msgstr "Aktion „Komponenten erfassen“ anzeigen"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Done"
@@ -178,7 +178,7 @@ msgid "Hide"
 msgstr "Verbergen"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_location.py:0
 msgid ""
 "In order to manage stock accurately, subcontracting locations must be type "
@@ -224,7 +224,7 @@ msgid "MRP Productions for which the Partner is the subcontractor"
 msgstr "MRP-Produktionen, für die der Partner der Subunternehmer ist"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_move_line.py:0
 msgid ""
 "Make sure you validate or adapt the related resupply picking to your "
@@ -256,25 +256,25 @@ msgid "Manufacturing Reference"
 msgstr "Fertigungsreferenz"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "Name"
 msgstr "Name"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "Newest"
 msgstr "Neueste"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 msgid "Nothing to record"
 msgstr "Nichts zu erfassen"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_quant.py:0
 msgid "Operation not supported"
 msgstr "Vorgang nicht unterstützt"
@@ -295,7 +295,7 @@ msgid "Order"
 msgstr "Auftrag"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_move.py:0
 msgid ""
 "Portal users cannot create a stock move with a state 'Done' or change the "
@@ -331,13 +331,13 @@ msgid "Quants"
 msgstr "Quanten"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_move.py:0
 msgid "Raw Materials for %s"
 msgstr "Rohmaterialien für %s"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "Ready"
 msgstr "Bereit"
@@ -358,20 +358,20 @@ msgid "Register components for subcontracted product"
 msgstr "Komponenten für unterbeauftragte Produkte registrieren"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
 msgstr "Auffüllung nach Auftrag (Auftragsfertigung)"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_warehouse__subcontracting_route_id
 msgid "Resupply Subcontractor"
 msgstr "Subunternehmer beliefern"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_replenish_mixin.py:0
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 #: model:stock.route,name:mrp_subcontracting.route_resupply_subcontractor_mto
@@ -430,7 +430,7 @@ msgid "Stock Rule"
 msgstr "Bestandsregel"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_move.py:0
 msgid "Subcontract"
 msgstr "Unterauftrag"
@@ -441,14 +441,14 @@ msgid "Subcontracted"
 msgstr "An Subunternehmer vergeben"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "Subcontracted manufacturing orders cannot be merged."
 msgstr ""
 "Fertigungsaufträge von Subunternehmern können nicht zusammengeführt werden."
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 #: model:ir.model.fields.selection,name:mrp_subcontracting.selection__mrp_bom__type__subcontract
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.stock_picking_form_view
@@ -456,7 +456,7 @@ msgid "Subcontracting"
 msgstr "Unterauftragsvergabe"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/res_company.py:0
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_company__subcontracting_location_id
 msgid "Subcontracting Location"
@@ -493,13 +493,13 @@ msgid "Subcontracting Resupply Operation Type"
 msgstr "Vorgangsart für Nachlieferung bei Unterauftragsvergabe"
 
 #. module: mrp_subcontracting
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/mrp_subcontracting/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
 msgid "Subcontracting:"
 msgstr "Unterauftragsvergabe:"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/report/mrp_report_bom_structure.py:0
 msgid "Subcontracting: %s"
 msgstr "Unterauftragsvergabe: %s"
@@ -550,7 +550,7 @@ msgid "There are currently no productions for your account."
 msgstr "Derzeit gibt es keine Produktionen für Ihr Konto."
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 msgid ""
 "There shouldn't be multiple productions to record for the same subcontracted"
@@ -560,7 +560,7 @@ msgstr ""
 "Buchung erfasst werden."
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "This MO isn't related to a subcontracted move"
 msgstr ""
@@ -600,7 +600,7 @@ msgstr ""
 "einen Fertigungsauftrag verwendet (bezogen auf die Stückliste)"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_bom.py:0
 msgid ""
 "You can not set a Bill of Material with operations or by-product line as "
@@ -610,31 +610,31 @@ msgstr ""
 "Unterauftrag einstellen."
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/stock_location.py:0
 msgid "You cannot alter the company's subcontracting location"
 msgstr "Sie können nicht den Subunternehmerstandort des Unternehmens ändern"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "You cannot write on fields %s in mrp.production."
 msgstr "Sie können nicht in %s-Felder in mrp.production schreiben."
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "You must enter a serial number for %s"
 msgstr "Sie müssen für %s eine Seriennummer angeben"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "You must enter a serial number for each line of %s"
 msgstr "Sie müssen eine Seriennummer für jede Zeile von %s angeben"
 
 #. module: mrp_subcontracting
-#. odoo-python
+#. manapathi-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid ""
 "You must indicate a non-zero amount consumed for at least one of your "

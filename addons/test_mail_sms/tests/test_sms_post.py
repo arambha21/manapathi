@@ -3,10 +3,10 @@
 
 from datetime import datetime, timedelta
 
-from odoo.addons.base.tests.test_ir_cron import CronMixinCase
-from odoo.addons.sms.tests.common import SMSCommon
-from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
-from odoo.tests import tagged
+from manapathi.addons.base.tests.test_ir_cron import CronMixinCase
+from manapathi.addons.sms.tests.common import SMSCommon
+from manapathi.addons.test_mail_sms.tests.common import TestSMSRecipients
+from manapathi.tests import tagged
 
 
 @tagged('sms_post')

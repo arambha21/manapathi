@@ -1,8 +1,8 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
-from odoo import _lt
-from odoo.http import request
+from manapathi import _lt
+from manapathi.http import request
 
-from odoo.addons.website_sale.controllers.main import WebsiteSale
+from manapathi.addons.website_sale.controllers.main import WebsiteSale
 
 
 class L10nBRWebsiteSale(WebsiteSale):

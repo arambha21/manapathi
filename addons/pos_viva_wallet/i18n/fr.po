@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
-"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://app.transifex.com/manapathi/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -26,7 +26,7 @@ msgid "API Key"
 msgstr "Clé API"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "Can't create payment method. Please check the data and update it."
 msgstr ""
@@ -34,7 +34,7 @@ msgstr ""
 "les mettre à jour."
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "Can't update payment method. Please check the data and update it."
 msgstr ""
@@ -42,7 +42,7 @@ msgstr ""
 "données et les mettre à jour."
 
 #. module: pos_viva_wallet
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_viva_wallet/static/src/app/payment_viva_wallet.js:0
 msgid "Cannot process transactions with negative amount."
 msgstr "Impossible de traiter des transactions dont le montant est négatif."
@@ -58,7 +58,7 @@ msgid "Client secret"
 msgstr "Secret client"
 
 #. module: pos_viva_wallet
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_viva_wallet/static/src/app/payment_viva_wallet.js:0
 msgid ""
 "Could not connect to the Manapathi server, please check your internet connection "
@@ -68,7 +68,7 @@ msgstr ""
 "connexion Internet et réessayer."
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "It is essential to provide API key for the use of viva wallet"
 msgstr "Vous devez fournir la clé API pour pouvoir utiliser viva wallet"
@@ -79,13 +79,13 @@ msgid "Merchant ID"
 msgstr "ID marchand"
 
 #. module: pos_viva_wallet
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_viva_wallet/static/src/app/payment_viva_wallet.js:0
 msgid "Message from Viva Wallet: %s"
 msgstr "Message de Viva Wallet : %s"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "Only 'group_pos_user' are allowed to cancel a Viva Wallet payment"
 msgstr ""
@@ -93,7 +93,7 @@ msgstr ""
 "Viva Wallet"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "Only 'group_pos_user' are allowed to get latest transaction status"
 msgstr ""
@@ -101,7 +101,7 @@ msgstr ""
 "transactions"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid ""
 "Only 'group_pos_user' are allowed to get the payment status from Viva Wallet"
@@ -110,7 +110,7 @@ msgstr ""
 "paiement depuis Viva Wallet"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid ""
 "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
@@ -139,7 +139,7 @@ msgid "Test mode"
 msgstr "Mode test"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "There are some issues between us and Viva Wallet, try again later. %s"
 msgstr ""
@@ -147,7 +147,7 @@ msgstr ""
 "tard. %s"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "There are some issues between us and Viva Wallet, try again later.%s)"
 msgstr ""
@@ -155,7 +155,7 @@ msgstr ""
 "tard.%s)"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid ""
 "Unable to retrieve Viva Wallet Bearer Token: Please verify that the Client "
@@ -193,7 +193,7 @@ msgid "Viva Wallet Bearer Token"
 msgstr "Jeton de support Viva Wallet"
 
 #. module: pos_viva_wallet
-#. odoo-javascript
+#. manapathi-javascript
 #: code:addons/pos_viva_wallet/static/src/app/payment_viva_wallet.js:0
 msgid "Viva Wallet Error"
 msgstr "Erreur Viva Wallet"
@@ -214,7 +214,7 @@ msgid "Viva Wallet Webhook Verification Key"
 msgstr "Clé de vérification webhook Viva Wallet"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "Your transaction with Viva Wallet failed. Please try again later."
 msgstr ""
@@ -226,13 +226,13 @@ msgid "[Terminal ID of the Viva Wallet terminal], for example: 16002169"
 msgstr "[ID terminal du terminal Viva Wallet], par exemple : 16002169"
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/controllers/main.py:0
 msgid "received a message for a pos payment provider not registered."
 msgstr "a reçu un message pour un fournisseur de paiement non enregistré."
 
 #. module: pos_viva_wallet
-#. odoo-python
+#. manapathi-python
 #: code:addons/pos_viva_wallet/controllers/main.py:0
 msgid "received a message for a terminal not registered in Manapathi: %s"
 msgstr "a reçu un message pour un terminal non enregistré dans Manapathi : %s"

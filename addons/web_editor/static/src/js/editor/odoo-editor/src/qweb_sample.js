@@ -1,4 +1,4 @@
-/** @odoo-module */
+/** @manapathi-module */
 
 export const qwebSample = /* xml */ `
 <h1>Qweb examples</h1>

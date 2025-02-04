@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Wil Manapathi, 2024
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
+# Erwin van der Ploeg <erwin@manapathiexperts.nl>, 2024
 # Manon Rondou, 2024
 # 
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2024\n"
-"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://app.transifex.com/manapathi/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -79,7 +79,7 @@ msgid "Formula Decoded Info"
 msgstr "Formule gedecodeerd"
 
 #. module: account_tax_python
-#. odoo-python
+#. manapathi-python
 #: code:addons/account_tax_python/models/account_tax.py:0
 msgid "Malformed formula '%(formula)s' at position %(position)s"
 msgstr "Onjuiste formule '%(formula)s' op positie %(position)s"

@@ -1,7 +1,7 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models, api, _
-from odoo.exceptions import ValidationError
+from manapathi import fields, models, api, _
+from manapathi.exceptions import ValidationError
 
 class AccountJournal(models.Model):
 

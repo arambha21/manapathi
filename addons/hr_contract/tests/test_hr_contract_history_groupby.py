@@ -1,6 +1,6 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests.common import TransactionCase
+from manapathi.tests.common import TransactionCase
 
 class TestHrContractHistoryGroupby(TransactionCase):
 

@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Manapathi, 2024\n"
-"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://app.transifex.com/manapathi/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,7 +30,7 @@ msgid "Analytic Lines"
 msgstr "분석 라인"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 msgid ""
 "Both the internal project and task are required to generate a timesheet for "
@@ -73,7 +73,7 @@ msgid ""
 msgstr "이 선택 사항을 선택하면 휴가 시간을 확인할 때 회사 휴가 계획에서 작업 기록표가 생성됩니다."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 msgid "Internal"
 msgstr "내부"
@@ -84,7 +84,7 @@ msgid "Internal Project"
 msgstr "내부 프로젝트"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/project_task.py:0
 msgid "Operation not supported"
 msgstr "지원되지 않는 작업"
@@ -125,7 +125,7 @@ msgstr ""
 "휴가 요청을 통해 자동으로 작업기록을 생성할 때 사용되는 기본 작업입니다. 휴가 유형별로 각각 작업을 다르게 지정할 수 있습니다."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/__init__.py:0
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 #: code:addons/project_timesheet_holidays/models/res_company.py:0
@@ -134,7 +134,7 @@ msgid "Time Off"
 msgstr "휴가"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/hr_holidays.py:0
 #: code:addons/project_timesheet_holidays/models/resource_calendar_leaves.py:0
 msgid "Time Off (%(index)s/%(total)s)"
@@ -162,13 +162,13 @@ msgid "Timesheets"
 msgstr "작업 기록"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid "View Time Off"
 msgstr "휴가 보기"
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot create timesheets for a task that is linked to a time off type. "
@@ -177,7 +177,7 @@ msgstr ""
 "휴가 요청과 연결되어 있는 작업에 대한 작업기록을 생성할 수 없습니다. 휴가 애플리케이션을 사용하여 새로운 휴가를 요청하십시오."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot delete timesheets that are linked to time off requests. Please "
@@ -185,7 +185,7 @@ msgid ""
 msgstr "휴가 요청과 연결되어 있는 작업기록은 삭제할 수 없습니다. 휴가 애플리케이션을 사용하여 휴가 요청을 취소하십시오."
 
 #. module: project_timesheet_holidays
-#. odoo-python
+#. manapathi-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid ""
 "You cannot modify timesheets that are linked to time off requests. Please "

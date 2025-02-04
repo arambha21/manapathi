@@ -44,7 +44,7 @@ msgstr ""
 #. module: l10n_latam_invoice_document
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_l10n_latam_document_type__internal_type
 msgid ""
-"Analog to odoo account.move.move_type but with more options allowing to "
+"Analog to manapathi account.move.move_type but with more options allowing to "
 "identify the kind of document we are working with. (not only related to "
 "account.move, could be for documents of other models like stock.picking)"
 msgstr ""
@@ -271,7 +271,7 @@ msgid "Name that will be printed in reports, for example \"CREDIT NOTE\""
 msgstr ""
 
 #. module: l10n_latam_invoice_document
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_latam_invoice_document/models/account_move.py:0
 msgid "Please set the document number on the following invoices %s."
 msgstr ""
@@ -304,7 +304,7 @@ msgid "The document name"
 msgstr ""
 
 #. module: l10n_latam_invoice_document
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_latam_invoice_document/models/account_move.py:0
 msgid ""
 "The journal require a document type but not document type has been selected "
@@ -327,13 +327,13 @@ msgid "Use Documents?"
 msgstr ""
 
 #. module: l10n_latam_invoice_document
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_latam_invoice_document/models/account_move.py:0
 msgid "We do not accept the usage of document types on receipts yet. "
 msgstr ""
 
 #. module: l10n_latam_invoice_document
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_latam_invoice_document/models/account_journal.py:0
 msgid ""
 "You can not modify the field \"Use Documents?\" if there are validated "
@@ -341,19 +341,19 @@ msgid ""
 msgstr ""
 
 #. module: l10n_latam_invoice_document
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_latam_invoice_document/models/account_move.py:0
 msgid "You can not use a %s document type with a invoice"
 msgstr ""
 
 #. module: l10n_latam_invoice_document
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_latam_invoice_document/models/account_move.py:0
 msgid "You can not use a %s document type with a refund invoice"
 msgstr ""
 
 #. module: l10n_latam_invoice_document
-#. odoo-python
+#. manapathi-python
 #: code:addons/l10n_latam_invoice_document/wizards/account_move_reversal.py:0
 msgid ""
 "You can only reverse documents with legal invoicing documents from Latin America one at a time.\n"

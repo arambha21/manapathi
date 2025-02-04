@@ -1,8 +1,8 @@
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.addons.account.models.company import PEPPOL_DEFAULT_COUNTRIES
+from manapathi import api, fields, models, _
+from manapathi.exceptions import UserError
+from manapathi.addons.account.models.company import PEPPOL_DEFAULT_COUNTRIES
 
 
 class AccountMove(models.Model):

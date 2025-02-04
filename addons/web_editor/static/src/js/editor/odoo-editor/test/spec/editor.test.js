@@ -1,4 +1,4 @@
-/** @odoo-module */
+/** @manapathi-module */
 
 import { ManapathiEditor } from '../../src/ManapathiEditor.js';
 import {

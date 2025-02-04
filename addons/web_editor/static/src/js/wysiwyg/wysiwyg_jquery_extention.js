@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 // jQuery extensions
 $.extend($.expr[':'], {

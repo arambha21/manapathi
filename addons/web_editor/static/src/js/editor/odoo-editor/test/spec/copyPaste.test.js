@@ -1,4 +1,4 @@
-/** @odoo-module */
+/** @manapathi-module */
 
 import {
     BasicEditor,
@@ -40,7 +40,7 @@ describe('Copy', () => {
         });
     });
     describe('range not collapsed', async () => {
-        it('should copy a selection as text/plain, text/html and text/odoo-editor', async () => {
+        it('should copy a selection as text/plain, text/html and text/manapathi-editor', async () => {
             await testEditor(BasicEditor, {
                 contentBefore: '<p>a[bcd]e</p>',
                 stepFunction: async editor => {
@@ -48,7 +48,7 @@ describe('Copy', () => {
                     await triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('bcd');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<p>bcd</p>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<p>bcd</p>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<p>bcd</p>');
                 },
             });
             await testEditor(BasicEditor, {
@@ -58,7 +58,7 @@ describe('Copy', () => {
                     await triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('abc\nefg');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<p>abc<br>efg</p>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<p>abc<br>efg</p>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<p>abc<br>efg</p>');
                 },
             });
             await testEditor(BasicEditor, {
@@ -68,7 +68,7 @@ describe('Copy', () => {
                     await triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('a');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<table><tbody><tr><td><ul><li>a</li><li>b</li><li>c</li></ul></td><td><br></td></tr></tbody></table>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<table><tbody><tr><td><ul><li>a</li><li>b</li><li>c</li></ul></td><td><br></td></tr></tbody></table>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<table><tbody><tr><td><ul><li>a</li><li>b</li><li>c</li></ul></td><td><br></td></tr></tbody></table>');
                 },
             });
             await testEditor(BasicEditor, {
@@ -82,7 +82,7 @@ describe('Copy', () => {
                       `<p>abcd</p><table class="o_selected_table"><tbody><tr><td class="o_selected_td"><br></td><td class="o_selected_td"><br></td></tr></tbody></table>`
                     );
                   window.chai
-                    .expect(clipboardData.getData("text/odoo-editor"))
+                    .expect(clipboardData.getData("text/manapathi-editor"))
                     .to.be.equal(
                       `<p>abcd</p><table class="o_selected_table"><tbody><tr><td class="o_selected_td"><br></td><td class="o_selected_td"><br></td></tr></tbody></table>`
                     );
@@ -97,7 +97,7 @@ describe('Copy', () => {
                     triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('Test Test');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<p><span style="font-size: 16px;">Test</span> <span style="font-size: 48px;"><font style="color: rgb(255, 0, 0);">Test</font></span></p>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<p><span style="font-size: 16px;">Test</span> <span style="font-size: 48px;"><font style="color: rgb(255, 0, 0);">Test</font></span></p>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<p><span style="font-size: 16px;">Test</span> <span style="font-size: 48px;"><font style="color: rgb(255, 0, 0);">Test</font></span></p>');
                 },
             });
             await testEditor(BasicEditor, {
@@ -107,7 +107,7 @@ describe('Copy', () => {
                     triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('there');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<p><strong><em><u><font class="text-o-color-1">there</font></u></em></strong></p>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<p><strong><em><u><font class="text-o-color-1">there</font></u></em></strong></p>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<p><strong><em><u><font class="text-o-color-1">there</font></u></em></strong></p>');
                 },
             });
         });
@@ -119,7 +119,7 @@ describe('Copy', () => {
                     triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('First');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('First');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('First');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('First');
                 },
             });
             await testEditor(BasicEditor, {
@@ -129,7 +129,7 @@ describe('Copy', () => {
                     triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('List');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('List');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('List');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('List');
                 },
             });
             await testEditor(BasicEditor, {
@@ -139,7 +139,7 @@ describe('Copy', () => {
                     triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('First');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<span style="font-size: 48px;"><font style="color: rgb(255, 0, 0);">First</font></span>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<span style="font-size: 48px;"><font style="color: rgb(255, 0, 0);">First</font></span>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<span style="font-size: 48px;"><font style="color: rgb(255, 0, 0);">First</font></span>');
                 },
             });
         });
@@ -151,7 +151,7 @@ describe('Copy', () => {
                     triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('First\nSecond');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<ul><li>First</li><li>Second</li></ul>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<ul><li>First</li><li>Second</li></ul>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<ul><li>First</li><li>Second</li></ul>');
                 },
             });
         });
@@ -163,7 +163,7 @@ describe('Copy', () => {
                     triggerEvent(editor.editable, 'copy', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('content');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<p>content</p>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<p>content</p>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<p>content</p>');
                 },
             });
         });
@@ -194,7 +194,7 @@ describe('Cut', () => {
         });
     });
     describe('range not collapsed', async () => {
-        it('should cut a selection as text/plain, text/html and text/odoo-editor', async () => {
+        it('should cut a selection as text/plain, text/html and text/manapathi-editor', async () => {
             await testEditor(BasicEditor, {
                 contentBefore: '<p>a[bcd]e</p>',
                 stepFunction: async editor => {
@@ -202,7 +202,7 @@ describe('Cut', () => {
                     await triggerEvent(editor.editable, 'cut', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('bcd');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<p>bcd</p>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<p>bcd</p>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<p>bcd</p>');
                 },
                 contentAfter: '<p>a[]e</p>',
             });
@@ -213,7 +213,7 @@ describe('Cut', () => {
                     await triggerEvent(editor.editable, 'cut', { clipboardData });
                     window.chai.expect(clipboardData.getData('text/plain')).to.be.equal('abc\nefg');
                     window.chai.expect(clipboardData.getData('text/html')).to.be.equal('<p>abc<br>efg</p>');
-                    window.chai.expect(clipboardData.getData('text/odoo-editor')).to.be.equal('<p>abc<br>efg</p>');
+                    window.chai.expect(clipboardData.getData('text/manapathi-editor')).to.be.equal('<p>abc<br>efg</p>');
                 },
                 contentAfter: '<p>[]<br></p>',
             });
@@ -2315,7 +2315,7 @@ describe('Paste', () => {
                     `),
                 });
             });
-            it('should paste a deeply nested list copied outside from odoo', async () => {
+            it('should paste a deeply nested list copied outside from manapathi', async () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<ul><li>[]<br></li></ul>',
                     stepFunction:  async editor => {
@@ -2447,11 +2447,11 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>xy<a href="#" oe-zws-empty-inline="">\u200B[]</a>z</p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'http://odoo.com');
+                        await pasteText(editor, 'http://manapathi.com');
                     },
-                    contentAfter: '<p>xy<a href="http://odoo.com">http://odoo.com</a>[]z</p>',
+                    contentAfter: '<p>xy<a href="http://manapathi.com">http://manapathi.com</a>[]z</p>',
                 });
-                const imageUrl = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const imageUrl = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>xy<a href="#">[]</a>z</p>',
                     contentBeforeEdit: '<p>xy\ufeff<a href="#" class="o_link_in_selection">[]\ufeff</a>\ufeffz</p>',
@@ -2481,16 +2481,16 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p><a href="#">[]\u200B</a></p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'abc www.odoo.com xyz');
+                        await pasteText(editor, 'abc www.manapathi.com xyz');
                     },
-                    contentAfter: '<p>abc <a href="http://www.odoo.com">www.odoo.com</a> xyz[]</p>',
+                    contentAfter: '<p>abc <a href="http://www.manapathi.com">www.manapathi.com</a> xyz[]</p>',
                 });
                 await testEditor(BasicEditor, {
                     contentBefore: '<p><a href="#">[]\u200B</a></p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'odoo.com\ngoogle.com');
+                        await pasteText(editor, 'manapathi.com\ngoogle.com');
                     },
-                    contentAfter: '<p style="margin-bottom: 0px;"><a href="http://odoo.com">odoo.com</a></p>' +
+                    contentAfter: '<p style="margin-bottom: 0px;"><a href="http://manapathi.com">manapathi.com</a></p>' +
                                   '<p><a href="http://google.com">google.com</a>[]</p>'
                 });
             });
@@ -2498,14 +2498,14 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p><a href="#">[]\u200B</a></p>',
                     stepFunction: async editor => {
-                        await pasteHtml(editor, '<a href="www.odoo.com">odoo.com</a><br><a href="www.google.com">google.com</a>');
+                        await pasteHtml(editor, '<a href="www.manapathi.com">manapathi.com</a><br><a href="www.google.com">google.com</a>');
                     },
-                    contentAfter: '<p><a href="www.odoo.com">odoo.com</a></p><p><a href="www.google.com">google.com</a>[]</p>',
+                    contentAfter: '<p><a href="www.manapathi.com">manapathi.com</a></p><p><a href="www.google.com">google.com</a>[]</p>',
                 });
             });
             it('should paste and transform URL among text', async () => {
-                const url = 'https://www.odoo.com';
-                const imgUrl = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const url = 'https://www.manapathi.com';
+                const imgUrl = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 const videoUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[]</p>',
@@ -2536,8 +2536,8 @@ describe('Paste', () => {
                 });
             });
             it('should paste and transform multiple URLs', async () => {
-                const url = 'https://www.odoo.com';
-                const imgUrl = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const url = 'https://www.manapathi.com';
+                const imgUrl = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 const videoUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[]</p>',
@@ -2626,7 +2626,7 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[abc]</p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'www.odoo.com');
+                        await pasteText(editor, 'www.manapathi.com');
                         editor.historyUndo();
                     },
                     contentAfter: '<p>[abc]</p>',
@@ -2634,7 +2634,7 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[abc]</p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'def www.odoo.com xyz');
+                        await pasteText(editor, 'def www.manapathi.com xyz');
                         editor.historyUndo();
                     },
                     contentAfter: '<p>[abc]</p>',
@@ -2644,15 +2644,15 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[abc]</p>',
                     stepFunction: async editor => {
-                        await pasteHtml(editor, '<a href="www.odoo.com">odoo.com</a><br><a href="www.google.com">google.com</a>');
+                        await pasteHtml(editor, '<a href="www.manapathi.com">manapathi.com</a><br><a href="www.google.com">google.com</a>');
                         editor.historyUndo();
                     },
                     contentAfter: '<p>[abc]</p>',
                 });
             });
             it('should paste and transform URLs among text or multiple URLs', async () => {
-                const url = 'https://www.odoo.com';
-                const imgUrl = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const url = 'https://www.manapathi.com';
+                const imgUrl = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 const videoUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[xyz]<br></p>',
@@ -2713,18 +2713,18 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p><a href="#">[xyz]</a></p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'www.odoo.com');
+                        await pasteText(editor, 'www.manapathi.com');
                     },
-                    contentAfter: '<p><a href="http://www.odoo.com">www.odoo.com</a>[]</p>',
+                    contentAfter: '<p><a href="http://www.manapathi.com">www.manapathi.com</a>[]</p>',
                 });
                 await testEditor(BasicEditor, {
                     contentBefore: '<p><a href="#">[xyz]</a></p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'abc www.odoo.com xyz');
+                        await pasteText(editor, 'abc www.manapathi.com xyz');
                     },
-                    contentAfter: '<p>abc <a href="http://www.odoo.com">www.odoo.com</a> xyz[]</p>',
+                    contentAfter: '<p>abc <a href="http://www.manapathi.com">www.manapathi.com</a> xyz[]</p>',
                 });
-                const imageUrl = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const imageUrl = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>ab<a href="http://www.xyz.com">[http://www.xyz.com]</a>cd</p>',
                     stepFunction: async editor => {
@@ -2753,9 +2753,9 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p><a href="#">[xyz]</a></p>',
                     stepFunction: async editor => {
-                        await pasteHtml(editor, '<a href="www.odoo.com">odoo.com</a><br><a href="www.google.com">google.com</a>');
+                        await pasteHtml(editor, '<a href="www.manapathi.com">manapathi.com</a><br><a href="www.google.com">google.com</a>');
                     },
-                    contentAfter: '<p><a href="www.odoo.com">odoo.com</a></p><p><a href="www.google.com">google.com</a>[]</p>',
+                    contentAfter: '<p><a href="www.manapathi.com">manapathi.com</a></p><p><a href="www.google.com">google.com</a>[]</p>',
                 });
             });
         });
@@ -2766,41 +2766,41 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>ab[]cd</p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'https://download.odoocdn.com/icons/website/static/description/icon.png');
+                        await pasteText(editor, 'https://download.manapathicdn.com/icons/website/static/description/icon.png');
                         // Ensure the powerbox is active
                         window.chai.expect(editor.powerbox.isOpen).to.be.true;
                         // Force powerbox validation on the default first choice
                         await editor.powerbox._pickCommand();
                     },
-                    contentAfter: '<p>ab<img src="https://download.odoocdn.com/icons/website/static/description/icon.png">[]cd</p>',
+                    contentAfter: '<p>ab<img src="https://download.manapathicdn.com/icons/website/static/description/icon.png">[]cd</p>',
                 });
             });
             it('should paste and transform an image URL in a span', async () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>a<span class="a">b[]c</span>d</p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'https://download.odoocdn.com/icons/website/static/description/icon.png');
+                        await pasteText(editor, 'https://download.manapathicdn.com/icons/website/static/description/icon.png');
                         // Ensure the powerbox is active
                         window.chai.expect(editor.powerbox.isOpen).to.be.true;
                         // Force powerbox validation on the default first choice
                         await editor.powerbox._pickCommand();
                     },
-                    contentAfter: '<p>a<span class="a">b<img src="https://download.odoocdn.com/icons/website/static/description/icon.png">[]c</span>d</p>',
+                    contentAfter: '<p>a<span class="a">b<img src="https://download.manapathicdn.com/icons/website/static/description/icon.png">[]c</span>d</p>',
                 });
             });
             it('should paste and transform an image URL in an existing link', async () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>a<a href="http://existing.com">b[]c</a>d</p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'https://download.odoocdn.com/icons/website/static/description/icon.png');
+                        await pasteText(editor, 'https://download.manapathicdn.com/icons/website/static/description/icon.png');
                         // Powerbox should not open
                         window.chai.expect(editor.powerbox.isOpen).to.be.false;
                     },
-                    contentAfter: '<p>a<a href="http://existing.com">b<img src="https://download.odoocdn.com/icons/website/static/description/icon.png">[]c</a>d</p>',
+                    contentAfter: '<p>a<a href="http://existing.com">b<img src="https://download.manapathicdn.com/icons/website/static/description/icon.png">[]c</a>d</p>',
                 });
             });
             it('should paste an image URL as a link in a p', async () => {
-                const url = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const url = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[]</p>',
                     stepFunction: async editor => {
@@ -2815,7 +2815,7 @@ describe('Paste', () => {
                 });
             });
             it('should not revert a history step when pasting an image URL as a link', async () => {
-                const url = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const url = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[]</p>',
                     stepFunction: async editor => {
@@ -2837,41 +2837,41 @@ describe('Paste', () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>ab[xxx]cd</p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'https://download.odoocdn.com/icons/website/static/description/icon.png');
+                        await pasteText(editor, 'https://download.manapathicdn.com/icons/website/static/description/icon.png');
                         // Ensure the powerbox is active
                         window.chai.expect(editor.powerbox.isOpen).to.be.true;
                         // Force powerbox validation on the default first choice
                         await editor.powerbox._pickCommand();
                     },
-                    contentAfter: '<p>ab<img src="https://download.odoocdn.com/icons/website/static/description/icon.png">[]cd</p>',
+                    contentAfter: '<p>ab<img src="https://download.manapathicdn.com/icons/website/static/description/icon.png">[]cd</p>',
                 });
             });
             it('should paste and transform an image URL in a span', async () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>a<span class="a">b[x<a href="http://existing.com">546</a>x]c</span>d</p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'https://download.odoocdn.com/icons/website/static/description/icon.png');
+                        await pasteText(editor, 'https://download.manapathicdn.com/icons/website/static/description/icon.png');
                         // Ensure the powerbox is active
                         window.chai.expect(editor.powerbox.isOpen).to.be.true;
                         // Force powerbox validation on the default first choice
                         await editor.powerbox._pickCommand();
                     },
-                    contentAfter: '<p>a<span class="a">b<img src="https://download.odoocdn.com/icons/website/static/description/icon.png">[]c</span>d</p>',
+                    contentAfter: '<p>a<span class="a">b<img src="https://download.manapathicdn.com/icons/website/static/description/icon.png">[]c</span>d</p>',
                 });
             });
             it('should paste and transform an image URL inside an existing link', async () => {
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>a<a href="http://existing.com">b[qsdqsd]c</a>d</p>',
                     stepFunction: async editor => {
-                        await pasteText(editor, 'https://download.odoocdn.com/icons/website/static/description/icon.png');
+                        await pasteText(editor, 'https://download.manapathicdn.com/icons/website/static/description/icon.png');
                         // Powerbox should not open
                         window.chai.expect(editor.powerbox.isOpen).to.be.false;
                     },
-                    contentAfter: '<p>a<a href="http://existing.com">b<img src="https://download.odoocdn.com/icons/website/static/description/icon.png">[]c</a>d</p>',
+                    contentAfter: '<p>a<a href="http://existing.com">b<img src="https://download.manapathicdn.com/icons/website/static/description/icon.png">[]c</a>d</p>',
                 });
             });
             it('should paste an image URL as a link in a p', async () => {
-                const url = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const url = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>ab[xxx]cd</p>',
                     stepFunction: async editor => {
@@ -2886,7 +2886,7 @@ describe('Paste', () => {
                 });
             });
             it('should not revert a history step when pasting an image URL as a link', async () => {
-                const url = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const url = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[]</p>',
                     stepFunction: async editor => {
@@ -2915,7 +2915,7 @@ describe('Paste', () => {
                 });
             });
             it('should restore selection after pasting image URL followed by UNDO', async () => {
-                const url = 'https://download.odoocdn.com/icons/website/static/description/icon.png';
+                const url = 'https://download.manapathicdn.com/icons/website/static/description/icon.png';
                 await testEditor(BasicEditor, {
                     contentBefore: '<p>[abc]</p>',
                     stepFunction: async editor => {
@@ -3155,7 +3155,7 @@ describe('Paste', () => {
         });
     });
     describe('editable in iframe', () => {
-        it('should paste odoo-editor html', async () => {
+        it('should paste manapathi-editor html', async () => {
             // Setup
             const testContainer = document.querySelector('#editor-test-container');
             const iframe = document.createElement('iframe');
@@ -3168,7 +3168,7 @@ describe('Paste', () => {
             // Action: paste
             setSelection(editable.querySelector('p'), 0);
             const clipboardData = new DataTransfer();
-            clipboardData.setData('text/odoo-editor', '<p>text<b>bold text</b>more text</p>');
+            clipboardData.setData('text/manapathi-editor', '<p>text<b>bold text</b>more text</p>');
             await triggerEvent(editor.editable, 'paste', { clipboardData });
 
             // Clean-up

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.exceptions import RedirectWarning, UserError
-from odoo.osv import expression
+from manapathi import api, fields, models, _
+from manapathi.exceptions import RedirectWarning, UserError
+from manapathi.osv import expression
 
 
 class AccountAnalyticLine(models.Model):

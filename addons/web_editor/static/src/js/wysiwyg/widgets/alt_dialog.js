@@ -1,6 +1,6 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
-import { Component, useRef, onMounted } from "@odoo/owl";
+import { Component, useRef, onMounted } from "@manapathi/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 
 export class AltDialog extends Component {

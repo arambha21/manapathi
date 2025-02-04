@@ -1,6 +1,6 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
-import { Component, useState, markup, onWillDestroy, status } from "@odoo/owl";
+import { Component, useState, markup, onWillDestroy, status } from "@manapathi/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 import { rpc } from "@web/core/network/rpc";
 import { escape } from "@web/core/utils/strings";

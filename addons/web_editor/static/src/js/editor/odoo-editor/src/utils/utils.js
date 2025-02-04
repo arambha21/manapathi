@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 export const DIRECTIONS = {
     LEFT: false,
@@ -330,7 +330,7 @@ export function closestElement(node, predicate = "*") {
         element = element?.closest(predicate);
     }
 
-    return element?.closest('.odoo-editor-editable') && element;
+    return element?.closest('.manapathi-editor-editable') && element;
 }
 
 /**
@@ -505,7 +505,7 @@ export function hasValidSelection(editable) {
  *     positions which are not possible, like the cursor inside an image).
  */
 export function getNormalizedCursorPosition(node, offset, full = true) {
-    const editable = closestElement(node, '.odoo-editor-editable');
+    const editable = closestElement(node, '.manapathi-editor-editable');
     let closest = closestElement(node);
     while (
         closest &&
@@ -2206,7 +2206,7 @@ export function isColorGradient(value) {
  *
  * @private
  * @todo probably move `getCSSVariableValue` and `convertNumericToUnit` as
- *       odoo-editor utils.
+ *       manapathi-editor utils.
  * @param {Selection} sel The current selection.
  * @returns {Float} The font size to display.
  */
@@ -2656,7 +2656,7 @@ export function prepareUpdate(...args) {
         const left = getState(el, offset, DIRECTIONS.LEFT);
         const right = getState(el, offset, DIRECTIONS.RIGHT, left.cType);
         if (options.debug) {
-            const editable = el && closestElement(el, '.odoo-editor-editable');
+            const editable = el && closestElement(el, '.manapathi-editor-editable');
             const oldEditableHTML = editable && makeZeroWidthCharactersVisible(editable.innerHTML).replaceAll(' ', '_') || '';
             left.oldEditableHTML = oldEditableHTML;
             right.oldEditableHTML = oldEditableHTML;
@@ -2949,7 +2949,7 @@ export function restoreState(prevStateData, debug=false) {
     const ruleHashCode = restoreStateRuleHashCode(direction, cType1, cType2);
     const rule = allRestoreStateRules.get(ruleHashCode);
     if (debug) {
-        const editable = closestElement(node, '.odoo-editor-editable');
+        const editable = closestElement(node, '.manapathi-editor-editable');
         console.log(
             '%c' + makeZeroWidthCharactersVisible(node.textContent).replaceAll(' ', '_') + '\n' +
             '%c' + (direction === DIRECTIONS.LEFT ? 'left' : 'right') + '\n' +

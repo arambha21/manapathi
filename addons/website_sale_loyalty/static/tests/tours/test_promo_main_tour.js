@@ -1,4 +1,4 @@
-/** @odoo-module **/
+/** @manapathi-module **/
 
 import { rpc } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";

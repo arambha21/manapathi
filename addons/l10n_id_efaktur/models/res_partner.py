@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models, api
+from manapathi import fields, models, api
 
 
 class ResPartner(models.Model):

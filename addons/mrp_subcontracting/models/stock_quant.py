@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # Part of Manapathi. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models, _
-from odoo.exceptions import UserError
+from manapathi import fields, models, _
+from manapathi.exceptions import UserError
 
 
 class StockQuant(models.Model):
